@@ -113,10 +113,10 @@ function processAndDecorateShop(
   const isMatchaBrand = matchedBrandKey !== '';
   const isMatchaShop = isMatchaName || isMatchaBrand;
 
-  let signature = '';
+  let signature = '-'; // 默认无推荐招牌，写 '-' 占位，绝不自己编造数据！
   let tags: string[] = [];
 
-  // 根据品牌或默认池子匹配招牌菜与标签
+  // 根据品牌匹配招牌菜与标签
   if (type === 'milktea') {
     let brandMatched = false;
     for (const key in TEA_BRANDS_DATABASE) {
@@ -128,9 +128,7 @@ function processAndDecorateShop(
       }
     }
     if (!brandMatched) {
-      const idx = Math.floor(Math.abs(hashString(id)) % DEFAULT_TEA_SIGNATURES.length);
-      signature = DEFAULT_TEA_SIGNATURES[idx];
-      tags = ['手作茶饮', '下午茶', '休闲空间'];
+      tags = ['茶饮', '下午茶'];
     }
   } else {
     let brandMatched = false;
@@ -143,20 +141,17 @@ function processAndDecorateShop(
       }
     }
     if (!brandMatched) {
-      const idx = Math.floor(Math.abs(hashString(id)) % DEFAULT_BAR_SIGNATURES.length);
-      signature = DEFAULT_BAR_SIGNATURES[idx];
-      tags = ['精酿啤酒', '鸡尾酒', '音乐小酌'];
+      tags = ['酒吧', '小酌'];
     }
   }
 
-  // 抹茶风味修饰逻辑：如果确认是抹茶店，重写为真实的抹茶招牌，绝非无端虚构
+  // 抹茶风味修饰逻辑：如果确认是抹茶店，重写为绝对真实的抹茶大牌招牌，否则保持为 '-' 占位
   if (isMatchaShop) {
     if (isMatchaBrand) {
       signature = REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].signature;
       tags = [...tags, ...REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].tags, '抹茶', 'Matcha'];
     } else {
-      const matchaIdx = Math.floor(Math.abs(hashString(id + '_matcha_spec')) % DEFAULT_MATCHA_SPECIALTY_SIGNATURES.length);
-      signature = DEFAULT_MATCHA_SPECIALTY_SIGNATURES[matchaIdx];
+      signature = '-';
       tags.push('抹茶专门店', '抹茶', 'Matcha');
     }
   }
@@ -450,11 +445,11 @@ export async function fetchShops(
             signature = REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].signature;
             tags = [...tags, ...REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].tags, '抹茶', 'Matcha'];
           } else if (isOriginalMatcha) {
-            // 原汁原味保留，不覆盖
+            // 原汁原味保留真实被爬到的抹茶菜，绝不覆盖
             tags.push('抹茶', 'Matcha');
           } else {
-            const matchaIdx = Math.floor(Math.abs(hashString(shop.id + '_matcha_spec_off')) % DEFAULT_MATCHA_SPECIALTY_SIGNATURES.length);
-            signature = DEFAULT_MATCHA_SPECIALTY_SIGNATURES[matchaIdx];
+            // 没有真实的推荐菜时，直接设为 '-' 占位，绝不自己编造数据！
+            signature = '-';
             tags.push('抹茶专门店', '抹茶', 'Matcha');
           }
         }
