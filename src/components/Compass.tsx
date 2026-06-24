@@ -8,6 +8,8 @@ interface CompassProps {
   userHeading: number;
   setUserHeading: (heading: number) => void;
   selectedShop: Shop | null;
+  isLocked: boolean;
+  setIsLocked: (locked: boolean) => void;
   sensorStatus: 'active' | 'unavailable' | 'loading';
   requestDeviceOrientation: () => void;
   isInIframe: boolean;
@@ -18,6 +20,8 @@ export default function CompassView({
   userHeading,
   setUserHeading,
   selectedShop,
+  isLocked,
+  setIsLocked,
   sensorStatus,
   requestDeviceOrientation,
   isInIframe
@@ -330,12 +334,32 @@ export default function CompassView({
                   : 'bg-slate-900/80 border-indigo-900/60 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
               }`}
             >
-              {/* Mode indicator badge */}
-              <div className={`absolute top-0 right-0 px-3 py-1 text-[9px] font-extrabold rounded-bl-xl tracking-wider uppercase ${
-                isBoba ? 'bg-rose-400 text-white' : 'bg-fuchsia-500 text-white'
-              }`}>
-                🎯 已锁定
-              </div>
+              {/* Mode indicator badge / Lock Toggle */}
+              <button
+                onClick={() => setIsLocked(!isLocked)}
+                className={`absolute top-0 right-0 px-3 py-1.5 text-[10px] font-black rounded-bl-2xl tracking-wider uppercase cursor-pointer transition-all hover:scale-105 active:scale-95 flex items-center gap-1.5 ${
+                  isLocked
+                    ? isBoba
+                      ? 'bg-rose-500 hover:bg-rose-600 text-white shadow-xs'
+                      : 'bg-fuchsia-600 hover:bg-fuchsia-700 text-white shadow-[0_2px_8px_rgba(217,70,239,0.3)]'
+                    : isBoba
+                      ? 'bg-orange-500/90 hover:bg-orange-600 text-white shadow-xs'
+                      : 'bg-indigo-600/90 hover:bg-indigo-700 text-white shadow-[0_2px_8px_rgba(79,70,229,0.3)]'
+                }`}
+                title={isLocked ? '点击切换为自动寻向' : '点击锁定当前店铺'}
+              >
+                {isLocked ? (
+                  <>
+                    <span>🔒 已锁定</span>
+                    <span className="text-[8px] opacity-75 hidden xs:inline">(解锁)</span>
+                  </>
+                ) : (
+                  <>
+                    <span>📡 自动寻向</span>
+                    <span className="text-[8px] opacity-75 hidden xs:inline">(锁定)</span>
+                  </>
+                )}
+              </button>
 
               <div className="flex flex-col items-center gap-1">
                 <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${

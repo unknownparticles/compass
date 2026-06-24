@@ -39,6 +39,7 @@ export default function App() {
   });
   const [userHeading, setUserHeading] = useState<number>(0); // facing direction (0-360)
   const [selectedShop, setSelectedShop] = useState<Shop | null>(null);
+  const [isLocked, setIsLocked] = useState<boolean>(false); // whether manual lock is active
   const [activeTab, setActiveTab] = useState<string>('compass'); // 'compass' | 'radar' | 'map'
   const [sensorStatus, setSensorStatus] = useState<'loading' | 'active' | 'unavailable'>('loading');
   const [showSimulatorTip, setShowSimulatorTip] = useState<boolean>(true);
@@ -74,18 +75,58 @@ export default function App() {
     });
   }, [rawShops, userLocation, userHeading]);
 
-  // 4. Auto-lock on closest shop of selected mode when mode, location or shops change
-  useEffect(() => {
+  // 3.5. Dynamically calculate the closest shop in the current facing direction
+  const facingShop = useMemo(() => {
     const activeShops = shops.filter((s) => s.type === mode);
-    if (activeShops.length > 0) {
-      // Sort to find nearest
-      const sorted = [...activeShops].sort((a, b) => a.distance - b.distance);
-      // Auto-lock nearest
-      setSelectedShop(sorted[0]);
-    } else {
-      setSelectedShop(null);
+    if (activeShops.length === 0) return null;
+
+    // 1st Priority: Closest shop within 45 degrees of facing direction
+    const sector45 = activeShops.filter((s) => {
+      const diff = Math.min(s.relativeAngle, 360 - s.relativeAngle);
+      return diff <= 45;
+    });
+    if (sector45.length > 0) {
+      return [...sector45].sort((a, b) => a.distance - b.distance)[0];
     }
-  }, [mode, shops]);
+
+    // 2nd Priority: Closest shop within 90 degrees of facing direction
+    const sector90 = activeShops.filter((s) => {
+      const diff = Math.min(s.relativeAngle, 360 - s.relativeAngle);
+      return diff <= 90;
+    });
+    if (sector90.length > 0) {
+      return [...sector90].sort((a, b) => a.distance - b.distance)[0];
+    }
+
+    // 3rd Priority: Globally closest angular match to facing direction
+    return [...activeShops].sort((a, b) => {
+      const diffA = Math.min(a.relativeAngle, 360 - a.relativeAngle);
+      const diffB = Math.min(b.relativeAngle, 360 - b.relativeAngle);
+      return diffA - diffB;
+    })[0];
+  }, [shops, mode, userHeading]);
+
+  // The active shop targets (manual lock wins, otherwise dynamic facing wins)
+  const activeSelectedShop = useMemo(() => {
+    if (isLocked && selectedShop) {
+      const exists = shops.some((s) => s.id === selectedShop.id && s.type === mode);
+      if (exists) {
+        return shops.find((s) => s.id === selectedShop.id) || selectedShop;
+      }
+    }
+    return facingShop;
+  }, [isLocked, selectedShop, facingShop, shops, mode]);
+
+  // 4. Reset manual lock if the locked shop is no longer available in the current mode
+  useEffect(() => {
+    if (selectedShop) {
+      const exists = shops.some((s) => s.id === selectedShop.id && s.type === mode);
+      if (!exists) {
+        setSelectedShop(null);
+        setIsLocked(false);
+      }
+    }
+  }, [mode, shops, selectedShop]);
 
   // 5. Geolocation Sensor: Grab GPS on startup
   useEffect(() => {
@@ -354,7 +395,9 @@ export default function App() {
                   mode={mode}
                   userHeading={userHeading}
                   setUserHeading={setUserHeading}
-                  selectedShop={selectedShop}
+                  selectedShop={activeSelectedShop}
+                  isLocked={isLocked}
+                  setIsLocked={setIsLocked}
                   sensorStatus={sensorStatus}
                   requestDeviceOrientation={requestDeviceOrientation}
                   isInIframe={isInIframe}
@@ -373,8 +416,11 @@ export default function App() {
                 <Radar
                   mode={mode}
                   shops={shops}
-                  selectedShop={selectedShop}
-                  setSelectedShop={setSelectedShop}
+                  selectedShop={activeSelectedShop}
+                  setSelectedShop={(shop) => {
+                    setSelectedShop(shop);
+                    setIsLocked(true);
+                  }}
                   userHeading={userHeading}
                 />
               </motion.div>
@@ -393,8 +439,11 @@ export default function App() {
                   userLocation={userLocation}
                   setUserLocation={setUserLocation}
                   shops={shops}
-                  selectedShop={selectedShop}
-                  setSelectedShop={setSelectedShop}
+                  selectedShop={activeSelectedShop}
+                  setSelectedShop={(shop) => {
+                    setSelectedShop(shop);
+                    setIsLocked(true);
+                  }}
                 />
               </motion.div>
             )}
@@ -496,8 +545,16 @@ export default function App() {
           <ShopList
             mode={mode}
             shops={shops}
-            selectedShop={selectedShop}
-            setSelectedShop={setSelectedShop}
+            selectedShop={activeSelectedShop}
+            setSelectedShop={(shop) => {
+              if (activeSelectedShop && shop && activeSelectedShop.id === shop.id && isLocked) {
+                setIsLocked(false);
+                setSelectedShop(null);
+              } else {
+                setSelectedShop(shop);
+                setIsLocked(true);
+              }
+            }}
             setActiveTab={setActiveTab}
           />
         </div>
