@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Compass, Navigation, ArrowUp, RefreshCw, Beer, Coffee, MapPin, AlertCircle, ExternalLink, HelpCircle } from 'lucide-react';
 import { Shop, CompassMode } from '../types';
@@ -28,12 +28,37 @@ export default function CompassView({
 }: CompassProps) {
   const [showDiagnostic, setShowDiagnostic] = useState<boolean>(true);
 
-  // Angle calculations:
-  // bearing: absolute angle of target (0 is North)
-  // userHeading: absolute angle user is facing (0 is North)
-  // To point to target, the arrow rotates relative to the device screen: (bearing - userHeading)
+  // Shortest path angle transition logic
+  const prevHeadingRef = useRef<number>(0);
+  const [animatedHeading, setAnimatedHeading] = useState<number>(0);
+
+  const prevRelativeAngleRef = useRef<number>(0);
+  const [animatedRelativeAngle, setAnimatedRelativeAngle] = useState<number>(0);
+
   const targetBearing = selectedShop ? selectedShop.bearing : 0;
   const relativeAngle = selectedShop ? (targetBearing - userHeading + 360) % 360 : 0;
+
+  // 1. Shortest path for dial rotation
+  useEffect(() => {
+    const prev = prevHeadingRef.current;
+    const curr = -userHeading;
+    let diff = curr - prev;
+    diff = ((diff + 180) % 360 + 360) % 360 - 180;
+    const target = prev + diff;
+    prevHeadingRef.current = target;
+    setAnimatedHeading(target);
+  }, [userHeading]);
+
+  // 2. Shortest path for pointer rotation
+  useEffect(() => {
+    const prev = prevRelativeAngleRef.current;
+    const curr = relativeAngle;
+    let diff = curr - prev;
+    diff = ((diff + 180) % 360 + 360) % 360 - 180;
+    const target = prev + diff;
+    prevRelativeAngleRef.current = target;
+    setAnimatedRelativeAngle(target);
+  }, [relativeAngle]);
 
   // Formatting helper for heading
   const getCardinalDirection = (deg: number) => {
@@ -152,60 +177,19 @@ export default function CompassView({
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="absolute inset-0 rounded-full bg-radial from-rose-50 to-orange-50/40 -z-10 border-4 border-rose-100 shadow-inner"
-            >
-              {/* Cute floating boba pearls */}
-              {[...Array(6)].map((_, i) => (
-                <motion.div
-                  key={i}
-                  className="absolute w-4 h-4 rounded-full bg-amber-900/80 shadow"
-                  animate={{
-                    y: [0, -15, 0],
-                    x: [0, i % 2 === 0 ? 8 : -8, 0],
-                  }}
-                  transition={{
-                    duration: 4 + i,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                  }}
-                  style={{
-                    bottom: `${15 + i * 10}%`,
-                    left: `${20 + i * 12}%`,
-                  }}
-                />
-              ))}
-            </motion.div>
+              className="absolute inset-0 rounded-full bg-linear-to-b from-rose-50 to-orange-50/40 -z-10 border-4 border-rose-100 shadow-inner"
+            />
           ) : (
             <motion.div 
               key="bar-bg"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="absolute inset-0 rounded-full bg-slate-950 -z-10 border-4 border-indigo-950 shadow-[0_0_20px_rgba(139,92,246,0.15)] overflow-hidden"
+              className="absolute inset-0 rounded-full bg-slate-950 -z-10 border-4 border-indigo-950 shadow-[inset_0_2px_12px_rgba(0,0,0,0.6)] overflow-hidden"
             >
               {/* Glowing radar line rotation for backdrop */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(99,102,241,0.08)_0%,transparent_70%)]" />
-              <div className="absolute inset-0 opacity-15 bg-[linear-gradient(rgba(139,92,246,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.1)_1px,transparent_1px)] bg-[size:20px_20px]" />
-              {/* Floating neon light particles */}
-              {[...Array(5)].map((_, i) => (
-                <motion.div
-                  key={i}
-                  className="absolute w-3 h-3 rounded-full bg-violet-500/30 blur-xs"
-                  animate={{
-                    y: [0, -25, 0],
-                    opacity: [0.2, 0.7, 0.2]
-                  }}
-                  transition={{
-                    duration: 3 + i,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                  }}
-                  style={{
-                    bottom: `${20 + i * 14}%`,
-                    right: `${15 + i * 15}%`,
-                  }}
-                />
-              ))}
+              <div className="absolute inset-0 opacity-10 bg-[linear-gradient(rgba(139,92,246,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.05)_1px,transparent_1px)] bg-[size:20px_20px]" />
             </motion.div>
           )}
         </AnimatePresence>
@@ -216,7 +200,7 @@ export default function CompassView({
           style={{ 
             borderColor: isBoba ? '#fecdd3' : '#312e81',
           }}
-          animate={{ rotate: -userHeading }}
+          animate={{ rotate: animatedHeading }}
           transition={{ type: 'spring', damping: 25, stiffness: 120 }}
         >
           {/* Cardinal markers (N, E, S, W) */}
@@ -265,7 +249,7 @@ export default function CompassView({
         {selectedShop ? (
           <motion.div 
             className="absolute inset-0 flex items-start justify-center pointer-events-none"
-            animate={{ rotate: relativeAngle }}
+            animate={{ rotate: animatedRelativeAngle }}
             transition={{ type: 'spring', damping: 20, stiffness: 100 }}
           >
             {/* The 指针 (Indicator Needle) */}

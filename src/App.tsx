@@ -43,6 +43,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<string>('compass'); // 'compass' | 'radar' | 'map'
   const [sensorStatus, setSensorStatus] = useState<'loading' | 'active' | 'unavailable'>('loading');
   const [showSimulatorTip, setShowSimulatorTip] = useState<boolean>(true);
+  const [showSimulator, setShowSimulator] = useState<boolean>(false); // default hidden
 
   // Check if running inside an iframe (like AI Studio preview frame)
   const isInIframe = useMemo(() => {
@@ -250,14 +251,14 @@ export default function App() {
   const isBoba = mode === 'milktea';
 
   return (
-    <div className={`min-h-screen transition-all duration-700 font-sans flex flex-col justify-between ${
+    <div className={`min-h-screen pb-[env(safe-area-inset-bottom,0px)] pl-[env(safe-area-inset-left,0px)] pr-[env(safe-area-inset-right,0px)] transition-all duration-700 font-sans flex flex-col justify-between ${
       isBoba 
         ? 'bg-gradient-to-b from-rose-50/70 via-orange-50/40 to-white text-rose-950' 
         : 'bg-gradient-to-b from-slate-950 via-slate-900 to-indigo-950 text-slate-100'
     }`}>
       
       {/* Dynamic Header */}
-      <header className={`px-4 py-4 md:py-6 border-b flex items-center justify-between sticky top-0 z-50 backdrop-blur-md transition-all ${
+      <header className={`px-4 pt-[calc(env(safe-area-inset-top,0px)+16px)] pb-4 md:py-6 border-b flex items-center justify-between sticky top-0 z-50 backdrop-blur-md transition-all ${
         isBoba 
           ? 'bg-white/85 border-rose-100/60' 
           : 'bg-slate-950/85 border-indigo-950/60 shadow-[0_4px_10px_rgba(0,0,0,0.4)]'
@@ -451,89 +452,103 @@ export default function App() {
         </div>
 
         {/* 4. WALKING SIMULATOR CONTROLLER */}
-        <div className={`p-4 rounded-3xl border transition-colors ${
+        <div className={`p-4 rounded-3xl border transition-all duration-300 ${
           isBoba 
             ? 'bg-white border-rose-100 shadow-xs' 
             : 'bg-slate-950 border-indigo-950'
         }`}>
-          <div className="flex items-center justify-between mb-4">
-            <h4 className={`text-xs font-black tracking-wide flex items-center gap-1.5 uppercase ${
-              isBoba ? 'text-rose-950' : 'text-indigo-300'
-            }`}>
-              <Sliders className="w-4 h-4 text-orange-400" />
-              <span>🚶 手机模拟运动与位置控制器 (Simulator)</span>
-            </h4>
+          <div className="flex items-center justify-between">
             <button
-              onClick={() => setShowSimulatorTip(!showSimulatorTip)}
-              className="p-1 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-900 cursor-pointer text-neutral-400"
+              onClick={() => setShowSimulator(!showSimulator)}
+              className={`text-xs font-black tracking-wide flex items-center gap-1.5 uppercase cursor-pointer hover:opacity-80 w-full text-left justify-between ${
+                isBoba ? 'text-rose-950' : 'text-indigo-300'
+              }`}
             >
-              <HelpCircle className="w-4 h-4" />
+              <span className="flex items-center gap-1.5">
+                <Sliders className="w-4 h-4 text-orange-400" />
+                <span>🚶 模拟运动与位置控制器</span>
+              </span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-md font-extrabold ${
+                isBoba ? 'bg-rose-50 text-rose-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+              }`}>
+                {showSimulator ? '收起 ▲' : '点击展开 ⚙️'}
+              </span>
             </button>
           </div>
 
-          {showSimulatorTip && (
-            <p className={`text-[11px] mb-4 p-2.5 rounded-xl border border-dashed transition-all ${
-              isBoba 
-                ? 'bg-orange-50/50 border-orange-100 text-orange-950' 
-                : 'bg-indigo-950/30 border-indigo-900 text-indigo-300/80'
-            }`}>
-              <strong>使用提示：</strong>本模拟器允许您无拘无束地在电脑端进行全方位测试。
-              调整上方的“当前面朝方向”滑块来改变视野角度，点击“向前走”即可以该角度向前行进，观察雷达光标、地图路径和指南针指针如何实时变化！
-            </p>
-          )}
-
-          {/* Preset City Teleportations */}
-          <div className="mb-4">
-            <span className="text-[10px] opacity-60 block mb-2">城市热门地标一键穿梭：</span>
-            <div className="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-thin">
-              {PRESET_LOCATIONS.map((preset) => {
-                const isCurrentCity = Math.abs(userLocation.lat - preset.lat) < 0.005;
-                return (
-                  <button
-                    key={preset.name}
-                    onClick={() => handlePresetSelect(preset)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap cursor-pointer border transition-all hover:scale-102 ${
-                      isCurrentCity
-                        ? isBoba
-                          ? 'bg-rose-500 border-rose-500 text-white'
-                          : 'bg-fuchsia-500 border-fuchsia-500 text-white'
-                        : isBoba
-                          ? 'bg-rose-50/40 border-rose-100 text-rose-800 hover:bg-rose-50'
-                          : 'bg-indigo-950/50 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
-                    }`}
+          {showSimulator && (
+            <div className="mt-4 space-y-4 pt-4 border-t border-dashed border-neutral-100 dark:border-indigo-950">
+              {showSimulatorTip && (
+                <p className={`text-[11px] p-2.5 rounded-xl border border-dashed transition-all relative ${
+                  isBoba 
+                    ? 'bg-orange-50/50 border-orange-100 text-orange-950' 
+                    : 'bg-indigo-950/30 border-indigo-900 text-indigo-300/80'
+                }`}>
+                  <strong>使用提示：</strong>本模拟器允许您在电脑端测试。
+                  调整上方的“面朝方向”滑块改变视野，点击“前进”以该方向行进，观察雷达、地图和指针的实时变化！
+                  <button 
+                    onClick={() => setShowSimulatorTip(false)}
+                    className="absolute top-1 right-2 text-[10px] font-bold opacity-60 hover:opacity-100 cursor-pointer"
                   >
-                    📍 {preset.name}
+                    不再提示
                   </button>
-                );
-              })}
-            </div>
-          </div>
+                </p>
+              )}
 
-          {/* Simulator Actions: Walking forward */}
-          <div className="grid grid-cols-2 gap-3 text-xs font-black">
-            <button
-              onClick={() => handleSimulateWalk(50)}
-              className={`py-3 px-4 rounded-2xl cursor-pointer border transition-all hover:scale-102 flex items-center justify-center gap-2 active:scale-98 ${
-                isBoba
-                  ? 'bg-orange-50 hover:bg-orange-100 border-orange-200 text-orange-900'
-                  : 'bg-indigo-950 border-indigo-800 text-indigo-200 hover:bg-indigo-900'
-              }`}
-            >
-              <ChevronsUp className="w-4 h-4 animate-bounce" />
-              <span>朝当前方向 前进 50米</span>
-            </button>
-            <button
-              onClick={() => handleSimulateWalk(200)}
-              className={`py-3 px-4 rounded-2xl cursor-pointer border transition-all hover:scale-102 flex items-center justify-center gap-2 active:scale-98 ${
-                isBoba
-                  ? 'bg-rose-500 hover:bg-rose-600 border-rose-500 text-white'
-                  : 'bg-fuchsia-500 hover:bg-fuchsia-600 border-fuchsia-500 text-white'
-              }`}
-            >
-              <ChevronsUp className="w-4 h-4 animate-bounce" style={{ animationDuration: '0.8s' }} />
-              <span>朝当前方向 大步跨 200米</span>
-            </button>
-          </div>
+              {/* Preset City Teleportations */}
+              <div>
+                <span className="text-[10px] opacity-60 block mb-2">城市热门地标一键穿梭：</span>
+                <div className="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-thin">
+                  {PRESET_LOCATIONS.map((preset) => {
+                    const isCurrentCity = Math.abs(userLocation.lat - preset.lat) < 0.005;
+                    return (
+                      <button
+                        key={preset.name}
+                        onClick={() => handlePresetSelect(preset)}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap cursor-pointer border transition-all hover:scale-102 ${
+                          isCurrentCity
+                            ? isBoba
+                              ? 'bg-rose-500 border-rose-500 text-white'
+                              : 'bg-fuchsia-500 border-fuchsia-500 text-white'
+                            : isBoba
+                              ? 'bg-rose-50/40 border-rose-100 text-rose-800 hover:bg-rose-50'
+                              : 'bg-indigo-950/50 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
+                        }`}
+                      >
+                        📍 {preset.name}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Simulator Actions: Walking forward */}
+              <div className="grid grid-cols-2 gap-3 text-xs font-black">
+                <button
+                  onClick={() => handleSimulateWalk(50)}
+                  className={`py-3 px-4 rounded-2xl cursor-pointer border transition-all hover:scale-102 flex items-center justify-center gap-2 active:scale-98 ${
+                    isBoba
+                      ? 'bg-orange-50 hover:bg-orange-100 border-orange-200 text-orange-900'
+                      : 'bg-indigo-950 border-indigo-800 text-indigo-200 hover:bg-indigo-900'
+                  }`}
+                >
+                  <ChevronsUp className="w-4 h-4 animate-bounce" />
+                  <span>前进 50米</span>
+                </button>
+                <button
+                  onClick={() => handleSimulateWalk(200)}
+                  className={`py-3 px-4 rounded-2xl cursor-pointer border transition-all hover:scale-102 flex items-center justify-center gap-2 active:scale-98 ${
+                    isBoba
+                      ? 'bg-rose-500 hover:bg-rose-600 border-rose-500 text-white'
+                      : 'bg-fuchsia-500 hover:bg-fuchsia-600 border-fuchsia-500 text-white'
+                  }`}
+                >
+                  <ChevronsUp className="w-4 h-4 animate-bounce" style={{ animationDuration: '0.8s' }} />
+                  <span>大步跨 200米</span>
+                </button>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* 5. SHOP LIST */}
@@ -561,14 +576,14 @@ export default function App() {
       </main>
 
       {/* Footer info & Credits */}
-      <footer className={`py-6 border-t text-center text-xs transition-colors ${
+      <footer className={`pt-6 pb-[calc(env(safe-area-inset-bottom,0px)+24px)] border-t text-center text-xs transition-colors ${
         isBoba 
           ? 'bg-rose-50/30 border-rose-100/50 text-rose-800/50' 
           : 'bg-slate-950 border-indigo-950/40 text-indigo-300/30'
       }`}>
         <p className="font-extrabold tracking-wide uppercase">🧋 奶茶与酒鬼指南针 🍹</p>
-        <p className="mt-1 opacity-75">利用手机陀螺仪、罗盘传感器及 GPS 地理围栏实现极简高精度寻店指向</p>
-        <p className="mt-2 text-[10px] opacity-50">支持静态部署 Github Pages 部署包导出</p>
+        <p className="mt-1 opacity-75">利用手机陀螺仪及 GPS 地理围栏实现寻店指向</p>
+        <p className="mt-2 text-[10px] opacity-50">支持静态部署 Github Pages PWA 应用</p>
       </footer>
     </div>
   );

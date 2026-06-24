@@ -46,8 +46,8 @@ export default function MapContainer({
     const markersGroup = L.featureGroup().addTo(map);
     markersGroupRef.current = markersGroup;
 
-    // Listen to map click events to teleport simulated location
-    map.on('click', (e: L.LeafletMouseEvent) => {
+    // Listen to map contextmenu (right-click / long-press) events to teleport simulated location
+    map.on('contextmenu', (e: L.LeafletMouseEvent) => {
       setUserLocation({
         lat: e.latlng.lat,
         lng: e.latlng.lng
@@ -213,15 +213,15 @@ export default function MapContainer({
 
   return (
     <div className="w-full flex flex-col items-center justify-center h-full relative">
-      {/* Recenter / Teleport Indicator Banner */}
-      <div className={`absolute top-3 left-3 right-3 z-50 px-3 py-2 rounded-xl text-[10px] font-bold shadow-md border flex items-center justify-between pointer-events-auto backdrop-blur-md ${
+      {/* Recenter / Teleport Indicator Banner (Placed at the bottom to avoid covering Zoom tools) */}
+      <div className={`absolute bottom-4 left-4 right-4 z-[1000] px-3 py-2 rounded-xl text-[10px] font-bold shadow-md border flex items-center justify-between pointer-events-auto backdrop-blur-md ${
         isBoba 
-          ? 'bg-white/90 border-rose-100 text-rose-900' 
-          : 'bg-slate-950/90 border-indigo-950 text-indigo-300 shadow-[0_4px_20px_rgba(0,0,0,0.5)]'
+          ? 'bg-white/95 border-rose-100 text-rose-900 shadow-rose-100/20' 
+          : 'bg-slate-950/95 border-indigo-950 text-indigo-300 shadow-[0_4px_20px_rgba(0,0,0,0.5)]'
       }`}>
         <div className="flex items-center gap-1.5">
           <Sparkles className="w-3.5 h-3.5 shrink-0 animate-pulse text-amber-500" />
-          <span>点击地图任意点即可「瞬移」当前定位</span>
+          <span>长按/右键地图任意点即可「瞬移」定位</span>
         </div>
         <button
           onClick={handleRecenter}
