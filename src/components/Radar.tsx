@@ -9,6 +9,7 @@ interface RadarProps {
   selectedShop: Shop | null;
   setSelectedShop: (shop: Shop | null) => void;
   userHeading: number;
+  exploreRadius?: number;
 }
 
 export default function Radar({
@@ -16,7 +17,8 @@ export default function Radar({
   shops,
   selectedShop,
   setSelectedShop,
-  userHeading
+  userHeading,
+  exploreRadius = 3000
 }: RadarProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -75,8 +77,8 @@ export default function Radar({
       ctx.strokeStyle = `rgba(${colorPrimary}, 0.15)`;
       ctx.lineWidth = 1;
 
-      // Draw concentric circles (representing 200m, 500m, 800m, 1000m)
-      const circles = [0.2, 0.5, 0.8, 1.0];
+      // Draw concentric circles (representing 1/3, 2/3, 1.0 of exploreRadius)
+      const circles = [0.33, 0.66, 1.0];
       circles.forEach((multiplier) => {
         ctx.beginPath();
         ctx.arc(cx, cy, R * multiplier, 0, Math.PI * 2);
@@ -85,7 +87,9 @@ export default function Radar({
         // Draw distance labels
         ctx.fillStyle = `rgba(${colorGlow}, 0.6)`;
         ctx.font = '9px monospace';
-        ctx.fillText(`${Math.round(multiplier * 1000)}m`, cx + 4, cy - R * multiplier + 10);
+        const distVal = Math.round(multiplier * exploreRadius);
+        const distLabel = distVal >= 1000 ? `${(distVal / 1000).toFixed(1)}km` : `${distVal}m`;
+        ctx.fillText(distLabel, cx + 4, cy - R * multiplier + 10);
       });
 
       // Draw crosshairs
@@ -157,7 +161,7 @@ export default function Radar({
         const shopAngleRad = ((shop.bearing - 90) * Math.PI) / 180;
         
         // Calculate screen coordinates
-        const ratio = Math.min(shop.distance / 1000, 1.0); // max 1km on radar
+        const ratio = Math.min(shop.distance / exploreRadius, 1.0);
         const bx = cx + R * ratio * Math.cos(shopAngleRad);
         const by = cy + R * ratio * Math.sin(shopAngleRad);
 
@@ -286,7 +290,7 @@ export default function Radar({
 
     shops.forEach((shop) => {
       const shopAngleRad = ((shop.bearing - 90) * Math.PI) / 180;
-      const ratio = Math.min(shop.distance / 1000, 1.0);
+      const ratio = Math.min(shop.distance / exploreRadius, 1.0);
       const bx = cx + R * ratio * Math.cos(shopAngleRad);
       const by = cy + R * ratio * Math.sin(shopAngleRad);
 
@@ -320,7 +324,7 @@ export default function Radar({
 
     shops.forEach((shop) => {
       const shopAngleRad = ((shop.bearing - 90) * Math.PI) / 180;
-      const ratio = Math.min(shop.distance / 1000, 1.0);
+      const ratio = Math.min(shop.distance / exploreRadius, 1.0);
       const bx = cx + R * ratio * Math.cos(shopAngleRad);
       const by = cy + R * ratio * Math.sin(shopAngleRad);
 
@@ -345,7 +349,7 @@ export default function Radar({
           <span>{isBoba ? '🍯 奶茶声呐探测雷达' : '🔮 酒鬼霓虹声呐雷达'}</span>
         </h2>
         <p className={`text-xs mt-1 ${isBoba ? 'text-rose-700/70' : 'text-indigo-300/60'}`}>
-          半径约 1000 米，点击屏幕上的亮斑即可锁定目标
+          半径约 {exploreRadius >= 1000 ? `${(exploreRadius / 1000).toFixed(0)}公里` : `${exploreRadius}米`}，点击屏幕上的亮斑即可锁定目标
         </p>
       </div>
 

@@ -49,6 +49,8 @@ export default function App() {
   const [showSimulator, setShowSimulator] = useState<boolean>(false); // default hidden
   const [isMatchaUnlocked, setIsMatchaUnlocked] = useState<boolean>(false); // secret mode unlock state
   const [titleClickCount, setTitleClickCount] = useState<number>(0);
+  const [exploreRadius, setExploreRadius] = useState<number>(3000); // 默认3000米 (1000 | 3000 | 5000 | 10000)
+  const [maxShopsCount, setMaxShopsCount] = useState<number>(15);   // 默认最近15家 (15 | 30 | 50 | 100)
 
   // 1.5. Data Source and Config Settings States
   const [dataSource, setDataSource] = useState<'mock' | 'osm' | 'amap'>(() => {
@@ -149,17 +151,24 @@ export default function App() {
     });
   }, [rawShops, userLocation, userHeading]);
 
-  // 3.2. Filter shops by active mode (Matcha mode searches everything for matcha tags/signatures)
+  // 3.2. Filter shops by active mode, sort by distance, filter by exploreRadius, and slice by maxShopsCount
   const activeShops = useMemo(() => {
+    let filtered = shops;
     if (mode === 'matcha') {
-      return shops.filter((s) => 
+      filtered = shops.filter((s) => 
         s.name.includes('抹茶') || 
         s.signature.includes('抹茶') || 
         s.tags.some((t) => t.includes('抹茶') || t.toLowerCase() === 'matcha')
       );
+    } else {
+      filtered = shops.filter((s) => s.type === mode);
     }
-    return shops.filter((s) => s.type === mode);
-  }, [shops, mode]);
+
+    return filtered
+      .filter((s) => s.distance <= exploreRadius)
+      .sort((a, b) => a.distance - b.distance)
+      .slice(0, maxShopsCount);
+  }, [shops, mode, exploreRadius, maxShopsCount]);
 
   // 3.5. Dynamically calculate the closest shop in the current facing direction
   const facingShop = useMemo(() => {
@@ -673,6 +682,7 @@ export default function App() {
                     setIsLocked(true);
                   }}
                   userHeading={userHeading}
+                  exploreRadius={exploreRadius}
                 />
               </motion.div>
             )}
@@ -699,6 +709,95 @@ export default function App() {
               </motion.div>
             )}
           </AnimatePresence>
+        </div>
+
+        {/* 3.8. Range & Display Limit Controller */}
+        <div className={`p-4 rounded-3xl border transition-all duration-300 ${
+          isMatcha
+            ? 'bg-white/90 backdrop-blur-md border-emerald-100 text-emerald-950 shadow-xs'
+            : isBoba 
+              ? 'bg-white/90 backdrop-blur-md border-rose-100 text-rose-950 shadow-xs' 
+              : 'bg-slate-950/80 backdrop-blur-md border-indigo-950 text-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.4)]'
+        }`}>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            {/* Radius Control */}
+            <div className="flex-1 space-y-2">
+              <div className="flex justify-between items-center">
+                <span className={`text-xs font-black tracking-wide ${
+                  isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-950' : 'text-indigo-300'
+                }`}>
+                  📡 探索范围半径
+                </span>
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md ${
+                  isMatcha ? 'bg-emerald-50 text-emerald-700' : isBoba ? 'bg-rose-50 text-rose-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                }`}>
+                  {exploreRadius >= 1000 ? `${exploreRadius / 1000} km` : `${exploreRadius} m`}
+                </span>
+              </div>
+              <div className="grid grid-cols-4 gap-1.5">
+                {[1000, 3000, 5000, 10000].map((r) => (
+                  <button
+                    key={r}
+                    onClick={() => setExploreRadius(r)}
+                    className={`py-2 rounded-xl text-[10px] font-black cursor-pointer border transition-all hover:scale-102 active:scale-98 ${
+                      exploreRadius === r
+                        ? isMatcha
+                          ? 'bg-emerald-500 border-emerald-500 text-white shadow-xs shadow-emerald-200'
+                          : isBoba
+                            ? 'bg-rose-500 border-rose-500 text-white shadow-xs shadow-rose-200'
+                            : 'bg-fuchsia-500 border-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.4)]'
+                        : isMatcha
+                          ? 'bg-emerald-50/30 border-emerald-100/60 hover:bg-emerald-50 text-emerald-800'
+                          : isBoba
+                            ? 'bg-rose-50/30 border-rose-100/60 hover:bg-rose-50 text-rose-800'
+                            : 'bg-indigo-950/30 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
+                    }`}
+                  >
+                    {r >= 1000 ? `${r / 1000}km` : `${r}m`}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Shop limit Control */}
+            <div className="flex-1 space-y-2">
+              <div className="flex justify-between items-center">
+                <span className={`text-xs font-black tracking-wide ${
+                  isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-950' : 'text-indigo-300'
+                }`}>
+                  🎯 显示商铺上限
+                </span>
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md ${
+                  isMatcha ? 'bg-emerald-50 text-emerald-700' : isBoba ? 'bg-rose-50 text-rose-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                }`}>
+                  {maxShopsCount === 100 ? '不限' : `最近 ${maxShopsCount} 家`}
+                </span>
+              </div>
+              <div className="grid grid-cols-4 gap-1.5">
+                {[15, 30, 50, 100].map((c) => (
+                  <button
+                    key={c}
+                    onClick={() => setMaxShopsCount(c)}
+                    className={`py-2 rounded-xl text-[10px] font-black cursor-pointer border transition-all hover:scale-102 active:scale-98 ${
+                      maxShopsCount === c
+                        ? isMatcha
+                          ? 'bg-emerald-500 border-emerald-500 text-white shadow-xs shadow-emerald-200'
+                          : isBoba
+                            ? 'bg-rose-500 border-rose-500 text-white shadow-xs shadow-rose-200'
+                            : 'bg-fuchsia-500 border-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.4)]'
+                        : isMatcha
+                          ? 'bg-emerald-50/30 border-emerald-100/60 hover:bg-emerald-50 text-emerald-800'
+                          : isBoba
+                            ? 'bg-rose-50/30 border-rose-100/60 hover:bg-rose-50 text-rose-800'
+                            : 'bg-indigo-950/30 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
+                    }`}
+                  >
+                    {c === 100 ? '不限' : `${c}家`}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* 4. WALKING SIMULATOR CONTROLLER */}
