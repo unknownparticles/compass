@@ -23180,6 +23180,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "下午茶",
           "翔安区-翔安街"
         ]
+      },
+      {
+        "id": "real-xm-bar-afterwork",
+        "name": "下班之后 Bar (思明店)",
+        "type": "bar",
+        "lat": 24.471521,
+        "lng": 118.113045,
+        "rating": 4.8,
+        "reviewsCount": 158,
+        "address": "思明区厦禾路火车站商圈特色小巷内",
+        "signature": "下班特调鸡尾酒 (After-Work Special)",
+        "priceRange": "¥50-90",
+        "hours": "18:00 - 02:00",
+        "tags": [
+          "打工人聚集",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-火车站梧村"
+        ]
       }
     ]
   },
