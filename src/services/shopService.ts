@@ -391,6 +391,7 @@ export async function fetchShops(
   lng: number,
   source: 'mock' | 'osm' | 'amap',
   mode: CompassMode,
+  radius?: number,
   amapKey?: string
 ): Promise<Shop[]> {
   // 1. 离线模式拦截检测
@@ -438,12 +439,12 @@ export async function fetchShops(
   // 2. 在线模式拉取
   switch (source) {
     case 'osm':
-      return await fetchFromOSM(lat, lng, mode);
+      return await fetchFromOSM(lat, lng, mode, radius);
     case 'amap':
       if (!amapKey) {
         throw new Error('未检测到高德 API Key，请点击右上角设置面板进行配置！');
       }
-      return await fetchFromAmap(lat, lng, mode, amapKey);
+      return await fetchFromAmap(lat, lng, mode, amapKey, radius);
     default:
       return Promise.resolve([]);
   }

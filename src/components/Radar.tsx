@@ -269,7 +269,7 @@ export default function Radar({
     return () => {
       cancelAnimationFrame(animationId);
     };
-  }, [dimensions, shops, selectedShop, hoveredShop, userHeading, mode]);
+  }, [dimensions, shops, selectedShop, hoveredShop, userHeading, mode, exploreRadius]);
 
   // Click on radar handler
   const handleRadarClick = (e: React.MouseEvent<HTMLCanvasElement>) => {
