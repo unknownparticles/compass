@@ -43,25 +43,29 @@ const DEFAULT_BAR_SIGNATURES = [
   '金汤力特调 (Gin and Tonic)'
 ];
 
-// 抹茶模式专用的菜品数据库
-const MATCHA_TEA_SIGNATURES = [
-  '宇治特浓抹茶拿铁 (Matcha Latte)',
-  '静冈大理石抹茶椰乳 (Matcha Coconut)',
-  '雪顶抹茶芝士冰沙 (Matcha Cheese Slush)',
-  '白玉小子抹茶波波茶 (Boba Matcha Milk)',
-  '宇治手打冰点 (Uji Hand-Whisked Matcha)',
-  '特浓抹茶千层蛋糕 (Matcha Mille Crepe)'
-];
+// 真实主打抹茶的连锁大牌及官方推荐菜
+const REAL_MATCHA_BRANDS_DATABASE: { [key: string]: { signature: string; tags: string[] } } = {
+  '星巴克': { signature: '抹茶可可碎片星冰乐 (Matcha Cream Frappuccino)', tags: ['经典星冰乐', '精选抹茶'] },
+  'starbucks': { signature: '抹茶可可碎片星冰乐 (Matcha Cream Frappuccino)', tags: ['经典星冰乐', '精选抹茶'] },
+  '瑞幸': { signature: '宇治抹茶拿铁 (Uji Matcha Latte)', tags: ['抹茶拿铁', '大师咖啡'] },
+  'luckin': { signature: '宇治抹茶拿铁 (Uji Matcha Latte)', tags: ['抹茶拿铁', '大师咖啡'] },
+  '喜茶': { signature: '极浓抹茶椰 (Matcha Coconut)', tags: ['鲜果茶', '抹茶乳饮'] },
+  'heytea': { signature: '极浓抹茶椰 (Matcha Coconut)', tags: ['鲜果茶', '抹茶乳饮'] },
+  '奈雪': { signature: '宇治抹茶奶盖茶 (Uji Matcha Cheese Tea)', tags: ['芝士茶', '抹茶烘焙'] },
+  'nayuki': { signature: '宇治抹茶奶盖茶 (Uji Matcha Cheese Tea)', tags: ['芝士茶', '抹茶烘焙'] },
+  '一点点': { signature: '抹茶红豆拿铁 (Matcha Red Bean Latte)', tags: ['手摇奶茶', '经典抹茶'] },
+  '1点点': { signature: '抹茶红豆拿铁 (Matcha Red Bean Latte)', tags: ['手摇奶茶', '经典抹茶'] },
+  'coco': { signature: '抹茶红豆欧蕾 (Matcha Red Bean Au Lait)', tags: ['红豆奶茶', '经典欧蕾'] },
+  'manner': { signature: '抹茶燕麦拿铁 (Matcha Oat Latte)', tags: ['精品咖啡', '抹茶拿铁'] },
+  '辻利': { signature: '辻利特浓抹茶刨冰 (Tsujiri Matcha Shaved Ice)', tags: ['日本宇治', '抹茶专门店'] },
+  'tsujiri': { signature: '辻利特浓抹茶刨冰 (Tsujiri Matcha Shaved Ice)', tags: ['日本宇治', '抹茶专门店'] }
+};
 
-const MATCHA_BAR_SIGNATURES = [
-  '“京都之雾”抹茶金酒特调 (Matcha Gin Fizz)',
-  '大理石抹茶百利甜特饮 (Matcha Baileys)',
-  '静冈抹茶艾尔精酿 (Matcha Stout Beer)'
-];
-
-// 抹茶判定知名大牌词库（这些大牌现实店中均售卖抹茶产品）
-const MATCHA_FAMOUS_BRANDS = [
-  '喜茶', '奈雪', '瑞幸', '星巴克', '一点点', 'coco', '茶百道', '古茗', 'manner', '库迪', '茶颜', '沪上阿姨', '蜜雪'
+// 抹茶专门店默认抹茶推荐菜（仅用于名字直接含“抹茶/matcha”但非上述大牌的店）
+const DEFAULT_MATCHA_SPECIALTY_SIGNATURES = [
+  '手打宇治浓口抹茶 (Hand-Whisked Matcha)',
+  '宇治浓厚抹茶冰淇淋 (Matcha Ice Cream)',
+  '经典抹茶千层蛋糕 (Matcha Mille Crepe)'
 ];
 
 // OSM 模式下的 POI 饮品及酒吧白名单过滤词
@@ -94,10 +98,20 @@ function processAndDecorateShop(
 ): Shop {
   const nameLower = name.toLowerCase();
   
-  // 抹茶判定：店名含有“抹茶/Matcha”或者属于知名售卖抹茶的奶茶/咖啡连锁品牌
-  const isMatchaBrand = MATCHA_FAMOUS_BRANDS.some(brand => nameLower.includes(brand.toLowerCase()));
-  const isRealMatcha = name.includes('抹茶') || nameLower.includes('matcha') || isMatchaBrand;
-  const finalHasMatcha = isRealMatcha || hasMatchaInject;
+  // 抹茶判定：
+  // 1. 店名直接包含“抹茶”或“matcha”
+  const isMatchaName = name.includes('抹茶') || nameLower.includes('matcha');
+  
+  // 2. 属于确实在售抹茶的连锁大牌
+  let matchedBrandKey = '';
+  for (const key in REAL_MATCHA_BRANDS_DATABASE) {
+    if (nameLower.includes(key)) {
+      matchedBrandKey = key;
+      break;
+    }
+  }
+  const isMatchaBrand = matchedBrandKey !== '';
+  const isMatchaShop = isMatchaName || isMatchaBrand;
 
   let signature = '';
   let tags: string[] = [];
@@ -135,16 +149,15 @@ function processAndDecorateShop(
     }
   }
 
-  // 抹茶风味渗透/强化逻辑：如果被选中为抹茶店，或当前是抹茶模式，则替换特色菜与标签
-  if (finalHasMatcha || mode === 'matcha') {
-    if (type === 'milktea' || mode === 'matcha') {
-      const matchaIdx = Math.floor(Math.abs(hashString(id + '_matcha')) % MATCHA_TEA_SIGNATURES.length);
-      signature = MATCHA_TEA_SIGNATURES[matchaIdx];
-      tags.push('抹茶', 'Matcha', '抹茶专门店');
+  // 抹茶风味修饰逻辑：如果确认是抹茶店，重写为真实的抹茶招牌，绝非无端虚构
+  if (isMatchaShop) {
+    if (isMatchaBrand) {
+      signature = REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].signature;
+      tags = [...tags, ...REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].tags, '抹茶', 'Matcha'];
     } else {
-      const matchaIdx = Math.floor(Math.abs(hashString(id + '_matcha')) % MATCHA_BAR_SIGNATURES.length);
-      signature = MATCHA_BAR_SIGNATURES[matchaIdx];
-      tags.push('抹茶调酒', '抹茶');
+      const matchaIdx = Math.floor(Math.abs(hashString(id + '_matcha_spec')) % DEFAULT_MATCHA_SPECIALTY_SIGNATURES.length);
+      signature = DEFAULT_MATCHA_SPECIALTY_SIGNATURES[matchaIdx];
+      tags.push('抹茶专门店', '抹茶', 'Matcha');
     }
   }
 
@@ -192,9 +205,9 @@ function hashString(str: string): number {
 async function fetchFromOSM(lat: number, lng: number, mode: CompassMode, radius = 3000): Promise<Shop[]> {
   const isMatchaMode = mode === 'matcha';
   
-  // 抹茶模式下：除了查询名字带“抹茶/Matcha”的店，还将“喜茶/星巴克/瑞幸/奈雪/一点点”等售卖抹茶的大牌连锁合并放入检索中，杜绝没数据的情况！
+  // 抹茶模式下：除了查询名字带“抹茶/Matcha”的店，还将确凿有抹茶的连锁品牌合并放入检索中，过滤并杜绝没有抹茶的其他品牌
   const nameSelector = isMatchaMode 
-    ? '[name~"抹茶|Matcha|matcha|喜茶|奈雪|瑞幸|星巴克|一点点|Manner|Coco|茶百道|古茗|库迪|茶颜|luckin|starbucks",i]' 
+    ? '[name~"抹茶|Matcha|matcha|喜茶|奈雪|瑞幸|星巴克|一点点|Manner|Coco|辻利|Tsujiri|luckin|starbucks",i]' 
     : '';
 
   const overpassQuery = `
@@ -403,29 +416,46 @@ export async function fetchShops(
     });
 
     if (matchedRegion) {
-      // 计算距离并缓存，同时对抹茶连锁店或被抽中的离线店进行抹茶风味渗透
+      // 计算距离并缓存，同时对真正拥有抹茶大牌或者真实在售抹茶的离线店进行抹茶风味处理
       const sortedShops = matchedRegion.shops.map((shop) => {
         const dist = getDistance(lat, lng, shop.lat, shop.lng);
         
-        // 抹茶判断与注入逻辑
+        // 绝对真实的抹茶判定逻辑：
+        // 1. 店名或地址本来就含“抹茶/matcha”
         const nameLower = shop.name.toLowerCase();
-        const isMatchaBrand = MATCHA_FAMOUS_BRANDS.some(brand => nameLower.includes(brand.toLowerCase()));
-        const isRealMatcha = shop.name.includes('抹茶') || nameLower.includes('matcha') || isMatchaBrand;
-        const hasMatchaInject = (Math.abs(hashString(shop.id + '_matcha_offline')) % 10) < 3.5;
-        const finalHasMatcha = isRealMatcha || hasMatchaInject;
+        const isMatchaName = shop.name.includes('抹茶') || nameLower.includes('matcha');
+        
+        // 2. 属于确实在售抹茶的连锁大牌
+        let matchedBrandKey = '';
+        for (const key in REAL_MATCHA_BRANDS_DATABASE) {
+          if (nameLower.includes(key)) {
+            matchedBrandKey = key;
+            break;
+          }
+        }
+        const isMatchaBrand = matchedBrandKey !== '';
+        
+        // 3. 原始数据中的推荐菜或者标签原本就包含“抹茶/matcha”（保留其原始推荐菜，绝不覆盖）
+        const isOriginalMatcha = shop.signature.includes('抹茶') || 
+                                 shop.signature.toLowerCase().includes('matcha') ||
+                                 shop.tags.some(t => t.includes('抹茶') || t.toLowerCase() === 'matcha');
+        
+        const isMatchaShop = isMatchaName || isMatchaBrand || isOriginalMatcha;
 
         let signature = shop.signature;
         let tags = [...shop.tags];
 
-        if (finalHasMatcha || mode === 'matcha') {
-          if (shop.type === 'milktea' || mode === 'matcha') {
-            const matchaIdx = Math.floor(Math.abs(hashString(shop.id + '_matcha')) % MATCHA_TEA_SIGNATURES.length);
-            signature = MATCHA_TEA_SIGNATURES[matchaIdx];
-            tags.push('抹茶', 'Matcha', '抹茶专门店');
+        if (isMatchaShop) {
+          if (isMatchaBrand) {
+            signature = REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].signature;
+            tags = [...tags, ...REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].tags, '抹茶', 'Matcha'];
+          } else if (isOriginalMatcha) {
+            // 原汁原味保留，不覆盖
+            tags.push('抹茶', 'Matcha');
           } else {
-            const matchaIdx = Math.floor(Math.abs(hashString(shop.id + '_matcha')) % MATCHA_BAR_SIGNATURES.length);
-            signature = MATCHA_BAR_SIGNATURES[matchaIdx];
-            tags.push('抹茶调酒', '抹茶');
+            const matchaIdx = Math.floor(Math.abs(hashString(shop.id + '_matcha_spec_off')) % DEFAULT_MATCHA_SPECIALTY_SIGNATURES.length);
+            signature = DEFAULT_MATCHA_SPECIALTY_SIGNATURES[matchaIdx];
+            tags.push('抹茶专门店', '抹茶', 'Matcha');
           }
         }
 
