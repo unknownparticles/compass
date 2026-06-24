@@ -401,14 +401,31 @@ export async function fetchShops(
     });
 
     if (matchedRegion) {
-      const localShops = matchedRegion.shops.map((shop) => ({
-        ...shop,
-        distance: 0,
-        bearing: 0,
-        relativeAngle: 0
-      })) as Shop[];
+      // 计算距离并缓存
+      const sortedShops = matchedRegion.shops.map((shop) => {
+        const dist = getDistance(lat, lng, shop.lat, shop.lng);
+        return {
+          ...shop,
+          distance: Math.round(dist),
+          bearing: 0,
+          relativeAngle: 0
+        };
+      }) as Shop[];
+
+      // 按距离最近升序排列
+      sortedShops.sort((a, b) => a.distance - b.distance);
+
+      // 动态分流截断：保底展示最近 50 家；若 5公里内商家极多，最多展示 5公里内前 80 家
+      let finalShops: Shop[] = [];
+      const shopsWithin5Km = sortedShops.filter(s => s.distance <= 5000);
       
-      return Promise.resolve(localShops);
+      if (shopsWithin5Km.length <= 50) {
+        finalShops = sortedShops.slice(0, 50);
+      } else {
+        finalShops = shopsWithin5Km.slice(0, 80);
+      }
+
+      return Promise.resolve(finalShops);
     } else {
       return Promise.reject(
         new Error(
