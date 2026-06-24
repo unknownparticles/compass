@@ -343,12 +343,22 @@ export default function Radar({
       {/* Dynamic Title */}
       <div className="text-center mb-4">
         <h2 className={`text-lg font-black tracking-wide flex items-center justify-center gap-2 ${
-          isBoba ? 'text-rose-900' : 'text-fuchsia-400 font-mono tracking-widest'
+          isMatcha
+            ? 'text-emerald-950'
+            : isBoba 
+              ? 'text-rose-950' 
+              : 'text-fuchsia-400 font-mono tracking-widest'
         }`}>
           <Sparkles className="w-5 h-5 animate-spin" style={{ animationDuration: '6s' }} />
-          <span>{isBoba ? '🍯 奶茶声呐探测雷达' : '🔮 酒鬼霓虹声呐雷达'}</span>
+          <span>{isMatcha ? '🍵 抹茶声呐探测雷达' : isBoba ? '🍯 奶茶声呐探测雷达' : '🔮 酒鬼霓虹声呐雷达'}</span>
         </h2>
-        <p className={`text-xs mt-1 ${isBoba ? 'text-rose-700/70' : 'text-indigo-300/60'}`}>
+        <p className={`text-xs mt-1 ${
+          isMatcha
+            ? 'text-emerald-800/70'
+            : isBoba 
+              ? 'text-rose-700/70' 
+              : 'text-indigo-300/60'
+        }`}>
           半径约 {exploreRadius >= 1000 ? `${(exploreRadius / 1000).toFixed(0)}公里` : `${exploreRadius}米`}，点击屏幕上的亮斑即可锁定目标
         </p>
       </div>
@@ -357,9 +367,11 @@ export default function Radar({
       <div 
         ref={containerRef}
         className={`relative rounded-full p-2 border flex items-center justify-center transition-all shadow-inner ${
-          isBoba 
-            ? 'bg-rose-50/20 border-rose-100 shadow-rose-100/30' 
-            : 'bg-slate-950 border-indigo-950 shadow-[0_0_25px_rgba(139,92,246,0.1)]'
+          isMatcha
+            ? 'bg-emerald-50/20 border-emerald-100 shadow-emerald-100/30'
+            : isBoba 
+              ? 'bg-rose-50/20 border-rose-100 shadow-rose-100/30' 
+              : 'bg-slate-950 border-indigo-950 shadow-[0_0_25px_rgba(139,92,246,0.1)]'
         }`}
         style={{ width: dimensions.width + 16, height: dimensions.height + 16 }}
       >
@@ -372,15 +384,17 @@ export default function Radar({
           onMouseMove={handleRadarMouseMove}
           onMouseLeave={() => setHoveredShop(null)}
           className={`rounded-full cursor-crosshair transition-all ${
-            isBoba ? 'bg-white' : 'bg-slate-950'
+            (isBoba || isMatcha) ? 'bg-white' : 'bg-slate-950'
           }`}
         />
 
         {/* Floating Orientation compass helper tag */}
         <div className={`absolute top-4 text-[9px] font-mono tracking-wider font-extrabold uppercase px-2 py-0.5 rounded-full border ${
-          isBoba 
-            ? 'bg-rose-400 text-white border-rose-300' 
-            : 'bg-indigo-950 border-indigo-800 text-indigo-300'
+          isMatcha
+            ? 'bg-emerald-500 text-white border-emerald-400'
+            : isBoba 
+              ? 'bg-rose-400 text-white border-rose-300' 
+              : 'bg-indigo-950 border-indigo-800 text-indigo-300'
         }`}>
           ▲ 真北角 (North)
         </div>
@@ -389,22 +403,54 @@ export default function Radar({
       {/* Quick Stats Banner below radar */}
       <div className="w-full grid grid-cols-2 gap-3 mt-6">
         <div className={`p-3.5 rounded-2xl border text-center ${
-          isBoba ? 'bg-rose-50/50 border-rose-100/50' : 'bg-indigo-950/20 border-indigo-950/60'
+          isMatcha
+            ? 'bg-emerald-50/50 border-emerald-100/50'
+            : isBoba 
+              ? 'bg-rose-50/50 border-rose-100/50' 
+              : 'bg-indigo-950/20 border-indigo-950/60'
         }`}>
-          <span className={`text-[10px] block ${isBoba ? 'text-rose-700/80' : 'text-indigo-400'}`}>
+          <span className={`text-[10px] block ${
+            isMatcha
+              ? 'text-emerald-700/80'
+              : isBoba 
+                ? 'text-rose-700/80' 
+                : 'text-indigo-400'
+          }`}>
             雷达探测信号
           </span>
-          <span className={`text-sm font-black mt-0.5 block ${isBoba ? 'text-rose-950' : 'text-white'}`}>
+          <span className={`text-sm font-black mt-0.5 block ${
+            isMatcha
+              ? 'text-emerald-950'
+              : isBoba 
+                ? 'text-rose-950' 
+                : 'text-white'
+          }`}>
             {shops.length} 个目标已捕获
           </span>
         </div>
         <div className={`p-3.5 rounded-2xl border text-center ${
-          isBoba ? 'bg-rose-50/50 border-rose-100/50' : 'bg-indigo-950/20 border-indigo-950/60'
+          isMatcha
+            ? 'bg-emerald-50/50 border-emerald-100/50'
+            : isBoba 
+              ? 'bg-rose-50/50 border-rose-100/50' 
+              : 'bg-indigo-950/20 border-indigo-950/60'
         }`}>
-          <span className={`text-[10px] block ${isBoba ? 'text-rose-700/80' : 'text-indigo-400'}`}>
+          <span className={`text-[10px] block ${
+            isMatcha
+              ? 'text-emerald-700/80'
+              : isBoba 
+                ? 'text-rose-700/80' 
+                : 'text-indigo-400'
+          }`}>
             锁定状态
           </span>
-          <span className={`text-sm font-black mt-0.5 block truncate ${isBoba ? 'text-rose-950' : 'text-white'}`}>
+          <span className={`text-sm font-black mt-0.5 block truncate ${
+            isMatcha
+              ? 'text-emerald-950'
+              : isBoba 
+                ? 'text-rose-950' 
+                : 'text-white'
+          }`}>
             {selectedShop ? selectedShop.name : '未选择目标'}
           </span>
         </div>
