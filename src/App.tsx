@@ -171,16 +171,7 @@ export default function App() {
 
   // 3.2. Filter shops by active mode, sort by distance, filter by exploreRadius, and slice by maxShopsCount
   const activeShops = useMemo(() => {
-    let filtered = shops;
-    if (mode === 'matcha') {
-      filtered = shops.filter((s) => 
-        s.name.includes('抹茶') || 
-        s.signature.includes('抹茶') || 
-        s.tags.some((t) => t.includes('抹茶') || t.toLowerCase() === 'matcha')
-      );
-    } else {
-      filtered = shops.filter((s) => s.type === mode);
-    }
+    const filtered = shops.filter((s) => s.type === mode);
 
     return filtered
       .filter((s) => s.distance <= exploreRadius)
@@ -361,10 +352,13 @@ export default function App() {
 
   const isMatcha = mode === 'matcha';
   const isBoba = mode === 'milktea';
+  const isCoffee = mode === 'coffee';
 
   const handleModeSwitch = () => {
     let nextMode: CompassMode = 'milktea';
     if (mode === 'milktea') {
+      nextMode = 'coffee';
+    } else if (mode === 'coffee') {
       nextMode = 'bar';
     } else if (mode === 'bar') {
       if (isMatchaUnlocked) {
@@ -384,8 +378,10 @@ export default function App() {
       isMatcha
         ? 'bg-gradient-to-b from-emerald-50/60 via-stone-50/40 to-white text-emerald-950'
         : isBoba 
-          ? 'bg-gradient-to-b from-rose-50/70 via-orange-50/40 to-white text-rose-950' 
-          : 'bg-gradient-to-b from-slate-950 via-slate-900 to-indigo-950 text-slate-100'
+          ? 'bg-gradient-to-b from-rose-50/70 via-orange-50/40 to-white text-rose-950'
+          : isCoffee
+            ? 'bg-gradient-to-b from-amber-50/80 via-stone-50/50 to-white text-amber-950'
+            : 'bg-gradient-to-b from-slate-950 via-slate-900 to-indigo-950 text-slate-100'
     }`}>
       
       {/* Dynamic Header */}
@@ -393,25 +389,29 @@ export default function App() {
         isMatcha
           ? 'bg-white/85 border-emerald-100/60'
           : isBoba 
-            ? 'bg-white/85 border-rose-100/60' 
-            : 'bg-slate-950/85 border-indigo-950/60 shadow-[0_4px_10px_rgba(0,0,0,0.4)]'
+            ? 'bg-white/85 border-rose-100/60'
+            : isCoffee
+              ? 'bg-white/90 border-amber-100/60'
+              : 'bg-slate-950/85 border-indigo-950/60 shadow-[0_4px_10px_rgba(0,0,0,0.4)]'
       }`}>
         <div className="flex items-center gap-2">
           <div className={`w-9 h-9 rounded-2xl flex items-center justify-center transition-all ${
             isMatcha
               ? 'bg-emerald-600 text-white shadow shadow-emerald-200'
               : isBoba 
-                ? 'bg-rose-500 text-white shadow shadow-rose-200' 
-                : 'bg-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.5)]'
+                ? 'bg-rose-500 text-white shadow shadow-rose-200'
+                : isCoffee
+                  ? 'bg-amber-700 text-white shadow shadow-amber-200'
+                  : 'bg-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.5)]'
           }`}>
             <CompassIcon className="w-5 h-5 animate-spin" style={{ animationDuration: '8s' }} />
           </div>
           <div onClick={handleTitleClick} className="cursor-pointer select-none">
             <h1 className="text-base md:text-lg font-black tracking-tight leading-none">
-              {isMatcha ? '抹茶/酒鬼指南针' : isBoba ? '奶茶/酒鬼指南针' : '酒鬼/奶茶指南针'}
+              {isMatcha ? '寻味指南针 🍵' : isBoba ? '寻味指南针 🧋' : isCoffee ? '寻味指南针 ☕' : '寻味指南针 🍹'}
             </h1>
-            <p className={`text-[10px] mt-0.5 ${isMatcha ? 'text-emerald-700/60' : isBoba ? 'text-rose-700/60' : 'text-indigo-400'}`}>
-              {isMatcha ? '已开启隐藏模式：寻觅抹茶甜物' : 'GPS 定位与方向雷达自动寻找最近好店'}
+            <p className={`text-[10px] mt-0.5 ${isMatcha ? 'text-emerald-700/60' : isBoba ? 'text-rose-700/60' : isCoffee ? 'text-amber-700/70' : 'text-indigo-400'}`}>
+              {isMatcha ? '已开启隐藏模式：寻觅抹茶甜物' : isCoffee ? '罗盘指引 · 寻找最近精品咖啡' : 'GPS 定位与方向雷达自动寻找最近好店'}
             </p>
           </div>
         </div>
@@ -425,7 +425,9 @@ export default function App() {
                 ? 'bg-emerald-50 border-emerald-100 text-emerald-800'
                 : isBoba
                   ? 'bg-rose-50 border-rose-100 text-rose-700'
-                  : 'bg-slate-900 border-indigo-950 text-fuchsia-300 shadow-[0_0_8px_rgba(217,70,239,0.15)]'
+                  : isCoffee
+                    ? 'bg-amber-50 border-amber-100 text-amber-800'
+                    : 'bg-slate-900 border-indigo-950 text-fuchsia-300 shadow-[0_0_8px_rgba(217,70,239,0.15)]'
             }`}
             title="数据源设置"
           >
@@ -437,12 +439,12 @@ export default function App() {
             onClick={handleModeSwitch}
             className={`px-4 py-2 rounded-2xl border text-xs font-black tracking-wide flex items-center gap-2 cursor-pointer transition-all hover:scale-105 active:scale-95 ${
               isMatcha
-                ? 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
-                : isBoba 
-                  ? 'bg-gradient-to-r from-violet-950 to-indigo-900 border-indigo-950 text-fuchsia-300 shadow shadow-violet-200/20' 
-                  : isMatchaUnlocked
-                    ? 'bg-gradient-to-r from-emerald-100 to-teal-100 border-emerald-200 text-emerald-800 shadow shadow-emerald-100/10'
-                    : 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
+                ? 'bg-gradient-to-r from-emerald-50 to-emerald-100 border-emerald-200 text-emerald-800 shadow shadow-emerald-100/10'
+                : isBoba
+                  ? 'bg-gradient-to-r from-rose-50 to-rose-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
+                  : isCoffee
+                    ? 'bg-gradient-to-r from-amber-50 to-amber-100 border-amber-200 text-amber-850 shadow shadow-amber-100/10'
+                    : 'bg-gradient-to-r from-slate-900 to-indigo-950 border-indigo-900 text-fuchsia-300 shadow-[0_0_8px_rgba(217,70,239,0.2)]'
             }`}
           >
             {isMatcha ? (
@@ -451,6 +453,11 @@ export default function App() {
                 <span>切换奶茶模式</span>
               </>
             ) : isBoba ? (
+              <>
+                <Coffee className="w-4 h-4 text-amber-700 animate-bounce" />
+                <span>切换咖啡模式</span>
+              </>
+            ) : isCoffee ? (
               <>
                 <Beer className="w-4 h-4 text-fuchsia-400 animate-bounce" />
                 <span>切换酒鬼模式</span>
@@ -504,6 +511,20 @@ export default function App() {
                   “波霸无糖、加红豆、芝士盖顶...” 马上指出您身边最近的解馋奶茶铺！
                 </p>
               </motion.div>
+            ) : isCoffee ? (
+              <motion.div
+                key="coffee-title"
+                initial={{ opacity: 0, y: -5 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 5 }}
+              >
+                <span className="text-2xl md:text-3xl font-black block text-amber-900">
+                  ☕ 咖啡指南针 🫘
+                </span>
+                <p className="text-xs text-amber-800/70 mt-1 max-w-sm mx-auto">
+                  “生椰拿铁、手冲单品、Dirty...” 立刻锁定您附近最近的精品咖啡馆！
+                </p>
+              </motion.div>
             ) : (
               <motion.div
                 key="bar-title"
@@ -527,8 +548,10 @@ export default function App() {
           isMatcha
             ? 'bg-emerald-50/50 border-emerald-100/60'
             : isBoba 
-              ? 'bg-rose-50/50 border-rose-100/60' 
-              : 'bg-slate-950 border-indigo-950'
+              ? 'bg-rose-50/50 border-rose-100/60'
+              : isCoffee
+                ? 'bg-amber-50/50 border-amber-100/60'
+                : 'bg-slate-950 border-indigo-950'
         }`}>
           {[
             { id: 'compass', label: '指南针', icon: Compass },
@@ -548,12 +571,16 @@ export default function App() {
                       ? 'bg-white border border-emerald-100 text-emerald-950 shadow-xs'
                       : isBoba
                         ? 'bg-white border border-rose-100 text-rose-950 shadow-xs'
-                        : 'bg-indigo-950 border border-indigo-800 text-white shadow-[0_2px_12px_rgba(139,92,246,0.15)]'
+                        : isCoffee
+                          ? 'bg-white border border-amber-200 text-amber-950 shadow-xs'
+                          : 'bg-indigo-950 border border-indigo-800 text-white shadow-[0_2px_12px_rgba(139,92,246,0.15)]'
                     : isMatcha
                       ? 'text-emerald-800/60 hover:text-emerald-900'
                       : isBoba
                         ? 'text-rose-800/60 hover:text-rose-900'
-                        : 'text-indigo-400 hover:text-indigo-300'
+                        : isCoffee
+                          ? 'text-amber-800/60 hover:text-amber-900'
+                          : 'text-indigo-400 hover:text-indigo-300'
                 }`}
               >
                 <Icon className={`w-4 h-4 ${isActive ? 'animate-pulse' : ''}`} />
@@ -568,17 +595,19 @@ export default function App() {
           isMatcha
             ? 'bg-linear-to-b from-white/90 to-emerald-50/10 border-emerald-100'
             : isBoba 
-              ? 'bg-linear-to-b from-white/90 to-rose-50/10 border-rose-100' 
-              : 'bg-linear-to-b from-slate-900/90 to-slate-950/40 border-indigo-950/80'
+              ? 'bg-linear-to-b from-white/90 to-rose-50/10 border-rose-100'
+              : isCoffee
+                ? 'bg-linear-to-b from-white/90 to-amber-50/10 border-amber-100'
+                : 'bg-linear-to-b from-slate-900/90 to-slate-950/40 border-indigo-950/80'
         }`}>
           {/* Loading Overlay */}
           {isLoading && (
             <div className="absolute inset-0 z-50 backdrop-blur-md bg-white/70 dark:bg-slate-950/80 flex flex-col items-center justify-center gap-4 transition-all duration-300">
               <Loader2 className={`w-10 h-10 animate-spin ${
-                isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : 'text-fuchsia-500'
+                isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : isCoffee ? 'text-amber-700' : 'text-fuchsia-500'
               }`} />
               <div className="text-center px-4">
-                <p className={`font-black text-xs ${isBoba || isMatcha ? 'text-neutral-800' : 'text-indigo-200'}`}>
+                <p className={`font-black text-xs ${isBoba || isMatcha || isCoffee ? 'text-neutral-800' : 'text-indigo-200'}`}>
                   {dataSource === 'osm' 
                     ? '正在连接卫星搜寻周边真实商铺 (OSM)...' 
                     : dataSource === 'amap' 
@@ -606,7 +635,7 @@ export default function App() {
                 <button
                   onClick={() => setShowSettings(true)}
                   className={`px-3.5 py-2 rounded-xl text-[10px] font-black text-white cursor-pointer ${
-                    isMatcha ? 'bg-emerald-600' : isBoba ? 'bg-rose-500' : 'bg-fuchsia-500'
+                    isMatcha ? 'bg-emerald-600' : isBoba ? 'bg-rose-500' : isCoffee ? 'bg-amber-600' : 'bg-fuchsia-500'
                   }`}
                 >
                   ⚙️ 打开数据源设置
@@ -644,7 +673,7 @@ export default function App() {
                     setUserLocation({ ...userLocation });
                   }}
                   className={`px-3 py-1.5 rounded-xl text-[10px] font-black text-white cursor-pointer ${
-                    isMatcha ? 'bg-emerald-500' : isBoba ? 'bg-rose-500' : 'bg-fuchsia-500'
+                    isMatcha ? 'bg-emerald-500' : isBoba ? 'bg-rose-500' : isCoffee ? 'bg-amber-600' : 'bg-fuchsia-500'
                   }`}
                 >
                   重试一次
@@ -737,20 +766,22 @@ export default function App() {
           isMatcha
             ? 'bg-white/90 backdrop-blur-md border-emerald-100 text-emerald-950 shadow-xs'
             : isBoba 
-              ? 'bg-white/90 backdrop-blur-md border-rose-100 text-rose-950 shadow-xs' 
-              : 'bg-slate-950/80 backdrop-blur-md border-indigo-950 text-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.4)]'
+              ? 'bg-white/90 backdrop-blur-md border-rose-100 text-rose-950 shadow-xs'
+              : isCoffee
+                ? 'bg-white/90 backdrop-blur-md border-amber-100 text-amber-950 shadow-xs'
+                : 'bg-slate-950/80 backdrop-blur-md border-indigo-950 text-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.4)]'
         }`}>
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             {/* Radius Control */}
             <div className="flex-1 space-y-2">
               <div className="flex justify-between items-center">
                 <span className={`text-xs font-black tracking-wide ${
-                  isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-950' : 'text-indigo-300'
+                  isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-950' : isCoffee ? 'text-amber-950' : 'text-indigo-300'
                 }`}>
                   📡 探索范围半径
                 </span>
                 <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md ${
-                  isMatcha ? 'bg-emerald-50 text-emerald-700' : isBoba ? 'bg-rose-50 text-rose-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                  isMatcha ? 'bg-emerald-50 text-emerald-700' : isBoba ? 'bg-rose-50 text-rose-800' : isCoffee ? 'bg-amber-50 text-amber-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
                 }`}>
                   {exploreRadius >= 1000 ? `${exploreRadius / 1000} km` : `${exploreRadius} m`}
                 </span>
@@ -766,12 +797,16 @@ export default function App() {
                           ? 'bg-emerald-500 border-emerald-500 text-white shadow-xs shadow-emerald-200'
                           : isBoba
                             ? 'bg-rose-500 border-rose-500 text-white shadow-xs shadow-rose-200'
-                            : 'bg-fuchsia-500 border-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.4)]'
+                            : isCoffee
+                              ? 'bg-amber-600 border-amber-600 text-white shadow-xs shadow-amber-200'
+                              : 'bg-fuchsia-500 border-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.4)]'
                         : isMatcha
                           ? 'bg-emerald-50/30 border-emerald-100/60 hover:bg-emerald-50 text-emerald-800'
                           : isBoba
                             ? 'bg-rose-50/30 border-rose-100/60 hover:bg-rose-50 text-rose-800'
-                            : 'bg-indigo-950/30 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
+                            : isCoffee
+                              ? 'bg-amber-50/40 border-amber-100/60 hover:bg-amber-50 text-amber-850'
+                              : 'bg-indigo-950/30 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
                     }`}
                   >
                     {r >= 1000 ? `${r / 1000}km` : `${r}m`}
@@ -784,12 +819,12 @@ export default function App() {
             <div className="flex-1 space-y-2">
               <div className="flex justify-between items-center">
                 <span className={`text-xs font-black tracking-wide ${
-                  isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-950' : 'text-indigo-300'
+                  isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-950' : isCoffee ? 'text-amber-955 text-amber-950' : 'text-indigo-300'
                 }`}>
                   🎯 显示商铺上限
                 </span>
                 <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md ${
-                  isMatcha ? 'bg-emerald-50 text-emerald-700' : isBoba ? 'bg-rose-50 text-rose-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                  isMatcha ? 'bg-emerald-50 text-emerald-700' : isBoba ? 'bg-rose-50 text-rose-800' : isCoffee ? 'bg-amber-50 text-amber-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
                 }`}>
                   {maxShopsCount === 100 ? '不限' : `最近 ${maxShopsCount} 家`}
                 </span>
@@ -805,12 +840,16 @@ export default function App() {
                           ? 'bg-emerald-500 border-emerald-500 text-white shadow-xs shadow-emerald-200'
                           : isBoba
                             ? 'bg-rose-500 border-rose-500 text-white shadow-xs shadow-rose-200'
-                            : 'bg-fuchsia-500 border-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.4)]'
+                            : isCoffee
+                              ? 'bg-amber-600 border-amber-600 text-white shadow-xs shadow-amber-200'
+                              : 'bg-fuchsia-500 border-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.4)]'
                         : isMatcha
                           ? 'bg-emerald-50/30 border-emerald-100/60 hover:bg-emerald-50 text-emerald-800'
                           : isBoba
                             ? 'bg-rose-50/30 border-rose-100/60 hover:bg-rose-50 text-rose-800'
-                            : 'bg-indigo-950/30 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
+                            : isCoffee
+                              ? 'bg-amber-50/40 border-amber-100/60 hover:bg-amber-50 text-amber-850'
+                              : 'bg-indigo-950/30 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
                     }`}
                   >
                     {c === 100 ? '不限' : `${c}家`}
@@ -826,8 +865,10 @@ export default function App() {
           isMatcha
             ? 'bg-white border-emerald-100 shadow-xs'
             : isBoba 
-              ? 'bg-white border-rose-100 shadow-xs' 
-              : 'bg-slate-950 border-indigo-950'
+              ? 'bg-white border-rose-100 shadow-xs'
+              : isCoffee
+                ? 'bg-white border-amber-100 shadow-xs'
+                : 'bg-slate-950 border-indigo-950'
         }`}>
           <div className="flex items-center justify-between">
             <button
@@ -836,8 +877,10 @@ export default function App() {
                 isMatcha
                   ? 'text-emerald-950'
                   : isBoba 
-                    ? 'text-rose-950' 
-                    : 'text-indigo-300'
+                    ? 'text-rose-950'
+                    : isCoffee
+                      ? 'text-amber-950'
+                      : 'text-indigo-300'
               }`}
             >
               <span className="flex items-center gap-1.5">
@@ -848,8 +891,10 @@ export default function App() {
                 isMatcha
                   ? 'bg-emerald-50 text-emerald-800'
                   : isBoba 
-                    ? 'bg-rose-50 text-rose-800' 
-                    : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                    ? 'bg-rose-50 text-rose-800'
+                    : isCoffee
+                      ? 'bg-amber-50 text-amber-800'
+                      : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
               }`}>
                 {showSimulator ? '收起 ▲' : '点击展开 ⚙️'}
               </span>
@@ -864,7 +909,9 @@ export default function App() {
                     ? 'bg-emerald-50/50 border-emerald-100 text-emerald-950'
                     : isBoba 
                       ? 'bg-orange-50/50 border-orange-100 text-orange-950' 
-                      : 'bg-indigo-950/30 border-indigo-900 text-indigo-300/80'
+                      : isCoffee
+                        ? 'bg-amber-50/50 border-amber-100 text-amber-955 text-amber-950'
+                        : 'bg-indigo-950/30 border-indigo-900 text-indigo-300/80'
                 }`}>
                   <strong>使用提示：</strong>本模拟器允许您在电脑端测试。
                   调整上方的“面朝方向”滑块改变视野，点击“前进”以该方向行进，观察雷达、地图和指针的实时变化！
@@ -892,13 +939,17 @@ export default function App() {
                             ? isMatcha
                               ? 'bg-emerald-500 border-emerald-500 text-white shadow-xs'
                               : isBoba
-                                ? 'bg-rose-500 border-rose-500 text-white'
-                                : 'bg-fuchsia-500 border-fuchsia-500 text-white'
+                                ? 'bg-rose-500 border-rose-500 text-white shadow-xs shadow-rose-200'
+                                : isCoffee
+                                  ? 'bg-amber-600 border-amber-600 text-white shadow-xs shadow-amber-200'
+                                  : 'bg-fuchsia-500 border-fuchsia-500 text-white'
                             : isMatcha
                               ? 'bg-emerald-50/40 border-emerald-100 text-emerald-850 hover:bg-emerald-50'
                               : isBoba
-                                ? 'bg-rose-50/40 border-rose-100 text-rose-800 hover:bg-rose-50'
-                                : 'bg-indigo-950/50 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
+                                ? 'bg-rose-50/40 border-rose-100 text-rose-850 hover:bg-rose-50'
+                                : isCoffee
+                                  ? 'bg-amber-50/40 border-amber-100 text-amber-850 hover:bg-amber-50'
+                                  : 'bg-indigo-950/50 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
                         }`}
                       >
                         📍 {preset.name}
@@ -917,7 +968,9 @@ export default function App() {
                       ? 'bg-emerald-50 hover:bg-emerald-100 border-emerald-200 text-emerald-900'
                       : isBoba
                         ? 'bg-orange-50 hover:bg-orange-100 border-orange-200 text-orange-900'
-                        : 'bg-indigo-950 border-indigo-800 text-indigo-200 hover:bg-indigo-900'
+                        : isCoffee
+                          ? 'bg-amber-50 hover:bg-amber-100 border-amber-200 text-amber-900'
+                          : 'bg-indigo-950 border-indigo-800 text-indigo-200 hover:bg-indigo-900'
                   }`}
                 >
                   <ChevronsUp className="w-4 h-4 animate-bounce" />
@@ -930,7 +983,9 @@ export default function App() {
                       ? 'bg-emerald-500 hover:bg-emerald-600 border-emerald-500 text-white shadow-xs'
                       : isBoba
                         ? 'bg-rose-500 hover:bg-rose-600 border-rose-500 text-white'
-                        : 'bg-fuchsia-500 hover:bg-fuchsia-600 border-fuchsia-500 text-white'
+                        : isCoffee
+                          ? 'bg-amber-600 hover:bg-amber-700 border-amber-600 text-white shadow-xs shadow-amber-200'
+                          : 'bg-fuchsia-500 hover:bg-fuchsia-600 border-fuchsia-500 text-white'
                   }`}
                 >
                   <ChevronsUp className="w-4 h-4 animate-bounce" style={{ animationDuration: '0.8s' }} />
@@ -946,8 +1001,10 @@ export default function App() {
           isMatcha
             ? 'bg-white border-emerald-100 shadow-xs'
             : isBoba 
-              ? 'bg-white border-rose-100 shadow-xs' 
-              : 'bg-slate-950 border-indigo-950'
+              ? 'bg-white border-rose-100 shadow-xs'
+              : isCoffee
+                ? 'bg-white border-amber-100 shadow-xs'
+                : 'bg-slate-950 border-indigo-950'
         }`}>
           <ShopList
             mode={mode}
@@ -973,10 +1030,12 @@ export default function App() {
           ? 'bg-emerald-50/30 border-emerald-100/50 text-emerald-800/50'
           : isBoba 
             ? 'bg-rose-50/30 border-rose-100/50 text-rose-800/50' 
-            : 'bg-slate-950 border-indigo-950/40 text-indigo-300/30'
+            : isCoffee
+              ? 'bg-amber-50/30 border-amber-100/50 text-amber-800/50'
+              : 'bg-slate-950 border-indigo-950/40 text-indigo-300/30'
       }`}>
         <p className="font-extrabold tracking-wide uppercase">
-          {isMatcha ? '🍵 抹茶与酒鬼指南针 🍹' : '🧋 奶茶与酒鬼指南针 🍹'}
+          {isMatcha ? '🍵 寻味指南针' : isBoba ? '🧋 寻味指南针' : isCoffee ? '☕ 寻味指南针' : '🍹 寻味指南针'}
         </p>
         <p className="mt-1 opacity-75">利用手机陀螺仪及 GPS 地理围栏实现寻店指向</p>
         <p className="mt-2 text-[10px] opacity-50">支持静态部署 Github Pages PWA 应用</p>
@@ -1005,14 +1064,16 @@ export default function App() {
                   ? 'bg-white/95 border-emerald-100 text-emerald-950 shadow-emerald-950/10'
                   : isBoba
                     ? 'bg-white/95 border-rose-100 text-rose-950 shadow-rose-950/10'
-                    : 'bg-slate-900/95 border-indigo-950 text-slate-100 shadow-black/50'
+                    : isCoffee
+                      ? 'bg-white/95 border-amber-100 text-amber-955 text-amber-950 shadow-amber-950/10'
+                      : 'bg-slate-900/95 border-indigo-950 text-slate-100 shadow-black/50'
               }`}
             >
               {/* Close Button */}
               <button
                 onClick={() => setShowSettings(false)}
                 className={`absolute top-4 right-4 p-1.5 rounded-full hover:bg-neutral-100 dark:hover:bg-slate-800 transition-colors cursor-pointer ${
-                  isBoba || isMatcha ? 'text-neutral-500' : 'text-slate-400'
+                  isBoba || isMatcha || isCoffee ? 'text-neutral-500' : 'text-slate-400'
                 }`}
               >
                 <X className="w-4 h-4" />
@@ -1044,8 +1105,10 @@ export default function App() {
                                 ? 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold'
                                 : isBoba
                                   ? 'bg-rose-50 border-rose-500 text-rose-950 font-bold'
-                                  : 'bg-indigo-950 border-fuchsia-500 text-white font-bold shadow-[0_0_8px_rgba(217,70,239,0.3)]'
-                              : isBoba || isMatcha
+                                  : isCoffee
+                                    ? 'bg-amber-50 border-amber-500 text-amber-955 text-amber-950 font-bold'
+                                    : 'bg-indigo-950 border-fuchsia-500 text-white font-bold shadow-[0_0_8px_rgba(217,70,239,0.3)]'
+                              : isBoba || isMatcha || isCoffee
                                 ? 'bg-neutral-50/50 border-neutral-200/60 hover:bg-neutral-50 text-neutral-800'
                                 : 'bg-slate-950/40 border-indigo-950/60 hover:bg-indigo-900/20 text-slate-300'
                           }`}
@@ -1073,9 +1136,13 @@ export default function App() {
                       value={tempAmapKey}
                       onChange={(e) => setTempAmapKey(e.target.value)}
                       className={`w-full px-3 py-2 rounded-xl text-xs border focus:outline-none focus:ring-1 ${
-                        isBoba || isMatcha
-                          ? 'bg-white border-neutral-300 text-neutral-900 focus:border-rose-500 focus:ring-rose-500'
-                          : 'bg-slate-950 border-indigo-950 text-white focus:border-fuchsia-500 focus:ring-fuchsia-500'
+                        isMatcha
+                          ? 'bg-white border-neutral-300 text-neutral-900 focus:border-emerald-500 focus:ring-emerald-500'
+                          : isBoba
+                            ? 'bg-white border-neutral-300 text-neutral-900 focus:border-rose-500 focus:ring-rose-500'
+                            : isCoffee
+                              ? 'bg-white border-neutral-300 text-neutral-900 focus:border-amber-600 focus:ring-amber-600'
+                              : 'bg-slate-950 border-indigo-950 text-white focus:border-fuchsia-500 focus:ring-fuchsia-500'
                       }`}
                     />
                     <p className="text-[8px] opacity-60 leading-normal">
@@ -1101,7 +1168,9 @@ export default function App() {
                       ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow shadow-emerald-200'
                       : isBoba
                         ? 'bg-rose-500 hover:bg-rose-600 text-white shadow shadow-rose-200'
-                        : 'bg-gradient-to-r from-fuchsia-500 to-violet-600 hover:from-fuchsia-600 hover:to-violet-750 text-white shadow-[0_0_12px_rgba(217,70,239,0.3)]'
+                        : isCoffee
+                          ? 'bg-amber-600 hover:bg-amber-700 text-white shadow shadow-amber-200'
+                          : 'bg-gradient-to-r from-fuchsia-500 to-violet-600 hover:from-fuchsia-600 hover:to-violet-750 text-white shadow-[0_0_12px_rgba(217,70,239,0.3)]'
                   }`}
                 >
                   保存并重新加载

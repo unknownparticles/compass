@@ -28,6 +28,7 @@ export default function MapContainer({
 
   const isBoba = mode === 'milktea';
   const isMatcha = mode === 'matcha';
+  const isCoffee = mode === 'coffee';
 
   // 1. Initialize Leaflet Map (Run once)
   useEffect(() => {
@@ -72,7 +73,7 @@ export default function MapContainer({
     }
 
     // Gorgeous sleek modern map styles
-    const tileUrl = (isBoba || isMatcha)
+    const tileUrl = (isBoba || isMatcha || isCoffee)
       ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png' // Light elegant grey
       : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';  // Cyber dark neon
 
@@ -111,12 +112,19 @@ export default function MapContainer({
             <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-rose-500 border-2 border-white shadow-md text-white text-xs font-bold">我</div>
           </div>
           `
-        : `
-          <div class="relative flex items-center justify-center w-10 h-10">
-            <span class="absolute inline-flex h-full w-full rounded-full bg-fuchsia-500 opacity-45 animate-ping"></span>
-            <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-fuchsia-500 border-2 border-violet-950 shadow-[0_0_10px_rgba(217,70,239,0.8)] text-white text-xs font-bold">我</div>
-          </div>
-          `;
+        : isCoffee
+          ? `
+            <div class="relative flex items-center justify-center w-10 h-10">
+              <span class="absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-30 animate-ping"></span>
+              <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-amber-650 border-2 border-white shadow-md text-white text-xs font-bold">我</div>
+            </div>
+            `
+          : `
+            <div class="relative flex items-center justify-center w-10 h-10">
+              <span class="absolute inline-flex h-full w-full rounded-full bg-fuchsia-500 opacity-45 animate-ping"></span>
+              <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-fuchsia-500 border-2 border-violet-950 shadow-[0_0_10px_rgba(217,70,239,0.8)] text-white text-xs font-bold">我</div>
+            </div>
+            `;
 
     const userIcon = L.divIcon({
       html: userIconHtml,
@@ -166,21 +174,37 @@ export default function MapContainer({
               </div>
             </div>
             `
-          : `
-            <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
-              ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-fuchsia-500/40 animate-pulse"></span>' : ''}
-              <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
-                isSelected 
-                  ? 'w-9 h-9 bg-linear-to-br from-fuchsia-500 to-violet-600 border-fuchsia-200 scale-110 shadow-[0_0_12px_rgba(217,70,239,0.7)]' 
-                  : 'w-8 h-8 bg-slate-900 border-indigo-900 hover:scale-105 shadow-[0_0_5px_rgba(139,92,246,0.2)]'
-              }">
-                🍹
+          : isCoffee
+            ? `
+              <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
+                ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-amber-400/30 animate-pulse"></span>' : ''}
+                <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
+                  isSelected 
+                    ? 'w-9 h-9 bg-linear-to-br from-amber-500 to-yellow-500 border-amber-100 scale-110 shadow-amber-200' 
+                    : 'w-8 h-8 bg-white border-amber-200 hover:scale-105'
+                }">
+                  ☕
+                </div>
+                <div class="absolute -bottom-5 bg-amber-950/90 text-white text-[8px] font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-amber-800 shadow shadow-black">
+                  ${shop.distance}m
+                </div>
               </div>
-              <div class="absolute -bottom-5 bg-indigo-950/95 text-fuchsia-300 text-[8px] font-mono font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-indigo-800 shadow shadow-black">
-                ${shop.distance}m
+              `
+            : `
+              <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
+                ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-fuchsia-500/40 animate-pulse"></span>' : ''}
+                <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
+                  isSelected 
+                    ? 'w-9 h-9 bg-linear-to-br from-fuchsia-500 to-violet-600 border-fuchsia-200 scale-110 shadow-[0_0_12px_rgba(217,70,239,0.7)]' 
+                    : 'w-8 h-8 bg-slate-900 border-indigo-900 hover:scale-105 shadow-[0_0_5px_rgba(139,92,246,0.2)]'
+                }">
+                  🍹
+                </div>
+                <div class="absolute -bottom-5 bg-indigo-950/95 text-fuchsia-300 text-[8px] font-mono font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-indigo-800 shadow shadow-black">
+                  ${shop.distance}m
+                </div>
               </div>
-            </div>
-            `;
+              `;
 
       const markerIcon = L.divIcon({
         html: iconHtml,
@@ -189,13 +213,14 @@ export default function MapContainer({
         iconAnchor: [20, 20]
       });
 
+      const isLightBg = isBoba || isMatcha || isCoffee;
       const shopMarker = L.marker([shop.lat, shop.lng], { icon: markerIcon })
         .bindPopup(`
           <div style="font-family: sans-serif; padding: 2px;">
-            <strong style="font-size: 13px; color: ${isBoba ? '#4c0519' : '#ffffff'};">${shop.name}</strong><br/>
-            <span style="font-size: 11px; color: #64748b;">⭐ ${shop.rating} (${shop.reviewsCount}人评)</span><br/>
-            <span style="font-size: 11px; font-weight: bold; color: ${isBoba ? '#b45309' : '#f472b6'};">招牌: ${shop.signature}</span><br/>
-            <span style="font-size: 11px; color: #475569;">价格: ${shop.priceRange} | ${shop.hours}</span>
+            <strong style="font-size: 13px; color: ${isBoba ? '#4c0519' : isMatcha ? '#064e3b' : isCoffee ? '#451a03' : '#ffffff'};">${shop.name}</strong><br/>
+            <span style="font-size: 11px; color: ${isLightBg ? '#475569' : '#64748b'};">⭐ ${shop.rating} (${shop.reviewsCount}人评)</span><br/>
+            <span style="font-size: 11px; font-weight: bold; color: ${isBoba ? '#b45309' : isMatcha ? '#047857' : isCoffee ? '#d97706' : '#f472b6'};">招牌: ${shop.signature}</span><br/>
+            <span style="font-size: 11px; color: ${isLightBg ? '#1e293b' : '#a5b4fc'}; font-weight: 500;">价格: ${shop.priceRange} | ${shop.hours}</span>
           </div>
         `);
 
@@ -215,7 +240,7 @@ export default function MapContainer({
       ];
 
       const polyline = L.polyline(pathPoints, {
-        color: isMatcha ? '#10b981' : isBoba ? '#ec4899' : '#d946ef',
+        color: isMatcha ? '#10b981' : isBoba ? '#ec4899' : isCoffee ? '#d97706' : '#d946ef',
         weight: 3,
         dashArray: '8, 8',
         opacity: 0.85
@@ -243,7 +268,9 @@ export default function MapContainer({
           ? 'bg-white/95 border-emerald-100 text-emerald-900 shadow-emerald-100/20'
           : isBoba 
             ? 'bg-white/95 border-rose-100 text-rose-900 shadow-rose-100/20' 
-            : 'bg-slate-950/95 border-indigo-950 text-indigo-300 shadow-[0_4px_20px_rgba(0,0,0,0.5)]'
+            : isCoffee
+              ? 'bg-white/95 border-amber-100 text-amber-900 shadow-amber-100/20'
+              : 'bg-slate-950/95 border-indigo-950 text-indigo-300 shadow-[0_4px_20px_rgba(0,0,0,0.5)]'
       }`}>
         <div className="flex items-center gap-1.5">
           <Sparkles className="w-3.5 h-3.5 shrink-0 animate-pulse text-amber-500" />
@@ -256,7 +283,9 @@ export default function MapContainer({
               ? 'bg-emerald-50 border-emerald-200 hover:bg-emerald-100 text-emerald-700'
               : isBoba 
                 ? 'bg-rose-50 border-rose-200 hover:bg-rose-100 text-rose-700' 
-                : 'bg-indigo-950 border-indigo-800 hover:bg-indigo-900 text-indigo-100'
+                : isCoffee
+                  ? 'bg-amber-50 border-amber-200 hover:bg-amber-100 text-amber-700'
+                  : 'bg-indigo-950 border-indigo-800 hover:bg-indigo-900 text-indigo-100'
           }`}
         >
           <Navigation className="w-2.5 h-2.5 rotate-45" />
@@ -269,7 +298,13 @@ export default function MapContainer({
         ref={mapContainerRef} 
         id="leaflet-map-element" 
         className={`w-full h-96 md:h-100 rounded-3xl border shadow-inner ${
-          isBoba ? 'border-rose-100' : 'border-indigo-950'
+          isMatcha
+            ? 'border-emerald-100'
+            : isBoba
+              ? 'border-rose-100'
+              : isCoffee
+                ? 'border-amber-100'
+                : 'border-indigo-950'
         }`}
       />
     </div>

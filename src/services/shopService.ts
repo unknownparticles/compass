@@ -21,6 +21,39 @@ const TEA_BRANDS_DATABASE: { [key: string]: { signature: string; tags: string[] 
   '阿水大杯茶': { signature: '黑糖波霸奶茶 (Brown Sugar Boba)', tags: ['经典奶茶', '手作茶饮', '高性价比'] }
 };
 
+// 常见精品咖啡馆品牌招牌与标签映射库
+const COFFEE_BRANDS_DATABASE: { [key: string]: { signature: string; tags: string[] } } = {
+  '星巴克': { signature: '燕麦拿铁 (Oat Milk Latte)', tags: ['精品咖啡', '拿铁', '燕麦奶'] },
+  'starbucks': { signature: '燕麦拿铁 (Oat Milk Latte)', tags: ['精品咖啡', '拿铁', '燕麦奶'] },
+  '瑞幸': { signature: '生椰拿铁 (Raw Coconut Latte)', tags: ['生椰咖啡', '平价精品', '拿铁'] },
+  'luckin': { signature: '生椰拿铁 (Raw Coconut Latte)', tags: ['生椰咖啡', '平价精品', '拿铁'] },
+  'Manner': { signature: '桂花燕麦拿铁 (Osmanthus Oat Latte)', tags: ['精品手冲', '小批量烘焙', '拿铁'] },
+  'manner': { signature: '桂花燕麦拿铁 (Osmanthus Oat Latte)', tags: ['精品手冲', '小批量烘焙', '拿铁'] },
+  '库迪': { signature: '潘帕斯生椰拿铁 (Pampas Coconut Latte)', tags: ['平价咖啡', '生椰', '拿铁'] },
+  '库迪咖啡': { signature: '潘帕斯生椰拿铁 (Pampas Coconut Latte)', tags: ['平价咖啡', '生椰', '拿铁'] },
+  'cudi': { signature: '潘帕斯生椰拿铁 (Pampas Coconut Latte)', tags: ['平价咖啡', '生椰', '拿铁'] },
+  'Arabica': { signature: '招牌黑咖啡 (Signature Black Coffee)', tags: ['精品咖啡', '单品豆', '日系'] },
+  'arabica': { signature: '招牌黑咖啡 (Signature Black Coffee)', tags: ['精品咖啡', '单品豆', '日系'] },
+  'Tim Hortons': { signature: '双倍浓缩冰美式 (Double Espresso Iced Americano)', tags: ['加拿大咖啡', '平价快饮'] },
+  'tim hortons': { signature: '双倍浓缩冰美式 (Double Espresso Iced Americano)', tags: ['加拿大咖啡', '平价快饮'] },
+  'M Stand': { signature: '香草糖浆手冲 (Vanilla Syrup Pour Over)', tags: ['精品咖啡', '工业风', '手冲'] },
+  'm stand': { signature: '香草糖浆手冲 (Vanilla Syrup Pour Over)', tags: ['精品咖啡', '工业风', '手冲'] },
+  'Seesaw': { signature: 'Dirty 浓缩牛奶 (Seesaw Dirty)', tags: ['精品咖啡', 'Dirty', '单品豆'] },
+  'seesaw': { signature: 'Dirty 浓缩牛奶 (Seesaw Dirty)', tags: ['精品咖啡', 'Dirty', '单品豆'] },
+  'Costa': { signature: '摩卡冰咖啡 (Iced Mocha)', tags: ['英式咖啡', '摩卡', '拿铁'] },
+  'costa': { signature: '摩卡冰咖啡 (Iced Mocha)', tags: ['英式咖啡', '摩卡', '拿铁'] },
+  '皮爷': { signature: '极深烘手冲 (Dark Roast Pour Over)', tags: ['深烘咖啡', '美式风格', '手冲'] },
+  'Peet': { signature: '极深烘手冲 (Dark Roast Pour Over)', tags: ['深烘咖啡', '美式风格', '手冲'] },
+  'peet': { signature: '极深烘手冲 (Dark Roast Pour Over)', tags: ['深烘咖啡', '美式风格', '手冲'] },
+};
+
+// 默认咖啡馆备用招牌菜品
+const DEFAULT_COFFEE_SIGNATURES = [
+  '招牌手冲单品咖啡 (Signature Pour Over)',
+  '拿铁咖啡 (Latte)',
+  '冰美式 (Iced Americano)'
+];
+
 // 常见酒吧招牌特调与标签映射库
 const BAR_BRANDS_DATABASE: { [key: string]: { signature: string; tags: string[] } } = {
   'COMMUNE': { signature: '幻影极光双倍IPA精酿 (Aurora IPA)', tags: ['幻音精酿', '美式西餐', '自选啤酒'] },
@@ -87,7 +120,7 @@ const OSM_BAR_KEYWORDS = [
 function processAndDecorateShop(
   id: string,
   name: string,
-  type: 'milktea' | 'bar',
+  type: CompassMode,
   lat: number,
   lng: number,
   address: string,
@@ -98,21 +131,6 @@ function processAndDecorateShop(
 ): Shop {
   const nameLower = name.toLowerCase();
   
-  // 抹茶判定：
-  // 1. 店名直接包含“抹茶”或“matcha”
-  const isMatchaName = name.includes('抹茶') || nameLower.includes('matcha');
-  
-  // 2. 属于确实在售抹茶的连锁大牌
-  let matchedBrandKey = '';
-  for (const key in REAL_MATCHA_BRANDS_DATABASE) {
-    if (nameLower.includes(key)) {
-      matchedBrandKey = key;
-      break;
-    }
-  }
-  const isMatchaBrand = matchedBrandKey !== '';
-  const isMatchaShop = isMatchaName || isMatchaBrand;
-
   let signature = '-'; // 默认无推荐招牌，写 '-' 占位，绝不自己编造数据！
   let tags: string[] = [];
 
@@ -130,6 +148,32 @@ function processAndDecorateShop(
     if (!brandMatched) {
       tags = ['茶饮', '下午茶'];
     }
+  } else if (type === 'coffee') {
+    let brandMatched = false;
+    for (const key in COFFEE_BRANDS_DATABASE) {
+      if (name.toLowerCase().includes(key.toLowerCase())) {
+        signature = COFFEE_BRANDS_DATABASE[key].signature;
+        tags = [...COFFEE_BRANDS_DATABASE[key].tags];
+        brandMatched = true;
+        break;
+      }
+    }
+    if (!brandMatched) {
+      tags = ['咖啡馆', '精品咖啡'];
+    }
+  } else if (type === 'matcha') {
+    let brandMatched = false;
+    for (const key in REAL_MATCHA_BRANDS_DATABASE) {
+      if (nameLower.includes(key)) {
+        signature = REAL_MATCHA_BRANDS_DATABASE[key].signature;
+        tags = [...REAL_MATCHA_BRANDS_DATABASE[key].tags];
+        brandMatched = true;
+        break;
+      }
+    }
+    if (!brandMatched) {
+      tags = ['抹茶专门店', '抹茶', 'Matcha', '日式甜点'];
+    }
   } else {
     let brandMatched = false;
     for (const key in BAR_BRANDS_DATABASE) {
@@ -145,24 +189,13 @@ function processAndDecorateShop(
     }
   }
 
-  // 抹茶风味修饰逻辑：如果确认是抹茶店，重写为绝对真实的抹茶大牌招牌，否则保持为 '-' 占位
-  if (isMatchaShop) {
-    if (isMatchaBrand) {
-      signature = REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].signature;
-      tags = [...tags, ...REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].tags, '抹茶', 'Matcha'];
-    } else {
-      signature = '-';
-      tags.push('抹茶专门店', '抹茶', 'Matcha');
-    }
-  }
-
-  const hours = type === 'milktea' ? '09:30 - 22:00' : '18:00 - 02:00';
+  const hours = type === 'bar' ? '18:00 - 02:00' : type === 'coffee' ? '08:00 - 21:00' : type === 'matcha' ? '10:00 - 22:00' : '09:30 - 22:00';
 
   let priceRange = '';
   if (priceNum && priceNum > 0) {
     priceRange = `¥${Math.round(priceNum * 0.8)}-${Math.round(priceNum * 1.2)}`;
   } else {
-    priceRange = type === 'milktea' ? '¥15-30' : '¥60-150';
+    priceRange = type === 'milktea' ? '¥15-30' : type === 'coffee' ? '¥25-50' : type === 'matcha' ? '¥20-40' : '¥60-150';
   }
 
   const reviewsCount = Math.floor(30 + (Math.abs(hashString(id + '_reviews')) % 420));
@@ -200,9 +233,9 @@ function hashString(str: string): number {
 async function fetchFromOSM(lat: number, lng: number, mode: CompassMode, radius = 3000): Promise<Shop[]> {
   const isMatchaMode = mode === 'matcha';
   
-  // 抹茶模式下：除了查询名字带“抹茶/Matcha”的店，还将确凿有抹茶的连锁品牌合并放入检索中，过滤并杜绝没有抹茶的其他品牌
+  // 抹茶模式下：仅拉取名字带“抹茶/Matcha”的专门店
   const nameSelector = isMatchaMode 
-    ? '[name~"抹茶|Matcha|matcha|喜茶|奈雪|瑞幸|星巴克|一点点|Manner|Coco|辻利|Tsujiri|luckin|starbucks",i]' 
+    ? '[name~"抹茶|Matcha|matcha",i]' 
     : '';
 
   const overpassQuery = `
@@ -257,27 +290,42 @@ async function fetchFromOSM(lat: number, lng: number, mode: CompassMode, radius 
     if (isExclusion) return;
 
     // =========================================================================
-    // 🔍 OSM 细粒度过滤器 (杜绝快餐、面馆、中餐污染奶茶/酒吧列表)
+    // OSM 分类逻辑：以 cuisine 标签为主要判断依据（实测成都春熙路结果）
+    //   cuisine=coffee_shop -> 咖啡馆  |  bubble_tea/tea/teahouse -> 奶茶
     // -------------------------------------------------------------------------
-    let type: 'milktea' | 'bar' | null = null;
-
-    // 1. 酒馆判定：被标记为 bar/pub，或者店名含有“酒”（如XX的酒、酒馆、酒吧、精酿、beer 等）
+    const cuisine = (tags.cuisine || '').toLowerCase();
     const isExplicitBar = amenity === 'bar' || amenity === 'pub';
-    const isNameBar = nameLower.includes('酒') || 
-                      OSM_BAR_KEYWORDS.some(kw => nameLower.includes(kw));
-    
-    // 2. 奶茶/咖啡判定：被标记为 cafe，或者店名含有“茶”（如XX的茶、茶铺、奶茶、咖啡、sweet 等）
     const isExplicitCafe = amenity === 'cafe';
-    const isNameMilktea = nameLower.includes('茶') || 
-                          nameLower.includes('咖啡') ||
-                          OSM_MILKTEA_KEYWORDS.some(kw => nameLower.includes(kw));
 
-    if (isExplicitBar || isNameBar) {
+    const isNameBar = OSM_BAR_KEYWORDS.some(kw => nameLower.includes(kw)) ||
+                      (nameLower.includes('\u9152') && !nameLower.includes('\u9152\u5e97'));
+
+    const isCuisineCoffee = cuisine.includes('coffee');
+    const isNameCoffee = nameLower.includes('\u548f\u5561') || nameLower.includes('coffee') ||
+                         nameLower.includes('caf\u00e9') || nameLower.includes('espresso') ||
+                         ['\u661f\u5df4\u514b', '\u745e\u5e78', 'luckin', 'starbucks', 'manner', 'seesaw',
+                          '\u5e93\u8fea', 'cudi', 'arabica', 'tim hortons', 'm stand', 'peet',
+                          '\u76ae\u7237', 'costa', '\u632a\u74e6', 'nowwa', '\u592a\u5e73\u6d0b\u548f\u5561'].some(b => nameLower.includes(b));
+
+    const isCuisineMilktea = cuisine.includes('bubble_tea') || cuisine.includes('tea') ||
+                              cuisine.includes('ice_cream');
+    const isNameMilktea = (nameLower.includes('\u8336') ||
+                           OSM_MILKTEA_KEYWORDS.some(kw => nameLower.includes(kw))) &&
+                          !isNameCoffee && !isNameBar;
+
+    let type: CompassMode | null = null;
+
+    if (isMatchaMode) {
+      type = 'matcha';
+    } else if (isExplicitBar || isNameBar) {
       type = 'bar';
-    } else if (isExplicitCafe || isNameMilktea) {
+    } else if (isCuisineCoffee || isNameCoffee) {
+      type = 'coffee';
+    } else if (isCuisineMilktea || isNameMilktea) {
       type = 'milktea';
+    } else if (isExplicitCafe) {
+      return;
     } else {
-      // 既不带酒，也不带茶/咖啡/甜品，过滤掉
       return;
     }
     // =========================================================================
@@ -322,11 +370,13 @@ async function fetchFromAmap(lat: number, lng: number, mode: CompassMode, amapKe
   let keywords = '';
 
   if (isMatchaMode) {
-    // 抹茶模式下：keywords 加上 '抹茶' 和 知名在售抹茶的茶饮大牌，确保搜寻出真实丰富店铺
+    // 抹茶模式下：仅使用 '抹茶' 关键字
     types = '050202|050500|050800|050400|050100';
-    keywords = '抹茶|喜茶|奈雪|瑞幸|星巴克|一点点|Manner';
+    keywords = '抹茶';
+  } else if (mode === 'coffee') {
+    types = '050500|050501|050502';
   } else if (mode === 'milktea') {
-    types = '050202|050500';
+    types = '050202|050200';
   } else {
     types = '050402|050400';
   }
@@ -360,16 +410,22 @@ async function fetchFromAmap(lat: number, lng: number, mode: CompassMode, amapKe
     if (isNaN(shopLng) || isNaN(shopLat)) return;
 
     const typecode = poi.typecode || '';
-    let type: 'milktea' | 'bar' = 'milktea';
-    if (typecode === '050402' || poi.type?.includes('酒吧') || poi.type?.includes('酒馆') || name.includes('酒吧') || name.includes('酒馆')) {
+    let type: CompassMode = 'milktea';
+    if (isMatchaMode) {
+      type = 'matcha';
+    } else if (mode === 'coffee') {
+      type = 'coffee';
+    } else if (typecode === '050402' || poi.type?.includes('酒吧') || poi.type?.includes('酒馆') || name.includes('酒吧') || name.includes('酒馆')) {
       type = 'bar';
+    } else if (typecode === '050500' || poi.type?.includes('咖啡') || name.includes('咖啡') || name.includes('Coffee')) {
+      type = 'coffee';
     }
 
     const ext = poi.biz_ext || {};
     const rating = ext.rating ? parseFloat(ext.rating) : (4.0 + (Math.abs(hashString(poi.id)) % 10) * 0.1);
     const priceNum = ext.cost ? parseFloat(ext.cost) : null;
 
-    const hasMatchaInject = (Math.abs(hashString(poi.id + '_matcha')) % 10) < 3.5;
+    const hasMatchaInject = false;
 
     const address = poi.address && poi.address.length > 0 ? poi.address : `导航至：距离较近的 ${name}`;
 
@@ -411,63 +467,25 @@ export async function fetchShops(
     });
 
     if (matchedRegion) {
-      // 计算距离并缓存，同时对真正拥有抹茶大牌或者真实在售抹茶的离线店进行抹茶风味处理
-      const sortedShops = matchedRegion.shops.map((shop) => {
+      // 1.1 先根据当前 mode 过滤出该类别的店铺
+      const filteredShops = matchedRegion.shops.filter((shop) => shop.type === mode);
+
+      // 1.2 计算距离并组装 Shop 对象
+      const sortedShops = filteredShops.map((shop) => {
         const dist = getDistance(lat, lng, shop.lat, shop.lng);
         
-        // 绝对真实的抹茶判定逻辑：
-        // 1. 店名或地址本来就含“抹茶/matcha”
-        const nameLower = shop.name.toLowerCase();
-        const isMatchaName = shop.name.includes('抹茶') || nameLower.includes('matcha');
-        
-        // 2. 属于确实在售抹茶的连锁大牌
-        let matchedBrandKey = '';
-        for (const key in REAL_MATCHA_BRANDS_DATABASE) {
-          if (nameLower.includes(key)) {
-            matchedBrandKey = key;
-            break;
-          }
-        }
-        const isMatchaBrand = matchedBrandKey !== '';
-        
-        // 3. 原始数据中的推荐菜或者标签原本就包含“抹茶/matcha”（保留其原始推荐菜，绝不覆盖）
-        const isOriginalMatcha = shop.signature.includes('抹茶') || 
-                                 shop.signature.toLowerCase().includes('matcha') ||
-                                 shop.tags.some(t => t.includes('抹茶') || t.toLowerCase() === 'matcha');
-        
-        const isMatchaShop = isMatchaName || isMatchaBrand || isOriginalMatcha;
-
-        let signature = shop.signature;
-        let tags = [...shop.tags];
-
-        if (isMatchaShop) {
-          if (isMatchaBrand) {
-            signature = REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].signature;
-            tags = [...tags, ...REAL_MATCHA_BRANDS_DATABASE[matchedBrandKey].tags, '抹茶', 'Matcha'];
-          } else if (isOriginalMatcha) {
-            // 原汁原味保留真实被爬到的抹茶菜，绝不覆盖
-            tags.push('抹茶', 'Matcha');
-          } else {
-            // 没有真实的推荐菜时，直接设为 '-' 占位，绝不自己编造数据！
-            signature = '-';
-            tags.push('抹茶专门店', '抹茶', 'Matcha');
-          }
-        }
-
         return {
           ...shop,
           distance: Math.round(dist),
           bearing: 0,
-          relativeAngle: 0,
-          signature,
-          tags: Array.from(new Set(tags))
+          relativeAngle: 0
         };
       }) as Shop[];
 
-      // 按距离最近升序排列
+      // 1.3 按距离最近升序排列
       sortedShops.sort((a, b) => a.distance - b.distance);
 
-      // 动态分流截断：保底展示最近 50 家；若 5公里内商家极多，最多展示 5公里内前 80 家
+      // 1.4 动态分流截断：保底展示最近 50 家；若 5公里内商家极多，最多展示 5公里内前 80 家
       let finalShops: Shop[] = [];
       const shopsWithin5Km = sortedShops.filter(s => s.distance <= 5000);
       

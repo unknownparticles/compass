@@ -72,7 +72,8 @@ export default function CompassView({
 
   const isBoba = mode === 'milktea';
   const isMatcha = mode === 'matcha';
-  const isLight = isBoba || isMatcha;
+  const isCoffee = mode === 'coffee';
+  const isLight = isBoba || isMatcha || isCoffee;
 
   return (
     <div className="flex flex-col items-center justify-center w-full max-w-md mx-auto px-4 py-6">
@@ -85,7 +86,9 @@ export default function CompassView({
             ? 'bg-emerald-50/80 border-emerald-100 text-emerald-700'
             : isBoba 
               ? 'bg-rose-50/80 border-rose-100 text-rose-700' 
-              : 'bg-indigo-950/40 border-indigo-900/60 text-indigo-300'
+              : isCoffee
+                ? 'bg-amber-50/80 border-amber-100 text-amber-800'
+                : 'bg-indigo-950/40 border-indigo-900/60 text-indigo-300'
       }`}>
         <div className="flex items-center gap-2">
           <span className={`w-2.5 h-2.5 rounded-full ${
@@ -104,7 +107,9 @@ export default function CompassView({
                 ? 'bg-emerald-100 hover:bg-emerald-200 border-emerald-200 text-emerald-800'
                 : isBoba 
                   ? 'bg-rose-100 hover:bg-rose-200 border-rose-200 text-rose-800' 
-                  : 'bg-indigo-800 hover:bg-indigo-700 border-indigo-700 text-indigo-100'
+                  : isCoffee
+                    ? 'bg-amber-100 hover:bg-amber-200 border-amber-200 text-amber-800'
+                    : 'bg-indigo-800 hover:bg-indigo-700 border-indigo-700 text-indigo-100'
             }`}
           >
             <RefreshCw className="w-3 h-3" />
@@ -125,7 +130,9 @@ export default function CompassView({
               ? 'bg-emerald-50/40 border-emerald-100/60 text-emerald-950'
               : isBoba 
                 ? 'bg-orange-50/60 border-orange-100/80 text-rose-950' 
-                : 'bg-indigo-950/20 border-indigo-950 text-indigo-300'
+                : isCoffee
+                  ? 'bg-amber-50/40 border-amber-100/60 text-amber-955 text-amber-950'
+                  : 'bg-indigo-950/20 border-indigo-950 text-indigo-300'
           }`}
         >
           <div className="flex items-start gap-2.5">
@@ -176,6 +183,14 @@ export default function CompassView({
               exit={{ opacity: 0 }}
               className="absolute inset-0 rounded-full bg-linear-to-b from-rose-50 to-orange-50/40 -z-10 border-4 border-rose-100 shadow-inner"
             />
+          ) : isCoffee ? (
+            <motion.div 
+              key="coffee-bg"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute inset-0 rounded-full bg-linear-to-b from-amber-50 to-stone-50/40 -z-10 border-4 border-amber-100 shadow-inner"
+            />
           ) : (
             <motion.div 
               key="bar-bg"
@@ -194,24 +209,24 @@ export default function CompassView({
         <motion.div 
           className="absolute inset-2 rounded-full border-2 border-dashed flex items-center justify-center transition-all"
           style={{ 
-            borderColor: isMatcha ? '#a7f3d0' : isBoba ? '#fecdd3' : '#312e81',
+            borderColor: isMatcha ? '#a7f3d0' : isBoba ? '#fecdd3' : isCoffee ? '#fcd34d' : '#312e81',
           }}
           animate={{ rotate: animatedHeading }}
           transition={{ type: 'spring', damping: 25, stiffness: 120 }}
         >
           {/* Cardinal markers (N, E, S, W) */}
           <div className="absolute top-4 font-black text-sm text-center flex flex-col items-center">
-            <span className={isMatcha ? 'text-emerald-600 font-extrabold' : isBoba ? 'text-rose-500' : 'text-fuchsia-400 font-mono tracking-widest drop-shadow-[0_0_5px_rgba(232,121,249,0.5)]'}>N</span>
-            <div className={`w-1 h-2 mt-0.5 rounded-full ${isMatcha ? 'bg-emerald-600' : isBoba ? 'bg-rose-500' : 'bg-fuchsia-400'}`} />
+            <span className={isMatcha ? 'text-emerald-600 font-extrabold' : isBoba ? 'text-rose-500' : isCoffee ? 'text-amber-700 font-extrabold' : 'text-fuchsia-400 font-mono tracking-widest drop-shadow-[0_0_5px_rgba(232,121,249,0.5)]'}>N</span>
+            <div className={`w-1 h-2 mt-0.5 rounded-full ${isMatcha ? 'bg-emerald-600' : isBoba ? 'bg-rose-500' : isCoffee ? 'bg-amber-700' : 'bg-fuchsia-400'}`} />
           </div>
           <div className="absolute right-4 font-black text-sm text-center flex flex-row-reverse items-center gap-1">
-            <span className={isLight ? isMatcha ? 'text-emerald-600' : 'text-rose-400' : 'text-indigo-400 font-mono'}>E</span>
+            <span className={isLight ? isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-455 text-rose-400' : 'text-amber-750 text-amber-700' : 'text-indigo-400 font-mono'}>E</span>
           </div>
           <div className="absolute bottom-4 font-black text-sm text-center flex flex-col-reverse items-center">
-            <span className={isLight ? isMatcha ? 'text-emerald-600' : 'text-rose-400' : 'text-indigo-400 font-mono'}>S</span>
+            <span className={isLight ? isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-400' : 'text-amber-700' : 'text-indigo-400 font-mono'}>S</span>
           </div>
           <div className="absolute left-4 font-black text-sm text-center flex items-center gap-1">
-            <span className={isLight ? isMatcha ? 'text-emerald-600' : 'text-rose-400' : 'text-indigo-400 font-mono'}>W</span>
+            <span className={isLight ? isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-400' : 'text-amber-700' : 'text-indigo-400 font-mono'}>W</span>
           </div>
 
           {/* Subcardinal ticks */}
@@ -222,7 +237,7 @@ export default function CompassView({
               style={{ transform: `rotate(${deg}deg)` }}
             >
               {deg % 90 !== 0 && (
-                <div className={`w-0.5 h-2 mt-1.5 rounded-full ${isMatcha ? 'bg-emerald-200' : isBoba ? 'bg-rose-200' : 'bg-indigo-900/60'}`} />
+                <div className={`w-0.5 h-2 mt-1.5 rounded-full ${isMatcha ? 'bg-emerald-200' : isBoba ? 'bg-rose-200' : isCoffee ? 'bg-amber-200' : 'bg-indigo-900/60'}`} />
               )}
             </div>
           ))}
@@ -234,11 +249,15 @@ export default function CompassView({
             ? 'bg-gradient-to-br from-emerald-100 to-teal-50 border-2 border-emerald-200 text-emerald-600'
             : isBoba 
               ? 'bg-gradient-to-br from-rose-100 to-orange-100 border-2 border-rose-200 text-rose-500' 
-              : 'bg-gradient-to-br from-indigo-950 via-slate-900 to-violet-950 border-2 border-indigo-500 text-fuchsia-400 shadow-[0_0_15px_rgba(139,92,246,0.3)]'
+              : isCoffee
+                ? 'bg-gradient-to-br from-amber-100 to-amber-50 border-2 border-amber-200 text-amber-705 text-amber-700'
+                : 'bg-gradient-to-br from-indigo-950 via-slate-900 to-violet-950 border-2 border-indigo-500 text-fuchsia-400 shadow-[0_0_15px_rgba(139,92,246,0.3)]'
         }`}>
           {isMatcha ? (
             <span className="text-4xl animate-pulse select-none">🍵</span>
           ) : isBoba ? (
+            <span className="text-4xl animate-pulse select-none">🧋</span>
+          ) : isCoffee ? (
             <Coffee className="w-10 h-10 animate-bounce" style={{ animationDuration: '3s' }} />
           ) : (
             <Beer className="w-10 h-10 animate-pulse" style={{ animationDuration: '2s' }} />
@@ -261,12 +280,16 @@ export default function CompassView({
                     ? 'bg-emerald-500 text-white border-emerald-400 shadow-xs'
                     : isBoba 
                       ? 'bg-rose-400 text-white border-rose-300' 
-                      : 'bg-fuchsia-500 text-white border-fuchsia-400 shadow-[0_0_10px_rgba(244,63,94,0.4)]'
+                      : isCoffee
+                        ? 'bg-amber-600 text-white border-amber-500 shadow-xs'
+                        : 'bg-fuchsia-500 text-white border-fuchsia-400 shadow-[0_0_10px_rgba(244,63,94,0.4)]'
                 }`}
               >
                 {isMatcha ? (
                   <span className="text-xs">🍵</span>
                 ) : isBoba ? (
+                  <span className="text-xs">🧋</span>
+                ) : isCoffee ? (
                   <Coffee className="w-4 h-4" />
                 ) : (
                   <Beer className="w-4 h-4" />
@@ -280,10 +303,12 @@ export default function CompassView({
                   ? 'bg-gradient-to-b from-emerald-500 to-emerald-300'
                   : isBoba 
                     ? 'bg-gradient-to-b from-rose-500 to-rose-300' 
-                    : 'bg-gradient-to-b from-fuchsia-500 to-violet-700 shadow-[0_0_8px_rgba(217,70,239,0.5)]'
+                    : isCoffee
+                      ? 'bg-gradient-to-b from-amber-600 to-amber-300 shadow-xs'
+                      : 'bg-gradient-to-b from-fuchsia-500 to-violet-700 shadow-[0_0_8px_rgba(217,70,239,0.5)]'
               }`} />
               <div className={`w-0 h-0 border-l-[6px] border-r-[6px] border-t-[10px] border-l-transparent border-r-transparent ${
-                isMatcha ? 'border-t-emerald-300' : isBoba ? 'border-t-rose-300' : 'border-t-violet-700'
+                isMatcha ? 'border-t-emerald-300' : isBoba ? 'border-t-rose-300' : isCoffee ? 'border-t-amber-300' : 'border-t-violet-700'
               }`} />
             </div>
           </motion.div>
@@ -295,10 +320,10 @@ export default function CompassView({
           >
             <div className="relative flex flex-col items-center -top-3">
               <div className={`w-1 h-12 rounded-full ${
-                isMatcha ? 'bg-emerald-300' : isBoba ? 'bg-rose-300' : 'bg-indigo-800'
+                isMatcha ? 'bg-emerald-300' : isBoba ? 'bg-rose-300' : isCoffee ? 'bg-amber-300' : 'bg-indigo-800'
               }`} />
               <ArrowUp className={`w-4 h-4 -mt-1 ${
-                isMatcha ? 'text-emerald-400' : isBoba ? 'text-rose-400' : 'text-indigo-600'
+                isMatcha ? 'text-emerald-400' : isBoba ? 'text-rose-400' : isCoffee ? 'text-amber-500' : 'text-indigo-600'
               }`} />
             </div>
           </motion.div>
@@ -319,7 +344,9 @@ export default function CompassView({
                   ? 'bg-linear-to-br from-emerald-50/90 to-teal-50/70 border-emerald-100 shadow-xs'
                   : isBoba 
                     ? 'bg-linear-to-br from-rose-50/90 to-orange-50/70 border-rose-100 shadow-xs' 
-                    : 'bg-slate-900/80 border-indigo-900/60 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
+                    : isCoffee
+                      ? 'bg-linear-to-br from-amber-50/90 to-amber-50/40 border-amber-100 shadow-xs'
+                      : 'bg-slate-900/80 border-indigo-900/60 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
               }`}
             >
               <button
@@ -330,12 +357,16 @@ export default function CompassView({
                       ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
                       : isBoba
                         ? 'bg-rose-500 hover:bg-rose-600 text-white shadow-xs'
-                        : 'bg-fuchsia-600 hover:bg-fuchsia-700 text-white'
+                        : isCoffee
+                          ? 'bg-amber-600 hover:bg-amber-700 text-white shadow-xs'
+                          : 'bg-fuchsia-600 hover:bg-fuchsia-700 text-white'
                     : isMatcha
                       ? 'bg-emerald-500/90 hover:bg-emerald-600 text-white'
                       : isBoba
                         ? 'bg-orange-500/90 hover:bg-orange-600 text-white shadow-xs'
-                        : 'bg-indigo-600/90 hover:bg-indigo-700 text-white'
+                        : isCoffee
+                          ? 'bg-amber-500/90 hover:bg-amber-600 text-white shadow-xs'
+                          : 'bg-indigo-600/90 hover:bg-indigo-700 text-white'
                 }`}
                 title={isLocked ? '点击切换为自动寻向' : '点击锁定当前店铺'}
               >
@@ -357,10 +388,12 @@ export default function CompassView({
                   isMatcha
                     ? 'bg-emerald-100 text-emerald-700'
                     : isBoba 
-                      ? 'bg-orange-100 text-orange-700' 
-                      : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                      ? 'bg-rose-100 text-rose-700' 
+                      : isCoffee
+                        ? 'bg-amber-100 text-amber-800'
+                        : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
                 }`}>
-                  最近的{isMatcha ? '抹茶好物' : isBoba ? '奶茶店' : '酒吧/酒馆'}
+                  最近的{isMatcha ? '抹茶好物' : isBoba ? '奶茶店' : isCoffee ? '咖啡馆' : '酒吧/酒馆'}
                 </span>
                 <h3 className={`text-lg font-black mt-1 ${isLight ? 'text-neutral-900' : 'text-white'}`}>
                   {selectedShop.name}
@@ -369,28 +402,28 @@ export default function CompassView({
                 {/* Distance */}
                 <div className="flex items-center gap-4 mt-2 mb-1">
                   <div className="flex flex-col items-center">
-                    <span className={`text-xs ${isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : 'text-indigo-400'}`}>距离</span>
-                    <span className={`text-xl font-black ${isMatcha ? 'text-emerald-800' : isBoba ? 'text-rose-900' : 'text-fuchsia-400 font-mono'}`}>
+                    <span className={`text-xs ${isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : isCoffee ? 'text-amber-700' : 'text-indigo-400'}`}>距离</span>
+                    <span className={`text-xl font-black ${isMatcha ? 'text-emerald-800' : isBoba ? 'text-rose-900' : isCoffee ? 'text-amber-800' : 'text-fuchsia-400 font-mono'}`}>
                       {selectedShop.distance}米
                     </span>
                   </div>
                   <div className={`w-px h-8 ${isLight ? 'bg-neutral-200' : 'bg-indigo-900/40'}`} />
                   <div className="flex flex-col items-center">
-                    <span className={`text-xs ${isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : 'text-indigo-400'}`}>绝对方位</span>
-                    <span className={`text-xl font-black ${isMatcha ? 'text-emerald-800' : isBoba ? 'text-rose-900' : 'text-fuchsia-400 font-mono'}`}>
+                    <span className={`text-xs ${isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : isCoffee ? 'text-amber-700' : 'text-indigo-400'}`}>绝对方位</span>
+                    <span className={`text-xl font-black ${isMatcha ? 'text-emerald-800' : isBoba ? 'text-rose-900' : isCoffee ? 'text-amber-800' : 'text-fuchsia-400 font-mono'}`}>
                       {selectedShop.bearing}° {getCardinalDirection(selectedShop.bearing)}
                     </span>
                   </div>
                   <div className={`w-px h-8 ${isLight ? 'bg-neutral-200' : 'bg-indigo-900/40'}`} />
                   <div className="flex flex-col items-center">
-                    <span className={`text-xs ${isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : 'text-indigo-400'}`}>相对夹角</span>
-                    <span className={`text-xl font-black ${isMatcha ? 'text-emerald-800' : isBoba ? 'text-rose-900' : 'text-fuchsia-400 font-mono'}`}>
+                    <span className={`text-xs ${isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : isCoffee ? 'text-amber-700' : 'text-indigo-400'}`}>相对夹角</span>
+                    <span className={`text-xl font-black ${isMatcha ? 'text-emerald-800' : isBoba ? 'text-rose-900' : isCoffee ? 'text-amber-800' : 'text-fuchsia-400 font-mono'}`}>
                       {relativeAngle}°
                     </span>
                   </div>
                 </div>
 
-                <p className={`text-xs ${isMatcha ? 'text-emerald-800/80' : isBoba ? 'text-rose-700/80' : 'text-indigo-300/80'} mt-1 flex items-center justify-center gap-1`}>
+                <p className={`text-xs ${isMatcha ? 'text-emerald-800/80' : isBoba ? 'text-rose-700/80' : isCoffee ? 'text-amber-850/80' : 'text-indigo-300/80'} mt-1 flex items-center justify-center gap-1`}>
                   <MapPin className="w-3.5 h-3.5 shrink-0" />
                   <span>
                     需要向 <strong>{getCardinalDirection(relativeAngle)}</strong> 步行约{' '}
@@ -424,13 +457,15 @@ export default function CompassView({
           ? 'bg-white border-emerald-100 shadow-xs'
           : isBoba 
             ? 'bg-white border-rose-100 shadow-xs' 
-            : 'bg-slate-950/80 border-indigo-950/80 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
+            : isCoffee
+              ? 'bg-white border-amber-100 shadow-xs'
+              : 'bg-slate-950/80 border-indigo-950/80 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
       }`}>
         <div className="flex items-center justify-between mb-3">
-          <span className={`text-xs font-bold ${isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-900' : 'text-indigo-300'}`}>
+          <span className={`text-xs font-bold ${isMatcha ? 'text-emerald-900' : isBoba ? 'text-rose-900' : isCoffee ? 'text-amber-900' : 'text-indigo-300'}`}>
             📱 当前面朝方向 (Heading)
           </span>
-          <span className={`text-xs font-mono font-bold ${isMatcha ? 'text-emerald-600 bg-emerald-50' : isBoba ? 'text-rose-600 bg-rose-50' : 'text-fuchsia-400 bg-indigo-950/60'} px-2 py-0.5 rounded-lg border border-transparent`}>
+          <span className={`text-xs font-mono font-bold ${isMatcha ? 'text-emerald-600 bg-emerald-50' : isBoba ? 'text-rose-600 bg-rose-50' : isCoffee ? 'text-amber-700 bg-amber-50' : 'text-fuchsia-400 bg-indigo-950/60'} px-2 py-0.5 rounded-lg border border-transparent`}>
             {userHeading}° {getCardinalDirection(userHeading)}
           </span>
         </div>
@@ -446,7 +481,9 @@ export default function CompassView({
               ? 'bg-emerald-100 accent-emerald-500'
               : isBoba 
                 ? 'bg-rose-100 accent-rose-500' 
-                : 'bg-indigo-950 accent-fuchsia-500'
+                : isCoffee
+                  ? 'bg-amber-100 accent-amber-600'
+                  : 'bg-indigo-950 accent-fuchsia-500'
           }`}
         />
 
@@ -466,12 +503,16 @@ export default function CompassView({
                     ? 'bg-emerald-500 border-emerald-500 text-white shadow-xs'
                     : isBoba 
                       ? 'bg-rose-500 border-rose-500 text-white shadow-xs' 
-                      : 'bg-fuchsia-500 border-fuchsia-500 text-white'
+                      : isCoffee
+                        ? 'bg-amber-600 border-amber-600 text-white shadow-xs'
+                        : 'bg-fuchsia-500 border-fuchsia-500 text-white'
                   : isMatcha
                     ? 'bg-emerald-50/50 border-emerald-100/60 hover:bg-emerald-50 text-emerald-750'
                     : isBoba 
                       ? 'bg-rose-50/50 border-rose-100/60 hover:bg-rose-50 text-rose-700' 
-                      : 'bg-indigo-950/40 border-indigo-900/40 hover:bg-indigo-900/40 text-indigo-300'
+                      : isCoffee
+                        ? 'bg-amber-50/50 border-amber-100/60 hover:bg-amber-50 text-amber-700'
+                        : 'bg-indigo-950/40 border-indigo-900/40 hover:bg-indigo-900/40 text-indigo-300'
               }`}
             >
               {preset.label}

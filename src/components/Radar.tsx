@@ -31,6 +31,7 @@ export default function Radar({
 
   const isBoba = mode === 'milktea';
   const isMatcha = mode === 'matcha';
+  const isCoffee = mode === 'coffee';
 
   // Setup dynamic theme colors for canvas rendering
   let colorPrimary = '139, 92, 246'; // default: bar (violet)
@@ -41,6 +42,9 @@ export default function Radar({
   } else if (isMatcha) {
     colorPrimary = '52, 211, 153'; // emerald-400
     colorGlow = '16, 185, 129'; // emerald-500
+  } else if (isCoffee) {
+    colorPrimary = '217, 119, 6'; // amber-600 (暖褐/深琥珀)
+    colorGlow = '180, 83, 9'; // amber-700
   }
 
   // Handle responsive canvas sizing
@@ -144,7 +148,9 @@ export default function Radar({
         ? 'rgba(110,231,183,0.35)' 
         : isBoba 
           ? 'rgba(253,186,116,0.35)' 
-          : 'rgba(232,121,249,0.3)';
+          : isCoffee
+            ? 'rgba(252,211,77,0.35)' // amber-300
+            : 'rgba(232,121,249,0.3)';
       ctx.lineWidth = 1;
       ctx.setLineDash([4, 4]);
       
@@ -200,8 +206,8 @@ export default function Radar({
         ctx.beginPath();
         ctx.arc(bx, by, radius, 0, Math.PI * 2);
 
-        if (isBoba || isMatcha) {
-          // Boba/Matcha blip style (green or orange star)
+        if (isBoba || isMatcha || isCoffee) {
+          // Boba/Matcha/Coffee blip style (green or orange or amber star)
           const baseColor = isSelected 
             ? `rgba(${colorGlow}, 1)` 
             : `rgba(${colorPrimary}, 0.6)`;
@@ -347,17 +353,21 @@ export default function Radar({
             ? 'text-emerald-950'
             : isBoba 
               ? 'text-rose-950' 
-              : 'text-fuchsia-400 font-mono tracking-widest'
+              : isCoffee
+                ? 'text-amber-955 text-amber-950'
+                : 'text-fuchsia-400 font-mono tracking-widest'
         }`}>
           <Sparkles className="w-5 h-5 animate-spin" style={{ animationDuration: '6s' }} />
-          <span>{isMatcha ? '🍵 抹茶声呐探测雷达' : isBoba ? '🍯 奶茶声呐探测雷达' : '🔮 酒鬼霓虹声呐雷达'}</span>
+          <span>{isMatcha ? '🍵 抹茶声呐探测雷达' : isBoba ? '🧋 奶茶声呐探测雷达' : isCoffee ? '☕ 咖啡声呐探测雷达' : '🔮 酒鬼霓虹声呐雷达'}</span>
         </h2>
         <p className={`text-xs mt-1 ${
           isMatcha
             ? 'text-emerald-800/70'
             : isBoba 
               ? 'text-rose-700/70' 
-              : 'text-indigo-300/60'
+              : isCoffee
+                ? 'text-amber-800/70'
+                : 'text-indigo-300/60'
         }`}>
           半径约 {exploreRadius >= 1000 ? `${(exploreRadius / 1000).toFixed(0)}公里` : `${exploreRadius}米`}，点击屏幕上的亮斑即可锁定目标
         </p>
@@ -371,7 +381,9 @@ export default function Radar({
             ? 'bg-emerald-50/20 border-emerald-100 shadow-emerald-100/30'
             : isBoba 
               ? 'bg-rose-50/20 border-rose-100 shadow-rose-100/30' 
-              : 'bg-slate-950 border-indigo-950 shadow-[0_0_25px_rgba(139,92,246,0.1)]'
+              : isCoffee
+                ? 'bg-amber-50/20 border-amber-100 shadow-amber-100/30'
+                : 'bg-slate-950 border-indigo-950 shadow-[0_0_25px_rgba(139,92,246,0.1)]'
         }`}
         style={{ width: dimensions.width + 16, height: dimensions.height + 16 }}
       >
@@ -384,7 +396,7 @@ export default function Radar({
           onMouseMove={handleRadarMouseMove}
           onMouseLeave={() => setHoveredShop(null)}
           className={`rounded-full cursor-crosshair transition-all ${
-            (isBoba || isMatcha) ? 'bg-white' : 'bg-slate-950'
+            (isBoba || isMatcha || isCoffee) ? 'bg-white' : 'bg-slate-950'
           }`}
         />
 
@@ -394,7 +406,9 @@ export default function Radar({
             ? 'bg-emerald-500 text-white border-emerald-400'
             : isBoba 
               ? 'bg-rose-400 text-white border-rose-300' 
-              : 'bg-indigo-950 border-indigo-800 text-indigo-300'
+              : isCoffee
+                ? 'bg-amber-600 text-white border-amber-550 border-amber-500'
+                : 'bg-indigo-950 border-indigo-800 text-indigo-300'
         }`}>
           ▲ 真北角 (North)
         </div>
@@ -407,14 +421,18 @@ export default function Radar({
             ? 'bg-emerald-50/50 border-emerald-100/50'
             : isBoba 
               ? 'bg-rose-50/50 border-rose-100/50' 
-              : 'bg-indigo-950/20 border-indigo-950/60'
+              : isCoffee
+                ? 'bg-amber-50/50 border-amber-100/50'
+                : 'bg-indigo-950/20 border-indigo-950/60'
         }`}>
           <span className={`text-[10px] block ${
             isMatcha
               ? 'text-emerald-700/80'
               : isBoba 
                 ? 'text-rose-700/80' 
-                : 'text-indigo-400'
+                : isCoffee
+                  ? 'text-amber-700/80'
+                  : 'text-indigo-400'
           }`}>
             雷达探测信号
           </span>
@@ -423,7 +441,9 @@ export default function Radar({
               ? 'text-emerald-950'
               : isBoba 
                 ? 'text-rose-950' 
-                : 'text-white'
+                : isCoffee
+                  ? 'text-amber-950'
+                  : 'text-white'
           }`}>
             {shops.length} 个目标已捕获
           </span>
@@ -433,14 +453,18 @@ export default function Radar({
             ? 'bg-emerald-50/50 border-emerald-100/50'
             : isBoba 
               ? 'bg-rose-50/50 border-rose-100/50' 
-              : 'bg-indigo-950/20 border-indigo-950/60'
+              : isCoffee
+                ? 'bg-amber-50/50 border-amber-100/50'
+                : 'bg-indigo-950/20 border-indigo-950/60'
         }`}>
           <span className={`text-[10px] block ${
             isMatcha
               ? 'text-emerald-700/80'
               : isBoba 
                 ? 'text-rose-700/80' 
-                : 'text-indigo-400'
+                : isCoffee
+                  ? 'text-amber-700/80'
+                  : 'text-indigo-400'
           }`}>
             锁定状态
           </span>
@@ -449,7 +473,9 @@ export default function Radar({
               ? 'text-emerald-950'
               : isBoba 
                 ? 'text-rose-950' 
-                : 'text-white'
+                : isCoffee
+                  ? 'text-amber-950'
+                  : 'text-white'
           }`}>
             {selectedShop ? selectedShop.name : '未选择目标'}
           </span>
