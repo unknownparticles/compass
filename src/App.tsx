@@ -823,15 +823,21 @@ export default function App() {
 
         {/* 4. WALKING SIMULATOR CONTROLLER */}
         <div className={`p-4 rounded-3xl border transition-all duration-300 ${
-          isBoba 
-            ? 'bg-white border-rose-100 shadow-xs' 
-            : 'bg-slate-950 border-indigo-950'
+          isMatcha
+            ? 'bg-white border-emerald-100 shadow-xs'
+            : isBoba 
+              ? 'bg-white border-rose-100 shadow-xs' 
+              : 'bg-slate-950 border-indigo-950'
         }`}>
           <div className="flex items-center justify-between">
             <button
               onClick={() => setShowSimulator(!showSimulator)}
               className={`text-xs font-black tracking-wide flex items-center gap-1.5 uppercase cursor-pointer hover:opacity-80 w-full text-left justify-between ${
-                isBoba ? 'text-rose-950' : 'text-indigo-300'
+                isMatcha
+                  ? 'text-emerald-950'
+                  : isBoba 
+                    ? 'text-rose-950' 
+                    : 'text-indigo-300'
               }`}
             >
               <span className="flex items-center gap-1.5">
@@ -839,7 +845,11 @@ export default function App() {
                 <span>🚶 模拟运动与位置控制器</span>
               </span>
               <span className={`text-[10px] px-2 py-0.5 rounded-md font-extrabold ${
-                isBoba ? 'bg-rose-50 text-rose-800' : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                isMatcha
+                  ? 'bg-emerald-50 text-emerald-800'
+                  : isBoba 
+                    ? 'bg-rose-50 text-rose-800' 
+                    : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
               }`}>
                 {showSimulator ? '收起 ▲' : '点击展开 ⚙️'}
               </span>
@@ -850,9 +860,11 @@ export default function App() {
             <div className="mt-4 space-y-4 pt-4 border-t border-dashed border-neutral-100 dark:border-indigo-950">
               {showSimulatorTip && (
                 <p className={`text-[11px] p-2.5 rounded-xl border border-dashed transition-all relative ${
-                  isBoba 
-                    ? 'bg-orange-50/50 border-orange-100 text-orange-950' 
-                    : 'bg-indigo-950/30 border-indigo-900 text-indigo-300/80'
+                  isMatcha
+                    ? 'bg-emerald-50/50 border-emerald-100 text-emerald-950'
+                    : isBoba 
+                      ? 'bg-orange-50/50 border-orange-100 text-orange-950' 
+                      : 'bg-indigo-950/30 border-indigo-900 text-indigo-300/80'
                 }`}>
                   <strong>使用提示：</strong>本模拟器允许您在电脑端测试。
                   调整上方的“面朝方向”滑块改变视野，点击“前进”以该方向行进，观察雷达、地图和指针的实时变化！
@@ -877,12 +889,16 @@ export default function App() {
                         onClick={() => handlePresetSelect(preset)}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap cursor-pointer border transition-all hover:scale-102 ${
                           isCurrentCity
-                            ? isBoba
-                              ? 'bg-rose-500 border-rose-500 text-white'
-                              : 'bg-fuchsia-500 border-fuchsia-500 text-white'
-                            : isBoba
-                              ? 'bg-rose-50/40 border-rose-100 text-rose-800 hover:bg-rose-50'
-                              : 'bg-indigo-950/50 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
+                            ? isMatcha
+                              ? 'bg-emerald-500 border-emerald-500 text-white shadow-xs'
+                              : isBoba
+                                ? 'bg-rose-500 border-rose-500 text-white'
+                                : 'bg-fuchsia-500 border-fuchsia-500 text-white'
+                            : isMatcha
+                              ? 'bg-emerald-50/40 border-emerald-100 text-emerald-850 hover:bg-emerald-50'
+                              : isBoba
+                                ? 'bg-rose-50/40 border-rose-100 text-rose-800 hover:bg-rose-50'
+                                : 'bg-indigo-950/50 border-indigo-900/60 text-indigo-300 hover:bg-indigo-950'
                         }`}
                       >
                         📍 {preset.name}
@@ -897,9 +913,11 @@ export default function App() {
                 <button
                   onClick={() => handleSimulateWalk(50)}
                   className={`py-3 px-4 rounded-2xl cursor-pointer border transition-all hover:scale-102 flex items-center justify-center gap-2 active:scale-98 ${
-                    isBoba
-                      ? 'bg-orange-50 hover:bg-orange-100 border-orange-200 text-orange-900'
-                      : 'bg-indigo-950 border-indigo-800 text-indigo-200 hover:bg-indigo-900'
+                    isMatcha
+                      ? 'bg-emerald-50 hover:bg-emerald-100 border-emerald-200 text-emerald-900'
+                      : isBoba
+                        ? 'bg-orange-50 hover:bg-orange-100 border-orange-200 text-orange-900'
+                        : 'bg-indigo-950 border-indigo-800 text-indigo-200 hover:bg-indigo-900'
                   }`}
                 >
                   <ChevronsUp className="w-4 h-4 animate-bounce" />
@@ -908,9 +926,11 @@ export default function App() {
                 <button
                   onClick={() => handleSimulateWalk(200)}
                   className={`py-3 px-4 rounded-2xl cursor-pointer border transition-all hover:scale-102 flex items-center justify-center gap-2 active:scale-98 ${
-                    isBoba
-                      ? 'bg-rose-500 hover:bg-rose-600 border-rose-500 text-white'
-                      : 'bg-fuchsia-500 hover:bg-fuchsia-600 border-fuchsia-500 text-white'
+                    isMatcha
+                      ? 'bg-emerald-500 hover:bg-emerald-600 border-emerald-500 text-white shadow-xs'
+                      : isBoba
+                        ? 'bg-rose-500 hover:bg-rose-600 border-rose-500 text-white'
+                        : 'bg-fuchsia-500 hover:bg-fuchsia-600 border-fuchsia-500 text-white'
                   }`}
                 >
                   <ChevronsUp className="w-4 h-4 animate-bounce" style={{ animationDuration: '0.8s' }} />
@@ -949,11 +969,15 @@ export default function App() {
 
       {/* Footer info & Credits */}
       <footer className={`pt-6 pb-[calc(env(safe-area-inset-bottom,0px)+24px)] border-t text-center text-xs transition-colors ${
-        isBoba 
-          ? 'bg-rose-50/30 border-rose-100/50 text-rose-800/50' 
-          : 'bg-slate-950 border-indigo-950/40 text-indigo-300/30'
+        isMatcha
+          ? 'bg-emerald-50/30 border-emerald-100/50 text-emerald-800/50'
+          : isBoba 
+            ? 'bg-rose-50/30 border-rose-100/50 text-rose-800/50' 
+            : 'bg-slate-950 border-indigo-950/40 text-indigo-300/30'
       }`}>
-        <p className="font-extrabold tracking-wide uppercase">🧋 奶茶与酒鬼指南针 🍹</p>
+        <p className="font-extrabold tracking-wide uppercase">
+          {isMatcha ? '🍵 抹茶与酒鬼指南针 🍹' : '🧋 奶茶与酒鬼指南针 🍹'}
+        </p>
         <p className="mt-1 opacity-75">利用手机陀螺仪及 GPS 地理围栏实现寻店指向</p>
         <p className="mt-2 text-[10px] opacity-50">支持静态部署 Github Pages PWA 应用</p>
       </footer>
