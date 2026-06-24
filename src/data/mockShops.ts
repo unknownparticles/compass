@@ -241,6 +241,22 @@ export function generateLocalShops(userLat: number, userLng: number): Shop[] {
     const rating = parseFloat((4.2 + seededRandom(seed + 3) * 0.7).toFixed(1)); // 4.2 to 4.9
     const reviewsCount = Math.floor(50 + seededRandom(seed + 4) * 450); // 50 to 500
 
+    // Randomly assign matcha drinks to 40% of milk tea shops
+    const hasMatcha = seededRandom(seed + 10) < 0.4;
+    let signature = tmpl.signature;
+    let tags = [...tmpl.tags];
+    if (hasMatcha) {
+      const matchaMenu = [
+        '宇治特浓抹茶拿铁 (Matcha Latte)',
+        '静冈大理石抹茶椰乳 (Matcha Coconut)',
+        '雪顶抹茶芝士冰沙 (Matcha Cheese Slush)',
+        '白玉小子抹茶波波茶 (Boba Matcha Milk)'
+      ];
+      const matchaIndex = Math.floor(seededRandom(seed + 11) * matchaMenu.length);
+      signature = matchaMenu[matchaIndex];
+      tags.push('抹茶', 'Matcha');
+    }
+
     generated.push({
       id: `milktea-${i}`,
       name: `${tmpl.brand} (${i + 1}号店)`,
@@ -253,10 +269,10 @@ export function generateLocalShops(userLat: number, userLng: number): Shop[] {
       rating,
       reviewsCount,
       address: `导航至：距离您约 ${Math.round(distance)}米 的${tmpl.brand}`,
-      signature: tmpl.signature,
+      signature,
       priceRange: tmpl.priceRange,
       hours: tmpl.hours,
-      tags: tmpl.tags
+      tags
     });
   }
 
@@ -273,6 +289,21 @@ export function generateLocalShops(userLat: number, userLng: number): Shop[] {
     const rating = parseFloat((4.1 + seededRandom(seed + 3) * 0.8).toFixed(1)); // 4.1 to 4.9
     const reviewsCount = Math.floor(30 + seededRandom(seed + 4) * 370);
 
+    // Randomly assign matcha cocktails to 30% of bars
+    const hasMatcha = seededRandom(seed + 12) < 0.3;
+    let signature = tmpl.signature;
+    let tags = [...tmpl.tags];
+    if (hasMatcha) {
+      const matchaMenu = [
+        '“京都之雾”抹茶金酒特调 (Matcha Gin Fizz)',
+        '大理石抹茶百利甜特饮 (Matcha Baileys)',
+        '静冈抹茶艾尔精酿 (Matcha Stout Beer)'
+      ];
+      const matchaIndex = Math.floor(seededRandom(seed + 13) * matchaMenu.length);
+      signature = matchaMenu[matchaIndex];
+      tags.push('抹茶调酒', '抹茶');
+    }
+
     generated.push({
       id: `bar-${i}`,
       name: `${tmpl.brand}`,
@@ -285,10 +316,10 @@ export function generateLocalShops(userLat: number, userLng: number): Shop[] {
       rating,
       reviewsCount,
       address: `导航至：距离您约 ${Math.round(distance)}米 的${tmpl.brand}`,
-      signature: tmpl.signature,
+      signature,
       priceRange: tmpl.priceRange,
       hours: tmpl.hours,
-      tags: tmpl.tags
+      tags
     });
   }
 

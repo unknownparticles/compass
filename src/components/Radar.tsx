@@ -28,6 +28,18 @@ export default function Radar({
   const sweepAngleRef = useRef<number>(0);
 
   const isBoba = mode === 'milktea';
+  const isMatcha = mode === 'matcha';
+
+  // Setup dynamic theme colors for canvas rendering
+  let colorPrimary = '139, 92, 246'; // default: bar (violet)
+  let colorGlow = '232, 121, 249'; // default: bar (fuchsia)
+  if (isBoba) {
+    colorPrimary = '251, 113, 133'; // rose-400
+    colorGlow = '244, 63, 94'; // rose-500
+  } else if (isMatcha) {
+    colorPrimary = '52, 211, 153'; // emerald-400
+    colorGlow = '16, 185, 129'; // emerald-500
+  }
 
   // Handle responsive canvas sizing
   useEffect(() => {
@@ -60,7 +72,7 @@ export default function Radar({
       const R = (width / 2) * 0.85; // maximum grid radius (representing 1000 meters)
 
       // 1. Draw Background grid
-      ctx.strokeStyle = isBoba ? 'rgba(251,113,133,0.15)' : 'rgba(139,92,246,0.15)';
+      ctx.strokeStyle = `rgba(${colorPrimary}, 0.15)`;
       ctx.lineWidth = 1;
 
       // Draw concentric circles (representing 200m, 500m, 800m, 1000m)
@@ -71,7 +83,7 @@ export default function Radar({
         ctx.stroke();
 
         // Draw distance labels
-        ctx.fillStyle = isBoba ? 'rgba(244,63,94,0.6)' : 'rgba(139,92,246,0.6)';
+        ctx.fillStyle = `rgba(${colorGlow}, 0.6)`;
         ctx.font = '9px monospace';
         ctx.fillText(`${Math.round(multiplier * 1000)}m`, cx + 4, cy - R * multiplier + 10);
       });
@@ -85,7 +97,7 @@ export default function Radar({
       ctx.stroke();
 
       // Draw angular indicators (30, 60, 120, 150 etc.)
-      ctx.strokeStyle = isBoba ? 'rgba(251,113,133,0.06)' : 'rgba(139,92,246,0.06)';
+      ctx.strokeStyle = `rgba(${colorPrimary}, 0.06)`;
       [30, 60, 120, 150, 210, 240, 300, 330].forEach((deg) => {
         const rad = (deg * Math.PI) / 180;
         ctx.beginPath();
@@ -104,9 +116,7 @@ export default function Radar({
       for (let i = 0; i < tailSlices; i++) {
         const sliceAngle = sweepRad - (i * 0.02);
         const opacity = (1 - i / tailSlices) * 0.15;
-        ctx.fillStyle = isBoba 
-          ? `rgba(251,113,133,${opacity})` 
-          : `rgba(167,139,250,${opacity})`;
+        ctx.fillStyle = `rgba(${colorPrimary}, ${opacity})`;
 
         ctx.beginPath();
         ctx.moveTo(cx, cy);
@@ -116,7 +126,7 @@ export default function Radar({
       }
 
       // Draw sharp sweep line
-      ctx.strokeStyle = isBoba ? 'rgba(244,63,94,0.6)' : 'rgba(167,139,250,0.7)';
+      ctx.strokeStyle = `rgba(${colorGlow}, 0.7)`;
       ctx.lineWidth = 1.5;
       ctx.beginPath();
       ctx.moveTo(cx, cy);
@@ -126,7 +136,11 @@ export default function Radar({
       // 3. Render User Facing direction indicator (a dashed white cone representing user's view)
       const headingRad = ((userHeading - 90) * Math.PI) / 180; // 0 deg is UP (-90 degrees in standard polar)
       const fieldOfView = (45 * Math.PI) / 180; // 45 degree vision cone
-      ctx.strokeStyle = isBoba ? 'rgba(253,186,116,0.35)' : 'rgba(232,121,249,0.3)';
+      ctx.strokeStyle = isMatcha 
+        ? 'rgba(110,231,183,0.35)' 
+        : isBoba 
+          ? 'rgba(253,186,116,0.35)' 
+          : 'rgba(232,121,249,0.3)';
       ctx.lineWidth = 1;
       ctx.setLineDash([4, 4]);
       
@@ -174,9 +188,7 @@ export default function Radar({
         if (isSelected) {
           ctx.beginPath();
           ctx.arc(bx, by, radius + 5, 0, Math.PI * 2);
-          ctx.fillStyle = isBoba 
-            ? 'rgba(244,63,94,0.15)' 
-            : 'rgba(232,121,249,0.2)';
+          ctx.fillStyle = `rgba(${colorGlow}, 0.15)`;
           ctx.fill();
         }
 
@@ -184,10 +196,11 @@ export default function Radar({
         ctx.beginPath();
         ctx.arc(bx, by, radius, 0, Math.PI * 2);
 
-        if (isBoba) {
-          // Boba blip style (Amber-rose boba pearl or orange star)
-          const baseColor = isSelected ? 'rgba(244,63,94,1)' : 'rgba(251,113,133,0.6)';
-          const sweepGlowColor = `rgba(254,215,170, ${illum})`;
+        if (isBoba || isMatcha) {
+          // Boba/Matcha blip style (green or orange star)
+          const baseColor = isSelected 
+            ? `rgba(${colorGlow}, 1)` 
+            : `rgba(${colorPrimary}, 0.6)`;
           
           ctx.fillStyle = baseColor;
           ctx.fill();
@@ -196,7 +209,7 @@ export default function Radar({
           if (illum > 0.1) {
             ctx.beginPath();
             ctx.arc(bx, by, radius + (1 - illum) * 8, 0, Math.PI * 2);
-            ctx.strokeStyle = `rgba(244,63,94, ${illum})`;
+            ctx.strokeStyle = `rgba(${colorGlow}, ${illum})`;
             ctx.lineWidth = 1;
             ctx.stroke();
           }
@@ -227,7 +240,7 @@ export default function Radar({
           // Draw nice black tag backdrop
           ctx.fillStyle = 'rgba(0,0,0,0.8)';
           ctx.fillRect(bx - textWidth / 2 - 6, by - 24, textWidth + 12, 16);
-          ctx.strokeStyle = isBoba ? 'rgb(244,63,94)' : 'rgb(139,92,246)';
+          ctx.strokeStyle = `rgb(${colorGlow})`;
           ctx.strokeRect(bx - textWidth / 2 - 6, by - 24, textWidth + 12, 16);
 
           ctx.fillStyle = '#ffffff';
@@ -240,7 +253,7 @@ export default function Radar({
       ctx.arc(cx, cy, 5, 0, Math.PI * 2);
       ctx.fillStyle = '#ffffff';
       ctx.fill();
-      ctx.strokeStyle = isBoba ? 'rgb(244,63,94)' : 'rgb(232,121,249)';
+      ctx.strokeStyle = `rgb(${colorGlow})`;
       ctx.lineWidth = 2;
       ctx.stroke();
 

@@ -27,6 +27,7 @@ export default function MapContainer({
   const polylineRef = useRef<L.Polyline | null>(null);
 
   const isBoba = mode === 'milktea';
+  const isMatcha = mode === 'matcha';
 
   // 1. Initialize Leaflet Map (Run once)
   useEffect(() => {
@@ -71,7 +72,7 @@ export default function MapContainer({
     }
 
     // Gorgeous sleek modern map styles
-    const tileUrl = isBoba
+    const tileUrl = (isBoba || isMatcha)
       ? 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png' // Light elegant grey
       : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';  // Cyber dark neon
 
@@ -96,19 +97,26 @@ export default function MapContainer({
     }
 
     // A. Render User Position Marker with custom div icon (pulsing dot)
-    const userIconHtml = isBoba
+    const userIconHtml = isMatcha
       ? `
         <div class="relative flex items-center justify-center w-10 h-10">
-          <span class="absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-30 animate-ping"></span>
-          <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-rose-500 border-2 border-white shadow-md text-white text-xs font-bold">我</div>
+          <span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-30 animate-ping"></span>
+          <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-emerald-500 border-2 border-white shadow-md text-white text-xs font-bold">我</div>
         </div>
         `
-      : `
-        <div class="relative flex items-center justify-center w-10 h-10">
-          <span class="absolute inline-flex h-full w-full rounded-full bg-fuchsia-500 opacity-45 animate-ping"></span>
-          <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-fuchsia-500 border-2 border-violet-950 shadow-[0_0_10px_rgba(217,70,239,0.8)] text-white text-xs font-bold">我</div>
-        </div>
-        `;
+      : isBoba
+        ? `
+          <div class="relative flex items-center justify-center w-10 h-10">
+            <span class="absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-30 animate-ping"></span>
+            <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-rose-500 border-2 border-white shadow-md text-white text-xs font-bold">我</div>
+          </div>
+          `
+        : `
+          <div class="relative flex items-center justify-center w-10 h-10">
+            <span class="absolute inline-flex h-full w-full rounded-full bg-fuchsia-500 opacity-45 animate-ping"></span>
+            <div class="relative flex items-center justify-center rounded-full w-6 h-6 bg-fuchsia-500 border-2 border-violet-950 shadow-[0_0_10px_rgba(217,70,239,0.8)] text-white text-xs font-bold">我</div>
+          </div>
+          `;
 
     const userIcon = L.divIcon({
       html: userIconHtml,
@@ -126,37 +134,53 @@ export default function MapContainer({
       const isSelected = selectedShop?.id === shop.id;
 
       // Icon Design: Selected has larger glow and bouncy layout
-      const iconHtml = isBoba
+      const iconHtml = isMatcha
         ? `
           <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
-            ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-orange-400/30 animate-pulse"></span>' : ''}
+            ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-emerald-400/30 animate-pulse"></span>' : ''}
             <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
               isSelected 
-                ? 'w-9 h-9 bg-linear-to-br from-orange-400 to-rose-400 border-orange-100 scale-110 shadow-orange-200' 
-                : 'w-8 h-8 bg-white border-rose-200 hover:scale-105'
+                ? 'w-9 h-9 bg-linear-to-br from-emerald-500 to-teal-500 border-emerald-100 scale-110 shadow-emerald-200' 
+                : 'w-8 h-8 bg-white border-emerald-200 hover:scale-105'
             }">
-              🧋
+              🍵
             </div>
-            <div class="absolute -bottom-5 bg-rose-950/90 text-white text-[8px] font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-rose-800 shadow shadow-black">
+            <div class="absolute -bottom-5 bg-emerald-950/90 text-white text-[8px] font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-emerald-800 shadow shadow-black">
               ${shop.distance}m
             </div>
           </div>
           `
-        : `
-          <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
-            ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-fuchsia-500/40 animate-pulse"></span>' : ''}
-            <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
-              isSelected 
-                ? 'w-9 h-9 bg-linear-to-br from-fuchsia-500 to-violet-600 border-fuchsia-200 scale-110 shadow-[0_0_12px_rgba(217,70,239,0.7)]' 
-                : 'w-8 h-8 bg-slate-900 border-indigo-900 hover:scale-105 shadow-[0_0_5px_rgba(139,92,246,0.2)]'
-            }">
-              🍹
+        : isBoba
+          ? `
+            <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
+              ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-orange-400/30 animate-pulse"></span>' : ''}
+              <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
+                isSelected 
+                  ? 'w-9 h-9 bg-linear-to-br from-orange-400 to-rose-400 border-orange-100 scale-110 shadow-orange-200' 
+                  : 'w-8 h-8 bg-white border-rose-200 hover:scale-105'
+              }">
+                🧋
+              </div>
+              <div class="absolute -bottom-5 bg-rose-950/90 text-white text-[8px] font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-rose-800 shadow shadow-black">
+                ${shop.distance}m
+              </div>
             </div>
-            <div class="absolute -bottom-5 bg-indigo-950/95 text-fuchsia-300 text-[8px] font-mono font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-indigo-800 shadow shadow-black">
-              ${shop.distance}m
+            `
+          : `
+            <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
+              ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-fuchsia-500/40 animate-pulse"></span>' : ''}
+              <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
+                isSelected 
+                  ? 'w-9 h-9 bg-linear-to-br from-fuchsia-500 to-violet-600 border-fuchsia-200 scale-110 shadow-[0_0_12px_rgba(217,70,239,0.7)]' 
+                  : 'w-8 h-8 bg-slate-900 border-indigo-900 hover:scale-105 shadow-[0_0_5px_rgba(139,92,246,0.2)]'
+              }">
+                🍹
+              </div>
+              <div class="absolute -bottom-5 bg-indigo-950/95 text-fuchsia-300 text-[8px] font-mono font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap border border-indigo-800 shadow shadow-black">
+                ${shop.distance}m
+              </div>
             </div>
-          </div>
-          `;
+            `;
 
       const markerIcon = L.divIcon({
         html: iconHtml,
@@ -191,7 +215,7 @@ export default function MapContainer({
       ];
 
       const polyline = L.polyline(pathPoints, {
-        color: isBoba ? '#ec4899' : '#d946ef',
+        color: isMatcha ? '#10b981' : isBoba ? '#ec4899' : '#d946ef',
         weight: 3,
         dashArray: '8, 8',
         opacity: 0.85

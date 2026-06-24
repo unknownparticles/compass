@@ -3,7 +3,7 @@ export interface Coordinate {
   lng: number;
 }
 
-export type CompassMode = 'milktea' | 'bar';
+export type CompassMode = 'milktea' | 'bar' | 'matcha';
 
 export interface Shop {
   id: string;

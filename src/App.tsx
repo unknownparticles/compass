@@ -44,6 +44,19 @@ export default function App() {
   const [sensorStatus, setSensorStatus] = useState<'loading' | 'active' | 'unavailable'>('loading');
   const [showSimulatorTip, setShowSimulatorTip] = useState<boolean>(true);
   const [showSimulator, setShowSimulator] = useState<boolean>(false); // default hidden
+  const [isMatchaUnlocked, setIsMatchaUnlocked] = useState<boolean>(false); // secret mode unlock state
+  const [titleClickCount, setTitleClickCount] = useState<number>(0);
+
+  const handleTitleClick = () => {
+    if (isMatchaUnlocked) return;
+    const nextCount = titleClickCount + 1;
+    setTitleClickCount(nextCount);
+    if (nextCount >= 5) {
+      setIsMatchaUnlocked(true);
+      setMode('matcha');
+      alert('🎉 恭喜你发现了隐藏的彩蛋！已成功解锁隐藏的「🍃 抹茶特调指南针模式」！现在点击右上角切换按钮，即可随罗盘寻找附近的抹茶特调和甜品啦！');
+    }
+  };
 
   // Check if running inside an iframe (like AI Studio preview frame)
   const isInIframe = useMemo(() => {
@@ -76,9 +89,20 @@ export default function App() {
     });
   }, [rawShops, userLocation, userHeading]);
 
+  // 3.2. Filter shops by active mode (Matcha mode searches everything for matcha tags/signatures)
+  const activeShops = useMemo(() => {
+    if (mode === 'matcha') {
+      return shops.filter((s) => 
+        s.name.includes('抹茶') || 
+        s.signature.includes('抹茶') || 
+        s.tags.some((t) => t.includes('抹茶') || t.toLowerCase() === 'matcha')
+      );
+    }
+    return shops.filter((s) => s.type === mode);
+  }, [shops, mode]);
+
   // 3.5. Dynamically calculate the closest shop in the current facing direction
   const facingShop = useMemo(() => {
-    const activeShops = shops.filter((s) => s.type === mode);
     if (activeShops.length === 0) return null;
 
     // 1st Priority: Closest shop within 45 degrees of facing direction
@@ -105,29 +129,29 @@ export default function App() {
       const diffB = Math.min(b.relativeAngle, 360 - b.relativeAngle);
       return diffA - diffB;
     })[0];
-  }, [shops, mode, userHeading]);
+  }, [activeShops]);
 
   // The active shop targets (manual lock wins, otherwise dynamic facing wins)
   const activeSelectedShop = useMemo(() => {
     if (isLocked && selectedShop) {
-      const exists = shops.some((s) => s.id === selectedShop.id && s.type === mode);
+      const exists = activeShops.some((s) => s.id === selectedShop.id);
       if (exists) {
-        return shops.find((s) => s.id === selectedShop.id) || selectedShop;
+        return activeShops.find((s) => s.id === selectedShop.id) || selectedShop;
       }
     }
     return facingShop;
-  }, [isLocked, selectedShop, facingShop, shops, mode]);
+  }, [isLocked, selectedShop, facingShop, activeShops]);
 
   // 4. Reset manual lock if the locked shop is no longer available in the current mode
   useEffect(() => {
     if (selectedShop) {
-      const exists = shops.some((s) => s.id === selectedShop.id && s.type === mode);
+      const exists = activeShops.some((s) => s.id === selectedShop.id);
       if (!exists) {
         setSelectedShop(null);
         setIsLocked(false);
       }
     }
-  }, [mode, shops, selectedShop]);
+  }, [activeShops, selectedShop]);
 
   // 5. Geolocation Sensor: Grab GPS on startup
   useEffect(() => {
@@ -248,52 +272,87 @@ export default function App() {
     setUserLocation(nextPos);
   };
 
+  const isMatcha = mode === 'matcha';
   const isBoba = mode === 'milktea';
+
+  const handleModeSwitch = () => {
+    if (mode === 'milktea') {
+      setMode('bar');
+    } else if (mode === 'bar') {
+      if (isMatchaUnlocked) {
+        setMode('matcha');
+      } else {
+        setMode('milktea');
+      }
+    } else {
+      setMode('milktea');
+    }
+  };
 
   return (
     <div className={`min-h-screen pb-[env(safe-area-inset-bottom,0px)] pl-[env(safe-area-inset-left,0px)] pr-[env(safe-area-inset-right,0px)] transition-all duration-700 font-sans flex flex-col justify-between ${
-      isBoba 
-        ? 'bg-gradient-to-b from-rose-50/70 via-orange-50/40 to-white text-rose-950' 
-        : 'bg-gradient-to-b from-slate-950 via-slate-900 to-indigo-950 text-slate-100'
+      isMatcha
+        ? 'bg-gradient-to-b from-emerald-50/60 via-stone-50/40 to-white text-emerald-950'
+        : isBoba 
+          ? 'bg-gradient-to-b from-rose-50/70 via-orange-50/40 to-white text-rose-950' 
+          : 'bg-gradient-to-b from-slate-950 via-slate-900 to-indigo-950 text-slate-100'
     }`}>
       
       {/* Dynamic Header */}
       <header className={`px-4 pt-[calc(env(safe-area-inset-top,0px)+16px)] pb-4 md:py-6 border-b flex items-center justify-between sticky top-0 z-50 backdrop-blur-md transition-all ${
-        isBoba 
-          ? 'bg-white/85 border-rose-100/60' 
-          : 'bg-slate-950/85 border-indigo-950/60 shadow-[0_4px_10px_rgba(0,0,0,0.4)]'
+        isMatcha
+          ? 'bg-white/85 border-emerald-100/60'
+          : isBoba 
+            ? 'bg-white/85 border-rose-100/60' 
+            : 'bg-slate-950/85 border-indigo-950/60 shadow-[0_4px_10px_rgba(0,0,0,0.4)]'
       }`}>
         <div className="flex items-center gap-2">
           <div className={`w-9 h-9 rounded-2xl flex items-center justify-center transition-all ${
-            isBoba 
-              ? 'bg-rose-500 text-white shadow shadow-rose-200' 
-              : 'bg-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.5)]'
+            isMatcha
+              ? 'bg-emerald-600 text-white shadow shadow-emerald-200'
+              : isBoba 
+                ? 'bg-rose-500 text-white shadow shadow-rose-200' 
+                : 'bg-fuchsia-500 text-white shadow-[0_0_8px_rgba(217,70,239,0.5)]'
           }`}>
             <CompassIcon className="w-5 h-5 animate-spin" style={{ animationDuration: '8s' }} />
           </div>
-          <div>
+          <div onClick={handleTitleClick} className="cursor-pointer select-none">
             <h1 className="text-base md:text-lg font-black tracking-tight leading-none">
-              {isBoba ? '奶茶/酒鬼指南针' : '酒鬼/奶茶指南针'}
+              {isMatcha ? '抹茶/酒鬼指南针' : isBoba ? '奶茶/酒鬼指南针' : '酒鬼/奶茶指南针'}
             </h1>
-            <p className={`text-[10px] mt-0.5 ${isBoba ? 'text-rose-700/60' : 'text-indigo-400'}`}>
-              GPS 定位与方向雷达自动寻找最近好店
+            <p className={`text-[10px] mt-0.5 ${isMatcha ? 'text-emerald-700/60' : isBoba ? 'text-rose-700/60' : 'text-indigo-400'}`}>
+              {isMatcha ? '已开启隐藏模式：寻觅抹茶甜物' : 'GPS 定位与方向雷达自动寻找最近好店'}
             </p>
           </div>
         </div>
 
         {/* 1. Mode Switch Button */}
         <button
-          onClick={() => setMode(isBoba ? 'bar' : 'milktea')}
+          onClick={handleModeSwitch}
           className={`px-4 py-2 rounded-2xl border text-xs font-black tracking-wide flex items-center gap-2 cursor-pointer transition-all hover:scale-105 active:scale-95 ${
-            isBoba 
-              ? 'bg-gradient-to-r from-violet-950 to-indigo-900 border-indigo-950 text-fuchsia-300 shadow shadow-violet-200/20' 
-              : 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
+            isMatcha
+              ? 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
+              : isBoba 
+                ? 'bg-gradient-to-r from-violet-950 to-indigo-900 border-indigo-950 text-fuchsia-300 shadow shadow-violet-200/20' 
+                : isMatchaUnlocked
+                  ? 'bg-gradient-to-r from-emerald-100 to-teal-100 border-emerald-200 text-emerald-800 shadow shadow-emerald-100/10'
+                  : 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
           }`}
         >
-          {isBoba ? (
+          {isMatcha ? (
+            <>
+              <Coffee className="w-4 h-4 text-rose-500 animate-bounce" />
+              <span>切换奶茶模式</span>
+            </>
+          ) : isBoba ? (
             <>
               <Beer className="w-4 h-4 text-fuchsia-400 animate-bounce" />
               <span>切换酒鬼模式</span>
+            </>
+          ) : isMatchaUnlocked ? (
+            <>
+              <Sparkles className="w-4 h-4 text-emerald-500 animate-bounce" />
+              <span>切换抹茶模式 🍃</span>
             </>
           ) : (
             <>
@@ -310,7 +369,21 @@ export default function App() {
         {/* Dynamic Mode Heading Banner */}
         <div className="text-center md:py-2">
           <AnimatePresence mode="wait">
-            {isBoba ? (
+            {isMatcha ? (
+              <motion.div
+                key="matcha-title"
+                initial={{ opacity: 0, y: -5 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 5 }}
+              >
+                <span className="text-2xl md:text-3xl font-black block text-emerald-950">
+                  🍵 隐藏抹茶模式 🍃
+                </span>
+                <p className="text-xs text-emerald-800/70 mt-1 max-w-sm mx-auto">
+                  “宇治拿铁、静冈大理石、抹茶调酒...” 已为您解锁附近的抹茶特调与甜点好店！
+                </p>
+              </motion.div>
+            ) : isBoba ? (
               <motion.div
                 key="milktea-title"
                 initial={{ opacity: 0, y: -5 }}
@@ -343,10 +416,12 @@ export default function App() {
         </div>
 
         {/* 2. TAB CONTROLLER CARDS */}
-        <div className={`p-1.5 rounded-2xl grid grid-cols-3 gap-1 border ${
-          isBoba 
-            ? 'bg-rose-50/50 border-rose-100/60' 
-            : 'bg-slate-950 border-indigo-950'
+        <div className={`p-1.5 rounded-2xl grid grid-cols-3 gap-1 border transition-all duration-300 ${
+          isMatcha
+            ? 'bg-emerald-50/50 border-emerald-100/60'
+            : isBoba 
+              ? 'bg-rose-50/50 border-rose-100/60' 
+              : 'bg-slate-950 border-indigo-950'
         }`}>
           {[
             { id: 'compass', label: '指南针', icon: Compass },
@@ -362,12 +437,16 @@ export default function App() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`py-2.5 rounded-xl text-xs font-black cursor-pointer transition-all flex items-center justify-center gap-1.5 ${
                   isActive
-                    ? isBoba
-                      ? 'bg-white border border-rose-100 text-rose-950 shadow-xs'
-                      : 'bg-indigo-950 border border-indigo-800 text-white shadow-[0_2px_12px_rgba(139,92,246,0.15)]'
-                    : isBoba
-                      ? 'text-rose-800/60 hover:text-rose-900'
-                      : 'text-indigo-400 hover:text-indigo-300'
+                    ? isMatcha
+                      ? 'bg-white border border-emerald-100 text-emerald-950 shadow-xs'
+                      : isBoba
+                        ? 'bg-white border border-rose-100 text-rose-950 shadow-xs'
+                        : 'bg-indigo-950 border border-indigo-800 text-white shadow-[0_2px_12px_rgba(139,92,246,0.15)]'
+                    : isMatcha
+                      ? 'text-emerald-800/60 hover:text-emerald-900'
+                      : isBoba
+                        ? 'text-rose-800/60 hover:text-rose-900'
+                        : 'text-indigo-400 hover:text-indigo-300'
                 }`}
               >
                 <Icon className={`w-4 h-4 ${isActive ? 'animate-pulse' : ''}`} />
@@ -378,10 +457,12 @@ export default function App() {
         </div>
 
         {/* 3. ACTIVE TAB RENDER VIEWS */}
-        <div className={`p-2 rounded-3xl border min-h-96 flex items-center justify-center overflow-hidden transition-colors ${
-          isBoba 
-            ? 'bg-linear-to-b from-white/90 to-rose-50/10 border-rose-100' 
-            : 'bg-linear-to-b from-slate-900/90 to-slate-950/40 border-indigo-950/80'
+        <div className={`p-2 rounded-3xl border min-h-96 flex items-center justify-center overflow-hidden transition-all duration-300 ${
+          isMatcha
+            ? 'bg-linear-to-b from-white/90 to-emerald-50/10 border-emerald-100'
+            : isBoba 
+              ? 'bg-linear-to-b from-white/90 to-rose-50/10 border-rose-100' 
+              : 'bg-linear-to-b from-slate-900/90 to-slate-950/40 border-indigo-950/80'
         }`}>
           <AnimatePresence mode="wait">
             {activeTab === 'compass' && (
@@ -416,7 +497,7 @@ export default function App() {
               >
                 <Radar
                   mode={mode}
-                  shops={shops.filter((s) => s.type === mode)}
+                  shops={activeShops}
                   selectedShop={activeSelectedShop}
                   setSelectedShop={(shop) => {
                     setSelectedShop(shop);
@@ -439,7 +520,7 @@ export default function App() {
                   mode={mode}
                   userLocation={userLocation}
                   setUserLocation={setUserLocation}
-                  shops={shops.filter((s) => s.type === mode)}
+                  shops={activeShops}
                   selectedShop={activeSelectedShop}
                   setSelectedShop={(shop) => {
                     setSelectedShop(shop);
@@ -559,7 +640,7 @@ export default function App() {
         }`}>
           <ShopList
             mode={mode}
-            shops={shops.filter((s) => s.type === mode)}
+            shops={activeShops}
             selectedShop={activeSelectedShop}
             setSelectedShop={(shop) => {
               if (activeSelectedShop && shop && activeSelectedShop.id === shop.id && isLocked) {
