@@ -7887,25 +7887,6 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
-        "id": "real-xm-bar-B0FFIDGZ1V",
-        "name": "一格海景亲子酒店(环岛路厦大白城店)",
-        "type": "bar",
-        "lat": 24.428945,
-        "lng": 118.116127,
-        "rating": 4.7,
-        "reviewsCount": 241,
-        "address": "环岛南路2号曾厝垵村西边社2号-1",
-        "signature": "金汤力特调 (Gin and Tonic)",
-        "priceRange": "¥60-150",
-        "hours": "18:00 - 02:30",
-        "tags": [
-          "精酿啤酒",
-          "鸡尾酒",
-          "社交小酌",
-          "思明区-环岛南路"
-        ]
-      },
-      {
         "id": "real-xm-bar-B0FFHBWVR5",
         "name": "君尚酒吧(明发商业广场-中区店)",
         "type": "bar",
@@ -8093,6 +8074,1659 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "鸡尾酒",
           "社交小酌",
           "思明区-龙山南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAROATAE",
+        "name": "伍拾捌号民谣酒巷",
+        "type": "bar",
+        "lat": 24.438927,
+        "lng": 118.124613,
+        "rating": 3.9,
+        "reviewsCount": 447,
+        "address": "路滨海街道上李新村社区龙虎南里58号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥78-116",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-路滨海街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAJCSB1C",
+        "name": "U.Mi日咖夜酒",
+        "type": "bar",
+        "lat": 24.495456,
+        "lng": 118.113857,
+        "rating": 4.6,
+        "reviewsCount": 297,
+        "address": "半山御景一期侨岳东路76-107",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥65-97",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-半山御景一期侨岳东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L67S1BNC",
+        "name": "明发商业广场-中区星际酒吧(厦门店)",
+        "type": "bar",
+        "lat": 24.479516,
+        "lng": 118.121885,
+        "rating": 4.3,
+        "reviewsCount": 64,
+        "address": "明发商业广场(莲花路口地铁站2号口步行450米)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥72-108",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-明发商业广场(莲花路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3MUKVDK",
+        "name": "Tixbar",
+        "type": "bar",
+        "lat": 24.485736,
+        "lng": 118.125528,
+        "rating": 4,
+        "reviewsCount": 447,
+        "address": "莲花北路海山大厦(莲花路口地铁站4号口步行290米)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥53-79",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-莲花北路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L377M3NM",
+        "name": "咔嚓BoomBoom",
+        "type": "bar",
+        "lat": 24.482374,
+        "lng": 118.111792,
+        "rating": 3.5,
+        "reviewsCount": 314,
+        "address": "槟榔西里191号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-槟榔西里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2UGDUKO",
+        "name": "Sea Scape沙滩餐酒吧",
+        "type": "bar",
+        "lat": 24.500875,
+        "lng": 118.199875,
+        "rating": 3.8,
+        "reviewsCount": 75,
+        "address": "环岛东路商业街17号观音山内(北侧)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥38-58",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-环岛东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2NXJ4GB",
+        "name": "小酒里(软二店)",
+        "type": "bar",
+        "lat": 24.487456,
+        "lng": 118.188507,
+        "rating": 3.7,
+        "reviewsCount": 51,
+        "address": "会展路476号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥53-79",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-会展路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1GAAIVZ",
+        "name": "尚homebar",
+        "type": "bar",
+        "lat": 24.468258,
+        "lng": 118.111092,
+        "rating": 3.9,
+        "reviewsCount": 429,
+        "address": "顶峰光辉9层930",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥119-179",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-顶峰光辉9层"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1DRUUP2",
+        "name": "Hand Me Down",
+        "type": "bar",
+        "lat": 24.444009,
+        "lng": 118.090081,
+        "rating": 4.3,
+        "reviewsCount": 379,
+        "address": "厦港街道永福宫巷12-1鹭竹电子401室",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-厦港街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0YA5WIE",
+        "name": "夜风 city pop",
+        "type": "bar",
+        "lat": 24.487673,
+        "lng": 118.109771,
+        "rating": 3.3,
+        "reviewsCount": 314,
+        "address": "体育路88-109-1号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥77-115",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-体育路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0TXC40A",
+        "name": "莫小城精酿酒馆",
+        "type": "bar",
+        "lat": 24.476925,
+        "lng": 118.140625,
+        "rating": 3.7,
+        "reviewsCount": 384,
+        "address": "西林西路与莲前西路交叉口南80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥88-132",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-西林西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0G746VU",
+        "name": "Lumière Prisma",
+        "type": "bar",
+        "lat": 24.476785,
+        "lng": 118.085387,
+        "rating": 3.1,
+        "reviewsCount": 317,
+        "address": "官任路30号C107室",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-官任路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KR69RDK6",
+        "name": "威士忌精选汇",
+        "type": "bar",
+        "lat": 24.46426,
+        "lng": 118.078446,
+        "rating": 2.7,
+        "reviewsCount": 477,
+        "address": "禹洲商业中心东门旁",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥131-197",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-禹洲商业中心"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KDZNMZJA",
+        "name": "COAST酒吧(厦门海峡世茂广场店)",
+        "type": "bar",
+        "lat": 24.435283,
+        "lng": 118.089187,
+        "rating": 4,
+        "reviewsCount": 379,
+        "address": "演武西路180-188号厦门海峡世茂广场",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥118-178",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-演武西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KD9XWN4K",
+        "name": "萨兹saaz精酿酒馆",
+        "type": "bar",
+        "lat": 24.42861,
+        "lng": 118.124679,
+        "rating": 3.6,
+        "reviewsCount": 404,
+        "address": "文青路与曾厝垵北路交叉口东60米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥59-89",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-文青路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KASLHX19",
+        "name": "COSMOS",
+        "type": "bar",
+        "lat": 24.478727,
+        "lng": 118.114558,
+        "rating": 4,
+        "reviewsCount": 243,
+        "address": "湖滨六里134-1号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥50-76",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-湖滨六里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K19HKEUX",
+        "name": "厦门市思明区相约酒点酒业经营部",
+        "type": "bar",
+        "lat": 24.478418,
+        "lng": 118.112929,
+        "rating": 3.8,
+        "reviewsCount": 340,
+        "address": "101聚厂D栋34号116室",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-101聚厂D"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JUDU5DHI",
+        "name": "威士忌专营店",
+        "type": "bar",
+        "lat": 24.485106,
+        "lng": 118.163612,
+        "rating": 2.9,
+        "reviewsCount": 70,
+        "address": "吕岭路1010-1号(古地石地铁站4号口步行50米)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-吕岭路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JA3UZ6SE",
+        "name": "91号Route bar",
+        "type": "bar",
+        "lat": 24.472922,
+        "lng": 118.116894,
+        "rating": 4.3,
+        "reviewsCount": 215,
+        "address": "双涵路91号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥68-102",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-双涵路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J1OMDAUC",
+        "name": "Ye's Whisky(海翼大厦A座店)",
+        "type": "bar",
+        "lat": 24.463045,
+        "lng": 118.09439,
+        "rating": 3.6,
+        "reviewsCount": 58,
+        "address": "开元街道深田社区厦禾路666-668号海翼大厦A座2202-2",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥115-173",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-开元街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I2HAYOO2",
+        "name": "春",
+        "type": "bar",
+        "lat": 24.465063,
+        "lng": 118.107186,
+        "rating": 3.6,
+        "reviewsCount": 81,
+        "address": "文灶街25号(文灶地铁站2号口步行460米)",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-文灶街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0HD6ZBHB8",
+        "name": "宴玺音乐酒馆(中航紫金店)",
+        "type": "bar",
+        "lat": 24.476166,
+        "lng": 118.19111,
+        "rating": 3.7,
+        "reviewsCount": 154,
+        "address": "环岛东路1817-202紫金广场商业街",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥81-121",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-环岛东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFF4IW0H",
+        "name": "海贼王精酿啤酒屋(明发商业广场店)",
+        "type": "bar",
+        "lat": 24.477905,
+        "lng": 118.124367,
+        "rating": 3.7,
+        "reviewsCount": 74,
+        "address": "嘉莲街道莲坂商业广场东区378号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉莲街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LGRD9RW8",
+        "name": "夜尚红妆LIVE",
+        "type": "bar",
+        "lat": 24.485996,
+        "lng": 118.110807,
+        "rating": 4.6,
+        "reviewsCount": 87,
+        "address": "育秀路与育秀中路交叉口南100米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥78-118",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-育秀路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDXLGLIF",
+        "name": "UnU",
+        "type": "bar",
+        "lat": 24.474249,
+        "lng": 118.115162,
+        "rating": 4.5,
+        "reviewsCount": 324,
+        "address": "凤屿路与湖滨南路辅路交叉口南100米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥82-124",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-凤屿路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L65DNXC7",
+        "name": "下班之后·bar",
+        "type": "bar",
+        "lat": 24.475625,
+        "lng": 118.179938,
+        "rating": 4.4,
+        "reviewsCount": 387,
+        "address": "双巷石路12号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥54-82",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-双巷"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L60M1ZPM",
+        "name": "趣栗bistro·日咖夜酒",
+        "type": "bar",
+        "lat": 24.458602,
+        "lng": 118.079365,
+        "rating": 4.4,
+        "reviewsCount": 113,
+        "address": "思明北路与打索埕巷交叉口南60米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥50-76",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-思明北路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L396QHJW",
+        "name": "八浪Gin&Whisky Bar",
+        "type": "bar",
+        "lat": 24.46345,
+        "lng": 118.086502,
+        "rating": 4.4,
+        "reviewsCount": 436,
+        "address": "斗西路156祥和广场F1层",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥82-124",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-斗西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1FDXNIX",
+        "name": "Muchmore日咖夜酒",
+        "type": "bar",
+        "lat": 24.476523,
+        "lng": 118.107212,
+        "rating": 4.5,
+        "reviewsCount": 54,
+        "address": "湖光路湖滨三里3区26号104店面",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥45-67",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-湖光路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KDKSMZE1",
+        "name": "Launch Whisky&Cocktail Bar",
+        "type": "bar",
+        "lat": 24.453582,
+        "lng": 118.083195,
+        "rating": 4.4,
+        "reviewsCount": 90,
+        "address": "中华街道仁安巷31号(镇海路地铁站出入口步行370米)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥72-108",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-中华街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KDJ97O61",
+        "name": "J·BAR Whiskey Cocktail",
+        "type": "bar",
+        "lat": 24.489264,
+        "lng": 118.102707,
+        "rating": 4.6,
+        "reviewsCount": 407,
+        "address": "筼筜街道湖滨东路319-6-2号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥66-100",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-筼筜街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KADCVS6Z",
+        "name": "Miles Bar·沙漏鸡尾酒威士忌吧",
+        "type": "bar",
+        "lat": 24.471876,
+        "lng": 118.103671,
+        "rating": 4.4,
+        "reviewsCount": 298,
+        "address": "湖滨南路226-104号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥72-108",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-湖滨南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K39M8JXG",
+        "name": "不空酒咖",
+        "type": "bar",
+        "lat": 24.477691,
+        "lng": 118.159333,
+        "rating": 4.4,
+        "reviewsCount": 457,
+        "address": "洪莲路22-119号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥58-86",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-洪莲路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K2DHH87E",
+        "name": "Lynx Bar(奢利酒吧)",
+        "type": "bar",
+        "lat": 24.475649,
+        "lng": 118.085748,
+        "rating": 4.5,
+        "reviewsCount": 73,
+        "address": "官任路2-16号(建业路地铁站4号口步行470米)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥59-89",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-官任路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K23XZBYS",
+        "name": "液体小猫酒屋",
+        "type": "bar",
+        "lat": 24.467221,
+        "lng": 118.16647,
+        "rating": 4.4,
+        "reviewsCount": 180,
+        "address": "思明区前埔六里35-1号102(菜鸟驿站旁)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥41-61",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-前埔六里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J3ZRYKIG",
+        "name": "黑马会雪茄威士忌吧",
+        "type": "bar",
+        "lat": 24.469771,
+        "lng": 118.161611,
+        "rating": 4.5,
+        "reviewsCount": 215,
+        "address": "洪文七里云顶至尊95号-8",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥120-180",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-洪文七里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0HAFZU3U2",
+        "name": "小城故事音乐酒吧",
+        "type": "bar",
+        "lat": 24.487053,
+        "lng": 118.110651,
+        "rating": 4.3,
+        "reviewsCount": 428,
+        "address": "筼筜街道育秀路25号体育中心综合健身馆负一楼25号店",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥84-126",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-筼筜街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFLBD4CS",
+        "name": "厦遇Music Bar(曾厝垵店)",
+        "type": "bar",
+        "lat": 24.42646,
+        "lng": 118.126712,
+        "rating": 4.4,
+        "reviewsCount": 442,
+        "address": "国办路曾厝垵社257号之四",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥50-76",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-国办路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1CL6ZKW",
+        "name": "七点整精酿酒馆",
+        "type": "bar",
+        "lat": 24.474725,
+        "lng": 118.153675,
+        "rating": 4.2,
+        "reviewsCount": 408,
+        "address": "洪文二路与云顶中路交叉口东140米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥92-138",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-洪文二路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0RS4MJ8",
+        "name": "ONE ZERO ONE 101 CLUB",
+        "type": "bar",
+        "lat": 24.485032,
+        "lng": 118.191204,
+        "rating": 3.9,
+        "reviewsCount": 168,
+        "address": "台南路59-105-101号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥49-73",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-台南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFK9P4GN",
+        "name": "厦门3W House",
+        "type": "bar",
+        "lat": 24.437274,
+        "lng": 118.14204,
+        "rating": 4.6,
+        "reviewsCount": 119,
+        "address": "滨海街道黄厝社区塔头社164号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-滨海街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFIDGZ1V",
+        "name": "一格海景亲子酒店(环岛路厦大白城店)",
+        "type": "bar",
+        "lat": 24.428945,
+        "lng": 118.116127,
+        "rating": 4.7,
+        "reviewsCount": 241,
+        "address": "环岛南路2号曾厝垵村西边社2号-1",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-环岛南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LR07NSYK",
+        "name": "Small bar",
+        "type": "bar",
+        "lat": 24.47506,
+        "lng": 118.115602,
+        "rating": 4.2,
+        "reviewsCount": 436,
+        "address": "湖滨南路332号103之4店面",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥70-106",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-湖滨南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L6LSBTT8",
+        "name": "Colors bar小酒馆(明发商业广场店)",
+        "type": "bar",
+        "lat": 24.479213,
+        "lng": 118.124608,
+        "rating": 4.2,
+        "reviewsCount": 205,
+        "address": "莲坂商业广场中区364号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥54-82",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-莲坂商业广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L31DVBCH",
+        "name": "狼图腾火塘吧(厦门明发店)",
+        "type": "bar",
+        "lat": 24.477261,
+        "lng": 118.121775,
+        "rating": 4.4,
+        "reviewsCount": 145,
+        "address": "嘉莲街道嘉禾路2号(莲坂BRT下车50米处)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥18-26",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉莲街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFKFZC3B",
+        "name": "Libar天秤酒吧",
+        "type": "bar",
+        "lat": 24.464521,
+        "lng": 118.095504,
+        "rating": 4.4,
+        "reviewsCount": 429,
+        "address": "汇文西路82号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥51-77",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-汇文西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IK9AWBKP",
+        "name": "TIpsssy17bistro小狗餐酒馆(东方巴黎店)",
+        "type": "bar",
+        "lat": 24.46989,
+        "lng": 118.11104,
+        "rating": 4.6,
+        "reviewsCount": 296,
+        "address": "金榜路98-22号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥83-125",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-金榜路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H2Z7ATOO",
+        "name": "BOOMSHAKE酒吧",
+        "type": "bar",
+        "lat": 24.498475,
+        "lng": 118.123925,
+        "rating": 4.4,
+        "reviewsCount": 420,
+        "address": "仙岳路1183号-2门店",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥104-156",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-仙岳路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFFS2XES",
+        "name": "黑羊精酿餐吧(JFC品尚中心B馆店)",
+        "type": "bar",
+        "lat": 24.474498,
+        "lng": 118.19164,
+        "rating": 4.4,
+        "reviewsCount": 61,
+        "address": "环岛东路1703号JFC品尚中心B馆1层",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥80-120",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-环岛东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JU6D068W",
+        "name": "中区星际酒吧(厦门店)",
+        "type": "bar",
+        "lat": 24.47879,
+        "lng": 118.125406,
+        "rating": 3.9,
+        "reviewsCount": 46,
+        "address": "莲坂商业广场155号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥330-494",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-莲坂商业广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JARU1TO2",
+        "name": "Helens海伦司小酒馆(厦门明发商业广场店)",
+        "type": "bar",
+        "lat": 24.478255,
+        "lng": 118.121573,
+        "rating": 4.6,
+        "reviewsCount": 450,
+        "address": "莲坂商业广场西区1楼161-110号",
+        "signature": "海伦司可乐桶 (平价大容量社交酒)",
+        "priceRange": "¥17-25",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-莲坂商业广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFHBIYQI",
+        "name": "My Way酒吧(福满家园店)",
+        "type": "bar",
+        "lat": 24.46613,
+        "lng": 118.092989,
+        "rating": 4.1,
+        "reviewsCount": 78,
+        "address": "开元街道后江社区白鹭洲路60-72号福满家园",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥50-76",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-开元街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JDVCXOXK",
+        "name": "BOILER博乐精酿(东坪山店)",
+        "type": "bar",
+        "lat": 24.455183,
+        "lng": 118.130065,
+        "rating": 4.5,
+        "reviewsCount": 119,
+        "address": "东坪山社265号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥94-140",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-东坪山社26"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFGAKXAX",
+        "name": "酒吧一条街",
+        "type": "bar",
+        "lat": 24.475677,
+        "lng": 118.085191,
+        "rating": 4.4,
+        "reviewsCount": 238,
+        "address": "建业路1号酒吧一条街(建业路地铁站4号口步行420米)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-建业路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKPSZHED",
+        "name": "酒馆",
+        "type": "bar",
+        "lat": 24.454247,
+        "lng": 118.075489,
+        "rating": 3,
+        "reviewsCount": 263,
+        "address": "海后路16号102",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-海后路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H1UUYJAX",
+        "name": "BKONE精酿啤酒餐吧",
+        "type": "bar",
+        "lat": 24.436026,
+        "lng": 118.089374,
+        "rating": 3.6,
+        "reviewsCount": 227,
+        "address": "演武西路185号108室",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-演武西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0HK37P4O3",
+        "name": "麻吉酒馆明发商业广场-中区店",
+        "type": "bar",
+        "lat": 24.479438,
+        "lng": 118.123663,
+        "rating": 3.6,
+        "reviewsCount": 299,
+        "address": "嘉禾路76明发商业广场-中区F1层",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥74-110",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K2DH7VMF",
+        "name": "TIME LOFT·HIFI主题咖啡酒吧",
+        "type": "bar",
+        "lat": 24.481925,
+        "lng": 118.121275,
+        "rating": 4.5,
+        "reviewsCount": 379,
+        "address": "嘉禾路197号磐基中心1层107",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MB57KR8N",
+        "name": "星际酒吧(厦门店)",
+        "type": "bar",
+        "lat": 24.475475,
+        "lng": 118.121525,
+        "rating": 4,
+        "reviewsCount": 484,
+        "address": "厦禾路辅路与坂尾北二路交叉口东北160米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥112-168",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-厦禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M6ZC1L2P",
+        "name": "博乐精酿",
+        "type": "bar",
+        "lat": 24.472625,
+        "lng": 118.103375,
+        "rating": 3.4,
+        "reviewsCount": 397,
+        "address": "筼筜街道一里社区湖滨一里26-28号闽南大厦",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-筼筜街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0G1YAR6ZN",
+        "name": "酒唯Joyway音乐酒吧",
+        "type": "bar",
+        "lat": 24.444948,
+        "lng": 118.071691,
+        "rating": 4.4,
+        "reviewsCount": 378,
+        "address": "鼓浪屿龙头路82号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥57-85",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-鼓浪屿龙头路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDJ5Y3YH",
+        "name": "1983鹭江精酿小酒馆(凤屿路店)",
+        "type": "bar",
+        "lat": 24.478065,
+        "lng": 118.114085,
+        "rating": 4.2,
+        "reviewsCount": 54,
+        "address": "湖光路258号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-湖光路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MB31GM7B",
+        "name": "暗香杉酒馆",
+        "type": "bar",
+        "lat": 24.472625,
+        "lng": 118.102975,
+        "rating": 4.3,
+        "reviewsCount": 394,
+        "address": "筼筜街道一里社区湖滨一里26-28号闽南大厦",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-筼筜街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I64AXKUA",
+        "name": "UDAY2077赛博酒馆(双涵天地店)",
+        "type": "bar",
+        "lat": 24.473364,
+        "lng": 118.118915,
+        "rating": 3.9,
+        "reviewsCount": 213,
+        "address": "厦禾路983-108号双涵天地",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥90-136",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-厦禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LUZBQ09U",
+        "name": "STELLAR 星际酒吧(思明店)",
+        "type": "bar",
+        "lat": 24.479014,
+        "lng": 118.12552,
+        "rating": 4.5,
+        "reviewsCount": 352,
+        "address": "明发商业广场东区329号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥330-494",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-明发商业广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J6MCIRGP",
+        "name": "H·Bistro小酒馆",
+        "type": "bar",
+        "lat": 24.475472,
+        "lng": 118.097526,
+        "rating": 4.5,
+        "reviewsCount": 80,
+        "address": "筼筜湖内(东侧)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥114-172",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-筼筜湖内(东"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LRB7NIHE",
+        "name": "浮图叙中式酒馆",
+        "type": "bar",
+        "lat": 24.479593,
+        "lng": 118.094334,
+        "rating": 4.5,
+        "reviewsCount": 91,
+        "address": "振兴大厦118号楼(湖滨中路地铁站2号口步行210米)",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥86-130",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-号楼(湖滨中路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0HRDSWQC1",
+        "name": "藏韵酒馆(明发商业广场-西区店)",
+        "type": "bar",
+        "lat": 24.478668,
+        "lng": 118.1222,
+        "rating": 3.5,
+        "reviewsCount": 127,
+        "address": "嘉莲街道嘉禾路76-170号明发商业广场西区负一楼",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥62-94",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉莲街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H257MUC3",
+        "name": "堂口酒吧(明发广场店)",
+        "type": "bar",
+        "lat": 24.478762,
+        "lng": 118.12188,
+        "rating": 4.4,
+        "reviewsCount": 196,
+        "address": "嘉莲街道嘉禾路76-25号明发商业广场负一楼",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-90",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉莲街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JD9Z3UYQ",
+        "name": "SIT DOWN势度精酿(莲花店)",
+        "type": "bar",
+        "lat": 24.484943,
+        "lng": 118.136622,
+        "rating": 4.1,
+        "reviewsCount": 295,
+        "address": "谊爱路40号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥57-85",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-谊爱路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JRJAHD9P",
+        "name": "二狗精酿酒吧(软件园店)",
+        "type": "bar",
+        "lat": 24.476965,
+        "lng": 118.181289,
+        "rating": 4.3,
+        "reviewsCount": 180,
+        "address": "前埔北路538号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥61-91",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-前埔北路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M6Z71SYT",
+        "name": "趣酒吧",
+        "type": "bar",
+        "lat": 24.477825,
+        "lng": 118.124225,
+        "rating": 3.6,
+        "reviewsCount": 355,
+        "address": "莲坂商业广场东区57号明发商业广场-东区",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-莲坂商业广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LUMB3NR9",
+        "name": "响音酒吧",
+        "type": "bar",
+        "lat": 24.478085,
+        "lng": 118.121601,
+        "rating": 3.5,
+        "reviewsCount": 314,
+        "address": "明发商业广场-南区",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥72-108",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-明发商业广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KAPLMLEV",
+        "name": "Tonight晚风精酿",
+        "type": "bar",
+        "lat": 24.444198,
+        "lng": 118.088663,
+        "rating": 4,
+        "reviewsCount": 246,
+        "address": "厦港街道思明南路479号-2-108",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥24-36",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-厦港街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LRKLJMTQ",
+        "name": "玛丽酒馆",
+        "type": "bar",
+        "lat": 24.428987,
+        "lng": 118.125629,
+        "rating": 3.7,
+        "reviewsCount": 479,
+        "address": "文青路与曾厝垵北路交叉口东180米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥90-136",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-文青路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0DXO7BN",
+        "name": "蔷薇酒吧",
+        "type": "bar",
+        "lat": 24.489075,
+        "lng": 118.122325,
+        "rating": 3.6,
+        "reviewsCount": 172,
+        "address": "长青路430-480号松柏嘉园",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-长青路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2R7O2UD",
+        "name": "丹凤打酒馆",
+        "type": "bar",
+        "lat": 24.465648,
+        "lng": 118.08573,
+        "rating": 4.1,
+        "reviewsCount": 193,
+        "address": "斗西路142-104号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-70",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-斗西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFJ4TO9S",
+        "name": "梦田音乐酒吧(莲花店)",
+        "type": "bar",
+        "lat": 24.484319,
+        "lng": 118.124423,
+        "rating": 4.5,
+        "reviewsCount": 143,
+        "address": "嘉禾路128号一楼(莲花路口地铁站4号口步行50米)",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥106-160",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JU252WZ4",
+        "name": "520音乐酒馆",
+        "type": "bar",
+        "lat": 24.479387,
+        "lng": 118.123427,
+        "rating": 4.4,
+        "reviewsCount": 59,
+        "address": "嘉禾路76明发商业广场-中区F1层",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥57-85",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KAUABCTH",
+        "name": "纳木错音乐酒馆(明发商业广场店)",
+        "type": "bar",
+        "lat": 24.477931,
+        "lng": 118.124054,
+        "rating": 2.3,
+        "reviewsCount": 429,
+        "address": "嘉莲街道明发商业广场中区436号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉莲街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LUBUGDFF",
+        "name": "DunDun小酒馆",
+        "type": "bar",
+        "lat": 24.476129,
+        "lng": 118.160706,
+        "rating": 3.9,
+        "reviewsCount": 115,
+        "address": "莲前东路411-102号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥18-28",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-莲前东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K15ARJ1Y",
+        "name": "乐得微醺酒馆",
+        "type": "bar",
+        "lat": 24.487975,
+        "lng": 118.126525,
+        "rating": 3.3,
+        "reviewsCount": 264,
+        "address": "嘉禾路297号宝龙中心1期",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-嘉禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JGMR88SQ",
+        "name": "厦门星际酒吧(明发商业广场-东区店)",
+        "type": "bar",
+        "lat": 24.478729,
+        "lng": 118.125548,
+        "rating": 4.5,
+        "reviewsCount": 480,
+        "address": "明发商业广场东区329号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥311-467",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-明发商业广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LR37F4BE",
+        "name": "蝴蝶赛琪酒馆",
+        "type": "bar",
+        "lat": 24.490943,
+        "lng": 118.131642,
+        "rating": 3,
+        "reviewsCount": 99,
+        "address": "香秀路与嘉莲路交叉口西80米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥92-138",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-香秀路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3JPCDTF",
+        "name": "麦造精酿",
+        "type": "bar",
+        "lat": 24.476575,
+        "lng": 118.171075,
+        "rating": 2.5,
+        "reviewsCount": 346,
+        "address": "前埔路159号福祥海峡两岸创新园",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-前埔路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0GKFAMNOL",
+        "name": "工之匠酒吧工作室(名汇广场店)",
+        "type": "bar",
+        "lat": 24.454936,
+        "lng": 118.083391,
+        "rating": 4,
+        "reviewsCount": 323,
+        "address": "霞溪路56号名汇广场F2层",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-霞溪路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J2LMSTQQ",
+        "name": "小城故事音乐酒吧(加州商业广场店)",
+        "type": "bar",
+        "lat": 24.477027,
+        "lng": 118.157646,
+        "rating": 4.5,
+        "reviewsCount": 368,
+        "address": "莲前东路123号加州城市广场1层",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥94-142",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "思明区-莲前东路"
         ]
       },
       {
@@ -14024,953 +15658,782 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
-        "id": "real-xm-matcha-B0J2OUEP8M",
-        "name": "三好咖啡·SOMEHOW COFFEE",
-        "type": "milktea",
-        "lat": 24.580164,
-        "lng": 118.098696,
+        "id": "real-xm-bar-B0LKB1UYVR",
+        "name": "帕拉融合西餐酒吧(厦门海上世界购物中心店)",
+        "type": "bar",
+        "lat": 24.490925,
+        "lng": 118.076375,
         "rating": 4.5,
-        "reviewsCount": 450,
-        "address": "银江路与印斗路交叉口南140米",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥20-30",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 124,
+        "address": "湖里街道远航路77号厦门海上世界购物中心L4层",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥89-133",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-银江路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-湖里"
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFJOCSD5",
-        "name": "星巴克(厦门万科云城分店)",
-        "type": "milktea",
-        "lat": 24.605318,
-        "lng": 118.08085,
-        "rating": 4.7,
-        "reviewsCount": 396,
-        "address": "龙荷二里1号地上第一层的B7-104.1-105.106.107单元",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
+        "id": "real-xm-bar-B0KDH9IZH4",
+        "name": "Within Reach运动酒馆",
+        "type": "bar",
+        "lat": 24.50789,
+        "lng": 118.106854,
+        "rating": null,
+        "reviewsCount": 109,
+        "address": "兴隆路88号伊善篮球馆直走篮色楼梯上来二楼",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-龙荷二里"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-兴隆路"
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFI8TAF6",
-        "name": "古茗(集美孙厝堂食)",
-        "type": "milktea",
-        "lat": 24.585267,
-        "lng": 118.100584,
-        "rating": 4.3,
-        "reviewsCount": 480,
-        "address": "孙厝乐安东路16号之三店",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-孙厝乐安东路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JG5ZU743",
-        "name": "库迪咖啡(厦门万科云城店)",
-        "type": "milktea",
-        "lat": 24.604001,
-        "lng": 118.0794,
-        "rating": 4.5,
-        "reviewsCount": 255,
-        "address": "万科云城龙荷二里16-111号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-万科云城龙荷二里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LKVR5K50",
-        "name": "梨抹茶甜品店",
-        "type": "milktea",
-        "lat": 24.566208,
-        "lng": 118.104609,
-        "rating": 4.3,
-        "reviewsCount": 378,
-        "address": "鳌园路24-113号店",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥46-70",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-鳌园路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0MBBHW6E7",
-        "name": "幸运咖(集美软件园店)",
-        "type": "milktea",
-        "lat": 24.613725,
-        "lng": 118.047275,
-        "rating": 4,
-        "reviewsCount": 270,
-        "address": "诚毅北大街9-8号B107室",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-诚毅北大街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LDRZCP1F",
-        "name": "初待抹茶甜品(集美店)",
-        "type": "milktea",
-        "lat": 24.573325,
-        "lng": 118.101975,
-        "rating": 4,
-        "reviewsCount": 408,
-        "address": "集美塘盛小区集美花园东区",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-集美塘盛小区"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFHIY4RP",
-        "name": "星巴克(厦门集美万科里店)",
-        "type": "milktea",
-        "lat": 24.561805,
-        "lng": 118.060772,
-        "rating": 4.6,
-        "reviewsCount": 432,
-        "address": "杏林街道宁海一里杏林万科里商场L101-L102",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JAOSWVFA",
-        "name": "库迪咖啡(集美大学财经学院店)",
-        "type": "milktea",
-        "lat": 24.571901,
-        "lng": 118.099209,
-        "rating": 4.4,
-        "reviewsCount": 107,
-        "address": "石鼓路78号集美大学财经学院全季酒店1层",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-石鼓路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFKBNMAZ",
-        "name": "瑞幸咖啡(集美大学财经学院店)",
-        "type": "milktea",
-        "lat": 24.571863,
-        "lng": 118.099177,
-        "rating": 4.6,
-        "reviewsCount": 173,
-        "address": "石鼓路78号集美大学财经学院陈延奎楼一层",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-石鼓路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0K2JLPMDB",
-        "name": "猿乐山",
-        "type": "milktea",
-        "lat": 24.592012,
-        "lng": 118.055437,
-        "rating": 4.4,
-        "reviewsCount": 92,
-        "address": "厦门大悦城L531(官任地铁站5A口步行220米)",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥20-30",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-厦门大悦城L"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L6HMD30S",
-        "name": "茉莉奶白(厦门大悦城店)",
-        "type": "milktea",
-        "lat": 24.592325,
-        "lng": 118.055568,
-        "rating": 4.4,
-        "reviewsCount": 435,
-        "address": "杏林湾路333号负一楼(官任地铁站5A口步行220米)",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林湾"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B02500VFLT",
-        "name": "星巴克(集美万达分店)",
-        "type": "milktea",
-        "lat": 24.57366,
-        "lng": 118.093846,
-        "rating": 4.6,
-        "reviewsCount": 411,
-        "address": "银江路137号万达广场万达百货1层1023",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-银江路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFHIZ8KI",
-        "name": "古茗(集美旺角大学城店)",
-        "type": "milktea",
-        "lat": 24.632061,
-        "lng": 118.086689,
-        "rating": 4.4,
-        "reviewsCount": 191,
-        "address": "后溪镇天马路309-114号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-后溪镇天马路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0M60SM5VY",
-        "name": "库迪咖啡(集美杏林联通店)",
-        "type": "milktea",
-        "lat": 24.558351,
-        "lng": 118.040229,
-        "rating": 4,
-        "reviewsCount": 199,
-        "address": "杏林南路103号中铁时代家园103号楼1层沿街底商",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林南路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0G1BY9AGE",
-        "name": "瑞幸咖啡(软件园三期店)",
-        "type": "milktea",
-        "lat": 24.613282,
-        "lng": 118.044845,
-        "rating": 4.5,
-        "reviewsCount": 171,
-        "address": "诚毅北大街51号软件园三期B11栋一层大堂",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-诚毅北大街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JD2CN6WJ",
-        "name": "沪上阿姨·精选茶饮(厦门集美锦园路店)",
-        "type": "milktea",
-        "lat": 24.588501,
-        "lng": 118.026702,
+        "id": "real-xm-bar-B0KURZ2KRG",
+        "name": "小蜻蜓酒馆(新景七星府邸店)",
+        "type": "bar",
+        "lat": 24.495716,
+        "lng": 118.140864,
         "rating": 4.2,
-        "reviewsCount": 270,
-        "address": "杏滨街道锦园新村187-107",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 146,
+        "address": "双浦东里38号新景七星府邸",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏滨街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-双浦东里"
         ]
       },
       {
-        "id": "real-xm-matcha-B0H04DB60C",
-        "name": "乐活事鲜果茶(iOi MALL店)",
-        "type": "milktea",
-        "lat": 24.600626,
-        "lng": 118.07518,
-        "rating": 4.2,
-        "reviewsCount": 381,
-        "address": "滨水路中五里1号iOi MALL",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-滨水路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L1D7VCEU",
-        "name": "星巴克臻选(厦门大悦城分店)",
-        "type": "milktea",
-        "lat": 24.592448,
-        "lng": 118.055697,
-        "rating": 4.5,
-        "reviewsCount": 63,
-        "address": "杏林街道杏林湾路333号厦门大悦城1层L112铺位",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0KRSRIC6K",
-        "name": "古茗(集美大悦城外街店)",
-        "type": "milktea",
-        "lat": 24.593397,
-        "lng": 118.055095,
-        "rating": 4.5,
-        "reviewsCount": 167,
-        "address": "杏林湾路327号108室",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林湾"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JU9SBWF4",
-        "name": "库迪咖啡(集美大学音乐学院店)",
-        "type": "milktea",
-        "lat": 24.580928,
-        "lng": 118.100585,
+        "id": "real-xm-bar-B0K357PAP5",
+        "name": "四方轩酒馆",
+        "type": "bar",
+        "lat": 24.515841,
+        "lng": 118.151148,
         "rating": 4.4,
-        "reviewsCount": 246,
-        "address": "石鼓路192号(集美大学音乐学院公交站东北侧)",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 206,
+        "address": "枋湖路755-2(美途酒店隔壁)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥32-48",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-石鼓路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-枋湖路"
         ]
       },
       {
-        "id": "real-xm-matcha-B0KK4LVVXN",
-        "name": "瑞幸咖啡(软件园三期A04店)",
-        "type": "milktea",
-        "lat": 24.606643,
-        "lng": 118.049433,
-        "rating": 4.6,
-        "reviewsCount": 158,
-        "address": "诚毅大街365-101号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-诚毅大街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JUD522Y3",
-        "name": "沪上阿姨鲜果茶",
-        "type": "milktea",
-        "lat": 24.606625,
-        "lng": 118.049825,
+        "id": "real-xm-bar-B0FFKR08EN",
+        "name": "爱尚演艺KTV酒吧(厦门鹭港店)",
+        "type": "bar",
+        "lat": 24.520808,
+        "lng": 118.109455,
         "rating": 4.4,
-        "reviewsCount": 268,
-        "address": "杏林街道诚毅大街369号软件园三期A区04栋1层104室",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 122,
+        "address": "殿前街道长浩东路29号闽南古镇5层",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥108-162",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-殿前街"
         ]
       },
       {
-        "id": "real-xm-matcha-B0K2TRXGG0",
-        "name": "好利来(大悦城店)",
-        "type": "milktea",
-        "lat": 24.592089,
-        "lng": 118.056075,
-        "rating": 4.6,
-        "reviewsCount": 447,
-        "address": "杏林街道诚毅中路与杏林湾路交叉口厦门大悦城购物中心L111号铺位",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥36-54",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0H3DURSRG",
-        "name": "星巴克(iOiMALL店)",
-        "type": "milktea",
-        "lat": 24.600158,
-        "lng": 118.074883,
-        "rating": 4.6,
-        "reviewsCount": 420,
-        "address": "滨水中五里3-101号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-滨水中五里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LB2RS47K",
-        "name": "古茗(集美杏林万达店)",
-        "type": "milktea",
-        "lat": 24.573236,
-        "lng": 118.092721,
-        "rating": 4.2,
-        "reviewsCount": 467,
-        "address": "集美万达广场3F3022",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-集美万达广场"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0J6D5BY56",
-        "name": "库迪咖啡(软件园三期B08店)",
-        "type": "milktea",
-        "lat": 24.61475,
-        "lng": 118.046204,
-        "rating": 4.5,
-        "reviewsCount": 201,
-        "address": "后集溪镇诚毅北大街52号金砖未来创新园B08栋205-02",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-后集溪镇诚毅北大街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0GDVZ7KLD",
-        "name": "瑞幸咖啡(厦门华侨大学艺术区店)",
-        "type": "milktea",
-        "lat": 24.605525,
-        "lng": 118.081225,
-        "rating": 4.6,
-        "reviewsCount": 175,
-        "address": "兑山西路118-118-1号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-兑山西路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LDFDXGJW",
-        "name": "梨卡pear ·舒芙蕾·咖啡·饮品",
-        "type": "milktea",
-        "lat": 24.632376,
-        "lng": 118.086069,
-        "rating": 4,
-        "reviewsCount": 220,
-        "address": "天马路旺角新天地299-110",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-天马路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0GRO75FPZ",
-        "name": "星巴克(厦门集美尚柏奥莱分店)",
-        "type": "milktea",
-        "lat": 24.622464,
-        "lng": 118.072974,
-        "rating": 4.5,
-        "reviewsCount": 114,
-        "address": "华夏路1号尚柏奥特莱斯地上一层1F-072铺位",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-华夏路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0H0ZDVOBM",
-        "name": "星巴克(厦门集美软件园三期分店)",
-        "type": "milktea",
-        "lat": 24.615189,
-        "lng": 118.045456,
-        "rating": 4.5,
-        "reviewsCount": 74,
-        "address": "诚毅北大街50号206号05",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-诚毅北大街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFL7CTEA",
-        "name": "古茗(集美锦园店)",
-        "type": "milktea",
-        "lat": 24.589144,
-        "lng": 118.026075,
-        "rating": 4.4,
-        "reviewsCount": 260,
-        "address": "锦园南路333号之1号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-锦园南路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L3VCJCVH",
-        "name": "库迪咖啡(中粮云玺一号店)",
-        "type": "milktea",
-        "lat": 24.593955,
-        "lng": 118.056173,
-        "rating": 4.4,
-        "reviewsCount": 379,
-        "address": "中粮·云玺壹号一期东门南50米一楼",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-中粮·云玺壹"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0KKKHUG2P",
-        "name": "瑞幸咖啡(软件园三期A06店)",
-        "type": "milktea",
-        "lat": 24.608042,
-        "lng": 118.051632,
-        "rating": 4.5,
-        "reviewsCount": 47,
-        "address": "诚毅大街370号软件园三期A区06栋一层大堂",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-诚毅大街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0I6B914P0",
-        "name": "星巴克(厦门集美世茂广场分店)",
-        "type": "milktea",
-        "lat": 24.602491,
-        "lng": 118.075696,
-        "rating": 4.5,
-        "reviewsCount": 91,
-        "address": "侨英街道滨水中二里32-33号厦门集美世茂广场",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-侨英街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0GKHU1RBU",
-        "name": "古茗(杏林龙湖店)",
-        "type": "milktea",
-        "lat": 24.583554,
-        "lng": 118.050711,
-        "rating": 4.5,
-        "reviewsCount": 97,
-        "address": "杏北七里60号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏北七里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0GKKSY4HN",
-        "name": "星巴克(厦门星巢越中心分店)",
-        "type": "milktea",
-        "lat": 24.592827,
-        "lng": 118.064966,
-        "rating": 4.5,
-        "reviewsCount": 431,
-        "address": "杏林湾路488号星巢越中心地上一层",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-杏林湾"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0KAS7QE3P",
-        "name": "古茗(IOIMALL店)",
-        "type": "milktea",
-        "lat": 24.600805,
-        "lng": 118.074893,
-        "rating": 4.4,
-        "reviewsCount": 153,
-        "address": "iOi MALLB1层",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-iOi MA"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JG5U5APX",
-        "name": "库迪咖啡(集美旺角大学城店)",
-        "type": "milktea",
-        "lat": 24.632025,
-        "lng": 118.087125,
-        "rating": 4,
-        "reviewsCount": 379,
-        "address": "旺角新天地天马路311-113号(中心喷泉东侧)",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-旺角新天地天马路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0HKVS76DD",
-        "name": "瑞幸咖啡(厦门北旺角大学城店)",
-        "type": "milktea",
-        "lat": 24.631989,
-        "lng": 118.086074,
-        "rating": 4.6,
-        "reviewsCount": 197,
-        "address": "天马路旺角大学城A区305-105号",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-天马路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LRBCOHIP",
-        "name": "古茗(集美浒井中里店)",
-        "type": "milktea",
-        "lat": 24.603703,
-        "lng": 118.099344,
-        "rating": 4.2,
-        "reviewsCount": 399,
-        "address": "浒井中里88号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-浒井中里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFLEXS8S",
-        "name": "古茗(集美东安英瑶店)",
-        "type": "milktea",
-        "lat": 24.605294,
-        "lng": 118.112715,
-        "rating": 4.5,
-        "reviewsCount": 221,
-        "address": "厦门扬威运动器材实业有限公司西北2门北100米",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-厦门扬威运动"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0HK7ML8E9",
-        "name": "星巴克(厦门灌口万达广场店)",
-        "type": "milktea",
-        "lat": 24.610709,
-        "lng": 117.999204,
-        "rating": 4.4,
-        "reviewsCount": 227,
-        "address": "灌口镇金龙东路与鱼孚路交叉口西南侧灌口万达广场地上一层1017单元",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-灌口镇金龙东路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LUM5A3CP",
-        "name": "古茗(集美和美天地店)",
-        "type": "milktea",
-        "lat": 24.604974,
-        "lng": 118.051339,
-        "rating": 4.2,
-        "reviewsCount": 228,
-        "address": "和美天地B1层B109",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-和美天地B1"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0J26ZOS7B",
-        "name": "库迪咖啡(集美大学诚毅学院店)",
-        "type": "milktea",
-        "lat": 24.586489,
-        "lng": 118.09473,
-        "rating": 3.9,
-        "reviewsCount": 413,
-        "address": "集美大学诚毅学院内玻璃房后门西侧",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-集美大学诚毅"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0GR9HQPXX",
-        "name": "古茗(集美杏西广场店)",
-        "type": "milktea",
-        "lat": 24.565967,
-        "lng": 118.0291,
-        "rating": 4.5,
-        "reviewsCount": 291,
-        "address": "新源里79号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-新源里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0J2NMF8PL",
-        "name": "古茗(集美软三C区店)",
-        "type": "milktea",
-        "lat": 24.622057,
-        "lng": 118.039657,
-        "rating": 4.5,
-        "reviewsCount": 75,
-        "address": "后溪镇溪西山尾路67号软件园三期C区C03栋403室",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-后溪镇溪西山尾路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LB2RQFQT",
-        "name": "古茗(灌口纳得福店)",
-        "type": "milktea",
-        "lat": 24.600572,
-        "lng": 117.984553,
+        "id": "real-xm-bar-B0J04AR3RY",
+        "name": "深蓝酒吧BlueRoom(湖里店)",
+        "type": "bar",
+        "lat": 24.510562,
+        "lng": 118.097776,
         "rating": 4.1,
-        "reviewsCount": 182,
-        "address": "灌口镇黄庄路190-104",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 309,
+        "address": "湖里大道22号联发文创口岸",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥33-49",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-灌口镇黄庄路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-湖里"
         ]
       },
       {
-        "id": "real-xm-matcha-B0JA7U3G1S",
-        "name": "库迪咖啡(集美软件园三期A04店)",
-        "type": "milktea",
-        "lat": 24.606424,
-        "lng": 118.049506,
-        "rating": 4.4,
-        "reviewsCount": 265,
-        "address": "诚毅中路601-133号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
+        "id": "real-xm-bar-B0K0KKYA1D",
+        "name": "醉美楼酒馆(岭下店)",
+        "type": "bar",
+        "lat": 24.53329,
+        "lng": 118.164313,
+        "rating": 4.2,
+        "reviewsCount": 442,
+        "address": "禾山街道安岭路2000-104号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-诚毅中路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-禾山街"
         ]
       },
       {
-        "id": "real-xm-matcha-B0L1DSTPLB",
-        "name": "星巴克(厦门集美旺角新天地分店)",
-        "type": "milktea",
-        "lat": 24.632425,
-        "lng": 118.085975,
+        "id": "real-xm-bar-B0MGACEVFR",
+        "name": "J+热狗咖啡精酿",
+        "type": "bar",
+        "lat": 24.536844,
+        "lng": 118.164077,
+        "rating": 3.9,
+        "reviewsCount": 419,
+        "address": "五缘西二里59-101号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-五缘西二里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1SUQM8W",
+        "name": "精酿啤酒烧烤",
+        "type": "bar",
+        "lat": 24.493814,
+        "lng": 118.148106,
+        "rating": 2.3,
+        "reviewsCount": 160,
+        "address": "金尚路258号莱茵花苑",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-金尚路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J3VOXU4H",
+        "name": "小象干杯酒馆食堂(软二店)",
+        "type": "bar",
+        "lat": 24.492553,
+        "lng": 118.174058,
         "rating": 4.4,
-        "reviewsCount": 426,
-        "address": "学院路与天马路交叉口西北200米",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
+        "reviewsCount": 415,
+        "address": "金山路2667号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥66-100",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-金山路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKX9OUV1",
+        "name": "酷理精酿(塘边店)",
+        "type": "bar",
+        "lat": 24.506228,
+        "lng": 118.121938,
+        "rating": 4,
+        "reviewsCount": 333,
+        "address": "嘉禾路511-4号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥38-56",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-嘉禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KAJA301M",
+        "name": "三两卤档·热炒精酿小酒馆",
+        "type": "bar",
+        "lat": 24.492029,
+        "lng": 118.171661,
+        "rating": 4.5,
+        "reviewsCount": 222,
+        "address": "观日西二里23-118",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥42-62",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-观日西二里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J0CCE1A7",
+        "name": "养酒馆",
+        "type": "bar",
+        "lat": 24.490345,
+        "lng": 118.171767,
+        "rating": 4.6,
+        "reviewsCount": 240,
+        "address": "观日西二里21号114.115门店",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-观日西二里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDHCJMDH",
+        "name": "炭家·烧烤酒馆",
+        "type": "bar",
+        "lat": 24.503681,
+        "lng": 118.182604,
+        "rating": 4.4,
+        "reviewsCount": 408,
+        "address": "金禾广场2号楼21-115",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥50-74",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-金禾广场2号"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K2TDSJ3G",
+        "name": "啤耶卤热卤精酿(钟宅店)",
+        "type": "bar",
+        "lat": 24.527046,
+        "lng": 118.164649,
+        "rating": 4.3,
+        "reviewsCount": 62,
+        "address": "钟宅北里13-106-2号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥41-61",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-钟宅北里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I29AKNNX",
+        "name": "菡SUSHI(古地石店)",
+        "type": "bar",
+        "lat": 24.492116,
+        "lng": 118.168011,
+        "rating": 4.6,
+        "reviewsCount": 300,
+        "address": "金边路航空古地石广场A区(谷地精酿店旁)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥454-680",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-金边路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKCZ1RXI",
+        "name": "闽一厦•闽南烧烤精酿(古地石店)",
+        "type": "bar",
+        "lat": 24.490164,
+        "lng": 118.166898,
+        "rating": 4.5,
+        "reviewsCount": 268,
+        "address": "金边路566-103号航空古地石广场B1区B003单元",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥56-84",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-金边路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JUKU45KK",
+        "name": "CaCa精酿",
+        "type": "bar",
+        "lat": 24.511775,
+        "lng": 118.124075,
+        "rating": 2.9,
+        "reviewsCount": 168,
+        "address": "火炬二路271-293盛唐苑",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-火炬二路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IUCZQWPW",
+        "name": "小象干杯酒馆食堂(枋湖店)",
+        "type": "bar",
+        "lat": 24.513766,
+        "lng": 118.140368,
+        "rating": 4.5,
+        "reviewsCount": 222,
+        "address": "湖里区核心商圈附近",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥65-97",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-核心商圈"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M66HAMHM",
+        "name": "小酒吧烧烤(SM店)",
+        "type": "bar",
+        "lat": 24.501068,
+        "lng": 118.128529,
+        "rating": 4.5,
+        "reviewsCount": 436,
+        "address": "兴山路136号102单元之",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥49-73",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-兴山路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3M7MOAQ",
+        "name": "老成都宜宾小酒馆",
+        "type": "bar",
+        "lat": 24.500213,
+        "lng": 118.144659,
+        "rating": 3.4,
+        "reviewsCount": 107,
+        "address": "祥店里3区北2门西50米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥47-71",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-祥店里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M66AAE5Z",
+        "name": "拾叁唐Live烧烤酒馆(永康店)",
+        "type": "bar",
+        "lat": 24.502052,
+        "lng": 118.128015,
+        "rating": 3.5,
+        "reviewsCount": 135,
+        "address": "嘉禾路468号SM国际中心",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥98-148",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-嘉禾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKS7JI65",
+        "name": "鲜满杯闽南小酒馆(美食地标店)",
+        "type": "bar",
+        "lat": 24.493891,
+        "lng": 118.171345,
+        "rating": 4.4,
+        "reviewsCount": 253,
+        "address": "宝龙·御湖官邸北区西南门东南140米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥67-101",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-宝龙·御湖官"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J0HYUVB3",
+        "name": "丹尼大叔精酿啤酒餐吧",
+        "type": "bar",
+        "lat": 24.513925,
+        "lng": 118.139983,
+        "rating": 4.4,
+        "reviewsCount": 157,
+        "address": "枋湖路19-107军梦双拥双创园",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥78-118",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-枋湖路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKZRF4JO",
+        "name": "鹭江精酿",
+        "type": "bar",
+        "lat": 24.506938,
+        "lng": 118.100985,
+        "rating": 3.4,
+        "reviewsCount": 186,
+        "address": "建发物流东门旁",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-建发物流东门"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2YUWD8A",
+        "name": "卤味小酒馆",
+        "type": "bar",
+        "lat": 24.524616,
+        "lng": 118.109849,
+        "rating": 2.8,
+        "reviewsCount": 290,
+        "address": "殿前四路与殿前一路辅路交叉口东40米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-殿前四路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0G31SVWV2",
+        "name": "Gudis谷地精酿餐吧(航空古地石广场店)",
+        "type": "bar",
+        "lat": 24.492108,
+        "lng": 118.167903,
+        "rating": 4.7,
+        "reviewsCount": 105,
+        "address": "金边路568-108号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥77-115",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-金边路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JD2RMS80",
+        "name": "伍柒咖啡·小吃西餐·小酒馆(枋湖梧桐新城店)",
+        "type": "bar",
+        "lat": 24.514683,
+        "lng": 118.143145,
+        "rating": 4.5,
+        "reviewsCount": 308,
+        "address": "湖里区枋湖路195-102号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥31-47",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-湖里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K19HM3C7",
+        "name": "诗泊LIQSPARK(厦门国际游艇汇店)",
+        "type": "bar",
+        "lat": 24.529649,
+        "lng": 118.182269,
+        "rating": 4.2,
+        "reviewsCount": 279,
+        "address": "槟城道289号厦门国际游艇汇",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥89-133",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-槟城道289"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0G1UAPQC9",
+        "name": "优布劳精酿鲜扎闪送(泰和店)",
+        "type": "bar",
+        "lat": 24.494007,
+        "lng": 118.138942,
+        "rating": 4,
+        "reviewsCount": 221,
+        "address": "吕岭路189-15-103优布劳精酿鲜扎闪送泰和店",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-吕岭路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KDHUJSSL",
+        "name": "精酿啤酒玉熔茶叶(枋湖花园店)",
+        "type": "bar",
+        "lat": 24.512589,
+        "lng": 118.141363,
+        "rating": 3.8,
+        "reviewsCount": 76,
+        "address": "枋湖西一里1-18号枋湖花园",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-枋湖西一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKD4LM2K",
+        "name": "航玖汇精酿啤酒(殿前一组工业园店)",
+        "type": "bar",
+        "lat": 24.531275,
+        "lng": 118.108825,
+        "rating": null,
+        "reviewsCount": 175,
+        "address": "殿前六路与殿前中街交叉口北80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-殿前六路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2B1MCEO",
+        "name": "御卤堂小酒馆",
+        "type": "bar",
+        "lat": 24.524602,
+        "lng": 118.10969,
+        "rating": 3.5,
+        "reviewsCount": 97,
+        "address": "殿前村口殿前社2219-107",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-殿前村口殿前"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LR37EQCA",
+        "name": "军拥源老酒馆",
+        "type": "bar",
+        "lat": 24.513875,
+        "lng": 118.140325,
+        "rating": 4.1,
+        "reviewsCount": 226,
+        "address": "枋湖路与枋湖西三路交叉口东北100米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥67-101",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-枋湖路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LG7MWG86",
+        "name": "鲜三杯闽南小酒馆(五缘湾店)",
+        "type": "bar",
+        "lat": 24.528009,
+        "lng": 118.165715,
+        "rating": 4.5,
+        "reviewsCount": 321,
+        "address": "钟宅北里13-103-1",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥53-79",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-钟宅北里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K2BS9RN5",
+        "name": "活啤镇·精酿啤酒工厂店(枋湖店)",
+        "type": "bar",
+        "lat": 24.512153,
+        "lng": 118.154066,
+        "rating": 4.7,
+        "reviewsCount": 442,
+        "address": "枋湖东路398号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-枋湖东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JR1KPATN",
+        "name": "小主饺傳統手作(无预制)菜酒馆饺子面炖汤",
+        "type": "bar",
+        "lat": 24.513775,
+        "lng": 118.098875,
+        "rating": 3.7,
+        "reviewsCount": 463,
+        "address": "湖里大道商圈首星影城正口 华美街区华昌路132号A2栋144",
+        "signature": "金汤力特调 (Gin and Tonic)",
         "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "集美区-学院路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-湖里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J1071XAO",
+        "name": "烤骨系烧烤·暖锅·精酿(华美空间店)",
+        "type": "bar",
+        "lat": 24.513412,
+        "lng": 118.098366,
+        "rating": 4.1,
+        "reviewsCount": 411,
+        "address": "华昌路132号华美空间A2-105",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥48-72",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-华昌路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LR6ZFCW8",
+        "name": "Air Loft天阁酒吧(厦门航空费尔蒙酒店)",
+        "type": "bar",
+        "lat": 24.510075,
+        "lng": 118.184675,
+        "rating": 4.3,
+        "reviewsCount": 232,
+        "address": "东黄路325号(厦门航空费尔蒙酒店T楼)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥121-181",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-东黄路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKAY889E",
+        "name": "碳炉土鸡火锅(四方轩酒馆店)",
+        "type": "bar",
+        "lat": 24.515625,
+        "lng": 118.151125,
+        "rating": 2.5,
+        "reviewsCount": 419,
+        "address": "卢安街与尚福路交叉口南60米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥81-121",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-卢安街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0GUPHYA1Z",
+        "name": "厦门丽派酒店用品(KTV酒吧用品一站式采购)",
+        "type": "bar",
+        "lat": 24.528407,
+        "lng": 118.118538,
+        "rating": 4,
+        "reviewsCount": 353,
+        "address": "殿前社5243号(殿前地铁站4B口步行380米)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "湖里区-殿前社524"
         ]
       },
       {
@@ -16662,6 +18125,519 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "鸡尾酒",
           "社交小酌",
           "集美区-海凤路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H2PCSSYE",
+        "name": "K.ONE",
+        "type": "bar",
+        "lat": 24.563871,
+        "lng": 118.034869,
+        "rating": 3.9,
+        "reviewsCount": 251,
+        "address": "杏林日东二路289号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥118-176",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-杏林日东二路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IRZ4ZHLM",
+        "name": "搏击酒馆·烧烤",
+        "type": "bar",
+        "lat": 24.629332,
+        "lng": 118.038541,
+        "rating": 4.4,
+        "reviewsCount": 428,
+        "address": "后溪镇后溪村中秋街4-106",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥28-42",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-后溪镇后溪村中秋街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0OXK5G8",
+        "name": "酒舞星梦小酒馆",
+        "type": "bar",
+        "lat": 24.563671,
+        "lng": 118.048716,
+        "rating": 4.3,
+        "reviewsCount": 448,
+        "address": "杏林东路27号金融大厦",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-杏林东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MBBCWMVO",
+        "name": "热河·小酒馆(集美学村店)",
+        "type": "bar",
+        "lat": 24.567325,
+        "lng": 118.095275,
+        "rating": 4.2,
+        "reviewsCount": 333,
+        "address": "嘉庚路12号福南",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥30-44",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-嘉庚路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LA55SQ2K",
+        "name": "玩啤鼠精酿·炙玖串烧(集美银泰店)",
+        "type": "bar",
+        "lat": 24.588939,
+        "lng": 118.108597,
+        "rating": 4.3,
+        "reviewsCount": 158,
+        "address": "乐天路81-87号国贸商城集悦",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥50-74",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-乐天路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IGMLFFWZ",
+        "name": "四川小酒馆(仁德里小区店)",
+        "type": "bar",
+        "lat": 24.626849,
+        "lng": 118.045014,
+        "rating": 4.5,
+        "reviewsCount": 276,
+        "address": "后溪镇永祥新城46号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥43-65",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-后溪镇永祥新"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K6JCNYLK",
+        "name": "九寺酒馆(集美店)",
+        "type": "bar",
+        "lat": 24.570037,
+        "lng": 118.10144,
+        "rating": 4.5,
+        "reviewsCount": 184,
+        "address": "集美街道尚南路53号102-103",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥61-91",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-集美街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFH6NJQ6",
+        "name": "四川小酒馆(孙坂北路新村店)",
+        "type": "bar",
+        "lat": 24.64362,
+        "lng": 118.029531,
+        "rating": 4.4,
+        "reviewsCount": 411,
+        "address": "新村东里117号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-90",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-新村东里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KK1HMKRG",
+        "name": "缤纷音乐life house",
+        "type": "bar",
+        "lat": 24.612284,
+        "lng": 118.048503,
+        "rating": 4.4,
+        "reviewsCount": 166,
+        "address": "集美区软件园三期B02栋B1层",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥50-74",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-集美区软件园"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LUSC5URT",
+        "name": "未完成酒馆",
+        "type": "bar",
+        "lat": 24.604735,
+        "lng": 118.078443,
+        "rating": 4.4,
+        "reviewsCount": 183,
+        "address": "龙荷二里15-166号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥38-58",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-龙荷二里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFLGH4HJ",
+        "name": "御夜娱乐O-PARTY",
+        "type": "bar",
+        "lat": 24.58914,
+        "lng": 118.106922,
+        "rating": 4.5,
+        "reviewsCount": 479,
+        "address": "同集南路68号美岁天地负一楼",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥102-152",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-同集南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KA4OE05H",
+        "name": "艳火酒馆",
+        "type": "bar",
+        "lat": 24.570441,
+        "lng": 118.103534,
+        "rating": 4.4,
+        "reviewsCount": 139,
+        "address": "集岑路94-101",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥51-77",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-集岑路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IR5H0P9M",
+        "name": "维纳多精酿美食餐吧(集美万科云城店)",
+        "type": "bar",
+        "lat": 24.604058,
+        "lng": 118.078566,
+        "rating": 3.8,
+        "reviewsCount": 174,
+        "address": "杏林湾路万科云城15-101-103号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥53-79",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-杏林湾"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LA5CTLTG",
+        "name": "李氏烧烤小酒馆(嘉庚路店)",
+        "type": "bar",
+        "lat": 24.567937,
+        "lng": 118.098078,
+        "rating": 2.6,
+        "reviewsCount": 298,
+        "address": "集美大学机械与能源工程学院东南门东北80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-集美大学机械"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFLB2YDJ",
+        "name": "Helens海伦司小酒馆(厦门万科云城店)",
+        "type": "bar",
+        "lat": 24.603473,
+        "lng": 118.078901,
+        "rating": 4.6,
+        "reviewsCount": 255,
+        "address": "集美大道与杏林湾路交叉处东侧万科云城二楼Helens海伦司小酒馆",
+        "signature": "海伦司可乐桶 (平价大容量社交酒)",
+        "priceRange": "¥38-58",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-集美大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDU1HVXD",
+        "name": "解忧小酒馆",
+        "type": "bar",
+        "lat": 24.572142,
+        "lng": 118.056153,
+        "rating": 3.7,
+        "reviewsCount": 64,
+        "address": "苑亭路27-103号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥41-61",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-苑亭路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K1PSF2FT",
+        "name": "面到家小酒馆",
+        "type": "bar",
+        "lat": 24.582072,
+        "lng": 118.021606,
+        "rating": 3.4,
+        "reviewsCount": 71,
+        "address": "前场村市头68-2",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥14-20",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-前场村市头6"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K2VSA45O",
+        "name": "玩啤鼠精酿酒馆(集美融侨观澜店)",
+        "type": "bar",
+        "lat": 24.618892,
+        "lng": 118.001828,
+        "rating": 4.2,
+        "reviewsCount": 487,
+        "address": "鱼孚2路93号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥38-56",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-鱼孚2路93"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K6Z7Y437",
+        "name": "厦遇线上酒馆",
+        "type": "bar",
+        "lat": 24.591177,
+        "lng": 118.110397,
+        "rating": 3.5,
+        "reviewsCount": 211,
+        "address": "凤林中路147-1号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-凤林中路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J36CQ5PG",
+        "name": "主者精酿(集美锦城国际店)",
+        "type": "bar",
+        "lat": 24.583026,
+        "lng": 118.02888,
+        "rating": 4.1,
+        "reviewsCount": 389,
+        "address": "中宛二路中海锦城国际锦园东二里7-203室",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-中宛二路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KD5ASYB6",
+        "name": "理想欢聚小酒馆(理想城店)",
+        "type": "bar",
+        "lat": 24.643845,
+        "lng": 118.017107,
+        "rating": 3.9,
+        "reviewsCount": 109,
+        "address": "白虎岩112-40号理想欢聚小酒馆",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥91-137",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-白虎岩112"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L01MEWX2",
+        "name": "入厦小酒馆",
+        "type": "bar",
+        "lat": 24.604402,
+        "lng": 118.078921,
+        "rating": 3.7,
+        "reviewsCount": 126,
+        "address": "地保大厦5层527",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-地保大厦5层"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LUGUMXMW",
+        "name": "小沈的酒馆",
+        "type": "bar",
+        "lat": 24.603783,
+        "lng": 118.048463,
+        "rating": 4.4,
+        "reviewsCount": 164,
+        "address": "中交和美新城一期西南门西北70米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-中交和美新城"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2HSAXV9",
+        "name": "海岸夜酒潮汕生腌小酒馆",
+        "type": "bar",
+        "lat": 24.561397,
+        "lng": 118.066542,
+        "rating": 3.3,
+        "reviewsCount": 175,
+        "address": "宁海二里10-15号禹洲中央海岸1期",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥92-138",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-宁海二里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1PO9GE0",
+        "name": "咿呀崽小酒馆",
+        "type": "bar",
+        "lat": 24.613781,
+        "lng": 117.994429,
+        "rating": 4,
+        "reviewsCount": 139,
+        "address": "灌口镇灌口大道1691-106",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥26-38",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-灌口镇灌口大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KR69WHEB",
+        "name": "开心小厨酒馆",
+        "type": "bar",
+        "lat": 24.649924,
+        "lng": 118.073482,
+        "rating": 3.7,
+        "reviewsCount": 384,
+        "address": "圣岩路359号爱萌公寓·岩内",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥17-25",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-圣岩路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JR1YQORZ",
+        "name": "优布劳精酿酒馆(集美店)",
+        "type": "bar",
+        "lat": 24.589973,
+        "lng": 118.090706,
+        "rating": 4.4,
+        "reviewsCount": 138,
+        "address": "滨水四里145-111",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "集美区-滨水四里"
         ]
       },
       {
@@ -19667,1827 +21643,1200 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFHJVD2E",
-        "name": "星巴克(厦门梧侣路分店)",
-        "type": "milktea",
-        "lat": 24.689325,
-        "lng": 118.140625,
-        "rating": 4.6,
-        "reviewsCount": 401,
-        "address": "梧侣路1709号新景舜弘广场第一层1032单元",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-梧侣路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0HRHG1LX1",
-        "name": "古茗(同安阳光小镇)",
-        "type": "milktea",
-        "lat": 24.610247,
-        "lng": 118.138351,
-        "rating": 4.4,
-        "reviewsCount": 253,
-        "address": "阳光小镇152号铺位",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-阳光小镇15"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0M62CWFLV",
-        "name": "库迪咖啡(同安梧侣实验小学店)",
-        "type": "milktea",
-        "lat": 24.691768,
-        "lng": 118.120716,
+        "id": "real-xm-bar-B02500UQGZ",
+        "name": "TWOGIRLS艾尔拉格",
+        "type": "bar",
+        "lat": 24.482133,
+        "lng": 118.031955,
         "rating": 4.2,
-        "reviewsCount": 369,
-        "address": "梧侣大店里665-101号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 426,
+        "address": "滨湖北二路116号(阿罗海购物广场ABL-2)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥52-78",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-梧侣大店里"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-滨湖北二路"
         ]
       },
       {
-        "id": "real-xm-matcha-B0L2ZO4RK4",
-        "name": "茶子衿·手作抹茶(同安顶柯店)",
-        "type": "milktea",
-        "lat": 24.669008,
-        "lng": 118.154294,
-        "rating": 3.7,
-        "reviewsCount": 132,
-        "address": "顶柯里126号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "id": "real-xm-bar-B0LDDLHDX3",
+        "name": "慢与漫.Slowful",
+        "type": "bar",
+        "lat": 24.530535,
+        "lng": 118.024611,
+        "rating": 4.4,
+        "reviewsCount": 377,
+        "address": "霞光东里486号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥20-30",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-顶柯里"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-霞光东里"
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFFWNNYA",
-        "name": "向阳坊(同安莲花店)",
-        "type": "milktea",
-        "lat": 24.745346,
-        "lng": 118.066637,
+        "id": "real-xm-bar-B0L2P9QW5T",
+        "name": "慢上club",
+        "type": "bar",
+        "lat": 24.537819,
+        "lng": 117.997138,
         "rating": 4.1,
-        "reviewsCount": 403,
-        "address": "福建省厦门市同安区莲花镇莲美街658-7号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥21-31",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 150,
+        "address": "新景东里722号-104室",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥51-77",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-莲花镇莲美街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新景东里"
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFFF7U3U",
-        "name": "七点蛋糕说(二小体育馆店)",
-        "type": "milktea",
-        "lat": 24.720261,
-        "lng": 118.155214,
-        "rating": 3.8,
-        "reviewsCount": 212,
-        "address": "银莲路317号",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥32-48",
-        "hours": "09:30 - 22:00",
+        "id": "real-xm-bar-B0G35UUM5L",
+        "name": "阿度酒屋",
+        "type": "bar",
+        "lat": 24.490645,
+        "lng": 118.050594,
+        "rating": 4.2,
+        "reviewsCount": 207,
+        "address": "滨海阳光花园沧林东一里33号店面",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-银莲路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-滨海阳光花园沧林东一里"
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFMDQYCY",
-        "name": "星巴克(厦门同安阳光小镇分店)",
-        "type": "milktea",
-        "lat": 24.610026,
-        "lng": 118.137875,
+        "id": "real-xm-bar-B0LR0DMF70",
+        "name": "BongBar",
+        "type": "bar",
+        "lat": 24.495725,
+        "lng": 118.060525,
+        "rating": 4.1,
+        "reviewsCount": 100,
+        "address": "海沧大道900号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥75-113",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海沧大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K3HM1RE5",
+        "name": "沧江酒馆",
+        "type": "bar",
+        "lat": 24.480617,
+        "lng": 117.988906,
+        "rating": 4.5,
+        "reviewsCount": 180,
+        "address": "临港新城二期一组团慈济二里77号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥46-70",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-临港新城二期一组团慈济二里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0HRVR0WP0",
+        "name": "茶酒屋",
+        "type": "bar",
+        "lat": 24.465141,
+        "lng": 117.995172,
+        "rating": 2.6,
+        "reviewsCount": 151,
+        "address": "锦里中路与圆应宫路交叉口东北40米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-锦里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFJ8J4Y3",
+        "name": "TD98音乐餐吧(SEC泰地海西中心店)",
+        "type": "bar",
+        "lat": 24.481251,
+        "lng": 118.044425,
+        "rating": 4.5,
+        "reviewsCount": 270,
+        "address": "海沧大道泰地海西4号楼1楼",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥63-95",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海沧大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFG49MOQ",
+        "name": "约Bar音乐烤吧(海沧总店)",
+        "type": "bar",
+        "lat": 24.489669,
+        "lng": 118.050848,
         "rating": 4.5,
         "reviewsCount": 337,
-        "address": "美峰六里28号阳光小镇商业街一层101-103号商铺",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
+        "address": "海沧街道沧林东三路284号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-美峰六里"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海沧街"
         ]
       },
       {
-        "id": "real-xm-matcha-B0JDFCVMF5",
-        "name": "古茗(同安宝龙店)",
-        "type": "milktea",
-        "lat": 24.716256,
-        "lng": 118.166621,
-        "rating": 4.4,
-        "reviewsCount": 183,
-        "address": "双溪大道799号同安宝龙广场M1-L3-011",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-双溪大道"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0J6M5FZ0S",
-        "name": "库迪咖啡(同安宝龙广场店)",
-        "type": "milktea",
-        "lat": 24.716256,
-        "lng": 118.166621,
-        "rating": 4.3,
-        "reviewsCount": 339,
-        "address": "大同街道环城南路799号同安宝龙广场LG-046",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-大同街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFF0F322",
-        "name": "星巴克(厦门同安钟楼一号店)",
-        "type": "milktea",
-        "lat": 24.730093,
-        "lng": 118.151692,
-        "rating": 4.6,
-        "reviewsCount": 359,
-        "address": "同新路14号钟楼壹号第1层的04-06单元",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-同新路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0HRHYZSBK",
-        "name": "古茗(同安乐海店)",
-        "type": "milktea",
-        "lat": 24.720354,
-        "lng": 118.135898,
+        "id": "real-xm-bar-B0LK6UKOWY",
+        "name": "山的秋.日咖夜酒",
+        "type": "bar",
+        "lat": 24.569267,
+        "lng": 117.933363,
         "rating": 4.2,
-        "reviewsCount": 467,
-        "address": "环城西路639号乐海城市广场一层146-2",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 248,
+        "address": "过坂社区过坂社211号10室",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥10-16",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-环城西路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-过坂社区过坂"
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFLCYW9Y",
-        "name": "古茗(同安中山路)",
-        "type": "milktea",
-        "lat": 24.731509,
-        "lng": 118.149767,
-        "rating": 4.5,
-        "reviewsCount": 301,
-        "address": "中山路79号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-中山路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0I0KDVXA9",
-        "name": "星巴克(厦门同安宝龙广场店)",
-        "type": "milktea",
-        "lat": 24.717716,
-        "lng": 118.165913,
-        "rating": 4.5,
-        "reviewsCount": 466,
-        "address": "环城南路与石浔路交叉口西南侧同安宝龙广场LG层M1-LG-001单元",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-环城南路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0IBU5PN30",
-        "name": "星巴克(乐海城市广场店)",
-        "type": "milktea",
-        "lat": 24.720193,
-        "lng": 118.135716,
-        "rating": 4.5,
-        "reviewsCount": 152,
-        "address": "环城西路639号乐海城市广场一层",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-环城西路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0HBO6HC0A",
-        "name": "古茗(厦门龙西店)",
-        "type": "milktea",
-        "lat": 24.683583,
-        "lng": 118.188285,
-        "rating": 4.4,
-        "reviewsCount": 159,
-        "address": "洪塘镇龙西一里8-12-101",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-洪塘镇龙西一里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0HACUVMHI",
-        "name": "古茗(同安四口圳店)",
-        "type": "milktea",
-        "lat": 24.682416,
-        "lng": 118.134519,
-        "rating": 4.5,
-        "reviewsCount": 151,
-        "address": "四口圳里800-109",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-四口圳里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L2YUV14B",
-        "name": "古茗(同安前埔里)",
-        "type": "milktea",
-        "lat": 24.680596,
-        "lng": 118.11348,
-        "rating": 4.1,
-        "reviewsCount": 413,
-        "address": "新民镇后宅前埔里147-102",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-新民镇后宅前埔里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0K2FOPZ4I",
-        "name": "古茗(同安爱琴海店)",
-        "type": "milktea",
-        "lat": 24.66144,
-        "lng": 118.17478,
-        "rating": 4.4,
-        "reviewsCount": 315,
-        "address": "智谷东一路99号厦门同安爱琴海购物中心B1层",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-智谷东一路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFJIWE34",
-        "name": "古茗(同安梧侣店)",
-        "type": "milktea",
-        "lat": 24.69189,
-        "lng": 118.120962,
-        "rating": 4.2,
-        "reviewsCount": 308,
-        "address": "梧侣村梧侣大店里665-113号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-梧侣村梧侣大店里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0K2TOTEHA",
-        "name": "星巴克(厦门同安爱琴海购物中心店)",
-        "type": "milktea",
-        "lat": 24.661341,
-        "lng": 118.174428,
-        "rating": 4.4,
-        "reviewsCount": 474,
-        "address": "智谷东三路8号厦门同安爱琴海购物中心F1层",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-智谷东三路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JALX9LRP",
-        "name": "古茗(同安银溪墅府店)",
-        "type": "milktea",
-        "lat": 24.663082,
-        "lng": 118.191524,
-        "rating": 4.4,
-        "reviewsCount": 260,
-        "address": "滨州五路395号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-滨州五路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0G0SO29J5",
-        "name": "古茗(同安乌涂2店)",
-        "type": "milktea",
-        "lat": 24.709037,
-        "lng": 118.124016,
-        "rating": 4.5,
-        "reviewsCount": 391,
-        "address": "乌涂下埔里店仔街508-16",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-乌涂下埔里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0GK2SHK5Z",
-        "name": "古茗(官浔桥头店)",
-        "type": "milktea",
-        "lat": 24.659152,
-        "lng": 118.144417,
-        "rating": 4.4,
-        "reviewsCount": 103,
-        "address": "官浔村西官浔里561-2号",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-官浔村西官浔里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LB2RRIU0",
-        "name": "古茗(东海学院校外店)",
-        "type": "milktea",
-        "lat": 24.746354,
-        "lng": 118.170831,
-        "rating": 4.3,
-        "reviewsCount": 264,
-        "address": "五显中路280-12-103号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-五显中路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0G2CA8NVP",
-        "name": "古茗(同安梧侣南街店)",
-        "type": "milktea",
-        "lat": 24.689904,
-        "lng": 118.117236,
-        "rating": 4.1,
-        "reviewsCount": 431,
-        "address": "新民镇梧侣村梧侣大社里1262-104",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-新民镇梧侣村梧侣大社里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LG4SDDDP",
-        "name": "古茗(同安西塘店)",
-        "type": "milktea",
-        "lat": 24.705044,
-        "lng": 118.109725,
-        "rating": 4.3,
-        "reviewsCount": 254,
-        "address": "西塘大厝里120-102店面",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "同安区-西塘大厝里"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFGIK176",
-        "name": "KOI The(同安乐海广场店)",
-        "type": "milktea",
-        "lat": 24.720863,
-        "lng": 118.13644,
-        "rating": 4,
-        "reviewsCount": 73,
-        "address": "环城西路639号233(乐海城市广场2F-263号商铺,手扶梯右边,麦当劳旁边)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-环城西路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0H644IA3B",
-        "name": "益禾堂(厦门同安环城北路店)",
-        "type": "milktea",
-        "lat": 24.736118,
-        "lng": 118.14944,
-        "rating": 4.1,
-        "reviewsCount": 223,
-        "address": "环城北路395号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-环城北路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0H6U5SMQT",
-        "name": "益禾堂(厦门同安西福一里店)",
-        "type": "milktea",
-        "lat": 24.671806,
-        "lng": 118.167216,
-        "rating": 4.4,
-        "reviewsCount": 401,
-        "address": "后吴公寓4-103",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-后吴公寓4-"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFFZ0UV1",
-        "name": "快乐番薯(厦门同安城南路店)",
-        "type": "milktea",
-        "lat": 24.71649,
-        "lng": 118.146484,
-        "rating": 4,
-        "reviewsCount": 244,
-        "address": "翔平街道阳翟社区西亭里34号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-翔平街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFKT8YR9",
-        "name": "古茗(同安市场路店)",
-        "type": "milktea",
-        "lat": 24.734029,
-        "lng": 118.146019,
-        "rating": 4.3,
-        "reviewsCount": 137,
-        "address": "市场路8号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-市场路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0LBFRZBKN",
-        "name": "学长の茶(双溪旗舰店)",
-        "type": "milktea",
-        "lat": 24.729378,
-        "lng": 118.154703,
-        "rating": 4.5,
-        "reviewsCount": 77,
-        "address": "南门路186号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-南门路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0GUPSYWJ1",
-        "name": "同兴姜母鸭(梧侣店)",
-        "type": "milktea",
-        "lat": 24.690353,
-        "lng": 118.125382,
-        "rating": 4.5,
-        "reviewsCount": 70,
-        "address": "梧侣大店里370号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥22-34",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-梧侣大店里"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFGMC1ZA",
-        "name": "快乐番薯(同安乌涂店)",
-        "type": "milktea",
-        "lat": 24.706689,
-        "lng": 118.123771,
+        "id": "real-xm-bar-B0LK2URCSA",
+        "name": "玥夜精酿酒馆",
+        "type": "bar",
+        "lat": 24.542464,
+        "lng": 117.964684,
         "rating": 3.9,
-        "reviewsCount": 55,
-        "address": "新民镇乌涂商业街下埔里415号之一",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 387,
+        "address": "孚莲二里211-105",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-新民镇乌涂商业街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-孚莲二里"
         ]
       },
       {
-        "id": "real-xm-boba-B0J11Z0ZWV",
-        "name": "CHAGEE霸王茶姬(厦门同安宝龙广场店)",
-        "type": "milktea",
-        "lat": 24.717132,
-        "lng": 118.166334,
+        "id": "real-xm-bar-B0K057X30A",
+        "name": "胖虎酒馆",
+        "type": "bar",
+        "lat": 24.532847,
+        "lng": 118.031157,
+        "rating": 4.4,
+        "reviewsCount": 53,
+        "address": "万科城霞光东里136号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥34-50",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-万科城霞光东里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MGZ1KEAI",
+        "name": "熊猫国潮酒吧",
+        "type": "bar",
+        "lat": 24.529282,
+        "lng": 118.023459,
+        "rating": 4.4,
+        "reviewsCount": 425,
+        "address": "新阳街道翁角路889-2号一楼(宏鼎国际N11旁)",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新阳街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1T54BM3",
+        "name": "海投文旅·立方根餐酒馆",
+        "type": "bar",
+        "lat": 24.46981,
+        "lng": 118.03191,
         "rating": 4.5,
-        "reviewsCount": 187,
-        "address": "大同街道双溪大道799号同安宝龙广场LG层1006室",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 100,
+        "address": "湖岸南路37号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-大同街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-湖岸南路"
         ]
       },
       {
-        "id": "real-xm-boba-B0H1O9XOOJ",
-        "name": "茶百道(厦门同安区梧侣店)",
-        "type": "milktea",
-        "lat": 24.692103,
-        "lng": 118.121303,
-        "rating": 4.2,
-        "reviewsCount": 41,
-        "address": "新民镇梧侣大店里666-103号",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-新民镇梧侣大店里"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0G2XOQF8R",
-        "name": "古茗(瑞祥小区店)",
-        "type": "milktea",
-        "lat": 24.728419,
-        "lng": 118.138477,
-        "rating": 4,
-        "reviewsCount": 439,
-        "address": "祥平街道银湖西里166号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-祥平街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFLPCBZZ",
-        "name": "古茗(同安乌涂店)",
-        "type": "milktea",
-        "lat": 24.706704,
-        "lng": 118.12396,
-        "rating": 4.4,
-        "reviewsCount": 363,
-        "address": "新民镇同明路乌涂下埔里415-7",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-新民镇同明路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0K2VH4L8O",
-        "name": "霸王茶姬(夏商钟楼店)",
-        "type": "milktea",
-        "lat": 24.730845,
-        "lng": 118.151973,
+        "id": "real-xm-bar-B0JKRYU9FG",
+        "name": "117精酿餐酒吧",
+        "type": "bar",
+        "lat": 24.494596,
+        "lng": 118.058058,
         "rating": 4.5,
-        "reviewsCount": 82,
-        "address": "南门路75号夏商钟楼生活广场",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 425,
+        "address": "坪山南里48号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥54-80",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-南门路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-坪山南里"
         ]
       },
       {
-        "id": "real-xm-boba-B0K2P5BWN5",
-        "name": "霸王茶姬(同安爱琴海购物中心店)",
-        "type": "milktea",
-        "lat": 24.661605,
-        "lng": 118.173517,
-        "rating": 4.5,
-        "reviewsCount": 142,
-        "address": "西柯街道西洲路3003号同安爱琴海购物中心1层F1101号铺",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-西柯街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0IDF7WZV2",
-        "name": "厦门陆园茶社(丁宜山庄店)",
-        "type": "milktea",
-        "lat": 24.608992,
-        "lng": 118.128919,
-        "rating": 4.5,
-        "reviewsCount": 383,
-        "address": "丁宜路后田丁宜山庄19号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥74-110",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-丁宜路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0LR3LFM4A",
-        "name": "游圆糖水(同安店)",
-        "type": "milktea",
-        "lat": 24.730329,
-        "lng": 118.153329,
-        "rating": 4.5,
-        "reviewsCount": 287,
-        "address": "南门路118-3号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥17-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-南门路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0J33OWVN5",
-        "name": "霸王茶姬(同安乐海广场店)",
-        "type": "milktea",
-        "lat": 24.721117,
-        "lng": 118.136146,
-        "rating": 4.2,
-        "reviewsCount": 467,
-        "address": "环城西路639号乐海城市广场F1层",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-环城西路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0LGSC9NMJ",
-        "name": "茉莉奶白(厦门同安爱琴海店)",
-        "type": "milktea",
-        "lat": 24.661317,
-        "lng": 118.17414,
-        "rating": 4.3,
-        "reviewsCount": 235,
-        "address": "西柯街道智谷东三路8号同安爱琴海购物中心一层F1118号商铺",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-西柯街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0K0VAF1GA",
-        "name": "霸王茶姬(同安舜弘现代城店)",
-        "type": "milktea",
-        "lat": 24.689624,
-        "lng": 118.14077,
-        "rating": 4.4,
-        "reviewsCount": 237,
-        "address": "梧侣路1709号舜弘现代城第1层1031-2店铺",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-梧侣路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0I1NU9I7X",
-        "name": "奈雪的茶(厦门同安宝龙店)",
-        "type": "milktea",
-        "lat": 24.717645,
-        "lng": 118.165725,
-        "rating": 4.2,
-        "reviewsCount": 186,
-        "address": "双溪大道799号厦门同安宝龙广场第LG层M1-LG-042号商铺",
-        "signature": "霸气芝士草莓 (芝士果茶系列)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-双溪大道"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFH9038B",
-        "name": "快乐番薯(同安梧侣店)",
-        "type": "milktea",
-        "lat": 24.691943,
-        "lng": 118.120773,
-        "rating": 4.1,
-        "reviewsCount": 460,
-        "address": "新民镇梧侣村大店里665-106号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-新民镇梧侣村大店里"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B02500TK05",
-        "name": "鲜翠茶(东溪里店)",
-        "type": "milktea",
-        "lat": 24.729229,
-        "lng": 118.154555,
-        "rating": 4.6,
-        "reviewsCount": 155,
-        "address": "双溪路509号(近南门桥)",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-双溪路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0KDFX7NQT",
-        "name": "KOI The(厦门同安宝龙广场店)",
-        "type": "milktea",
-        "lat": 24.716842,
-        "lng": 118.165844,
-        "rating": 4.1,
-        "reviewsCount": 453,
-        "address": "大同街道双溪大道799号同安宝龙广场M1-LG-055",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-大同街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0LKB6SBHE",
-        "name": "CUIDA(同安宝龙店)",
-        "type": "milktea",
-        "lat": 24.717066,
-        "lng": 118.166415,
-        "rating": 4.6,
-        "reviewsCount": 135,
-        "address": "大同街道环城南路799号厦门同安宝龙广场LG层2号门口",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-大同街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFG06P4O",
-        "name": "阿桃甘蔗汁(同安店)",
-        "type": "milktea",
-        "lat": 24.728198,
-        "lng": 118.152842,
-        "rating": 4.4,
-        "reviewsCount": 412,
-        "address": "双溪街同新路93号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-双溪街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0HUY5TLY7",
-        "name": "蜜雪冰城(四口圳店8-106号)",
-        "type": "milktea",
-        "lat": 24.682896,
-        "lng": 118.134434,
-        "rating": 4.4,
-        "reviewsCount": 349,
-        "address": "四口圳里8-106号(法律文书送达)",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-四口圳里"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0K22HDC03",
-        "name": "喜茶(厦门同安爱琴海店)",
-        "type": "milktea",
-        "lat": 24.66103,
-        "lng": 118.173699,
-        "rating": 4.3,
-        "reviewsCount": 79,
-        "address": "西柯街道智谷东三路8号厦门同安爱琴海购物中心A号楼126、127室",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-西柯街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFG7P66B",
-        "name": "憨雯甘蔗汁(双溪公园店)",
-        "type": "milktea",
-        "lat": 24.728126,
-        "lng": 118.15185,
-        "rating": 4.4,
-        "reviewsCount": 462,
-        "address": "双溪公园金桥路71号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-双溪公园金桥路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0JKHLB949",
-        "name": "喜茶(厦门同安钟楼店)",
-        "type": "milktea",
-        "lat": 24.730525,
-        "lng": 118.152675,
-        "rating": 4.4,
-        "reviewsCount": 263,
-        "address": "南门路75号一楼A05-1店铺",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-南门路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0I2L5AULI",
-        "name": "蜜雪冰城(西洪塘店24小时营业)",
-        "type": "milktea",
-        "lat": 24.697366,
-        "lng": 118.135408,
-        "rating": 4.5,
-        "reviewsCount": 381,
-        "address": "西洪塘田西里56-102号(法律文书送达)",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-西洪塘田西里"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0J65AJYHQ",
-        "name": "双溪天台茶馆",
-        "type": "milktea",
-        "lat": 24.728207,
-        "lng": 118.153109,
-        "rating": 4.3,
-        "reviewsCount": 82,
-        "address": "同新路93号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥36-54",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-同新路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0H3JU6ISF",
-        "name": "茶百道(厦门同安中山路店)",
-        "type": "milktea",
-        "lat": 24.731466,
-        "lng": 118.149857,
-        "rating": 4.1,
-        "reviewsCount": 464,
-        "address": "大同街道中山路65号茶百道",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-大同街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFLJWVM8",
-        "name": "古茗(同安一中店)",
-        "type": "milktea",
-        "lat": 24.736318,
-        "lng": 118.156731,
-        "rating": 4.1,
-        "reviewsCount": 344,
-        "address": "环城北路611号-102",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-环城北路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0FFLNIPOS",
-        "name": "益禾堂(厦门同安西柯官浔店)",
-        "type": "milktea",
-        "lat": 24.658015,
-        "lng": 118.145275,
-        "rating": 4.3,
-        "reviewsCount": 253,
-        "address": "西柯镇官浔村西官浔里629号店面二号店",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-西柯镇官浔村西官浔里"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0I09ZLA5C",
-        "name": "岸上見·ashore",
-        "type": "milktea",
-        "lat": 24.726344,
-        "lng": 118.155768,
-        "rating": 4.4,
-        "reviewsCount": 89,
-        "address": "大同街道溪边社区后溪1-101号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-大同街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0HRYDFA7V",
-        "name": "汉艺唐风茶空间(同安店)",
-        "type": "milktea",
-        "lat": 24.734094,
-        "lng": 118.15621,
-        "rating": 4.3,
-        "reviewsCount": 143,
-        "address": "福佳斯广场南座3楼318室",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥66-100",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-福佳斯广场南"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0JAG58FUE",
-        "name": "学长的茶(东山店)",
-        "type": "milktea",
-        "lat": 24.737612,
-        "lng": 118.150027,
-        "rating": 4.4,
-        "reviewsCount": 247,
-        "address": "东山路69号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-东山路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0IGGMU261",
-        "name": "学长的茶(城西店)",
-        "type": "milktea",
-        "lat": 24.731884,
-        "lng": 118.145407,
-        "rating": 4.4,
-        "reviewsCount": 44,
-        "address": "育新路1号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥22-34",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-育新路"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0G3AK7WFB",
-        "name": "蜜雪冰城(潘涂丁字街店)",
-        "type": "milktea",
-        "lat": 24.645179,
-        "lng": 118.142386,
-        "rating": 4.3,
-        "reviewsCount": 470,
-        "address": "柯镇潘涂丁字街73-101号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-柯镇潘涂丁字街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0JD47IZIU",
-        "name": "蜜雪冰城(禹洲·大学城店)",
-        "type": "milktea",
-        "lat": 24.622477,
-        "lng": 118.129913,
-        "rating": 4.4,
-        "reviewsCount": 112,
-        "address": "禹洲·大学城东北门旁",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-禹洲·大学城"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0MBNXUS9G",
-        "name": "蜜雪冰城(厦门阳光小镇店)",
-        "type": "milktea",
-        "lat": 24.610375,
-        "lng": 118.138525,
-        "rating": 4.1,
-        "reviewsCount": 183,
-        "address": "西柯街道美峰六里28号厦门阳光小镇",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-西柯街"
-        ]
-      },
-      {
-        "id": "real-xm-boba-B0HAZC7BO0",
-        "name": "瑞有茶室(芸溪居住公园3期店)",
-        "type": "milktea",
-        "lat": 24.731482,
-        "lng": 118.1335,
-        "rating": 4.5,
-        "reviewsCount": 44,
-        "address": "银湖西里109-126号芸溪居住公园3期",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥58-88",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "同安区-银湖西里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFFGYAXR",
-        "name": "星巴克(汇景购物广场店)",
-        "type": "milktea",
-        "lat": 24.619747,
-        "lng": 118.245268,
-        "rating": 4.5,
-        "reviewsCount": 331,
-        "address": "汇景购物广场2号门旁",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-汇景购物广场"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0K2PZEGKT",
-        "name": "炬木咖啡",
-        "type": "milktea",
-        "lat": 24.574323,
-        "lng": 118.255674,
-        "rating": 4.5,
-        "reviewsCount": 380,
-        "address": "金海街道浦滨西二里8-108",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥30-46",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-金海街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0KKXC4P7N",
-        "name": "古茗(翔安大嶝岛店)",
-        "type": "milktea",
-        "lat": 24.563013,
-        "lng": 118.334415,
-        "rating": 4.6,
-        "reviewsCount": 482,
-        "address": "大嶝岛大嶝东路3-107号",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-大嶝岛大嶝东路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L3KAAH9B",
-        "name": "库迪咖啡(海西9号新澳路店)",
-        "type": "milktea",
-        "lat": 24.567475,
-        "lng": 118.240625,
-        "rating": 4.4,
-        "reviewsCount": 233,
-        "address": "新澳路1509号海西9号公寓1号楼1层102底商",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-新澳路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0IR2M28E8",
-        "name": "幸运咖(华天店)",
-        "type": "milktea",
-        "lat": 24.604282,
-        "lng": 118.246954,
-        "rating": 4.3,
-        "reviewsCount": 47,
-        "address": "新店街道新店福祥路10号101室",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-新店街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0J22COY8Q",
-        "name": "沪上阿姨·精选茶饮(厦门翔安觅光里店)",
-        "type": "milktea",
-        "lat": 24.663907,
-        "lng": 118.192959,
-        "rating": 3.9,
-        "reviewsCount": 274,
-        "address": "民安街道滨海里1号觅光里L1层1-104-2",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-民安街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0J6KN2K0B",
-        "name": "星巴克厦门首创奥莱分店",
-        "type": "milktea",
-        "lat": 24.544946,
-        "lng": 118.237293,
-        "rating": 4.4,
-        "reviewsCount": 212,
-        "address": "首创奥特莱斯地上一层F1-B12店铺",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-首创奥特莱斯"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0HK27WNFN",
-        "name": "瑞幸咖啡(汇景购物广场店)",
-        "type": "milktea",
-        "lat": 24.619623,
-        "lng": 118.245058,
-        "rating": 4.4,
-        "reviewsCount": 395,
-        "address": "新店镇祥福五里24号汇景购物广场二层",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-新店镇祥福五里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JR3LEW0G",
-        "name": "古茗(翔安汇景广场店)",
-        "type": "milktea",
-        "lat": 24.619684,
-        "lng": 118.245077,
-        "rating": 4.1,
-        "reviewsCount": 276,
-        "address": "新店街道祥福五里25号汇景广场3A40",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-新店街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L3LCQLM9",
-        "name": "库迪咖啡(翔安马巷老街店)",
-        "type": "milktea",
-        "lat": 24.66549,
-        "lng": 118.250613,
-        "rating": 4.3,
-        "reviewsCount": 149,
-        "address": "马巷街道巷西二里4-117号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-马巷"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LUMRFQFL",
-        "name": "幸运咖(马巷店)",
-        "type": "milktea",
-        "lat": 24.665247,
-        "lng": 118.251415,
-        "rating": 4.1,
-        "reviewsCount": 59,
-        "address": "马巷镇巷西二里3-106号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-马巷"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFM8ZB3V",
-        "name": "蜜雪冰城(泰禾天街店)",
-        "type": "milktea",
-        "lat": 24.607972,
-        "lng": 118.245994,
-        "rating": 4.1,
-        "reviewsCount": 282,
-        "address": "新兴路264号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥2-2",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-新兴路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JDSMPCNN",
-        "name": "沪上阿姨鲜果茶(华天学生街店)",
-        "type": "milktea",
-        "lat": 24.603526,
-        "lng": 118.247394,
+        "id": "real-xm-bar-B0MGLSN1S0",
+        "name": "鲸鲸乐啤酒厂(马銮湾广场店)",
+        "type": "bar",
+        "lat": 24.53055,
+        "lng": 118.010137,
         "rating": 3.8,
-        "reviewsCount": 465,
-        "address": "新店街道新店福祥路62-103",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 217,
+        "address": "新阳北路1668-8号108室",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-新店街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新阳北路"
         ]
       },
       {
-        "id": "real-xm-matcha-B0FFM1I78A",
-        "name": "瑞幸咖啡(厦门南洋职业学院店)",
-        "type": "milktea",
-        "lat": 24.599325,
-        "lng": 118.250075,
-        "rating": 4.3,
-        "reviewsCount": 173,
-        "address": "洪钟大道与文勤路交叉口东北200米",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-洪钟大道"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0H606HA19",
-        "name": "古茗(厦门翔安一中店)",
-        "type": "milktea",
-        "lat": 24.667902,
-        "lng": 118.248053,
-        "rating": 4.4,
-        "reviewsCount": 467,
-        "address": "马巷镇城隍路11号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-马巷"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0KUYMUKOC",
-        "name": "库迪咖啡(翔安福祥路店)",
-        "type": "milktea",
-        "lat": 24.604312,
-        "lng": 118.247348,
-        "rating": 4.3,
-        "reviewsCount": 128,
-        "address": "六桂大厦东南侧100米",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-六桂大厦东南"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0FFLHLGA4",
-        "name": "古茗(翔安区天马店)",
-        "type": "milktea",
-        "lat": 24.634946,
-        "lng": 118.208693,
-        "rating": 4.2,
-        "reviewsCount": 180,
-        "address": "民安街道山亭侯里4-102号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-民安街"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L19LIOGP",
-        "name": "库迪咖啡(翔安数字经济产业园店)",
-        "type": "milktea",
-        "lat": 24.642383,
-        "lng": 118.229692,
-        "rating": 4.3,
-        "reviewsCount": 365,
-        "address": "莲亭西路839号-105号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-莲亭西路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L2RRNVWD",
-        "name": "古茗(翔安南部新城TOD)",
-        "type": "milktea",
-        "lat": 24.58161,
-        "lng": 118.267501,
-        "rating": 4.3,
-        "reviewsCount": 355,
-        "address": "昌文昌4-102号(浦边地铁站4号口步行410米)",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-昌文昌4-1"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LRDH6R8U",
-        "name": "古茗(翔安厦大校外店)",
-        "type": "milktea",
-        "lat": 24.608429,
-        "lng": 118.320845,
-        "rating": 4.4,
-        "reviewsCount": 473,
-        "address": "沙美鹊峰南里301-110",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-沙美鹊峰南里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LU771IMC",
-        "name": "古茗(翔安莲河店)",
-        "type": "milktea",
-        "lat": 24.586169,
-        "lng": 118.348678,
-        "rating": 4.4,
-        "reviewsCount": 413,
-        "address": "莲河莲泉路35号101",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-莲河莲泉路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0M6XDOZM5",
-        "name": "库迪咖啡(翔安国际海峡大厦店)",
-        "type": "milktea",
-        "lat": 24.57358,
-        "lng": 118.240827,
-        "rating": 4.3,
-        "reviewsCount": 148,
-        "address": "新澳路1593号国际海峡大厦1593号-102.103",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-新澳路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0L2ZN2WH1",
-        "name": "古茗(翔安同美夜市店)",
-        "type": "milktea",
-        "lat": 24.667628,
-        "lng": 118.215627,
-        "rating": 4.2,
-        "reviewsCount": 218,
-        "address": "同美里602号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-同美里"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LB2LLIWB",
-        "name": "古茗(翔安马巷西亭店)",
-        "type": "milktea",
-        "lat": 24.641616,
-        "lng": 118.249225,
-        "rating": 4.1,
-        "reviewsCount": 166,
-        "address": "马巷镇西亭57-101号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-马巷"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0JD3C6U96",
-        "name": "库迪咖啡(南洋职业学院店)",
-        "type": "milktea",
-        "lat": 24.600914,
-        "lng": 118.253036,
-        "rating": 4.1,
-        "reviewsCount": 220,
-        "address": "洪钟大道5068号南洋职业学院12号楼101室图书馆",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-洪钟大道"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0LKVC4RZE",
-        "name": "库迪咖啡(翔安大嶝医院店)",
-        "type": "milktea",
-        "lat": 24.562575,
-        "lng": 118.334425,
-        "rating": 4.1,
-        "reviewsCount": 485,
-        "address": "大嶝东路5-107(翔安大嶝医院南150米)",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-大嶝东路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0KUAR10JS",
-        "name": "古茗(安防学院店)",
-        "type": "milktea",
-        "lat": 24.588175,
-        "lng": 118.259575,
-        "rating": 3.7,
-        "reviewsCount": 293,
-        "address": "翔安南路辅路与翔安东路辅路交叉口西南280米",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-翔安南路"
-        ]
-      },
-      {
-        "id": "real-xm-matcha-B0K107V67K",
-        "name": "古茗(演艺学院店)",
-        "type": "milktea",
-        "lat": 24.582377,
-        "lng": 118.264926,
+        "id": "real-xm-bar-B0MGKLKZ0V",
+        "name": "鹭旧调酒馆(龙湖店)",
+        "type": "bar",
+        "lat": 24.539419,
+        "lng": 117.988921,
         "rating": 3.9,
-        "reviewsCount": 359,
-        "address": "翔安东路1995号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 82,
+        "address": "鼎美东里453号2层",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "翔安区-翔安东路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-鼎美东里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MBLOTUP3",
+        "name": "The Oasis Bar绿洲",
+        "type": "bar",
+        "lat": 24.492822,
+        "lng": 118.057828,
+        "rating": 4.1,
+        "reviewsCount": 106,
+        "address": "国贸海上鸣樾底商114号(美宜佳旁边)",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥50-76",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-国贸海上鸣樾"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LRYXW2FX",
+        "name": "喝点",
+        "type": "bar",
+        "lat": 24.535405,
+        "lng": 117.96445,
+        "rating": 3.8,
+        "reviewsCount": 326,
+        "address": "孚莲二里22-102",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥86-128",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-孚莲二里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KKBHJBEH",
+        "name": "乐潮cIub",
+        "type": "bar",
+        "lat": 24.530558,
+        "lng": 118.011418,
+        "rating": 3.7,
+        "reviewsCount": 43,
+        "address": "新阳北路1668-18",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥108-162",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新阳北路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KGT9F3NH",
+        "name": "扶墙音乐酒馆",
+        "type": "bar",
+        "lat": 24.488832,
+        "lng": 118.043801,
+        "rating": 4.1,
+        "reviewsCount": 336,
+        "address": "海沧区滨湖北路891号扶墙音乐酒馆",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥216-324",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-滨湖北路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KDSLZM0L",
+        "name": "精酿啤酒餐吧(SEC泰地海西中心店)",
+        "type": "bar",
+        "lat": 24.481189,
+        "lng": 118.044556,
+        "rating": 4.2,
+        "reviewsCount": 267,
+        "address": "海沧大道891号SEC泰地海西中心F1层",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海沧大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JRJLL20X",
+        "name": "龙城自助酒水吧",
+        "type": "bar",
+        "lat": 24.49927,
+        "lng": 118.039555,
+        "rating": 3.1,
+        "reviewsCount": 120,
+        "address": "金龙商城一期北1门西南120米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-金龙商城一期"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0ID17RQ01",
+        "name": "1866小酒馆(滨湖路店)",
+        "type": "bar",
+        "lat": 24.48687,
+        "lng": 118.044692,
+        "rating": 3.5,
+        "reviewsCount": 103,
+        "address": "鼓浪花园西1门北80米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥48-72",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-鼓浪花园西1"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I0PZYH60",
+        "name": "既济堂古法养生(海投店)",
+        "type": "bar",
+        "lat": 24.535908,
+        "lng": 117.996461,
+        "rating": 3.5,
+        "reviewsCount": 210,
+        "address": "新景东里11号(新阳大道地铁站3号口步行330米)",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥145-217",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新景东里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KUDN9GT9",
+        "name": "full coffee",
+        "type": "bar",
+        "lat": 24.492863,
+        "lng": 118.028795,
+        "rating": 4.3,
+        "reviewsCount": 417,
+        "address": "西雅图4号门(马青路地铁站4号口步行110米)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥28-42",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-号门(马青路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IDN7LQ6A",
+        "name": "夯大口喝酒公司",
+        "type": "bar",
+        "lat": 24.492674,
+        "lng": 118.037435,
+        "rating": 4.5,
+        "reviewsCount": 144,
+        "address": "海发路38号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥81-121",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海发路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KA7SV8JP",
+        "name": "玩啤鼠精酿酒馆(海沧西雅图店)",
+        "type": "bar",
+        "lat": 24.493139,
+        "lng": 118.02918,
+        "rating": 4.3,
+        "reviewsCount": 296,
+        "address": "钟林路376号(马青路地铁站4号口步行260米)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥30-44",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-钟林路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0RC6GPU",
+        "name": "TheGreenParty(厦门海沧SM广场店)",
+        "type": "bar",
+        "lat": 24.539375,
+        "lng": 117.956525,
+        "rating": 3.5,
+        "reviewsCount": 483,
+        "address": "孚莲路1818号SM厦门海沧城市广场",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-孚莲路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L36S96QC",
+        "name": "曲笙酒廊",
+        "type": "bar",
+        "lat": 24.481271,
+        "lng": 118.032393,
+        "rating": 4.3,
+        "reviewsCount": 313,
+        "address": "嵩屿街道滨湖北二路70号阿罗海城市广场北区后街二楼",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥34-50",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-嵩屿街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JU57FHV2",
+        "name": "天秤座",
+        "type": "bar",
+        "lat": 24.495761,
+        "lng": 118.051721,
+        "rating": 4.4,
+        "reviewsCount": 123,
+        "address": "石塘东坑里141-7号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥40-60",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-石塘东坑里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K3F6I1HX",
+        "name": "厦门UU音乐酒吧",
+        "type": "bar",
+        "lat": 24.476172,
+        "lng": 118.033329,
+        "rating": 4.5,
+        "reviewsCount": 146,
+        "address": "正元新都汇滨湖一里205号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥122-184",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-正元新都汇滨湖一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M66OC0WD",
+        "name": "醉好烧烤·小酒馆",
+        "type": "bar",
+        "lat": 24.478385,
+        "lng": 117.991604,
+        "rating": 4.2,
+        "reviewsCount": 216,
+        "address": "双埕西路109号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥64-96",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-双埕西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1YHESGY",
+        "name": "D-CLUB单社",
+        "type": "bar",
+        "lat": 24.494431,
+        "lng": 118.03307,
+        "rating": 3.1,
+        "reviewsCount": 176,
+        "address": "海沧生活区一小区(马青路地铁站3号口步行300米)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-(马青路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0HGAH0YP4",
+        "name": "刺醉吧(新阳中达店)",
+        "type": "bar",
+        "lat": 24.518314,
+        "lng": 117.997201,
+        "rating": 3.2,
+        "reviewsCount": 231,
+        "address": "新昌路39号店面",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新昌路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M6JCF9EA",
+        "name": "飘飘小酒馆",
+        "type": "bar",
+        "lat": 24.468225,
+        "lng": 117.994475,
+        "rating": 3.9,
+        "reviewsCount": 179,
+        "address": "坂尾园路与锦里中路交叉口东北20米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-坂尾园路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LK45W42J",
+        "name": "1号精酿",
+        "type": "bar",
+        "lat": 24.492825,
+        "lng": 118.030075,
+        "rating": 1.4,
+        "reviewsCount": 457,
+        "address": "钟林北路与钟林路交叉口西南60米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥11-17",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-钟林北路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAY7YKRY",
+        "name": "Zero° Lab零度(海沧店)",
+        "type": "bar",
+        "lat": 24.488523,
+        "lng": 118.048983,
+        "rating": 4.4,
+        "reviewsCount": 428,
+        "address": "乐海百货(绿苑乐海店)282-14号餐车",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥16-24",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-乐海百货(绿"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3VRIEYK",
+        "name": "W酒吧",
+        "type": "bar",
+        "lat": 24.476144,
+        "lng": 118.033347,
+        "rating": 3.3,
+        "reviewsCount": 477,
+        "address": "滨湖路与湖岸北路交叉口东南240米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥161-241",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-滨湖路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFLODXTS",
+        "name": "TD酒吧(SEC泰地海西中心店)",
+        "type": "bar",
+        "lat": 24.481211,
+        "lng": 118.044348,
+        "rating": 4.1,
+        "reviewsCount": 214,
+        "address": "海沧大道泰地海西中心845号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥57-85",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海沧大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MBK4P8BO",
+        "name": "格莱美Livehouse音乐现场(3Q城店)",
+        "type": "bar",
+        "lat": 24.492375,
+        "lng": 118.030075,
+        "rating": 3.4,
+        "reviewsCount": 367,
+        "address": "钟林里316号3Q城(马青路地铁站4号口步行100米)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥109-163",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-钟林里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2UAE97J",
+        "name": "ROCKWAY",
+        "type": "bar",
+        "lat": 24.464634,
+        "lng": 118.024346,
+        "rating": 2.7,
+        "reviewsCount": 279,
+        "address": "海景南二路与海景东二路交叉口西120米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海景南二路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0DNMI8H",
+        "name": "又见小酒馆",
+        "type": "bar",
+        "lat": 24.481502,
+        "lng": 118.044556,
+        "rating": 3,
+        "reviewsCount": 316,
+        "address": "海沧大道891号SEC泰地海西中心",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海沧大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KRC16F3O",
+        "name": "零晨酒点半",
+        "type": "bar",
+        "lat": 24.52165,
+        "lng": 117.998022,
+        "rating": 1.5,
+        "reviewsCount": 213,
+        "address": "正顺宫路与刘店路交叉口西南40米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-正顺宫路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFIOU4EA",
+        "name": "本色沙龙美发(亚太广场店)",
+        "type": "bar",
+        "lat": 24.488531,
+        "lng": 118.034006,
+        "rating": 4,
+        "reviewsCount": 111,
+        "address": "海富里393-412号亚太广场395号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥23-35",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海富里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J0OR5MO0",
+        "name": "阿宝老酒馆(SEC泰地海西中心店)",
+        "type": "bar",
+        "lat": 24.481399,
+        "lng": 118.044249,
+        "rating": 3.6,
+        "reviewsCount": 324,
+        "address": "泰地海西865-1号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥58-86",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-泰地海西86"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LRCBE9FM",
+        "name": "山石酒馆(海沧店)",
+        "type": "bar",
+        "lat": 24.489436,
+        "lng": 118.050757,
+        "rating": 4.5,
+        "reviewsCount": 298,
+        "address": "沧林东路112号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥78-118",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-沧林东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KRTZLMRX",
+        "name": "斑马精酿吧(渐美村店)",
+        "type": "bar",
+        "lat": 24.478664,
+        "lng": 118.022935,
+        "rating": 4,
+        "reviewsCount": 252,
+        "address": "渐美南路与渐美龙舟池路交叉口北160米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-渐美南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M6BMGG6X",
+        "name": "斑马精酿(渐美村店)",
+        "type": "bar",
+        "lat": 24.48123,
+        "lng": 118.024655,
+        "rating": 3.3,
+        "reviewsCount": 394,
+        "address": "渐美中路与健美北路交叉口东南160米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-渐美中路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1MPG6KT",
+        "name": "东北小酒馆",
+        "type": "bar",
+        "lat": 24.531917,
+        "lng": 118.021803,
+        "rating": 3.9,
+        "reviewsCount": 74,
+        "address": "武夷公寓南侧",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-武夷公寓南侧"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFJIVLI5",
+        "name": "佐味海鲜小酒馆",
+        "type": "bar",
+        "lat": 24.488621,
+        "lng": 118.053513,
+        "rating": 4.5,
+        "reviewsCount": 379,
+        "address": "海沧大道1323号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥96-144",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-海沧大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0HG6CEUQ6",
+        "name": "笙日式小酒馆",
+        "type": "bar",
+        "lat": 24.49504,
+        "lng": 118.047903,
+        "rating": 4.6,
+        "reviewsCount": 67,
+        "address": "石塘村排头新村45-1号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥115-173",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-石塘村排头新"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K3V9NNBP",
+        "name": "喝喜小酒馆",
+        "type": "bar",
+        "lat": 24.49289,
+        "lng": 118.028712,
+        "rating": 4,
+        "reviewsCount": 101,
+        "address": "西雅图钟林里387号(马青路地铁站4号口步行110米)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥27-41",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-西雅图钟林里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAARPRZN",
+        "name": "多元共生酒馆",
+        "type": "bar",
+        "lat": 24.539324,
+        "lng": 117.991569,
+        "rating": 4.3,
+        "reviewsCount": 282,
+        "address": "鼎美东里370号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥39-59",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-鼎美东里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KKTUVHBY",
+        "name": "滑翔梦境轮滑酒吧",
+        "type": "bar",
+        "lat": 24.519853,
+        "lng": 118.002636,
+        "rating": 4.1,
+        "reviewsCount": 334,
+        "address": "新阳街道新美路29号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥172-258",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新阳街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDOASY5U",
+        "name": "山海谣烧烤酒馆",
+        "type": "bar",
+        "lat": 24.520227,
+        "lng": 118.000358,
+        "rating": 4.3,
+        "reviewsCount": 278,
+        "address": "新垵村东片243-1号B101室",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥26-38",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-新垵村东片2"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LD6L82RG",
+        "name": "ZAO小灶咖啡(海沧店)",
+        "type": "bar",
+        "lat": 24.492235,
+        "lng": 118.02694,
+        "rating": 4.4,
+        "reviewsCount": 203,
+        "address": "钟林里451-513号兴钟林安置房2期",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥30-46",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-钟林里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I0RUTZ97",
+        "name": "阿艺砂锅铁板烧(彼岸别墅店)",
+        "type": "bar",
+        "lat": 24.489946,
+        "lng": 118.051124,
+        "rating": 4.4,
+        "reviewsCount": 306,
+        "address": "彼岸别墅",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥42-62",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-彼岸别墅"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H1TAH99O",
+        "name": "202手工精酿啤酒屋",
+        "type": "bar",
+        "lat": 24.467378,
+        "lng": 117.99776,
+        "rating": 3.9,
+        "reviewsCount": 485,
+        "address": "锦里村北片202号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-锦里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAY5XE3K",
+        "name": "国民精酿酒馆",
+        "type": "bar",
+        "lat": 24.496739,
+        "lng": 118.05399,
+        "rating": 4,
+        "reviewsCount": 406,
+        "address": "坪山南里21号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥42-64",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-坪山南里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L6LCEO2J",
+        "name": "晓殿·3000隐世酒店(嵩屿码头店)",
+        "type": "bar",
+        "lat": 24.450368,
+        "lng": 118.038258,
+        "rating": 4.8,
+        "reviewsCount": 197,
+        "address": "嵩屿街道岭上社186号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-嵩屿街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MBYG48IG",
+        "name": "舌尖源卤味小酒馆",
+        "type": "bar",
+        "lat": 24.528848,
+        "lng": 118.001985,
+        "rating": 1.6,
+        "reviewsCount": 121,
+        "address": "下溪仔路与福岸巷交叉口东南80米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-下溪仔路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAVU7Q1L",
+        "name": "碰一面蜗牛面馆烧酒配",
+        "type": "bar",
+        "lat": 24.498765,
+        "lng": 118.038651,
+        "rating": 4.1,
+        "reviewsCount": 167,
+        "address": "沧虹路海西广场111号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥17-25",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "海沧区-沧虹路"
         ]
       },
       {
@@ -21757,6 +23106,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
+        "id": "real-xm-boba-B0H606HA19",
+        "name": "古茗(厦门翔安一中店)",
+        "type": "milktea",
+        "lat": 24.667902,
+        "lng": 118.248053,
+        "rating": 4.4,
+        "reviewsCount": 467,
+        "address": "马巷镇城隍路11号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-马巷"
+        ]
+      },
+      {
         "id": "real-xm-boba-B0FFHSKOGC",
         "name": "老漳头四果汤(华天店)",
         "type": "milktea",
@@ -21773,6 +23141,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "饮品店",
           "下午茶",
           "翔安区-新店镇福祥路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFLHLGA4",
+        "name": "古茗(翔安区天马店)",
+        "type": "milktea",
+        "lat": 24.634946,
+        "lng": 118.208693,
+        "rating": 4.2,
+        "reviewsCount": 180,
+        "address": "民安街道山亭侯里4-102号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-民安街"
         ]
       },
       {
@@ -21830,6 +23217,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "饮品店",
           "下午茶",
           "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0KKXC4P7N",
+        "name": "古茗(翔安大嶝岛店)",
+        "type": "milktea",
+        "lat": 24.563013,
+        "lng": 118.334415,
+        "rating": 4.6,
+        "reviewsCount": 482,
+        "address": "大嶝岛大嶝东路3-107号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-大嶝岛大嶝东路"
         ]
       },
       {
@@ -22194,6 +23600,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
+        "id": "real-xm-boba-B0LRDH6R8U",
+        "name": "古茗(翔安厦大校外店)",
+        "type": "milktea",
+        "lat": 24.608429,
+        "lng": 118.320845,
+        "rating": 4.4,
+        "reviewsCount": 473,
+        "address": "沙美鹊峰南里301-110",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-沙美鹊峰南里"
+        ]
+      },
+      {
         "id": "real-xm-boba-B0IGO7HX6H",
         "name": "快乐番薯(厦门翔安祥吴店)",
         "type": "milktea",
@@ -22305,6 +23730,63 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "饮品店",
           "下午茶",
           "翔安区-池王宫路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0JR3LEW0G",
+        "name": "古茗(翔安汇景广场店)",
+        "type": "milktea",
+        "lat": 24.619684,
+        "lng": 118.245077,
+        "rating": 4.1,
+        "reviewsCount": 276,
+        "address": "新店街道祥福五里25号汇景广场3A40",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0L2RRNVWD",
+        "name": "古茗(翔安南部新城TOD)",
+        "type": "milktea",
+        "lat": 24.58161,
+        "lng": 118.267501,
+        "rating": 4.3,
+        "reviewsCount": 355,
+        "address": "昌文昌4-102号(浦边地铁站4号口步行410米)",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-昌文昌4-1"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0LU771IMC",
+        "name": "古茗(翔安莲河店)",
+        "type": "milktea",
+        "lat": 24.586169,
+        "lng": 118.348678,
+        "rating": 4.4,
+        "reviewsCount": 413,
+        "address": "莲河莲泉路35号101",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-莲河莲泉路"
         ]
       },
       {
@@ -22460,6 +23942,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
+        "id": "real-xm-boba-B0L2ZN2WH1",
+        "name": "古茗(翔安同美夜市店)",
+        "type": "milktea",
+        "lat": 24.667628,
+        "lng": 118.215627,
+        "rating": 4.2,
+        "reviewsCount": 218,
+        "address": "同美里602号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-同美里"
+        ]
+      },
+      {
         "id": "real-xm-boba-B0FFKXKYYD",
         "name": "古茗(厦门翔安郑坂)",
         "type": "milktea",
@@ -22593,6 +24094,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
+        "id": "real-xm-boba-B0LB2LLIWB",
+        "name": "古茗(翔安马巷西亭店)",
+        "type": "milktea",
+        "lat": 24.641616,
+        "lng": 118.249225,
+        "rating": 4.1,
+        "reviewsCount": 166,
+        "address": "马巷镇西亭57-101号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-马巷"
+        ]
+      },
+      {
         "id": "real-xm-boba-B0LUFH2KUW",
         "name": "蜜雪冰城(新大路)",
         "type": "milktea",
@@ -22666,6 +24186,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "饮品店",
           "下午茶",
           "翔安区-新兴路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0J22COY8Q",
+        "name": "沪上阿姨·精选茶饮(厦门翔安觅光里店)",
+        "type": "milktea",
+        "lat": 24.663907,
+        "lng": 118.192959,
+        "rating": 3.9,
+        "reviewsCount": 274,
+        "address": "民安街道滨海里1号觅光里L1层1-104-2",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-民安街"
         ]
       },
       {
@@ -22837,6 +24376,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "饮品店",
           "下午茶",
           "翔安区-大嶝东路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFM8ZB3V",
+        "name": "蜜雪冰城(泰禾天街店)",
+        "type": "milktea",
+        "lat": 24.607972,
+        "lng": 118.245994,
+        "rating": 4.1,
+        "reviewsCount": 282,
+        "address": "新兴路264号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥2-2",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新兴路"
         ]
       },
       {
@@ -23182,21 +24740,2454 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
-        "id": "real-xm-bar-B0L65DNXC7",
-        "name": "下班之后·bar",
+        "id": "real-xm-boba-B0KUAR10JS",
+        "name": "古茗(安防学院店)",
+        "type": "milktea",
+        "lat": 24.588175,
+        "lng": 118.259575,
+        "rating": 3.7,
+        "reviewsCount": 293,
+        "address": "翔安南路辅路与翔安东路辅路交叉口西南280米",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-翔安南路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0IK0HQEQ0",
+        "name": "十水手作茶饮(翔安奥莱店)",
+        "type": "milktea",
+        "lat": 24.543925,
+        "lng": 118.238525,
+        "rating": 3.9,
+        "reviewsCount": 347,
+        "address": "金海街道新澳路857号首创奥特莱斯一层1F-D10B商铺",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0KUYM1Q0N",
+        "name": "波比艾斯(厦门翔安汇景甜品站)",
+        "type": "milktea",
+        "lat": 24.619117,
+        "lng": 118.244892,
+        "rating": 3.5,
+        "reviewsCount": 202,
+        "address": "新店街道祥福五里23号汇景购物广场3C23",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0IAG7C2VE",
+        "name": "轻茶里(翔安市头店)",
+        "type": "milktea",
+        "lat": 24.642956,
+        "lng": 118.25179,
+        "rating": 4.1,
+        "reviewsCount": 58,
+        "address": "舫山东二路未来之星幼儿园(舫山东二路)东侧约180米",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-舫山东二路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0L35CF94M",
+        "name": "快乐番薯(翔安顶翔大厦店)",
+        "type": "milktea",
+        "lat": 24.572796,
+        "lng": 118.240712,
+        "rating": 3.9,
+        "reviewsCount": 453,
+        "address": "金海街道新澳路1589-110号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0K2HCJHLS",
+        "name": "阅谈共享茶室棋牌(新圩店)",
+        "type": "milktea",
+        "lat": 24.735789,
+        "lng": 118.248509,
+        "rating": 4.4,
+        "reviewsCount": 73,
+        "address": "新圩镇新圩何宅里53-1",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新圩镇新圩何宅里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0LAXHYYOU",
+        "name": "蜜雪冰城后滨上庄里店",
+        "type": "milktea",
+        "lat": 24.653375,
+        "lng": 118.240225,
+        "rating": 4,
+        "reviewsCount": 417,
+        "address": "翔海路与舫山南路交叉口西南120米",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥8-12",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-翔海路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFHSDSGY",
+        "name": "茶芋鲜(郑坂店)",
+        "type": "milktea",
+        "lat": 24.639508,
+        "lng": 118.238543,
+        "rating": 3.8,
+        "reviewsCount": 378,
+        "address": "马巷镇郑坂社区西四里8-111号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0KRL9AAOK",
+        "name": "益禾堂(厦门南洋学院店)",
+        "type": "milktea",
+        "lat": 24.602104,
+        "lng": 118.252983,
+        "rating": 3.5,
+        "reviewsCount": 138,
+        "address": "新店镇南洋职业学院女生宿舍楼八号楼楼下",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店镇南洋职"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFIWB7X7",
+        "name": "华祥苑茗茶(福建省厦门市翔安滨安花园店)",
+        "type": "milktea",
+        "lat": 24.656813,
+        "lng": 118.242089,
+        "rating": 4.3,
+        "reviewsCount": 422,
+        "address": "滨安社区五权一里39之8店面",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-五权一里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFFW84QP",
+        "name": "真味终点站(洪前学生街店)",
+        "type": "milktea",
+        "lat": 24.599221,
+        "lng": 118.248562,
+        "rating": 4.2,
+        "reviewsCount": 202,
+        "address": "新店镇洪前一里77号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店镇洪前一里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0K2ALTR9Z",
+        "name": "快乐番薯(金茂悦云湾店)",
+        "type": "milktea",
+        "lat": 24.659837,
+        "lng": 118.194629,
+        "rating": 4.2,
+        "reviewsCount": 87,
+        "address": "西河南里1-103号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-西河南里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0H69RLWMP",
+        "name": "厦门闽景印象茶馆翔安店",
+        "type": "milktea",
+        "lat": 24.604461,
+        "lng": 118.254543,
+        "rating": 4.4,
+        "reviewsCount": 255,
+        "address": "翔安东路2869号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥34-52",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-翔安东路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0JD4KE4XP",
+        "name": "通喜果汁(闽篮城市广场店)",
+        "type": "milktea",
+        "lat": 24.575017,
+        "lng": 118.244841,
+        "rating": 3.5,
+        "reviewsCount": 128,
+        "address": "金海街道鼓锣一里61号闽篮城市广场一楼A32号铺位",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0JBZGHAR9",
+        "name": "蜜雪冰城(厦大校内店)",
+        "type": "milktea",
+        "lat": 24.610556,
+        "lng": 118.316931,
+        "rating": 2.8,
+        "reviewsCount": 193,
+        "address": "香山街道翔安南路4221-126-207(法律文书送达)",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥8-12",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-香山街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0K2Z92B49",
+        "name": "茗兰茶馆(暂停营业)",
+        "type": "milktea",
+        "lat": 24.658017,
+        "lng": 118.261143,
+        "rating": 4.1,
+        "reviewsCount": 41,
+        "address": "舫阳溪上里83号茗兰茶馆",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥20-30",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-舫阳溪上里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFKFZLML",
+        "name": "茶巢(海洋学院店)",
+        "type": "milktea",
+        "lat": 24.590309,
+        "lng": 118.250234,
+        "rating": 3.7,
+        "reviewsCount": 206,
+        "address": "洪钟大道洪前尾宅里67-2-101号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥13-19",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-洪钟大道"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0K2KCO64F",
+        "name": "僖乐椰",
+        "type": "milktea",
+        "lat": 24.578439,
+        "lng": 118.237667,
+        "rating": 4.2,
+        "reviewsCount": 70,
+        "address": "金泉路3栋24-124",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥25-37",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-金泉路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0K107V67K",
+        "name": "古茗(演艺学院店)",
+        "type": "milktea",
+        "lat": 24.582377,
+        "lng": 118.264926,
+        "rating": 3.9,
+        "reviewsCount": 359,
+        "address": "翔安东路1995号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-翔安东路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFGEMMIK",
+        "name": "么么茶分店(海翔大道店)",
+        "type": "milktea",
+        "lat": 24.635356,
+        "lng": 118.208843,
+        "rating": 3.7,
+        "reviewsCount": 188,
+        "address": "马巷镇山亭侯阁里153-2-101",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥26-38",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0JA5AEXMS",
+        "name": "悦茶(新店地铁社区·海悦园店)",
+        "type": "milktea",
+        "lat": 24.564366,
+        "lng": 118.224042,
+        "rating": 4,
+        "reviewsCount": 196,
+        "address": "东界东里31-105(悦茶饮品店)",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥14-20",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-东界东里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFFZHUDD",
+        "name": "康博士烧仙草(海洋店)",
+        "type": "milktea",
+        "lat": 24.591661,
+        "lng": 118.250154,
+        "rating": 3.5,
+        "reviewsCount": 325,
+        "address": "洪前村宏前超市旁",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-洪前村宏前超"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0L1376K44",
+        "name": "森甜冰社",
+        "type": "milktea",
+        "lat": 24.604684,
+        "lng": 118.321579,
+        "rating": 4.1,
+        "reviewsCount": 472,
+        "address": "翔安·正荣府",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥37-55",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-翔安·正荣府"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0I25ZBZD6",
+        "name": "茶百道(南洋学院店)",
+        "type": "milktea",
+        "lat": 24.602163,
+        "lng": 118.252796,
+        "rating": 3.8,
+        "reviewsCount": 456,
+        "address": "新店镇洪钟大道5068-6-103/104",
+        "signature": "招牌杨枝甘露 (鲜果茶系列)",
+        "priceRange": "¥14-20",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店镇洪钟大道"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0H0RAB5RV",
+        "name": "快乐番薯(厦门翔安新澳路店)",
+        "type": "milktea",
+        "lat": 24.568614,
+        "lng": 118.240789,
+        "rating": 3.9,
+        "reviewsCount": 136,
+        "address": "金海街道菁英公馆新澳路1525-107号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0IU1A260O",
+        "name": "临轩茶馆",
+        "type": "milktea",
+        "lat": 24.562772,
+        "lng": 118.330399,
+        "rating": 4.1,
+        "reviewsCount": 83,
+        "address": "田墘北里97号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥37-55",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-田墘北里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0IDJH1Z9W",
+        "name": "切果NOW(翔安店)",
+        "type": "milktea",
+        "lat": 24.625644,
+        "lng": 118.24482,
+        "rating": 4.3,
+        "reviewsCount": 98,
+        "address": "新店街道祥吴三路1817号(法律文书送达)",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0H3FM89WP",
+        "name": "一心烟酒茶(世茂御海墅店)",
+        "type": "milktea",
+        "lat": 24.544321,
+        "lng": 118.244989,
+        "rating": 4.1,
+        "reviewsCount": 480,
+        "address": "欧厝西里2-28,34-55号世茂御海墅",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-欧厝西里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFIWIHTX",
+        "name": "张之蓝的店(鼓锣店)",
+        "type": "milktea",
+        "lat": 24.57573,
+        "lng": 118.245131,
+        "rating": 3.9,
+        "reviewsCount": 87,
+        "address": "洋唐居住区A09地块南门西70米",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥13-19",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-洋唐居住区A"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0JDUHOH9A",
+        "name": "有约共享茶室(市头店)",
+        "type": "milktea",
+        "lat": 24.642197,
+        "lng": 118.250619,
+        "rating": 3.6,
+        "reviewsCount": 372,
+        "address": "马巷镇市头南里188-1号二楼",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥17-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B02500V99F",
+        "name": "鑫扬图文广告",
+        "type": "milktea",
+        "lat": 24.651444,
+        "lng": 118.25079,
+        "rating": 4.2,
+        "reviewsCount": 439,
+        "address": "马巷镇后滨社区路边许46号店面",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0L1ZHMGRE",
+        "name": "故人茶叙",
+        "type": "milktea",
+        "lat": 24.60996,
+        "lng": 118.261021,
+        "rating": 4.3,
+        "reviewsCount": 124,
+        "address": "新店街道溪尾溪东里99-3",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥49-73",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0L1R7C8G7",
+        "name": "陈文鼎黑糖珍珠奶茶(华天涉外店)",
+        "type": "milktea",
+        "lat": 24.605425,
+        "lng": 118.252125,
+        "rating": 3.4,
+        "reviewsCount": 315,
+        "address": "新店镇洪钟大道5088号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店镇洪钟大道"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFJNLRA0",
+        "name": "闲小茶(民安大道店)",
+        "type": "milktea",
+        "lat": 24.666062,
+        "lng": 118.274954,
+        "rating": 3.8,
+        "reviewsCount": 241,
+        "address": "内厝镇上塘村289号(体育彩票旁)",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥19-29",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-内厝镇上塘村"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0KDM57QIR",
+        "name": "雾里茶里鲜果茶(上吴店)",
+        "type": "milktea",
+        "lat": 24.663939,
+        "lng": 118.223409,
+        "rating": 3.6,
+        "reviewsCount": 126,
+        "address": "民安街道垵边下厝尾里26-1-104号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥20-30",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-民安街"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0KR4A13UI",
+        "name": "黄九三饮品店(新圩店)",
+        "type": "milktea",
+        "lat": 24.739025,
+        "lng": 118.255925,
+        "rating": 4.2,
+        "reviewsCount": 76,
+        "address": "新圩镇新霞北路13-101号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新圩镇新霞北路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0I3TG7RAS",
+        "name": "逸香阁茗茶",
+        "type": "milktea",
+        "lat": 24.604291,
+        "lng": 118.294349,
+        "rating": 3.5,
+        "reviewsCount": 412,
+        "address": "茂林前坑里28-1-103号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-茂林前坑里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0L3N1D2LX",
+        "name": "钧溪茶馆",
+        "type": "milktea",
+        "lat": 24.559211,
+        "lng": 118.217218,
+        "rating": 4.1,
+        "reviewsCount": 100,
+        "address": "金箱里5-106之一",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-金箱里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0KA69MC4N",
+        "name": "茶百道(闽篮城市广场店)",
+        "type": "milktea",
+        "lat": 24.575143,
+        "lng": 118.243911,
+        "rating": 4,
+        "reviewsCount": 71,
+        "address": "鼓锣西路434县",
+        "signature": "招牌杨枝甘露 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-鼓锣西路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0L6PUC6Y4",
+        "name": "彭家茶苑",
+        "type": "milktea",
+        "lat": 24.609828,
+        "lng": 118.249176,
+        "rating": 3.6,
+        "reviewsCount": 273,
+        "address": "新莲路86号之105室",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥38-58",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新莲路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0KDBCPDOM",
+        "name": "CHAGEE霸王茶姬(福建厦门翔安首创奥莱店)",
+        "type": "milktea",
+        "lat": 24.544985,
+        "lng": 118.237645,
+        "rating": 4,
+        "reviewsCount": 76,
+        "address": "新澳路506-116号",
+        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新澳路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0HA27S6V6",
+        "name": "水查母饮品店",
+        "type": "milktea",
+        "lat": 24.618474,
+        "lng": 118.279113,
+        "rating": 3.8,
+        "reviewsCount": 225,
+        "address": "新店镇大宅里6-10-102",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥9-13",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店镇大宅里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0FFIOW58S",
+        "name": "九道茶馆",
+        "type": "milktea",
+        "lat": 24.622402,
+        "lng": 118.245439,
+        "rating": 4.4,
+        "reviewsCount": 295,
+        "address": "新店镇祥吴村下曾里10-1号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新店镇祥吴村下曾里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0GKG57TFA",
+        "name": "阿福伯烧仙草(黎安居住区店)",
+        "type": "milktea",
+        "lat": 24.670489,
+        "lng": 118.238755,
+        "rating": 4,
+        "reviewsCount": 392,
+        "address": "黎安居住区二里2-108",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥4-6",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-二里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0GD3Y1RXC",
+        "name": "马巷呷冰",
+        "type": "milktea",
+        "lat": 24.653709,
+        "lng": 118.250632,
+        "rating": 4.1,
+        "reviewsCount": 207,
+        "address": "马巷镇巷南路371-1号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥21-31",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0LK2OSBVE",
+        "name": "清欢茶事",
+        "type": "milktea",
+        "lat": 24.671342,
+        "lng": 118.246268,
+        "rating": 4,
+        "reviewsCount": 458,
+        "address": "巷西五里1-10号海翼0592小区",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-巷西五里"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0LDH4QSJ3",
+        "name": "快乐番薯(翔安海峡现代城店)",
+        "type": "milktea",
+        "lat": 24.580893,
+        "lng": 118.242565,
+        "rating": 3.3,
+        "reviewsCount": 203,
+        "address": "新澳路与石厝路交叉口西160米",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-新澳路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0LR7YGP9J",
+        "name": "上品棋牌茶室",
+        "type": "milktea",
+        "lat": 24.567825,
+        "lng": 118.237275,
+        "rating": 3.2,
+        "reviewsCount": 76,
+        "address": "后仓路与翔风西路交叉口西北40米",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-后仓路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0LRDC6SL4",
+        "name": "农家茶园",
+        "type": "milktea",
+        "lat": 24.546214,
+        "lng": 118.32517,
+        "rating": 3.4,
+        "reviewsCount": 338,
+        "address": "环嶝南路613号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-环嶝南路"
+        ]
+      },
+      {
+        "id": "real-xm-boba-B0LKBMSMII",
+        "name": "翔安清竺茶舍",
+        "type": "milktea",
+        "lat": 24.572072,
+        "lng": 118.274474,
+        "rating": 3.7,
+        "reviewsCount": 284,
+        "address": "金海街道后村二里160号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFF2OKKO",
+        "name": "玛格丽特酒吧(翔安店)",
         "type": "bar",
-        "lat": 24.475626,
-        "lng": 118.179938,
-        "rating": 4.5,
-        "reviewsCount": 120,
-        "address": "双巷石路12号",
-        "signature": "经典莫吉托 (Classic Mojito)",
-        "priceRange": "¥60-80",
-        "hours": "18:00 - 02:00",
+        "lat": 24.599113,
+        "lng": 118.248192,
+        "rating": 4.3,
+        "reviewsCount": 266,
+        "address": "新店镇文教园洪前一里71号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-70",
+        "hours": "18:00 - 02:30",
         "tags": [
           "精酿啤酒",
+          "鸡尾酒",
           "社交小酌",
-          "思明区-双巷石路"
+          "翔安区-新店镇文教园洪前一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L31XWA5L",
+        "name": "今朝有酒",
+        "type": "bar",
+        "lat": 24.634011,
+        "lng": 118.208688,
+        "rating": 4.3,
+        "reviewsCount": 273,
+        "address": "民安街道山亭侯阁里181-2-104",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥65-97",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-民安街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAUM37XQ",
+        "name": "雪特Shareter精酿鸡尾酒馆",
+        "type": "bar",
+        "lat": 24.600723,
+        "lng": 118.24781,
+        "rating": 4,
+        "reviewsCount": 404,
+        "address": "洪前六里38号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥24-36",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-洪前六里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDLMNOYX",
+        "name": "哈酒小酒馆",
+        "type": "bar",
+        "lat": 24.626046,
+        "lng": 118.249082,
+        "rating": 4.2,
+        "reviewsCount": 319,
+        "address": "美地雅登祥吴五路1754号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-美地雅登祥吴五路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2C7IWX7",
+        "name": "玖十酒馆",
+        "type": "bar",
+        "lat": 24.544483,
+        "lng": 118.243136,
+        "rating": 3.8,
+        "reviewsCount": 109,
+        "address": "金海街道欧厝西里32-109号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0FA0IBQ",
+        "name": "欧遇小酒馆",
+        "type": "bar",
+        "lat": 24.540568,
+        "lng": 118.241575,
+        "rating": 4,
+        "reviewsCount": 279,
+        "address": "欧厝北里273号202室",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥90-134",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-欧厝北里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KG6CN23K",
+        "name": "酒点半",
+        "type": "bar",
+        "lat": 24.730768,
+        "lng": 118.251968,
+        "rating": 3.8,
+        "reviewsCount": 345,
+        "address": "新圩林尾里113-1",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新圩林尾里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JKCMMYXA",
+        "name": "玩啤鼠社区精酿酒馆世茂御海墅店",
+        "type": "bar",
+        "lat": 24.543394,
+        "lng": 118.244882,
+        "rating": 4.1,
+        "reviewsCount": 146,
+        "address": "欧厝西里2-28,34-55号世茂御海墅",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥25-37",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-欧厝西里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFMBCCU2",
+        "name": "金海岸(黎安小镇店)",
+        "type": "bar",
+        "lat": 24.660787,
+        "lng": 118.242723,
+        "rating": 3.7,
+        "reviewsCount": 50,
+        "address": "民安路285号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-民安路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KDUCDI7B",
+        "name": "玩啤鼠精酿酒馆海翼0592店",
+        "type": "bar",
+        "lat": 24.671762,
+        "lng": 118.246993,
+        "rating": 4.3,
+        "reviewsCount": 381,
+        "address": "巷西路358号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥30-44",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-巷西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K3491JRZ",
+        "name": "8+1精酿酒馆(锦绣祥安店)",
+        "type": "bar",
+        "lat": 24.658,
+        "lng": 118.257415,
+        "rating": 4.3,
+        "reviewsCount": 164,
+        "address": "五权路2470号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥42-64",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-五权路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFFOV9OC",
+        "name": "Sky",
+        "type": "bar",
+        "lat": 24.598752,
+        "lng": 118.247868,
+        "rating": 3.4,
+        "reviewsCount": 100,
+        "address": "新店街道洪前一里92号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JU1ZJVLP",
+        "name": "俏熊猫·鲜啤酒馆(翔安店)",
+        "type": "bar",
+        "lat": 24.574745,
+        "lng": 118.244395,
+        "rating": 4.1,
+        "reviewsCount": 392,
+        "address": "闽篮城市广场H1店铺(鼓锣地铁站4号口步行480米)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥33-49",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-闽篮城市广场"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K2D7G09E",
+        "name": "俏熊猫·鲜啤酒馆(华天店)",
+        "type": "bar",
+        "lat": 24.601983,
+        "lng": 118.24697,
+        "rating": 4.1,
+        "reviewsCount": 433,
+        "address": "新店新大路27-1-108号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥42-64",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店新大路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KA6MLG2E",
+        "name": "俏熊猫鲜啤酒馆(闽篮新天地店)",
+        "type": "bar",
+        "lat": 24.576175,
+        "lng": 118.231375,
+        "rating": 4.3,
+        "reviewsCount": 227,
+        "address": "闽篮新天地集装箱街区-JQ19-JQ20",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥47-71",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-闽篮新天地集装箱街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JARSSHXN",
+        "name": "Gudis谷地精酿餐酒馆(三六里店)",
+        "type": "bar",
+        "lat": 24.563365,
+        "lng": 118.245971,
+        "rating": 4.6,
+        "reviewsCount": 239,
+        "address": "鼓锣西六里12-106-108",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥75-113",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-鼓锣西六里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFMCDCTA",
+        "name": "威士忌(翔城国际门店)",
+        "type": "bar",
+        "lat": 24.571767,
+        "lng": 118.242805,
+        "rating": 4.5,
+        "reviewsCount": 86,
+        "address": "新店镇鼓锣一里36-90号店面",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店镇鼓锣一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LURCYLNN",
+        "name": "就是个酒馆",
+        "type": "bar",
+        "lat": 24.627623,
+        "lng": 118.242384,
+        "rating": 4,
+        "reviewsCount": 141,
+        "address": "祥吴一里133-101号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-祥吴一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKKCNCVQ",
+        "name": "赤道以北(马巷店)",
+        "type": "bar",
+        "lat": 24.647995,
+        "lng": 118.250672,
+        "rating": 2.7,
+        "reviewsCount": 215,
+        "address": "巷南路820号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-巷南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LG0M2DCD",
+        "name": "LIN9精酿酒馆海西店",
+        "type": "bar",
+        "lat": 24.567445,
+        "lng": 118.240968,
+        "rating": 3.7,
+        "reviewsCount": 163,
+        "address": "金海街道洪钟社区新澳路1509号126号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDH1UNE8",
+        "name": "鲸鲸乐啤酒厂(郑坂店)",
+        "type": "bar",
+        "lat": 24.643664,
+        "lng": 118.237552,
+        "rating": 3.9,
+        "reviewsCount": 241,
+        "address": "郑坂东一里18号102室",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-郑坂东一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3MLOWMW",
+        "name": "爬守pashow",
+        "type": "bar",
+        "lat": 24.599875,
+        "lng": 118.248375,
+        "rating": 3.9,
+        "reviewsCount": 216,
+        "address": "洪钟大道与文礼路交叉口南200米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥15-23",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-洪钟大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3DM5DV6",
+        "name": "野特酒馆",
+        "type": "bar",
+        "lat": 24.604051,
+        "lng": 118.247217,
+        "rating": 4,
+        "reviewsCount": 405,
+        "address": "新店学生街福祥路59号-1-201",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店学生街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3AZQ9VE",
+        "name": "梦幻小酒馆",
+        "type": "bar",
+        "lat": 24.641925,
+        "lng": 118.239875,
+        "rating": 3.7,
+        "reviewsCount": 467,
+        "address": "郑坂东三里18-105号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-70",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-郑坂东三里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L06MNEHY",
+        "name": "厦门翔安区酒星人基地音乐酒馆",
+        "type": "bar",
+        "lat": 24.60515,
+        "lng": 118.254934,
+        "rating": 3.6,
+        "reviewsCount": 145,
+        "address": "新店街道翔安东路2883号1239室",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JBUA989Z",
+        "name": "玩啤鼠精酿酒厂社区打酒站(美地雅登祥吴五里店)",
+        "type": "bar",
+        "lat": 24.626405,
+        "lng": 118.247622,
+        "rating": 3.9,
+        "reviewsCount": 136,
+        "address": "顶曾路321号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥34-52",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-顶曾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I0VDCARL",
+        "name": "心悦JOY CLUB",
+        "type": "bar",
+        "lat": 24.666723,
+        "lng": 118.215169,
+        "rating": 3.8,
+        "reviewsCount": 479,
+        "address": "民安街道同美下方里701号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥67-101",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-民安街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0FFKWUIS5",
+        "name": "幻夜酒吧",
+        "type": "bar",
+        "lat": 24.618044,
+        "lng": 118.242674,
+        "rating": 3.6,
+        "reviewsCount": 212,
+        "address": "新店镇祥福路2002号五华广场尔翔酒店旁边",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥75-113",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店镇祥福路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDURHG4Y",
+        "name": "半醒公社Bar",
+        "type": "bar",
+        "lat": 24.566872,
+        "lng": 118.239081,
+        "rating": 4.3,
+        "reviewsCount": 369,
+        "address": "新澳路1497-115",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥71-107",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新澳路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J26ALCJ5",
+        "name": "玩啤鼠社区精酿酒馆(黎安小镇店)",
+        "type": "bar",
+        "lat": 24.660486,
+        "lng": 118.245893,
+        "rating": 4.3,
+        "reviewsCount": 457,
+        "address": "马巷镇民安路221号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥26-40",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LRYMUF2P",
+        "name": "WOOHO~Coffee·Bar",
+        "type": "bar",
+        "lat": 24.560391,
+        "lng": 118.246176,
+        "rating": 4.5,
+        "reviewsCount": 113,
+        "address": "金海街道彭厝社区松源里7-106",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥36-54",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KR3CZ9G2",
+        "name": "寻ta精酿酒馆",
+        "type": "bar",
+        "lat": 24.670028,
+        "lng": 118.249317,
+        "rating": 4,
+        "reviewsCount": 301,
+        "address": "巷西南路77号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥195-293",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-巷西南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J0YYKV0G",
+        "name": "雪特Shareter剧本探案馆",
+        "type": "bar",
+        "lat": 24.600729,
+        "lng": 118.247872,
+        "rating": 4.3,
+        "reviewsCount": 316,
+        "address": "新店街道洪前六里37号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥61-91",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LDVR7AT9",
+        "name": "微醺小酒馆",
+        "type": "bar",
+        "lat": 24.661575,
+        "lng": 118.245075,
+        "rating": 4.1,
+        "reviewsCount": 77,
+        "address": "黎安小镇B区",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥61-91",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-黎安小镇B区"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LR4UQ5LN",
+        "name": "走花陆SIMPLE•WELL",
+        "type": "bar",
+        "lat": 24.625076,
+        "lng": 118.243963,
+        "rating": 4.4,
+        "reviewsCount": 487,
+        "address": "曾吴路与祥吴三路交叉口西100米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥21-31",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-曾吴路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MG5746GW",
+        "name": "贰宝精酿",
+        "type": "bar",
+        "lat": 24.567475,
+        "lng": 118.241025,
+        "rating": 4.1,
+        "reviewsCount": 316,
+        "address": "新澳路1511号海西9号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥76-114",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新澳路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LGDXMXU2",
+        "name": "COZE·闲谈",
+        "type": "bar",
+        "lat": 24.573459,
+        "lng": 118.252507,
+        "rating": 4,
+        "reviewsCount": 107,
+        "address": "翔安区浦滨西四里1-109",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥24-36",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-浦滨西四里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0C7ZNH2",
+        "name": "醺.Drunken",
+        "type": "bar",
+        "lat": 24.599698,
+        "lng": 118.248019,
+        "rating": 3.6,
+        "reviewsCount": 42,
+        "address": "洪前一里49号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥50-76",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-洪前一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MGH1TXO2",
+        "name": "善缪斯小酒馆",
+        "type": "bar",
+        "lat": 24.666725,
+        "lng": 118.213825,
+        "rating": 2.7,
+        "reviewsCount": 486,
+        "address": "舫山西路与官山路交叉口东北220米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-舫山西路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K1ALA8AZ",
+        "name": "PTY HAIR烫染连锁(下方店)",
+        "type": "bar",
+        "lat": 24.670412,
+        "lng": 118.214728,
+        "rating": 4.2,
+        "reviewsCount": 285,
+        "address": "同美下方里89-1-101",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥34-52",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-同美下方里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M63C9O93",
+        "name": "醺Homiebar",
+        "type": "bar",
+        "lat": 24.574905,
+        "lng": 118.251927,
+        "rating": 4,
+        "reviewsCount": 393,
+        "address": "建发·书香府邸一期",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥43-65",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-建发·书香府"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LUHBFNH4",
+        "name": "YOOYAH酒咖",
+        "type": "bar",
+        "lat": 24.602475,
+        "lng": 118.247675,
+        "rating": 2.4,
+        "reviewsCount": 221,
+        "address": "洪钟大道与文礼路交叉口西北100米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥16-24",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-洪钟大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JUY9VL6I",
+        "name": "酒隐精酿小酒馆",
+        "type": "bar",
+        "lat": 24.63344,
+        "lng": 118.207405,
+        "rating": 3.3,
+        "reviewsCount": 400,
+        "address": "海翔大道辅路与侯亭路交叉口北340米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥45-67",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-海翔大道"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M6NMDZX3",
+        "name": "番滚Bar•卤味档",
+        "type": "bar",
+        "lat": 24.576066,
+        "lng": 118.231298,
+        "rating": 3.5,
+        "reviewsCount": 93,
+        "address": "闽篮新天地(新店地铁社区·乐然居店)",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥20-30",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-闽篮新天地("
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2VA7A6U",
+        "name": "旺鲜派精酿酒馆",
+        "type": "bar",
+        "lat": 24.564084,
+        "lng": 118.244286,
+        "rating": 2.7,
+        "reviewsCount": 50,
+        "address": "金海街道鼓锣西一里31-125号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-金海街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LU95CZEF",
+        "name": "SoloCraft",
+        "type": "bar",
+        "lat": 24.554875,
+        "lng": 118.316275,
+        "rating": 4,
+        "reviewsCount": 87,
+        "address": "荔苑三路与荔苑路交叉口西南20米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-荔苑三路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L2UMDVA2",
+        "name": "酿未来精酿酒馆(厦门店翔安区)",
+        "type": "bar",
+        "lat": 24.680975,
+        "lng": 118.233775,
+        "rating": 3.3,
+        "reviewsCount": 479,
+        "address": "民安街道洪溪洪坑里53-1-101",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-民安街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JBP9AUUO",
+        "name": "海翔威士忌",
+        "type": "bar",
+        "lat": 24.740593,
+        "lng": 118.259276,
+        "rating": 3.7,
+        "reviewsCount": 193,
+        "address": "山岬路与新圩路交叉口南80米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-山岬路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L3ASUNTO",
+        "name": "半日·酒事",
+        "type": "bar",
+        "lat": 24.569775,
+        "lng": 118.252325,
+        "rating": 2.7,
+        "reviewsCount": 247,
+        "address": "联发君领学府",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-联发君领学府"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0RO7TKG",
+        "name": "Motic",
+        "type": "bar",
+        "lat": 24.642602,
+        "lng": 118.244955,
+        "rating": 2.2,
+        "reviewsCount": 168,
+        "address": "舫山东二路与春雷路交叉口北80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-舫山东二路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MBX5Z678",
+        "name": "欧麦尬小酒馆",
+        "type": "bar",
+        "lat": 24.541175,
+        "lng": 118.241525,
+        "rating": 2.3,
+        "reviewsCount": 239,
+        "address": "欧厝北路与欧厝西路交叉口西南300米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-欧厝北路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M69B82AH",
+        "name": "打工人·精酿原浆(下坂店)",
+        "type": "bar",
+        "lat": 24.648075,
+        "lng": 118.250775,
+        "rating": 0.5,
+        "reviewsCount": 469,
+        "address": "巷南路与舫阳西路交叉口南160米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-巷南路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LKT9Y474",
+        "name": "蓝带啤酒",
+        "type": "bar",
+        "lat": 24.643825,
+        "lng": 118.238975,
+        "rating": 0.5,
+        "reviewsCount": 200,
+        "address": "861村道与春光路交叉口东北160米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-村道与春光路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L10ZCFF1",
+        "name": "BLUEPURE",
+        "type": "bar",
+        "lat": 24.613497,
+        "lng": 118.25404,
+        "rating": 1.2,
+        "reviewsCount": 247,
+        "address": "陈塘东里",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-陈塘东里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0M6TR6JN7",
+        "name": "喝点bar",
+        "type": "bar",
+        "lat": 24.664525,
+        "lng": 118.253575,
+        "rating": 2.4,
+        "reviewsCount": 394,
+        "address": "巷东路与巷南路交叉口东南60米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-巷东路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MBSRETPR",
+        "name": "今日小酒馆(暂停营业)",
+        "type": "bar",
+        "lat": 24.661549,
+        "lng": 118.205708,
+        "rating": 4.5,
+        "reviewsCount": 41,
+        "address": "万家春路689-12-201号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥74-110",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-万家春路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IKKUTKOX",
+        "name": "主者精酿(翔安店)",
+        "type": "bar",
+        "lat": 24.617807,
+        "lng": 118.252024,
+        "rating": 4.3,
+        "reviewsCount": 220,
+        "address": "首开领翔上郡新莲一里北门旁",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-首开领翔上郡新莲一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0JBOZKNFF",
+        "name": "RC CLUB热潮酒吧(泰禾店)",
+        "type": "bar",
+        "lat": 24.608487,
+        "lng": 118.245955,
+        "rating": 4.4,
+        "reviewsCount": 104,
+        "address": "西岩一里3号泰禾天街购物广场B1",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥96-144",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-西岩一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I2USQR77",
+        "name": "燕遇小酒馆(双溪湖小区店)",
+        "type": "bar",
+        "lat": 24.676812,
+        "lng": 118.213102,
+        "rating": 4.1,
+        "reviewsCount": 180,
+        "address": "民安街道何厝双溪湖里44-1号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥42-62",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-民安街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0HHR0DG",
+        "name": "齐齐哈尔熏酱小酒馆",
+        "type": "bar",
+        "lat": 24.611641,
+        "lng": 118.245839,
+        "rating": 4.1,
+        "reviewsCount": 159,
+        "address": "新兴路与新店路交叉口北140米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥46-70",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新兴路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0IA7Z799N",
+        "name": "么哈MOJAR(厦门泰禾天街店)",
+        "type": "bar",
+        "lat": 24.608545,
+        "lng": 118.245954,
+        "rating": 4.5,
+        "reviewsCount": 78,
+        "address": "西岩一里3",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥43-65",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-西岩一里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H1RS94EM",
+        "name": "竹林小酒馆(新圩店)",
+        "type": "bar",
+        "lat": 24.740858,
+        "lng": 118.255397,
+        "rating": 3,
+        "reviewsCount": 397,
+        "address": "新圩镇中心幼儿园红绿灯路口",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新圩镇中心幼儿园红绿灯路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0MGM59W6Y",
+        "name": "邻小乐精酿啤酒馆(文贤路店)",
+        "type": "bar",
+        "lat": 24.606075,
+        "lng": 118.247825,
+        "rating": 2.8,
+        "reviewsCount": 175,
+        "address": "新兴路与朝新路交叉口东北300米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新兴路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L0TXBPN2",
+        "name": "极幸小酒馆",
+        "type": "bar",
+        "lat": 24.626322,
+        "lng": 118.241793,
+        "rating": 4,
+        "reviewsCount": 462,
+        "address": "顶曾路与祥吴二路交叉口西80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-顶曾路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LGTKX0C1",
+        "name": "快乐精酿",
+        "type": "bar",
+        "lat": 24.567337,
+        "lng": 118.240761,
+        "rating": 3.5,
+        "reviewsCount": 412,
+        "address": "浦园北一路与后仓路交叉口东南40米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-浦园北一路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KRV1HU9V",
+        "name": "梦享小酒馆",
+        "type": "bar",
+        "lat": 24.672549,
+        "lng": 118.24687,
+        "rating": 4.5,
+        "reviewsCount": 106,
+        "address": "巷西五里1-10号海翼0592小区",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥79-119",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-巷西五里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KGYUGSSB",
+        "name": "喝点小酒馆",
+        "type": "bar",
+        "lat": 24.642975,
+        "lng": 118.237825,
+        "rating": 3.7,
+        "reviewsCount": 437,
+        "address": "马巷街道郑坂东一里23号201室",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥108-162",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-马巷"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0LAJLUW4O",
+        "name": "鲜啤福鹿家(下方店)",
+        "type": "bar",
+        "lat": 24.667266,
+        "lng": 118.215201,
+        "rating": 4,
+        "reviewsCount": 416,
+        "address": "同美下方里1-3-102",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥14-20",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-同美下方里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H62HYFQO",
+        "name": "Nice奈斯美甲(华天店)",
+        "type": "bar",
+        "lat": 24.603739,
+        "lng": 118.246273,
+        "rating": 4.1,
+        "reviewsCount": 167,
+        "address": "新店街道福祥路29号103",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥130-196",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KRYCXOR3",
+        "name": "玩啤鼠精酿酒馆(新景国际店)",
+        "type": "bar",
+        "lat": 24.567388,
+        "lng": 118.238995,
+        "rating": 4.5,
+        "reviewsCount": 109,
+        "address": "新景国际城·融汇公馆",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥31-47",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新景国际城·"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KA3CRMSD",
+        "name": "1516精酿啤酒小院",
+        "type": "bar",
+        "lat": 24.623444,
+        "lng": 118.227483,
+        "rating": 4.4,
+        "reviewsCount": 316,
+        "address": "蔡浦路71-1-102号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-蔡浦路"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0H0FLNSDU",
+        "name": "小食代",
+        "type": "bar",
+        "lat": 24.598294,
+        "lng": 118.242285,
+        "rating": 3.7,
+        "reviewsCount": 442,
+        "address": "新店镇联合博学园112号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥34-52",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店镇联合博"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0L1RCB1IH",
+        "name": "壹民谣烧烤酒馆",
+        "type": "bar",
+        "lat": 24.616997,
+        "lng": 118.246894,
+        "rating": 4.4,
+        "reviewsCount": 92,
+        "address": "祥吴宋坂里331-108",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥40-60",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-祥吴宋坂里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0K3URJHGZ",
+        "name": "洪濑鸡爪卤味小酒馆",
+        "type": "bar",
+        "lat": 24.615731,
+        "lng": 118.269632,
+        "rating": 3.8,
+        "reviewsCount": 164,
+        "address": "新店镇吕塘西林南24-102号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥21-31",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-新店镇吕塘西"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KARLI1VR",
+        "name": "普罗斯特1516精酿啤酒福建运营中心",
+        "type": "bar",
+        "lat": 24.671793,
+        "lng": 118.247014,
+        "rating": 3.5,
+        "reviewsCount": 348,
+        "address": "巷西五里6-108号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-巷西五里"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KBX4KDHO",
+        "name": "同安正滋味沙茶面(翔安分店)",
+        "type": "bar",
+        "lat": 24.607106,
+        "lng": 118.246077,
+        "rating": 3.3,
+        "reviewsCount": 467,
+        "address": "九区·硬核叛客酒吧(泰禾天街购物广场店)南侧50米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥18-28",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-·硬核叛客酒吧(泰禾天街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0KROCSLE2",
+        "name": "炭烤大王(泰禾店)",
+        "type": "bar",
+        "lat": 24.607178,
+        "lng": 118.245848,
+        "rating": 2.3,
+        "reviewsCount": 199,
+        "address": "九区·硬核叛客酒吧(泰禾天街购物广场店)南侧50米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥35-53",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-·硬核叛客酒吧(泰禾天街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0I2JS4CST",
+        "name": "乐酷台球清吧",
+        "type": "bar",
+        "lat": 24.667355,
+        "lng": 118.215291,
+        "rating": 4.4,
+        "reviewsCount": 52,
+        "address": "民安街道同美下方里1-3号201",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-民安街"
+        ]
+      },
+      {
+        "id": "real-xm-bar-B0J3KLTU4I",
+        "name": "金海道烧烤小酒馆",
+        "type": "bar",
+        "lat": 24.573931,
+        "lng": 118.253872,
+        "rating": 4.5,
+        "reviewsCount": 186,
+        "address": "洞庭路63号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "翔安区-洞庭路"
         ]
       }
     ]
@@ -23209,3483 +27200,6 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
     "radius": 50000,
     "lastUpdated": "2026-06-24",
     "shops": [
-      {
-        "id": "real-st-matcha-B0H2YYXNJY",
-        "name": "星巴克臻选(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.362312,
-        "lng": 116.717437,
-        "rating": 4.6,
-        "reviewsCount": 183,
-        "address": "金环路与长平路交界处东北角万象城地上一层L156号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-金环路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0L14H17V0",
-        "name": "一杯潮茶(万象城店)",
-        "type": "milktea",
-        "lat": 23.362747,
-        "lng": 116.718804,
-        "rating": 4.5,
-        "reviewsCount": 277,
-        "address": "长平路95号华润大厦商业裙楼118号房之三",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0H2MD0ESC",
-        "name": "古茗(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363255,
-        "lng": 116.718071,
-        "rating": 4.5,
-        "reviewsCount": 128,
-        "address": "长平路万象城B102号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFI1WFY8",
-        "name": "井上抹茶(江山花园店)",
-        "type": "milktea",
-        "lat": 23.367654,
-        "lng": 116.721235,
-        "rating": 4.5,
-        "reviewsCount": 378,
-        "address": "华山路江山花园1栋107-108铺面",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥30-44",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-华山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0K0147XRT",
-        "name": "库迪咖啡(汕头购书中心店)",
-        "type": "milktea",
-        "lat": 23.377781,
-        "lng": 116.725383,
-        "rating": 4.4,
-        "reviewsCount": 325,
-        "address": "天山路55号金书大厦101之四",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-天山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0M6SO4F8H",
-        "name": "库迪咖啡(外砂虹璟湾店)",
-        "type": "milktea",
-        "lat": 23.443457,
-        "lng": 116.75541,
-        "rating": 4.1,
-        "reviewsCount": 363,
-        "address": "外砂街道内陇村蓬发路虹璟湾东区3幢103号铺面",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-外砂街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFG8R7A4",
-        "name": "星巴克(苏宁广场店)",
-        "type": "milktea",
-        "lat": 23.361717,
-        "lng": 116.716662,
-        "rating": 4.5,
-        "reviewsCount": 371,
-        "address": "长平路90号汕头苏宁广场地上1层102单元",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFM2UUJ5",
-        "name": "一杯潮茶(朝阳庄店)",
-        "type": "milktea",
-        "lat": 23.362642,
-        "lng": 116.730583,
-        "rating": 4.5,
-        "reviewsCount": 270,
-        "address": "朝阳庄南区26栋110号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-朝阳庄南区2"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0L1JB7T1P",
-        "name": "古茗(龙湖林百欣中专店)",
-        "type": "milktea",
-        "lat": 23.373341,
-        "lng": 116.737322,
-        "rating": 4.4,
-        "reviewsCount": 175,
-        "address": "新津街道嵩山路54号丽水庄东区26栋101号铺面",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-新津街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0L04CXSRW",
-        "name": "一杯潮茶(新一城店)",
-        "type": "milktea",
-        "lat": 23.377341,
-        "lng": 116.722922,
-        "rating": 4.5,
-        "reviewsCount": 221,
-        "address": "大南山路3号长江公寓1-8幢116号全套",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-大南山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0L1GOC473",
-        "name": "库迪咖啡(汕头星湖城店)",
-        "type": "milktea",
-        "lat": 23.367816,
-        "lng": 116.747426,
-        "rating": 4.4,
-        "reviewsCount": 194,
-        "address": "金砂东路179号合信星湖城",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-金砂东路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0HRCHLY2A",
-        "name": "芒小将(汕头合胜店)",
-        "type": "milktea",
-        "lat": 23.360739,
-        "lng": 116.7208,
-        "rating": 4,
-        "reviewsCount": 187,
-        "address": "长平路98号百脑汇生活广场B1层01号房之D-25号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFH8ILPQ",
-        "name": "星巴克(汕头星湖城分店)",
-        "type": "milktea",
-        "lat": 23.367167,
-        "lng": 116.748614,
-        "rating": 4.6,
-        "reviewsCount": 326,
-        "address": "金砂路179号合信星湖城14、18幢合信星湖城第一层101号房内的1-10单元",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-金砂路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0JA2ZEM63",
-        "name": "一杯潮茶(逸景蓝湾店)",
-        "type": "milktea",
-        "lat": 23.358255,
-        "lng": 116.746686,
-        "rating": 4.4,
-        "reviewsCount": 398,
-        "address": "韩江路39号逸景蓝湾商住楼2幢103号之一",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-韩江路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFKX0K71",
-        "name": "古茗(汕头龙湖广兴村)",
-        "type": "milktea",
-        "lat": 23.369687,
-        "lng": 116.741589,
-        "rating": 4.3,
-        "reviewsCount": 330,
-        "address": "珠池街道广兴村兴德街道123-124店铺",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-珠池街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0LKUCYMT8",
-        "name": "幸运咖(汕充路店)(内充公店)",
-        "type": "milktea",
-        "lat": 23.36344,
-        "lng": 116.759609,
-        "rating": 4,
-        "reviewsCount": 57,
-        "address": "汕充路21号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-汕充路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0J1LMUGGF",
-        "name": "库迪咖啡(汕头凤凰城店)",
-        "type": "milktea",
-        "lat": 23.385418,
-        "lng": 116.739337,
-        "rating": 4.6,
-        "reviewsCount": 485,
-        "address": "庐山路42号凤凰花园1栋103号铺",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-庐山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0MGZ5IUV4",
-        "name": "初待抹茶甜品(汕头店)",
-        "type": "milktea",
-        "lat": 23.371765,
-        "lng": 116.721753,
-        "rating": 3.7,
-        "reviewsCount": 243,
-        "address": "金霞街道南湖街2栋105号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-金霞街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFK3QQPM",
-        "name": "星巴克(汕头群光广场店)",
-        "type": "milktea",
-        "lat": 23.360923,
-        "lng": 116.721056,
-        "rating": 4.6,
-        "reviewsCount": 205,
-        "address": "长平路98号群光汇地面1层1F-007单元",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0K1HLHPM8",
-        "name": "一杯潮茶(东海岸甄选店)",
-        "type": "milktea",
-        "lat": 23.340282,
-        "lng": 116.774833,
-        "rating": 4.4,
-        "reviewsCount": 361,
-        "address": "华侨大道5号九里怡园10幢114之一",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-华侨大道"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0GUHMSMNJ",
-        "name": "古茗(龙湖区宁和街店)",
-        "type": "milktea",
-        "lat": 23.38308,
-        "lng": 116.737866,
-        "rating": 4.2,
-        "reviewsCount": 201,
-        "address": "陈厝合宁和街71号之五铺",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-陈厝合宁和街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFJ23V5M",
-        "name": "因味·虾混",
-        "type": "milktea",
-        "lat": 23.368686,
-        "lng": 116.719062,
-        "rating": 4.6,
-        "reviewsCount": 157,
-        "address": "榕江路9号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥58-86",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-榕江路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0LUFC1ZXM",
-        "name": "库迪咖啡(汕头龙湖宁和街店)",
-        "type": "milktea",
-        "lat": 23.386616,
-        "lng": 116.743504,
-        "rating": 4.3,
-        "reviewsCount": 454,
-        "address": "黄山路与宁和街交叉口西北40米",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-黄山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFIP73JS",
-        "name": "星巴克(汕头长江路分店)",
-        "type": "milktea",
-        "lat": 23.377375,
-        "lng": 116.724225,
-        "rating": 4.6,
-        "reviewsCount": 302,
-        "address": "长江路23号新一城商业中心零售商区1幢地上一层107号,108号-1号商铺",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-长江路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0G3UNXDNC",
-        "name": "MaiMaiDuLi麦麦嘟里烘焙",
-        "type": "milktea",
-        "lat": 23.365635,
-        "lng": 116.71972,
-        "rating": 4.7,
-        "reviewsCount": 208,
-        "address": "丹霞庄西区1栋东102",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-丹霞庄西区1"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0G2BH8UYL",
-        "name": "古茗(汕头外砂店)",
-        "type": "milktea",
-        "lat": 23.440615,
-        "lng": 116.756288,
-        "rating": 4.3,
-        "reviewsCount": 273,
-        "address": "外砂街道蓬中村文祠路国道路口商住楼118、119号铺面",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-外砂街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0JBFZ1YTG",
-        "name": "瑞幸咖啡(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363303,
-        "lng": 116.716572,
-        "rating": 4.5,
-        "reviewsCount": 283,
-        "address": "金霞街道汕头万象城L608",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-金霞街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0LRFR8AHP",
-        "name": "库迪咖啡(龙湖新溪荣兴茗苑店)",
-        "type": "milktea",
-        "lat": 23.396277,
-        "lng": 116.778633,
-        "rating": 4.3,
-        "reviewsCount": 489,
-        "address": "新溪街道津东路49号荣兴茗苑2栋1层A301号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-新溪街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0G3A5EHRU",
-        "name": "Nara Dessert那家甜点咖啡馆",
-        "type": "milktea",
-        "lat": 23.361334,
-        "lng": 116.726297,
-        "rating": 4.4,
-        "reviewsCount": 286,
-        "address": "天山南路丹阳庄西三区8-11栋117号(金银岛花园同侧)",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥30-44",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-天山南路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFI0AOMC",
-        "name": "星巴克(汕头黄山路店)",
-        "type": "milktea",
-        "lat": 23.3586,
-        "lng": 116.74651,
-        "rating": 4.5,
-        "reviewsCount": 131,
-        "address": "黄山路16号F16购物中心地上一层L103单元",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-黄山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFIB3RY6",
-        "name": "IMWE应味咖啡馆(永乐苑店)",
-        "type": "milktea",
-        "lat": 23.358576,
-        "lng": 116.738588,
-        "rating": 4.5,
-        "reviewsCount": 371,
-        "address": "嵩山南路9号永乐苑104",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥38-58",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-嵩山南路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0K3XHZ98T",
-        "name": "初茗潮茶(万象汇概念店)",
-        "type": "milktea",
-        "lat": 23.340275,
-        "lng": 116.774106,
-        "rating": 4.5,
-        "reviewsCount": 415,
-        "address": "华侨大道6号置地公馆1-2幢108号",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-华侨大道"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0KK9OE6Y0",
-        "name": "星巴克(汕头万象汇店)",
-        "type": "milktea",
-        "lat": 23.339988,
-        "lng": 116.773413,
-        "rating": 4.4,
-        "reviewsCount": 348,
-        "address": "龙腾街道华侨大道6号置地公馆商业裙楼L1层111号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-龙腾街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0GDLZGNG2",
-        "name": "瑞幸咖啡(汕头苏宁广场店)",
-        "type": "milktea",
-        "lat": 23.361188,
-        "lng": 116.716766,
-        "rating": 4.5,
-        "reviewsCount": 249,
-        "address": "金霞街道长平路90号苏宁广场写字楼2幢大堂",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-金霞街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0L2VN7MIY",
-        "name": "艺家冰室(高铁站店)",
-        "type": "milktea",
-        "lat": 23.37779,
-        "lng": 116.778657,
-        "rating": 4.4,
-        "reviewsCount": 244,
-        "address": "金鸿公路十一合公交车站艺家冰室·高铁站店",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥18-28",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-金鸿公路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0H0PSDA8Y",
-        "name": "啡色coffee(诚信花园店)",
-        "type": "milktea",
-        "lat": 23.359411,
-        "lng": 116.740341,
-        "rating": 4.2,
-        "reviewsCount": 271,
-        "address": "嵩山路金泰庄南区42-43栋105号之3号",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥30-46",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-嵩山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0JDSMMCM6",
-        "name": "沪上阿姨·精选茶饮(汕头星湖城店)",
-        "type": "milktea",
-        "lat": 23.366787,
-        "lng": 116.749509,
-        "rating": 4.1,
-        "reviewsCount": 97,
-        "address": "珠池街道金砂东路179号合信星湖城14、18幢101号房第22号商铺",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-珠池街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B02F20O259",
-        "name": "塔拉苏咖啡(中信丹阳花园店)",
-        "type": "milktea",
-        "lat": 23.361271,
-        "lng": 116.726299,
-        "rating": 4.2,
-        "reviewsCount": 383,
-        "address": "丹阳庄西三区8-11幢116号房之一",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥38-58",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-丹阳庄西三区"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0GK2YI3OE",
-        "name": "1点点(天山路店)",
-        "type": "milktea",
-        "lat": 23.377047,
-        "lng": 116.72488,
-        "rating": 4.5,
-        "reviewsCount": 473,
-        "address": "天山路大兴大厦楼下36号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥9-13",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-天山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFH2GWTS",
-        "name": "创客咖啡(超声科技大厦店)",
-        "type": "milktea",
-        "lat": 23.386056,
-        "lng": 116.720529,
-        "rating": 4,
-        "reviewsCount": 389,
-        "address": "科技东路9号超声科技大厦F1层",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥20-30",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-科技东路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFK665QK",
-        "name": "沪上阿姨·精选茶饮(汕头龙都丽园店)",
-        "type": "milktea",
-        "lat": 23.377714,
-        "lng": 116.737914,
-        "rating": 4.3,
-        "reviewsCount": 486,
-        "address": "珠江路21号翠英庄龙都丽园1幢102号沪上阿姨",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-珠江路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFIIP93D",
-        "name": "东坊古早(华山店)",
-        "type": "milktea",
-        "lat": 23.363742,
-        "lng": 116.721476,
-        "rating": 4,
-        "reviewsCount": 122,
-        "address": "丹霞庄中区6栋3梯",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-丹霞庄中区6"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFJKY03V",
-        "name": "欧焙可(金珠店)",
-        "type": "milktea",
-        "lat": 23.369795,
-        "lng": 116.723298,
-        "rating": 4.5,
-        "reviewsCount": 359,
-        "address": "龙湖综合市场北1门旁",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-龙湖综合市场"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B02F2018PY",
-        "name": "丹喜面包(紫云店)",
-        "type": "milktea",
-        "lat": 23.375564,
-        "lng": 116.730271,
-        "rating": 4.3,
-        "reviewsCount": 428,
-        "address": "衡山路紫云花园65-67栋1楼109号铺",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥9-13",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-衡山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0LD0MZBYM",
-        "name": "申辰Coffee&Tea",
-        "type": "milktea",
-        "lat": 23.359375,
-        "lng": 116.746725,
-        "rating": 3.6,
-        "reviewsCount": 219,
-        "address": "黄山路16号F16广大购物广场三楼L309商铺",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-黄山路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFICP4N7",
-        "name": "Remember瑞曼贝餐吧(怡景楼店)",
-        "type": "milktea",
-        "lat": 23.37276,
-        "lng": 116.72613,
-        "rating": 3.9,
-        "reviewsCount": 473,
-        "address": "怡景楼东北门旁",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-怡景楼东北门"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFKNMWWX",
-        "name": "沪上阿姨·精选茶饮(汕头龙湖新溪店)",
-        "type": "milktea",
-        "lat": 23.396694,
-        "lng": 116.773105,
-        "rating": 4.3,
-        "reviewsCount": 90,
-        "address": "新溪街道东直大街教师楼第14-15间铺",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "龙湖区-新溪街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H3ZRFEFN",
-        "name": "茶百道(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363656,
-        "lng": 116.71666,
-        "rating": 4.2,
-        "reviewsCount": 388,
-        "address": "长平路95号万象城L6A03",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H101XHZR",
-        "name": "CoCo都可(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.362461,
-        "lng": 116.717446,
-        "rating": 4.2,
-        "reviewsCount": 272,
-        "address": "长平路95号华润大厦万象城第6层L621号商铺",
-        "signature": "奶茶三兄弟 (经典珍珠加料奶茶)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HAXPM4YX",
-        "name": "茶百道(汕头新一城店)",
-        "type": "milktea",
-        "lat": 23.376472,
-        "lng": 116.72254,
-        "rating": 4.4,
-        "reviewsCount": 271,
-        "address": "新津街道长江路23号新一城商业中心5幢125号房",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新津街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G3CN6WBS",
-        "name": "CoCo都可(星湖城店)",
-        "type": "milktea",
-        "lat": 23.367009,
-        "lng": 116.750255,
-        "rating": 4.2,
-        "reviewsCount": 81,
-        "address": "珠池街道金砂东路179号星湖商业城F1层",
-        "signature": "奶茶三兄弟 (经典珍珠加料奶茶)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-珠池街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HR9Z5RNT",
-        "name": "成川茶店(万象概念店)",
-        "type": "milktea",
-        "lat": 23.363817,
-        "lng": 116.719257,
-        "rating": 4.7,
-        "reviewsCount": 236,
-        "address": "丹霞庄西区13-16座13座附楼101号房之二",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹霞庄西区1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFMDBW9Q",
-        "name": "奈雪的茶(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363018,
-        "lng": 116.717214,
-        "rating": 4.6,
-        "reviewsCount": 432,
-        "address": "长平路90号苏宁广场一楼",
-        "signature": "霸气芝士草莓 (芝士果茶系列)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HUSKJ9Z6",
-        "name": "CoCo都可(泰安合胜广场店)",
-        "type": "milktea",
-        "lat": 23.388476,
-        "lng": 116.738352,
-        "rating": 4.3,
-        "reviewsCount": 82,
-        "address": "黄河路51号江南星语花园第10幢一层03卡",
-        "signature": "奶茶三兄弟 (经典珍珠加料奶茶)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-黄河路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H2OMBFF9",
-        "name": "喜茶(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.362508,
-        "lng": 116.718312,
-        "rating": 4.7,
-        "reviewsCount": 205,
-        "address": "万象城",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-万象城"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFMDO4SQ",
-        "name": "十二中草莓冰红豆沙冰屋(蓝田分店)",
-        "type": "milktea",
-        "lat": 23.368944,
-        "lng": 116.745673,
-        "rating": 4.5,
-        "reviewsCount": 236,
-        "address": "珠池新村南32栋103铺面蓝田中学正对面",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-珠池新村南3"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HB4SAAXZ",
-        "name": "行运龙凤茶楼",
-        "type": "milktea",
-        "lat": 23.372775,
-        "lng": 116.742775,
-        "rating": 4.7,
-        "reviewsCount": 407,
-        "address": "珠池路59号清华熙园10栋401号房",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥65-97",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-珠池路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H65AMNPW",
-        "name": "古茗",
-        "type": "milktea",
-        "lat": 23.35759,
-        "lng": 116.746517,
-        "rating": 4.5,
-        "reviewsCount": 238,
-        "address": "黄山路逸景蓝湾4-110",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-黄山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I1B50XRI",
-        "name": "圆吉冰室",
-        "type": "milktea",
-        "lat": 23.412298,
-        "lng": 116.718826,
-        "rating": 4.7,
-        "reviewsCount": 242,
-        "address": "鸥汀街道鸥上面前洋六横巷1号(嵩山路腾辉塔旁)",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-鸥汀街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRAHZ4Y4",
-        "name": "杨哈哈(刨冰炸串专营店)",
-        "type": "milktea",
-        "lat": 23.384361,
-        "lng": 116.739512,
-        "rating": 4.6,
-        "reviewsCount": 452,
-        "address": "南和居委宁和街南和十三巷3号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-南和居委宁和街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H3KCZHBY",
-        "name": "林小柔绿豆沙牛乳(万象城店)",
-        "type": "milktea",
-        "lat": 23.363751,
-        "lng": 116.716582,
-        "rating": 4.6,
-        "reviewsCount": 342,
-        "address": "长平路95号汕头万象城L6层",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HR45Z0JW",
-        "name": "问茶·茶空间",
-        "type": "milktea",
-        "lat": 23.374623,
-        "lng": 116.726365,
-        "rating": 4.5,
-        "reviewsCount": 188,
-        "address": "紫云庄2号门旁",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥58-86",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-紫云庄2号门"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KK4DXWKI",
-        "name": "爷爷不泡茶NOYEYENOTEA(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363298,
-        "lng": 116.71769,
-        "rating": 4.6,
-        "reviewsCount": 451,
-        "address": "长平路95号华润大厦商业裙楼133-136平方(万象城4号出口)",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L22C03UU",
-        "name": "裕莲茶楼汕头万象城店",
-        "type": "milktea",
-        "lat": 23.364007,
-        "lng": 116.716323,
-        "rating": 4.6,
-        "reviewsCount": 86,
-        "address": "万象城一楼L104(近5号门)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-万象城一楼L"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JUDNYS9D",
-        "name": "茉莉奶白(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363049,
-        "lng": 116.717376,
-        "rating": 4.5,
-        "reviewsCount": 350,
-        "address": "长平东路95号万象城一楼DL101-(茉莉奶白店)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFL7DZPE",
-        "name": "古茗(汕头新一城店)",
-        "type": "milktea",
-        "lat": 23.376801,
-        "lng": 116.723139,
-        "rating": 4.5,
-        "reviewsCount": 46,
-        "address": "长江路新一城商业中心5栋",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRTM95NM",
-        "name": "纪千喜日鲜碳烤·鲜萃茶",
-        "type": "milktea",
-        "lat": 23.387259,
-        "lng": 116.73129,
-        "rating": 4.6,
-        "reviewsCount": 90,
-        "address": "龙新二街4号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥61-91",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-龙新二街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFLNB35L",
-        "name": "喜茶(汕头星湖城店)",
-        "type": "milktea",
-        "lat": 23.366985,
-        "lng": 116.749724,
-        "rating": 4.5,
-        "reviewsCount": 446,
-        "address": "金砂东路179号星湖商业城F1层",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金砂东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0GU2CFNLS",
-        "name": "喜茶(汕头群光广场店)",
-        "type": "milktea",
-        "lat": 23.361141,
-        "lng": 116.721025,
-        "rating": 4.6,
-        "reviewsCount": 182,
-        "address": "长平路98号汕头群光广场地上一层",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥21-31",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LATS4IHJ",
-        "name": "成川茶店(万象城内店)",
-        "type": "milktea",
-        "lat": 23.3626,
-        "lng": 116.717458,
-        "rating": 4.6,
-        "reviewsCount": 61,
-        "address": "长平路95号汕头万象城L157",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LDKSMQNB",
-        "name": "霸王茶姬(广东汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.364449,
-        "lng": 116.716118,
-        "rating": 4.6,
-        "reviewsCount": 338,
-        "address": "长平路95号万象城L101号铺(霸王茶姬万象城店)",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B02F20PF6J",
-        "name": "心林茶舍",
-        "type": "milktea",
-        "lat": 23.388196,
-        "lng": 116.725712,
-        "rating": 4.5,
-        "reviewsCount": 366,
-        "address": "衡山路花木市场(花园宾馆对面)近琪雅路口",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥202-304",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-衡山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFLH5DX2",
-        "name": "闲间茶舍(万象城店)",
-        "type": "milktea",
-        "lat": 23.365149,
-        "lng": 116.71634,
-        "rating": 4.4,
-        "reviewsCount": 343,
-        "address": "长平路95号华润大厦北塔12楼1211",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥63-95",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K6BZ7OOH",
-        "name": "CHAGEE霸王茶姬(汕头苏宁广场店)",
-        "type": "milktea",
-        "lat": 23.361756,
-        "lng": 116.717007,
-        "rating": 4.5,
-        "reviewsCount": 370,
-        "address": "长平路90号苏宁广场F1层",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I2FZG48K",
-        "name": "成川茶店(F16店)",
-        "type": "milktea",
-        "lat": 23.358404,
-        "lng": 116.746785,
-        "rating": 4.6,
-        "reviewsCount": 323,
-        "address": "韩江路39号逸景蓝湾商住楼2幢106号之二",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-韩江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JA9MIFZN",
-        "name": "潮汕冰麒麟Ice Kirin Gelato(潮汕雅轩店)",
-        "type": "milktea",
-        "lat": 23.359869,
-        "lng": 116.736517,
-        "rating": 4.6,
-        "reviewsCount": 282,
-        "address": "潮汕雅轩5栋102",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥26-38",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-潮汕雅轩5栋"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KB6XBTII",
-        "name": "Manner Coffee(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363111,
-        "lng": 116.717021,
-        "rating": 4.5,
-        "reviewsCount": 61,
-        "address": "长平路95号汕头万象城L1层",
-        "signature": "桂花燕麦拿铁 (精品拿铁咖啡)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JKNLJBQT",
-        "name": "SoQ亲子茶室私享空间(华润店)",
-        "type": "milktea",
-        "lat": 23.363572,
-        "lng": 116.716426,
-        "rating": 4,
-        "reviewsCount": 58,
-        "address": "长平路95号华润大厦西塔903室",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥174-260",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KUFH8DIG",
-        "name": "CHAGEE霸王茶姬(星湖商业城店)",
-        "type": "milktea",
-        "lat": 23.366999,
-        "lng": 116.750113,
-        "rating": 4.5,
-        "reviewsCount": 294,
-        "address": "金砂东路179号星湖商业城一楼外围",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金砂东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFFLD1BT",
-        "name": "么茶(丹霞店)",
-        "type": "milktea",
-        "lat": 23.363065,
-        "lng": 116.721703,
-        "rating": 4.5,
-        "reviewsCount": 477,
-        "address": "丹霞庄中区8栋108号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥22-32",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹霞庄中区8"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HRB5WCMD",
-        "name": "蜜雪冰城(辛厝寮店)",
-        "type": "milktea",
-        "lat": 23.388621,
-        "lng": 116.754438,
-        "rating": 4.4,
-        "reviewsCount": 164,
-        "address": "珠津居委珠津中区二巷5号之",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-8",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-二巷"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K0UZ32AB",
-        "name": "茶救星球(汕头龙湖万象城店)",
-        "type": "milktea",
-        "lat": 23.362497,
-        "lng": 116.717742,
-        "rating": 4.3,
-        "reviewsCount": 276,
-        "address": "长平路95号万象城L530-L 5b19铺",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LAOXRL96",
-        "name": "茶旺喜(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363275,
-        "lng": 116.718075,
-        "rating": 4.4,
-        "reviewsCount": 377,
-        "address": "长平路91号万象城润街1楼162铺面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IRPA1OWT",
-        "name": "茶百道(龙湖宁和街店)",
-        "type": "milktea",
-        "lat": 23.383668,
-        "lng": 116.738528,
-        "rating": 4.5,
-        "reviewsCount": 119,
-        "address": "新津街道宁和街78号铺面之四",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新津街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JRLC6UBH",
-        "name": "潮汕良心果汁(锦绣江南店)",
-        "type": "milktea",
-        "lat": 23.377821,
-        "lng": 116.727331,
-        "rating": 4.5,
-        "reviewsCount": 282,
-        "address": "锦绣江南花园北门旁",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-锦绣江南花园"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IDCYHPW0",
-        "name": "陆羽茶楼(尚海阳光花园店)",
-        "type": "milktea",
-        "lat": 23.356479,
-        "lng": 116.747339,
-        "rating": 4.5,
-        "reviewsCount": 474,
-        "address": "韩江路尚海阳光花园7幢111号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥55-83",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-韩江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LUDABL4T",
-        "name": "KOI Thé(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.362475,
-        "lng": 116.717475,
-        "rating": 4.4,
-        "reviewsCount": 50,
-        "address": "长平路95号万象城L529号铺",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KUG9WFH6",
-        "name": "熙福茶颂FUUUtea(领荟湾旗舰店)",
-        "type": "milktea",
-        "lat": 23.353305,
-        "lng": 116.734513,
-        "rating": 4.5,
-        "reviewsCount": 477,
-        "address": "领荟湾9栋熙福茶颂",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥32-48",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-领荟湾"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HKBZUTPP",
-        "name": "洞林茶舍(新华禧广场店)",
-        "type": "milktea",
-        "lat": 23.38648,
-        "lng": 116.713714,
-        "rating": 4.5,
-        "reviewsCount": 158,
-        "address": "科技北二街新华禧广场创客公寓3楼(卜蜂中心电影院出口对面)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥34-52",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-科技北二街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRUODE10",
-        "name": "鮀浦老四果汁冰(万象城店)",
-        "type": "milktea",
-        "lat": 23.363924,
-        "lng": 116.718918,
-        "rating": 4.5,
-        "reviewsCount": 300,
-        "address": "丹霞西街2号幸福雅居6栋102号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥9-13",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹霞西街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0M667AWSV",
-        "name": "Tamkoko泰柯茶园(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.362575,
-        "lng": 116.718775,
-        "rating": 4.5,
-        "reviewsCount": 219,
-        "address": "华润中心润街一楼165-4号正谈炸鸡对面",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥18-28",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-华润中心润街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H1U5WZRU",
-        "name": "潮聚茶馆(敬亭山)",
-        "type": "milktea",
-        "lat": 23.378025,
-        "lng": 116.781561,
-        "rating": 4.5,
-        "reviewsCount": 363,
-        "address": "南岭路中路北26巷6号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥30-46",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-南岭路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B02F201OOK",
-        "name": "陆品(嵩山南路店)",
-        "type": "milktea",
-        "lat": 23.359094,
-        "lng": 116.738161,
-        "rating": 4.4,
-        "reviewsCount": 462,
-        "address": "嵩山南路金泰庄南区20幢114号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-嵩山南路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HKOSEKMH",
-        "name": "隐一方茶馆(龙涛花园店)",
-        "type": "milktea",
-        "lat": 23.361436,
-        "lng": 116.732359,
-        "rating": 4.6,
-        "reviewsCount": 316,
-        "address": "衡山路130号1-4幢112",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥38-58",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-衡山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HAMM2LWS",
-        "name": "潮汕良心果汁(泰安合胜店)",
-        "type": "milktea",
-        "lat": 23.389261,
-        "lng": 116.73821,
-        "rating": 4.5,
-        "reviewsCount": 41,
-        "address": "新津街道庐山北路淮扬星语花园7栋102",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新津街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IU3ZJPYF",
-        "name": "夏摘山",
-        "type": "milktea",
-        "lat": 23.362319,
-        "lng": 116.721661,
-        "rating": 4.4,
-        "reviewsCount": 400,
-        "address": "长平路102号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L3KHC1ZH",
-        "name": "东方墨兰(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363873,
-        "lng": 116.716536,
-        "rating": 4.3,
-        "reviewsCount": 88,
-        "address": "长平路95号华润大厦万象城B102号商铺",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L621T0UY",
-        "name": "茉莉奶白(汕头万象汇店)",
-        "type": "milktea",
-        "lat": 23.340286,
-        "lng": 116.77461,
-        "rating": 4.4,
-        "reviewsCount": 465,
-        "address": "望洋山路70号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-望洋山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J3TRHFNZ",
-        "name": "喜茶(汕头合胜百货长江路店)",
-        "type": "milktea",
-        "lat": 23.377816,
-        "lng": 116.724548,
-        "rating": 4.4,
-        "reviewsCount": 417,
-        "address": "长江路23号合胜百货一楼1F-26卡",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LA1H9PEV",
-        "name": "煲珠公·老红糖珍珠奶茶(汕头万象城)",
-        "type": "milktea",
-        "lat": 23.362576,
-        "lng": 116.717897,
-        "rating": 4.2,
-        "reviewsCount": 164,
-        "address": "长平路95号汕头万象城L5B04号商铺之一",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JAT7NO7X",
-        "name": "拉茶王子(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.364537,
-        "lng": 116.717949,
-        "rating": 4.4,
-        "reviewsCount": 56,
-        "address": "幸福里一街107店面",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-幸福里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I0CAFWT8",
-        "name": "两英豆浆(珠江店)",
-        "type": "milktea",
-        "lat": 23.376504,
-        "lng": 116.732305,
-        "rating": 4.6,
-        "reviewsCount": 94,
-        "address": "绿茵庄13栋107房之一",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-绿茵庄13栋"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K32H8N9E",
-        "name": "CHAGEE霸王茶姬(广东汕头龙湖万象汇店)",
-        "type": "milktea",
-        "lat": 23.33989,
-        "lng": 116.773419,
-        "rating": 4.4,
-        "reviewsCount": 206,
-        "address": "华侨大道6号置地公馆商业裙楼L1层111号",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-华侨大道"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LUZXT53T",
-        "name": "喜也冰室",
-        "type": "milktea",
-        "lat": 23.368077,
-        "lng": 116.739651,
-        "rating": 4.6,
-        "reviewsCount": 405,
-        "address": "蓝田庄南区资华园48-53幢116号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-蓝田庄南区资"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0MBB9XBRS",
-        "name": "郑世隆古法泰茶(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.362689,
-        "lng": 116.718324,
-        "rating": 4.5,
-        "reviewsCount": 45,
-        "address": "金环南路与长平东路交叉口东北100米",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金环南路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LUO1JYTH",
-        "name": "莱屿釉·海景自助茶舍(苏宁广场店)",
-        "type": "milktea",
-        "lat": 23.361186,
-        "lng": 116.716764,
-        "rating": 4.4,
-        "reviewsCount": 162,
-        "address": "苏宁广场写字楼1座15楼1514-1516",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥34-50",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-苏宁广场写字"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HK35NJIA",
-        "name": "合欢茶事",
-        "type": "milktea",
-        "lat": 23.376651,
-        "lng": 116.780196,
-        "rating": 4.5,
-        "reviewsCount": 235,
-        "address": "十一合村中路北36巷4号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥46-70",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-十一合村中路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K2NBOU7Y",
-        "name": "喜茶(汕头泰安合胜广场店)",
-        "type": "milktea",
-        "lat": 23.388159,
-        "lng": 116.738298,
-        "rating": 4.4,
-        "reviewsCount": 171,
-        "address": "黄河路51号江南星语花园第10幢泰安合胜广场一层16A卡",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-黄河路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K0GA4XXL",
-        "name": "蜜雪冰城(翠茵景苑店)",
-        "type": "milktea",
-        "lat": 23.361918,
-        "lng": 116.738221,
-        "rating": 4.5,
-        "reviewsCount": 47,
-        "address": "长平路146号101号之一",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LAA7H6N0",
-        "name": "归隐茶舍",
-        "type": "milktea",
-        "lat": 23.361216,
-        "lng": 116.721482,
-        "rating": 4.5,
-        "reviewsCount": 163,
-        "address": "碧霞庄北区西门北50米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥21-31",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-碧霞庄北区西"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H1F7FKWN",
-        "name": "海岸茶馆(龙光·御海阳光花园店)",
-        "type": "milktea",
-        "lat": 23.347383,
-        "lng": 116.77515,
-        "rating": 4.5,
-        "reviewsCount": 410,
-        "address": "津河路御海阳光北区15栋铺面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥40-60",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-津河路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J24L5L2N",
-        "name": "蜜雪冰城((华山路店))",
-        "type": "milktea",
-        "lat": 23.362161,
-        "lng": 116.721874,
-        "rating": 4.5,
-        "reviewsCount": 451,
-        "address": "华山路11号永成大厦及附楼1,2幢永成大厦3/101号之三",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-华山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0MB3UGB2B",
-        "name": "洪双圆·潮汕手作珍珠奶茶(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.364402,
-        "lng": 116.719242,
-        "rating": 4.5,
-        "reviewsCount": 450,
-        "address": "丹霞西街13-16座,106号,鹅肠佳卤水火锅旁边",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹霞西街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IA55DR71",
-        "name": "蜜雪冰城(新一城店)",
-        "type": "milktea",
-        "lat": 23.376683,
-        "lng": 116.722989,
-        "rating": 4.4,
-        "reviewsCount": 342,
-        "address": "长江路23号5幢116号房之一",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HG251UKA",
-        "name": "1点点(广兴店)",
-        "type": "milktea",
-        "lat": 23.369593,
-        "lng": 116.742501,
-        "rating": 4.5,
-        "reviewsCount": 94,
-        "address": "广兴居委兴德街88-89号铺面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-广兴居委兴德街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J6YPVTV4",
-        "name": "哈根达斯(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363085,
-        "lng": 116.717235,
-        "rating": 4.2,
-        "reviewsCount": 465,
-        "address": "长平路95号华润大厦万象城第二层L230a号哈根达斯",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥59-89",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFGLFTR0",
-        "name": "欧吉(嵩山店)",
-        "type": "milktea",
-        "lat": 23.360931,
-        "lng": 116.737881,
-        "rating": 4.4,
-        "reviewsCount": 185,
-        "address": "嵩山路金涛庄87幢113号之1号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-嵩山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JR7ZAPGQ",
-        "name": "喜茶(汕头F16广大购物广场店)",
-        "type": "milktea",
-        "lat": 23.358787,
-        "lng": 116.746514,
-        "rating": 4.3,
-        "reviewsCount": 388,
-        "address": "黄山路16号F16广大购物广场1层158号",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-黄山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFKX2Q5A",
-        "name": "陈泡泡鲜果冰(丹霞庄店)",
-        "type": "milktea",
-        "lat": 23.36416,
-        "lng": 116.721874,
-        "rating": 4.4,
-        "reviewsCount": 194,
-        "address": "丹霞庄中区4栋108号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹霞庄中区4"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IRYZ9JT3",
-        "name": "食草怪兽(华山店)",
-        "type": "milktea",
-        "lat": 23.363397,
-        "lng": 116.721025,
-        "rating": 4.3,
-        "reviewsCount": 92,
-        "address": "丹霞庄西区27栋101",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥33-49",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹霞庄西区2"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HA3A4I92",
-        "name": "林小柔绿豆沙牛乳(朝阳庄店)",
-        "type": "milktea",
-        "lat": 23.36225,
-        "lng": 116.727407,
-        "rating": 4.5,
-        "reviewsCount": 271,
-        "address": "朝阳庄南区6栋104之一",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-朝阳庄南区6"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0M6XHPZNV",
-        "name": "LINLEE林里·手打柠檬茶(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363093,
-        "lng": 116.717775,
-        "rating": 4.2,
-        "reviewsCount": 305,
-        "address": "长平路95号汕头万象城",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J2U7QX22",
-        "name": "新加坡斯味洛·鲜奶茶(万象城店)",
-        "type": "milktea",
-        "lat": 23.363275,
-        "lng": 116.717375,
-        "rating": 4.3,
-        "reviewsCount": 307,
-        "address": "长平路95号汕头万象城L1层",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K2R7DZ2M",
-        "name": "淡马茶坊(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363415,
-        "lng": 116.716578,
-        "rating": 4.2,
-        "reviewsCount": 327,
-        "address": "长平路95号华润大厦万象城L607号商铺之一",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-28",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KGVUG3S3",
-        "name": "蜜雪冰城(衡山路店)",
-        "type": "milktea",
-        "lat": 23.374675,
-        "lng": 116.730975,
-        "rating": 4.4,
-        "reviewsCount": 217,
-        "address": "丽水庄西区1幢107号房",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丽水庄西区1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFILBK21",
-        "name": "潮人半岛茶楼(锦峰华侨城一期店)",
-        "type": "milktea",
-        "lat": 23.348485,
-        "lng": 116.765684,
-        "rating": 4.4,
-        "reviewsCount": 439,
-        "address": "龙腾街道中山路198号锦峰华侨城一期",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥378-568",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-龙腾街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JAT7QTST",
-        "name": "蜜雪冰城(海纳天地店)",
-        "type": "milktea",
-        "lat": 23.382375,
-        "lng": 116.732984,
-        "rating": 4.3,
-        "reviewsCount": 322,
-        "address": "嵩山路98号大悦花园",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥5-7",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-嵩山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDB7YMJ1",
-        "name": "奈雪的茶(汕头龙湖海纳天地店)",
-        "type": "milktea",
-        "lat": 23.382802,
-        "lng": 116.732436,
-        "rating": 4.3,
-        "reviewsCount": 227,
-        "address": "嵩山南路98号大悦花园海纳天地一层奈雪的茶",
-        "signature": "霸气芝士草莓 (芝士果茶系列)",
-        "priceRange": "¥17-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-嵩山南路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KD3CM5MX",
-        "name": "拾叁茶舍(新一城商业中心店)",
-        "type": "milktea",
-        "lat": 23.377277,
-        "lng": 116.723782,
-        "rating": 4.5,
-        "reviewsCount": 148,
-        "address": "长岭街道长江路23号2幢1312",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥22-34",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长岭街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0ID77NUPD",
-        "name": "舞起潮汕艺术馆",
-        "type": "milktea",
-        "lat": 23.375035,
-        "lng": 116.774145,
-        "rating": 4.4,
-        "reviewsCount": 222,
-        "address": "金鸿公路与汕头青年路交叉口东北340米",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金鸿公路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KUCRXQFR",
-        "name": "天台露营茶馆",
-        "type": "milktea",
-        "lat": 23.362203,
-        "lng": 116.719626,
-        "rating": 4.4,
-        "reviewsCount": 474,
-        "address": "长平路华星大楼九楼",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥25-37",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0GUJ5PP5A",
-        "name": "蜜雪冰城(嵩山路宁和街店)",
-        "type": "milktea",
-        "lat": 23.383155,
-        "lng": 116.73796,
-        "rating": 4.5,
-        "reviewsCount": 135,
-        "address": "陈厝合宁和街69号铺面之一",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-陈厝合宁和街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JR7CGUNT",
-        "name": "江南茶室·自助茶馆(智汇时代雅园店)",
-        "type": "milktea",
-        "lat": 23.381402,
-        "lng": 116.720493,
-        "rating": 4.3,
-        "reviewsCount": 198,
-        "address": "金霞街道黄河路19号智汇时代雅园1栋2梯706室",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金霞街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0M6RC2E8V",
-        "name": "茉酸奶(汕头龙湖区万象城L5店)",
-        "type": "milktea",
-        "lat": 23.362525,
-        "lng": 116.717875,
-        "rating": 4.1,
-        "reviewsCount": 333,
-        "address": "万象城L5B03",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-万象城L5B"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KD1H7XGL",
-        "name": "茶话弄(汕头龙湖润街店)(暂停营业)",
-        "type": "milktea",
-        "lat": 23.36341,
-        "lng": 116.717287,
-        "rating": 4.3,
-        "reviewsCount": 288,
-        "address": "华润万象城润街148号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-华润万象城润街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G0R9DHEW",
-        "name": "一荷茶馆",
-        "type": "milktea",
-        "lat": 23.376948,
-        "lng": 116.780196,
-        "rating": 4.5,
-        "reviewsCount": 320,
-        "address": "新海街道十一合艺术村中路北36巷5号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥88-132",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新海街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFI8Y4K1",
-        "name": "蜜雪冰城(陈厝合黄山路店)",
-        "type": "milktea",
-        "lat": 23.386519,
-        "lng": 116.743525,
-        "rating": 4.4,
-        "reviewsCount": 118,
-        "address": "新津街道陈厝合宁和街佳和七巷4号楼下102号铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新津街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KAOS1IEI",
-        "name": "潮汕良心果汁(津湾公园店)",
-        "type": "milktea",
-        "lat": 23.332162,
-        "lng": 116.779701,
-        "rating": 4.4,
-        "reviewsCount": 484,
-        "address": "阿里山路10号宝能时代湾(津湾公园对面)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-阿里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IBX1NIPN",
-        "name": "旭亦茶馆",
-        "type": "milktea",
-        "lat": 23.382012,
-        "lng": 116.730256,
-        "rating": 4.6,
-        "reviewsCount": 303,
-        "address": "紫茵商业街大悦花园2栋109",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥25-37",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-紫茵商业街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFLATFA1",
-        "name": "益禾堂(汕头龙湖黄山路店)",
-        "type": "milktea",
-        "lat": 23.386508,
-        "lng": 116.743521,
-        "rating": 4.1,
-        "reviewsCount": 479,
-        "address": "陈厝合宁和街佳和七巷4号第一格",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-陈厝合宁和街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H2MD3XIS",
-        "name": "馥馥茶馆(丹阳店)",
-        "type": "milktea",
-        "lat": 23.357124,
-        "lng": 116.728976,
-        "rating": 4.5,
-        "reviewsCount": 438,
-        "address": "丹阳庄西一区19栋111房",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥22-34",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹阳庄西一区"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HG0CZIZU",
-        "name": "LINLEE·手打柠檬茶(龙湖F16店)",
-        "type": "milktea",
-        "lat": 23.359077,
-        "lng": 116.746498,
-        "rating": 3.8,
-        "reviewsCount": 436,
-        "address": "黄山路16号F16广大购物广场一层167号商铺",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-黄山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J6KD7ZFI",
-        "name": "醒狮敬茶",
-        "type": "milktea",
-        "lat": 23.37686,
-        "lng": 116.734044,
-        "rating": 4.4,
-        "reviewsCount": 487,
-        "address": "丽水庄中区12栋110室",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥17-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丽水庄中区1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JUYMMT8S",
-        "name": "书亦烧仙草(广兴街店)",
-        "type": "milktea",
-        "lat": 23.370215,
-        "lng": 116.741631,
-        "rating": 4.1,
-        "reviewsCount": 417,
-        "address": "广兴街与兴德街交叉口北60米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-广兴街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HAZM664D",
-        "name": "云泽苑景观茶舍",
-        "type": "milktea",
-        "lat": 23.370259,
-        "lng": 116.77478,
-        "rating": 4.3,
-        "reviewsCount": 358,
-        "address": "新溪坝尾青年路南兴园13巷3号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥97-145",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新溪坝尾青年路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDG5LHWR",
-        "name": "英歌魂(新溪店)",
-        "type": "milktea",
-        "lat": 23.395241,
-        "lng": 116.776869,
-        "rating": 4.4,
-        "reviewsCount": 454,
-        "address": "津东路81号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥9-13",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-津东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JKPR13UX",
-        "name": "EDM潮茶(万象城店)",
-        "type": "milktea",
-        "lat": 23.36331,
-        "lng": 116.717618,
-        "rating": 4.4,
-        "reviewsCount": 104,
-        "address": "长平路95号华润大厦商业裙楼153号单元",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HUVZ2NPD",
-        "name": "古茗(龙湖鸥汀街道店)",
-        "type": "milktea",
-        "lat": 23.408956,
-        "lng": 116.716225,
-        "rating": 4.4,
-        "reviewsCount": 81,
-        "address": "龟桥南路242号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-龟桥南路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H3RUHDVF",
-        "name": "蜜雪冰城(鸥汀店)",
-        "type": "milktea",
-        "lat": 23.41081,
-        "lng": 116.714826,
-        "rating": 4.1,
-        "reviewsCount": 250,
-        "address": "鸥下龟桥南路133号一楼之二",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-鸥下龟桥南路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LAACMHKR",
-        "name": "春安宝潭茶馆(锦绣江南店)",
-        "type": "milktea",
-        "lat": 23.377909,
-        "lng": 116.727909,
-        "rating": 4.4,
-        "reviewsCount": 255,
-        "address": "锦绣江南-1号楼102.103铺面",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥29-43",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-锦绣江南-1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JGMA86Q8",
-        "name": "春风茶座1号店",
-        "type": "milktea",
-        "lat": 23.33537,
-        "lng": 116.788878,
-        "rating": 4.5,
-        "reviewsCount": 240,
-        "address": "东海岸观光路1号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-东海岸观光路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HRORPIPN",
-        "name": "悠枫茶室(江山花园店)",
-        "type": "milktea",
-        "lat": 23.367637,
-        "lng": 116.721046,
-        "rating": 4.1,
-        "reviewsCount": 210,
-        "address": "江山花园1栋103号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥27-41",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-江山花园1栋"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFG0KH7C",
-        "name": "1点点(陈厝合店)",
-        "type": "milktea",
-        "lat": 23.383691,
-        "lng": 116.7391,
-        "rating": 4.5,
-        "reviewsCount": 478,
-        "address": "陈厝合宁和街93号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-陈厝合宁和街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JRSUOI0G",
-        "name": "霸王茶姬(广东汕头龙湖润街店)",
-        "type": "milktea",
-        "lat": 23.364325,
-        "lng": 116.716475,
-        "rating": 4.3,
-        "reviewsCount": 253,
-        "address": "长平路95号华润大厦商业裙楼",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JDUCSXXG",
-        "name": "咔茶小馆面海民宿(龙腾街道海边路26号店)",
-        "type": "milktea",
-        "lat": 23.33381,
-        "lng": 116.750363,
-        "rating": 4.5,
-        "reviewsCount": 440,
-        "address": "妈屿海边路26号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥53-79",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-妈屿海边路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KRCC5RH0",
-        "name": "蜜雪冰城(龙光世纪店)",
-        "type": "milktea",
-        "lat": 23.351049,
-        "lng": 116.730115,
-        "rating": 4.6,
-        "reviewsCount": 216,
-        "address": "珠池街道海滨路115号龙光世纪商务中心6栋118号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-珠池街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LBL7O206",
-        "name": "CHAGEE霸王茶姬(广东汕头站4B检票口店)",
-        "type": "milktea",
-        "lat": 23.371487,
-        "lng": 116.757915,
-        "rating": 4.2,
-        "reviewsCount": 370,
-        "address": "站东二路与珠津四横街交叉口西60米",
-        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-站东二路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JRPYHIKN",
-        "name": "蜜雪冰城(浦江路店)",
-        "type": "milktea",
-        "lat": 23.390249,
-        "lng": 116.73342,
-        "rating": 4.4,
-        "reviewsCount": 177,
-        "address": "夏桂埔浦江路166号之五",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥5-7",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-夏桂埔浦江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JUNHAY7S",
-        "name": "波比艾斯(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363207,
-        "lng": 116.716683,
-        "rating": 4,
-        "reviewsCount": 313,
-        "address": "长平路95号汕头万象城L6层",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRFO8I1Q",
-        "name": "蜜雪冰城(林百欣中专店)",
-        "type": "milktea",
-        "lat": 23.373326,
-        "lng": 116.737349,
-        "rating": 4.2,
-        "reviewsCount": 440,
-        "address": "嵩山南路路54号101铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-嵩山南路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G2AK2Q0Z",
-        "name": "探麦の间",
-        "type": "milktea",
-        "lat": 23.357806,
-        "lng": 116.730156,
-        "rating": 4.4,
-        "reviewsCount": 438,
-        "address": "丹阳庄东区13幢101铺面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-28",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹阳庄东区1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDFS6NZ1",
-        "name": "茶汕(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.363272,
-        "lng": 116.71711,
-        "rating": 4.4,
-        "reviewsCount": 265,
-        "address": "万象城L512",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥22-34",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-万象城L51"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LGFMLUQ2",
-        "name": "林小柔绿豆沙牛乳(万象汇店)",
-        "type": "milktea",
-        "lat": 23.339973,
-        "lng": 116.773865,
-        "rating": 4.2,
-        "reviewsCount": 148,
-        "address": "珠池街道华侨大道6号置地公馆商业裙楼第五层L508号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-珠池街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L2V78NPO",
-        "name": "云屿雾(金涛店)",
-        "type": "milktea",
-        "lat": 23.361875,
-        "lng": 116.737148,
-        "rating": 4,
-        "reviewsCount": 130,
-        "address": "金涛庄东区81幢103铺面",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金涛庄东区8"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K0M7RZ8U",
-        "name": "有戏新潮茶(领荟湾店)",
-        "type": "milktea",
-        "lat": 23.353475,
-        "lng": 116.733625,
-        "rating": 4.3,
-        "reviewsCount": 146,
-        "address": "珠城路17号领荟湾7栋一层2117",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-珠城路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HUXULO1X",
-        "name": "觅里莊心(金银岛花园邨店)",
-        "type": "milktea",
-        "lat": 23.360174,
-        "lng": 116.727194,
-        "rating": 4.4,
-        "reviewsCount": 58,
-        "address": "金银岛花园村7号门旁",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥29-43",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金银岛花园村"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HARM0JIF",
-        "name": "蜜雪冰城(内充公店)",
-        "type": "milktea",
-        "lat": 23.363015,
-        "lng": 116.759582,
-        "rating": 4.5,
-        "reviewsCount": 343,
-        "address": "汕充路104号商业铺面49号至50号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-汕充路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H3Z9GYZZ",
-        "name": "野人先生现做冰淇淋(汕头万象城店)",
-        "type": "milktea",
-        "lat": 23.362767,
-        "lng": 116.7177,
-        "rating": 4.5,
-        "reviewsCount": 426,
-        "address": "长平路95号汕头万象城L3层",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥22-34",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-长平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFK23CKN",
-        "name": "都市甘草水果·果汁冰(星湖店)",
-        "type": "milktea",
-        "lat": 23.367379,
-        "lng": 116.74707,
-        "rating": 4.4,
-        "reviewsCount": 340,
-        "address": "金砂路161号星湖丽景大厦2幢102号之一",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥20-30",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金砂路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J19ZZ879",
-        "name": "ParkstarLake(星湖咖啡)",
-        "type": "milktea",
-        "lat": 23.359379,
-        "lng": 116.740633,
-        "rating": 4.4,
-        "reviewsCount": 414,
-        "address": "金泰庄南区42-43幢101号之二",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金泰庄南区4"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I04RW9NY",
-        "name": "喆里茶肆(汕头粤海大厦店)",
-        "type": "milktea",
-        "lat": 23.367175,
-        "lng": 116.721775,
-        "rating": 4,
-        "reviewsCount": 62,
-        "address": "金砂东路111号粤海大厦B栋1516房",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥35-53",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-金砂东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HG0NVBM2",
-        "name": "聽雨茶舍",
-        "type": "milktea",
-        "lat": 23.37463,
-        "lng": 116.779312,
-        "rating": 4.2,
-        "reviewsCount": 466,
-        "address": "太湖路与南岭路交叉口西360米",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥40-60",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-太湖路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I06MQ99X",
-        "name": "之间西服旗袍定制手冲咖啡馆(尚海阳光花园店)",
-        "type": "milktea",
-        "lat": 23.355134,
-        "lng": 116.746848,
-        "rating": 4,
-        "reviewsCount": 167,
-        "address": "尚海阳光花园乐业路15栋106店",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-尚海阳光花园乐业路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDRC86IJ",
-        "name": "醒饮果汁·卡士合作店(万象汇店)",
-        "type": "milktea",
-        "lat": 23.34054,
-        "lng": 116.773878,
-        "rating": 4.3,
-        "reviewsCount": 255,
-        "address": "华侨大道与阿里山路交叉口东120米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-华侨大道"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JASA7ZZP",
-        "name": "蜜雪冰城(外砂店)",
-        "type": "milktea",
-        "lat": 23.440836,
-        "lng": 116.756312,
-        "rating": 4.2,
-        "reviewsCount": 44,
-        "address": "外砂街道蓬中村文祠路口东侧12-13号铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-8",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-外砂街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFI0TNLR",
-        "name": "绿意茶馆(花木市场店)",
-        "type": "milktea",
-        "lat": 23.387868,
-        "lng": 116.725997,
-        "rating": 4.4,
-        "reviewsCount": 55,
-        "address": "衡山路花木市场",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥30-44",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-衡山路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B02F201JXI",
-        "name": "溢香国际商务汇",
-        "type": "milktea",
-        "lat": 23.372458,
-        "lng": 116.732625,
-        "rating": 4.2,
-        "reviewsCount": 120,
-        "address": "中煤大厦附楼A座南门旁",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-中煤大厦附楼"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HKYDSP6J",
-        "name": "曰汇茶舍",
-        "type": "milktea",
-        "lat": 23.370224,
-        "lng": 116.775012,
-        "rating": 4.5,
-        "reviewsCount": 359,
-        "address": "新海街道西南村南兴园10巷4号团建聚餐",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥127-191",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新海街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0ID3C1PDC",
-        "name": "蜜雪冰城(庐山路店)",
-        "type": "milktea",
-        "lat": 23.381989,
-        "lng": 116.740382,
-        "rating": 4.4,
-        "reviewsCount": 197,
-        "address": "新津街道庐山路与长江路交界(原庐山市场)一层号铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-8",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新津街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRV7KTX6",
-        "name": "咖咖茶室(泰业大厦店)",
-        "type": "milktea",
-        "lat": 23.376097,
-        "lng": 116.72115,
-        "rating": 4.2,
-        "reviewsCount": 276,
-        "address": "新津街道长江路19号泰业大厦A座501单元之510号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥42-62",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-新津街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFIB29A3",
-        "name": "御果园(甘草水果手抓饼果汁冰)",
-        "type": "milktea",
-        "lat": 23.37293,
-        "lng": 116.719679,
-        "rating": 4,
-        "reviewsCount": 434,
-        "address": "龙湖村龙湖街3号101铺面",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-龙湖村龙湖街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K0CL40GU",
-        "name": "果味甘草水果.果汁冰",
-        "type": "milktea",
-        "lat": 23.383242,
-        "lng": 116.737804,
-        "rating": 3.8,
-        "reviewsCount": 104,
-        "address": "宁和街66号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-宁和街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G2Z7HNWS",
-        "name": "寻果烹茶(阳光花园2期店)",
-        "type": "milktea",
-        "lat": 23.360349,
-        "lng": 116.72769,
-        "rating": 4.4,
-        "reviewsCount": 420,
-        "address": "丹阳西二街丹阳庄西区阳光花园二期底层商铺4栋102",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "龙湖区-丹阳西二街"
-        ]
-      },
       {
         "id": "real-st-bar-B0KG2MRKKC",
         "name": "优布劳精酿酒馆(万象城旗舰店)",
@@ -33261,2853 +33775,421 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
-        "id": "real-st-boba-B0FFJLXWOB",
-        "name": "沪上阿姨·精选茶饮(汕头坝头店)",
-        "type": "milktea",
-        "lat": 23.431558,
-        "lng": 116.819443,
-        "rating": 4.2,
-        "reviewsCount": 70,
-        "address": "凤翔街道坝头镇头份村皇禄桥往南港方向20米沪上阿姨",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFKL480N",
-        "name": "沪上阿姨·精选茶饮(汕头澄海冠山店)",
-        "type": "milktea",
-        "lat": 23.481624,
-        "lng": 116.732206,
-        "rating": 4.3,
-        "reviewsCount": 367,
-        "address": "澄华街道冠山兴华路与朝晖路交界铺面(农村信用社旁)沪上阿姨",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G0RCE24K",
-        "name": "茶百道(宜居华庭店)",
-        "type": "milktea",
-        "lat": 23.471202,
-        "lng": 116.75881,
-        "rating": 4.1,
-        "reviewsCount": 438,
-        "address": "泰清路宜居华庭18栋A2铺面茶百道宜居华庭店",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-泰清路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFLK4PTM",
-        "name": "古茗(东里文化路店)",
-        "type": "milktea",
-        "lat": 23.55888,
-        "lng": 116.82131,
+        "id": "real-st-bar-B0J2TA5Z9Y",
+        "name": "吨吨DUNDUN BAR",
+        "type": "bar",
+        "lat": 23.372708,
+        "lng": 116.688224,
         "rating": 4.4,
-        "reviewsCount": 104,
-        "address": "文化路与美园路交叉口东南40米",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 380,
+        "address": "护堤路25号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥27-41",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文化路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-护堤路"
         ]
       },
       {
-        "id": "real-st-boba-B0HDRYS2AY",
-        "name": "善品頭记冰室(莲下总店)",
-        "type": "milktea",
-        "lat": 23.482234,
-        "lng": 116.787674,
-        "rating": 4.6,
-        "reviewsCount": 186,
-        "address": "莲下镇莲东路蔡寮红绿灯往莲阳公园150米处",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥24-36",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇莲东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFH5Y6Z7",
-        "name": "潮汕良心果汁(宜居华庭店)",
-        "type": "milktea",
-        "lat": 23.471509,
-        "lng": 116.75901,
-        "rating": 4.6,
-        "reviewsCount": 469,
-        "address": "泰清路宜居华庭16-17幢1层A7号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-泰清路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFJ2BJOM",
-        "name": "老圆冰花",
-        "type": "milktea",
-        "lat": 23.558836,
-        "lng": 116.813603,
-        "rating": 4.5,
-        "reviewsCount": 78,
-        "address": "东里镇中心街戏院前",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J1NMGE41",
-        "name": "惰居茶空间",
-        "type": "milktea",
-        "lat": 23.468179,
-        "lng": 116.743482,
-        "rating": 4.4,
-        "reviewsCount": 343,
-        "address": "澄华街道玉亭路创慧写字楼5楼",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥29-43",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HAHNHUTA",
-        "name": "1点点(中山中路店)",
-        "type": "milktea",
-        "lat": 23.461104,
-        "lng": 116.770632,
-        "rating": 4.4,
-        "reviewsCount": 65,
-        "address": "澄城沟下池街与文祠东路交叉口丰泽园北商住楼裙楼西101号一连二层",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥9-13",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄城沟下池街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LA57SRD8",
-        "name": "爷爷不泡茶NOYEYENOTEA(汕头中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.480352,
-        "lng": 116.739118,
-        "rating": 4.4,
-        "reviewsCount": 228,
-        "address": "南田路3号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-南田路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IA3YL5GA",
-        "name": "悠茶舍",
-        "type": "milktea",
-        "lat": 23.464613,
-        "lng": 116.755698,
-        "rating": 4.5,
-        "reviewsCount": 81,
-        "address": "金泰3路与泰兴路交叉口东20米",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥40-60",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-路与泰兴路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B02F20NUX8",
-        "name": "青藤茶馆(金冠园店)",
-        "type": "milktea",
-        "lat": 23.46366,
-        "lng": 116.759091,
-        "rating": 4.4,
-        "reviewsCount": 75,
-        "address": "宁泰三路10号4楼",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥44-66",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-宁泰三路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LB2LK8VB",
-        "name": "古茗(澄海中山中路店)",
-        "type": "milktea",
-        "lat": 23.461835,
-        "lng": 116.770759,
-        "rating": 4.5,
-        "reviewsCount": 145,
-        "address": "中山中路283号古茗茶饮",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-中山中路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L2TC3EQ7",
-        "name": "茉莉奶白(中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.48152,
-        "lng": 116.739243,
-        "rating": 4.3,
-        "reviewsCount": 107,
-        "address": "中骏世界城1层(中堂,肯德基旁)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-中骏世界城1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFKQQW0H",
-        "name": "一碗四季糖水(泰安店)",
-        "type": "milktea",
-        "lat": 23.464078,
-        "lng": 116.756578,
-        "rating": 4.2,
-        "reviewsCount": 60,
-        "address": "澄华街道金泰3巷5号铺面",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KBYYW90E",
-        "name": "喜茶(汕头澄海奥飞广场店)",
-        "type": "milktea",
-        "lat": 23.474657,
-        "lng": 116.744472,
-        "rating": 4.6,
-        "reviewsCount": 366,
-        "address": "德政路80号颐景阳光锦府6栋一层72号",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-德政路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JDMU45DB",
-        "name": "好好茶舍(奥飞广场店)",
-        "type": "milktea",
-        "lat": 23.476712,
-        "lng": 116.742701,
-        "rating": 4.5,
-        "reviewsCount": 443,
-        "address": "新郊路西十一横巷5号(奥飞广场后)",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥29-43",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-新郊路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFIXFOWN",
-        "name": "潮汕良心果汁(澄中店)",
-        "type": "milktea",
-        "lat": 23.464537,
-        "lng": 116.774641,
-        "rating": 4.4,
-        "reviewsCount": 381,
-        "address": "万盛园北区东北门旁",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-万盛园北区东"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JA2RG6J3",
-        "name": "善品·頭記冰室(澄海旗舰店)",
-        "type": "milktea",
-        "lat": 23.481498,
-        "lng": 116.754104,
-        "rating": 4.5,
-        "reviewsCount": 379,
-        "address": "广益街道广益路114号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0GRKZ2S7F",
-        "name": "茶百道(影剧院店)",
-        "type": "milktea",
-        "lat": 23.460879,
-        "lng": 116.773223,
-        "rating": 4.3,
-        "reviewsCount": 328,
-        "address": "文祠东路566号",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文祠东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KRLM3XWT",
-        "name": "喜茶(汕头东里美园路店)",
-        "type": "milktea",
-        "lat": 23.558937,
-        "lng": 116.820864,
-        "rating": 4.5,
-        "reviewsCount": 62,
-        "address": "东里镇美园路西侧4幢9-10号",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥18-28",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KGN7X6OH",
-        "name": "喜茶(汕头澄海文祠东路店)",
-        "type": "milktea",
-        "lat": 23.461112,
-        "lng": 116.77316,
-        "rating": 4.5,
-        "reviewsCount": 456,
-        "address": "文祠东路104号",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文祠东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LURR31CB",
-        "name": "野人先生现做冰淇淋(汕头中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.481475,
-        "lng": 116.739375,
-        "rating": 4.2,
-        "reviewsCount": 222,
-        "address": "南田路3号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-南田路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFI25RLY",
-        "name": "沪上阿姨·精选茶饮(汕头莲下店)",
-        "type": "milktea",
-        "lat": 23.494203,
-        "lng": 116.794119,
+        "id": "real-st-bar-B0JRXA39SP",
+        "name": "派头酒馆",
+        "type": "bar",
+        "lat": 23.369652,
+        "lng": 116.703579,
         "rating": 4,
-        "reviewsCount": 483,
-        "address": "莲下镇下村利苑商住楼B幢14号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 382,
+        "address": "新厦路5号品牌街10号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥38-58",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇下村利"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-新厦路"
         ]
       },
       {
-        "id": "real-st-boba-B0J6BZP8SX",
-        "name": "6茶共享茶室",
-        "type": "milktea",
-        "lat": 23.484187,
-        "lng": 116.755305,
-        "rating": 4.5,
-        "reviewsCount": 123,
-        "address": "广益街道广峰工业区同益路与华东路交界处6茶共享茶室",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JGJ9560V",
-        "name": "半日闲茶室",
-        "type": "milktea",
-        "lat": 23.561426,
-        "lng": 116.757864,
-        "rating": 4.4,
-        "reviewsCount": 351,
-        "address": "乐事食品有限公司东北侧360米",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥37-55",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-乐事食品有限"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IBULFUSI",
-        "name": "澄邑城北大夫第·植物时光茶舍",
-        "type": "milktea",
-        "lat": 23.464416,
-        "lng": 116.771036,
-        "rating": 4.4,
-        "reviewsCount": 247,
-        "address": "广益街道城北社区刘厝馆7号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥36-54",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IAMCLTDR",
-        "name": "一杯潮茶(宜居茶馆店)",
-        "type": "milktea",
-        "lat": 23.471332,
-        "lng": 116.759698,
-        "rating": 4.5,
-        "reviewsCount": 54,
-        "address": "澄华街道西门泰安横路北10号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LB2LS5KZ",
-        "name": "古茗(莲下莲凤路店)",
-        "type": "milktea",
-        "lat": 23.494528,
-        "lng": 116.792651,
-        "rating": 4.3,
-        "reviewsCount": 323,
-        "address": "莲下镇莲凤路16号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇莲凤路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IUPRDAGR",
-        "name": "蜜雪冰城(宜居华庭店)",
-        "type": "milktea",
-        "lat": 23.472145,
-        "lng": 116.759412,
-        "rating": 4.4,
-        "reviewsCount": 298,
-        "address": "安平街3号宜居华庭15幢",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥3-5",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-安平街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KKC9G6W5",
-        "name": "闲舍茶室",
-        "type": "milktea",
-        "lat": 23.46176,
-        "lng": 116.759021,
-        "rating": 4.5,
-        "reviewsCount": 199,
-        "address": "华泰5路7号5楼",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥20-30",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-华泰5路7号"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L1DCUKCG",
-        "name": "有福茶室",
-        "type": "milktea",
-        "lat": 23.4762,
-        "lng": 116.747307,
-        "rating": 4.4,
-        "reviewsCount": 58,
-        "address": "龙田田中片4横巷11号3楼",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥32-48",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-横巷"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K3RM385F",
-        "name": "长庚茶馆·云阙(奥飞店)",
-        "type": "milktea",
-        "lat": 23.476575,
-        "lng": 116.746225,
-        "rating": 4.5,
-        "reviewsCount": 415,
-        "address": "广益街道龙田怀汉路西直巷6号铺面",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LURR50SD",
-        "name": "C.A.T coffee&tea",
-        "type": "milktea",
-        "lat": 23.482071,
-        "lng": 116.762193,
-        "rating": 4.5,
-        "reviewsCount": 405,
-        "address": "欣悦春天9栋87号铺面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥34-50",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-欣悦春天9栋"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G067PSVD",
-        "name": "可妹果冰室",
-        "type": "milktea",
-        "lat": 23.541966,
-        "lng": 116.818902,
-        "rating": 4.5,
-        "reviewsCount": 425,
-        "address": "溪南镇",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-溪南镇"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K62792G2",
-        "name": "亘观茶语无人茶室(金桂园店)",
-        "type": "milktea",
-        "lat": 23.466379,
-        "lng": 116.751853,
-        "rating": 4.4,
-        "reviewsCount": 100,
-        "address": "通惠路金桂园10号铺亘观茶语无人茶室",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥29-43",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-通惠路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFKLCNAK",
-        "name": "沐澜园茶舍",
-        "type": "milktea",
-        "lat": 23.482451,
-        "lng": 116.730099,
-        "rating": 4.3,
-        "reviewsCount": 422,
-        "address": "东兴路与渠东路交叉口西南200米",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥41-61",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东兴路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HA7RY1U3",
-        "name": "虹妹冰店",
-        "type": "milktea",
-        "lat": 23.547992,
-        "lng": 116.81148,
-        "rating": 4.5,
-        "reviewsCount": 426,
-        "address": "南砂乡和文雅居虹妹冰店",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-南砂乡和文雅"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K1ZOXH6Q",
-        "name": "喜茶(汕头莲下新港湾店)",
-        "type": "milktea",
-        "lat": 23.491506,
-        "lng": 116.795067,
-        "rating": 4.4,
-        "reviewsCount": 262,
-        "address": "莲下振莲东一路新港湾购物中心大门右侧1号2号商铺",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下振莲东一路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDPM42V1",
-        "name": "半盏青绿共享茶空间",
-        "type": "milktea",
-        "lat": 23.461182,
-        "lng": 116.758556,
-        "rating": 4.5,
-        "reviewsCount": 81,
-        "address": "澄华街道玉亭北街25号7楼",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥23-35",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFIMAPTV",
-        "name": "潮汕良心果汁(莲凤路店)",
-        "type": "milktea",
-        "lat": 23.492955,
-        "lng": 116.790382,
-        "rating": 4.4,
-        "reviewsCount": 457,
-        "address": "莲下镇莲凤路建阳路段苏南糖果厂批发部隔壁",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇莲凤路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRURD13R",
-        "name": "古茗(澄海同益路店)",
-        "type": "milktea",
-        "lat": 23.482492,
-        "lng": 116.757652,
-        "rating": 4.3,
-        "reviewsCount": 213,
-        "address": "玉潭路01号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-玉潭路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HAJ55WOL",
-        "name": "芒小将(澄海店)",
-        "type": "milktea",
-        "lat": 23.462184,
-        "lng": 116.768293,
-        "rating": 4.3,
-        "reviewsCount": 361,
-        "address": "澄华街道城西文祠西路303号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-28",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J3UCV0T0",
-        "name": "茶百道(汕头中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.481575,
-        "lng": 116.73833,
-        "rating": 4,
-        "reviewsCount": 471,
-        "address": "澄华街道德政路北侧、高速公路东侧中骏世界城4楼M406A号商铺",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LA1OFNMW",
-        "name": "三点金茶馆•自助棋牌室",
-        "type": "milktea",
-        "lat": 23.472589,
-        "lng": 116.747187,
-        "rating": 4.5,
-        "reviewsCount": 353,
-        "address": "广益街道安荣路西十九横巷7号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFGYCCOB",
-        "name": "潮汕良心果汁(东里店)",
-        "type": "milktea",
-        "lat": 23.561572,
-        "lng": 116.822864,
-        "rating": 4.5,
-        "reviewsCount": 225,
-        "address": "东里镇美园路苏北中学对面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L0H7RGGB",
-        "name": "古茗(澄海莱美工业区店)",
-        "type": "milktea",
-        "lat": 23.437638,
-        "lng": 116.806983,
+        "id": "real-st-bar-B0FFLKQU1D",
+        "name": "K度BISTRO(桂园店)",
+        "type": "bar",
+        "lat": 23.360585,
+        "lng": 116.712056,
         "rating": 4.2,
-        "reviewsCount": 489,
-        "address": "凤翔街道洲畔社区莲花心工业区海靖路旁5号铺",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I3T5APN1",
-        "name": "周小胖潮茶(金城店)",
-        "type": "milktea",
-        "lat": 23.478707,
-        "lng": 116.759329,
-        "rating": 4.3,
-        "reviewsCount": 81,
-        "address": "中信金城一期8号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥22-32",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-中信金城一期"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LKAD8O4P",
-        "name": "1点点(东里店)",
-        "type": "milktea",
-        "lat": 23.558641,
-        "lng": 116.820789,
-        "rating": 4.3,
-        "reviewsCount": 221,
-        "address": "美园路与文化路交叉口西南60米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-美园路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LAD46FZO",
-        "name": "古茗(澄海宜居华庭店)",
-        "type": "milktea",
-        "lat": 23.471275,
-        "lng": 116.758925,
-        "rating": 4.2,
-        "reviewsCount": 204,
-        "address": "金顺商住楼1-2幢一层07号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-金顺商住楼1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J1179012",
-        "name": "1点点(莲下店)",
-        "type": "milktea",
-        "lat": 23.49346,
-        "lng": 116.795456,
-        "rating": 4.5,
-        "reviewsCount": 301,
-        "address": "莲下镇下村村莲凤路利苑商住楼3-4号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇下村村莲凤路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JD4ZRFW6",
-        "name": "觅境共享空间·私影·茶空间",
-        "type": "milktea",
-        "lat": 23.452584,
-        "lng": 116.75731,
-        "rating": 4.4,
-        "reviewsCount": 119,
-        "address": "澄华街道国道324线澄海路段西侧与蓬江西路南侧交界处香域滨江花园5幢B21号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥22-32",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDVHTSOW",
-        "name": "蜜雪冰城(潮乐嘉广场店)",
-        "type": "milktea",
-        "lat": 23.489811,
-        "lng": 116.787744,
-        "rating": 4.3,
-        "reviewsCount": 388,
-        "address": "莲下镇建阳村三洲桥工业区莲凤路东侧3号铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲凤路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L22U0NTV",
-        "name": "古茗(澄海世纪华联)",
-        "type": "milktea",
-        "lat": 23.460354,
-        "lng": 116.783777,
-        "rating": 4.2,
-        "reviewsCount": 451,
-        "address": "凤翔路74号A栋101",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LUF4YQ54",
-        "name": "LINLEE·手打柠檬茶(澄海宜居华庭店)",
-        "type": "milktea",
-        "lat": 23.470941,
-        "lng": 116.758993,
-        "rating": 4.1,
-        "reviewsCount": 414,
-        "address": "澄华街道泰清路金顺苑第1至2幢15号铺面",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JUAZSQUI",
-        "name": "蜜雪冰城(北湾店)",
-        "type": "milktea",
-        "lat": 23.476869,
-        "lng": 116.813241,
-        "rating": 4.3,
-        "reviewsCount": 284,
-        "address": "莲下镇东湾村南北路东湾路口",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥2-4",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇东湾"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0ID7CH6JM",
-        "name": "浅夏.雪花冰(丰泽园店)",
-        "type": "milktea",
-        "lat": 23.459604,
-        "lng": 116.770404,
-        "rating": 4.4,
-        "reviewsCount": 154,
-        "address": "丰泽园24幢",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-丰泽园24幢"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JAJ51B81",
-        "name": "长庚茶馆·市庭(中心市场店)",
-        "type": "milktea",
-        "lat": 23.45254,
-        "lng": 116.766238,
-        "rating": 4.2,
-        "reviewsCount": 398,
-        "address": "澄华街道中山南路中心市场105号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KAZ653GF",
-        "name": "善品·頭記冰室(坝头直营店)",
-        "type": "milktea",
-        "lat": 23.435575,
-        "lng": 116.831836,
-        "rating": 4.5,
-        "reviewsCount": 233,
-        "address": "领海路宜华店面43-45号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-领海路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LDAUL96L",
-        "name": "见山·茶事(万盛园店)",
-        "type": "milktea",
-        "lat": 23.463564,
-        "lng": 116.774927,
-        "rating": 4.4,
-        "reviewsCount": 345,
-        "address": "城东大众住宅楼一层4号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-城东大众住宅"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JDO5G5YR",
-        "name": "归隐共享茶室(龙轩商务楼店)",
-        "type": "milktea",
-        "lat": 23.477392,
-        "lng": 116.747172,
-        "rating": 4.3,
-        "reviewsCount": 105,
-        "address": "广益街道龙田龙中外15横2号龙轩商务楼14楼",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDZRPESZ",
-        "name": "知喜糖水",
-        "type": "milktea",
-        "lat": 23.472141,
-        "lng": 116.752064,
-        "rating": 4.2,
-        "reviewsCount": 295,
-        "address": "宜馨花园21幢E12号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-宜馨花园21"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDHRLJ3X",
-        "name": "蜜雪冰城(奥飞广场店)",
-        "type": "milktea",
-        "lat": 23.474517,
-        "lng": 116.744736,
-        "rating": 4.3,
-        "reviewsCount": 76,
-        "address": "通乐路与怀汉路交叉口西北60米",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-通乐路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDZ7QC16",
-        "name": "蜜雪冰城(冠山店)",
-        "type": "milktea",
-        "lat": 23.47605,
-        "lng": 116.730133,
-        "rating": 4.2,
-        "reviewsCount": 453,
-        "address": "澄华街道冠山兴华路58号之2号铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFG9D7R5",
-        "name": "涵弟果汁冰(环城店)",
-        "type": "milktea",
-        "lat": 23.45602,
-        "lng": 116.768517,
-        "rating": 4.4,
-        "reviewsCount": 432,
-        "address": "衙前印池16幢3号门市",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-衙前印池16"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L2B9M03Q",
-        "name": "蜜雪冰城(龙峰路店)",
-        "type": "milktea",
-        "lat": 23.479902,
-        "lng": 116.753168,
-        "rating": 4.2,
-        "reviewsCount": 196,
-        "address": "广益街道龙田郊下东片十三横8号第四号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFHUM7Q5",
-        "name": "轩轩水果盘(新中阳写字楼店)",
-        "type": "milktea",
-        "lat": 23.462686,
-        "lng": 116.756139,
-        "rating": 4.2,
-        "reviewsCount": 285,
-        "address": "泰安路与金泰6路交叉口西南40米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-泰安路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L2JS5KCQ",
-        "name": "蜜雪冰城(凤新一路店)",
-        "type": "milktea",
-        "lat": 23.458791,
-        "lng": 116.789071,
-        "rating": 4.1,
-        "reviewsCount": 317,
-        "address": "凤翔信宁凤新一路21号之四铺间",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔信宁凤新一路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KAJL906A",
-        "name": "半山茉新中式茶馆",
-        "type": "milktea",
-        "lat": 23.461341,
-        "lng": 116.757831,
-        "rating": 4.4,
-        "reviewsCount": 80,
-        "address": "恒安路宁泰8路2号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-恒安路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KDAGH6FJ",
-        "name": "蜜雪冰城(西门鼓店)",
-        "type": "milktea",
-        "lat": 23.462215,
-        "lng": 116.766212,
-        "rating": 4.3,
-        "reviewsCount": 465,
-        "address": "文祠西路与环城西路交叉口西40米",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文祠西路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IDULFRXU",
-        "name": "蜜雪冰城(莲凤路店)",
-        "type": "milktea",
-        "lat": 23.494643,
-        "lng": 116.79245,
-        "rating": 4.2,
-        "reviewsCount": 359,
-        "address": "莲下镇上村莲凤路店18号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇上村莲凤路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LAUU14UY",
-        "name": "醒饮果汁·卡士合作店(文祠东路店)",
-        "type": "milktea",
-        "lat": 23.460888,
-        "lng": 116.773924,
-        "rating": 4.1,
-        "reviewsCount": 82,
-        "address": "凤翔街道文祠东路594号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFH52QWO",
-        "name": "谷粒饮品",
-        "type": "milktea",
-        "lat": 23.520233,
-        "lng": 116.758761,
-        "rating": 4.3,
-        "reviewsCount": 302,
-        "address": "荣光塑胶有限公司东南门西110米",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-荣光塑胶有限"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFJH96O7",
-        "name": "蜜雪冰城(会堂街店)",
-        "type": "milktea",
-        "lat": 23.461215,
-        "lng": 116.773697,
-        "rating": 4.4,
-        "reviewsCount": 79,
-        "address": "常春园20幢一层17号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥47-71",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-常春园20幢"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J0DAG8QO",
-        "name": "克茗冰室(汕头澄海中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.481575,
-        "lng": 116.73833,
-        "rating": 3.8,
-        "reviewsCount": 100,
-        "address": "澄江路汕头中骏世界城4楼M421号商铺",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥39-59",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IAGA3CI5",
-        "name": "壹碗冰·厚切酸奶·雪花冰·小吃(宜馨花园一期店)",
-        "type": "milktea",
-        "lat": 23.471522,
-        "lng": 116.754279,
-        "rating": 4.1,
-        "reviewsCount": 102,
-        "address": "澄海区德政路宜馨花园一期B4铺面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-德政路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFK6653C",
-        "name": "益禾堂(汕头澄海文祠路店)",
-        "type": "milktea",
-        "lat": 23.461134,
-        "lng": 116.773763,
-        "rating": 4.1,
-        "reviewsCount": 388,
-        "address": "文祠东路常春园21-20栋",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文祠东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KBTD3930",
-        "name": "三茶四季共享茶室",
-        "type": "milktea",
-        "lat": 23.551066,
-        "lng": 116.812515,
-        "rating": 4.3,
-        "reviewsCount": 142,
-        "address": "溪南镇狮山糖厂关",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥35-53",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-溪南镇狮山糖"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K39RJII8",
-        "name": "蜜雪冰城(莱美店)",
-        "type": "milktea",
-        "lat": 23.437971,
-        "lng": 116.807181,
-        "rating": 4.2,
-        "reviewsCount": 331,
-        "address": "凤翔街道洲畔社区莲花心工业区海靖路北6号一楼层2号铺间",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HD3UP6CR",
-        "name": "大冰小冰",
-        "type": "milktea",
-        "lat": 23.490418,
-        "lng": 116.789689,
-        "rating": 4.1,
-        "reviewsCount": 433,
-        "address": "新兴路1号之5号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-新兴路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFGK8F98",
-        "name": "多芒多(中心店)",
-        "type": "milktea",
-        "lat": 23.463786,
-        "lng": 116.773602,
-        "rating": 4.2,
-        "reviewsCount": 285,
-        "address": "万盛园南9幢一层18号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-万盛园南9幢"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KD3RRZVF",
-        "name": "秋屿茶馆",
-        "type": "milktea",
-        "lat": 23.56245,
-        "lng": 116.823372,
-        "rating": 4.2,
-        "reviewsCount": 118,
-        "address": "东里镇尾园路东侧15号楼1-2号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRFR8AIE",
-        "name": "蜜雪冰城(澄海峰下店)",
-        "type": "milktea",
-        "lat": 23.488675,
-        "lng": 116.756822,
-        "rating": 4,
-        "reviewsCount": 209,
-        "address": "广益街道广峰工业区登峰路北美和大厦第一层13号铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFGSHD0K",
-        "name": "花园食冰",
-        "type": "milktea",
-        "lat": 23.561321,
-        "lng": 116.73992,
-        "rating": 4.2,
-        "reviewsCount": 87,
-        "address": "隆都镇隆侨中学附近花园(3-11月份经营特色冰其余时间经营花卉)",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-隆都镇隆侨中"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFHE3L7X",
-        "name": "M果茶(金顺苑店)",
-        "type": "milktea",
-        "lat": 23.471115,
-        "lng": 116.759116,
-        "rating": 4.4,
-        "reviewsCount": 453,
-        "address": "金顺苑第1-2幢一层11号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-金顺苑第1-"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KKJ4HQ12",
-        "name": "LINLEE·手打柠檬茶(澄海莲下店)",
-        "type": "milktea",
-        "lat": 23.488289,
-        "lng": 116.785904,
-        "rating": 4,
-        "reviewsCount": 406,
-        "address": "建阳村莲凤路建阳路6号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-建阳村莲凤路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0M6DU6XLB",
-        "name": "蜜雪冰城(盐鸿店)",
-        "type": "milktea",
-        "lat": 23.602616,
-        "lng": 116.872382,
-        "rating": 3.9,
-        "reviewsCount": 482,
-        "address": "盐鸿镇港头村溪头埔9号之一",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-盐鸿镇港头村"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KGRYAC91",
-        "name": "澄海区蜜雪冰城(中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.481882,
-        "lng": 116.738217,
-        "rating": 4,
-        "reviewsCount": 377,
-        "address": "澄华街道德政路北侧、高速公路东侧中骏世界城M416商铺",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LRJRHJYX",
-        "name": "蜜雪冰城(莲上店)",
-        "type": "milktea",
-        "lat": 23.517129,
-        "lng": 116.792512,
-        "rating": 4,
-        "reviewsCount": 147,
-        "address": "莲上镇涂城村莲中路金悦华苑第10号之一商铺",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲上镇涂城村莲中路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H2M603R2",
-        "name": "蜜雪冰城(卜蜂莲花店)",
-        "type": "milktea",
-        "lat": 23.475863,
-        "lng": 116.765915,
-        "rating": 4,
-        "reviewsCount": 154,
-        "address": "324国道西侧同益路南侧(卜蜂莲花)1F-09号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-国道西侧同益路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JK4ZLYQW",
-        "name": "CoCo都可(澄海中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.481716,
-        "lng": 116.738127,
-        "rating": 3.9,
         "reviewsCount": 402,
-        "address": "澄华街道德政路北侧高速公路东侧中骏世界城4楼M419号单元",
-        "signature": "奶茶三兄弟 (经典珍珠加料奶茶)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
+        "address": "桂园25栋101房",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥45-67",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-桂园25栋1"
         ]
       },
       {
-        "id": "real-st-boba-B0J0DAN6QO",
-        "name": "LINLEE·手打柠檬茶(中骏世界城店)",
-        "type": "milktea",
-        "lat": 23.481975,
-        "lng": 116.738067,
-        "rating": 3.9,
-        "reviewsCount": 259,
-        "address": "澄江路中骏世界城四层M413B",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄江路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFLJMHEH",
-        "name": "古茗(汕头澄海文化路)",
-        "type": "milktea",
-        "lat": 23.464554,
-        "lng": 116.774696,
+        "id": "real-st-bar-B0K2M6U9X4",
+        "name": "酒来野·小酒馆(龙眼店)",
+        "type": "bar",
+        "lat": 23.362223,
+        "lng": 116.711859,
         "rating": 4.2,
-        "reviewsCount": 260,
-        "address": "万盛园北1-6幢2号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-万盛园北1-"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IAZZS3RC",
-        "name": "纯真厚切炒酸奶(锦骏·馥璟园店)",
-        "type": "milktea",
-        "lat": 23.466527,
-        "lng": 116.746106,
-        "rating": 3.6,
-        "reviewsCount": 303,
-        "address": "馥璟园2幢1层12号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-馥璟园2幢1"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KA69HA7A",
-        "name": "茶百道(汕头澄海莲下店)(暂停营业)",
-        "type": "milktea",
-        "lat": 23.494275,
-        "lng": 116.793675,
-        "rating": 4.1,
-        "reviewsCount": 56,
-        "address": "莲下镇利苑商住楼4-5号",
-        "signature": "招牌杨枝甘露 (鲜果茶系列)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇利苑商"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KUSZXVFO",
-        "name": "沪上阿姨·精选茶饮(汕头中骏世界城店)(暂停营业)",
-        "type": "milktea",
-        "lat": 23.482175,
-        "lng": 116.737675,
-        "rating": 4.1,
-        "reviewsCount": 420,
-        "address": "澄华街道德政路北侧高速公路东侧中骏世界城M462B商铺",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HU1Z9UI8",
-        "name": "蜜雪冰城(东里店)(暂停营业)",
-        "type": "milktea",
-        "lat": 23.559172,
-        "lng": 116.820727,
-        "rating": 4.3,
-        "reviewsCount": 483,
-        "address": "文化路",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文化路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HGJCIF35",
-        "name": "良映·见山·包厢· 咖啡·茶室·天台茶座(奥飞广场店)",
-        "type": "milktea",
-        "lat": 23.471303,
-        "lng": 116.742937,
-        "rating": 4.2,
-        "reviewsCount": 375,
-        "address": "澄华街道下窖怀汉路西2片区125号佰利大厦十三楼",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥29-43",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LBNLPYSF",
-        "name": "蜜雪冰城(溪南店)",
-        "type": "milktea",
-        "lat": 23.545189,
-        "lng": 116.811729,
-        "rating": 4.1,
-        "reviewsCount": 374,
-        "address": "溪南镇银北村南美路银北村路段2号第二至三间",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-溪南镇银北村南美路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JAOZXA2U",
-        "name": "煲金珠老红糖珍珠鲜奶茶(美园路店)",
-        "type": "milktea",
-        "lat": 23.560244,
-        "lng": 116.82189,
-        "rating": 3.9,
-        "reviewsCount": 254,
-        "address": "东里镇美园路东侧第9幢104号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L6U4PY0Y",
-        "name": "且坐茶室",
-        "type": "milktea",
-        "lat": 23.564696,
-        "lng": 116.834646,
-        "rating": 4.4,
-        "reviewsCount": 211,
-        "address": "东里镇南社村官埕片区A幢1号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥26-40",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFH3U9UM",
-        "name": "大上湾饮品专业连锁(登峰路店)",
-        "type": "milktea",
-        "lat": 23.487619,
-        "lng": 116.757264,
-        "rating": 3.8,
-        "reviewsCount": 421,
-        "address": "广益街道峰下华东路旁(登峰路辉华购物广场旁奶茶店)",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0M6J5E789",
-        "name": "蜜雪冰城(世纪华联店)",
-        "type": "milktea",
-        "lat": 23.460202,
-        "lng": 116.783698,
-        "rating": 3.8,
-        "reviewsCount": 355,
-        "address": "凤翔信宁凤翔路75号A幢首层之6-7铺间",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔信宁凤翔路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HGD58FJA",
-        "name": "锋发茶庄",
-        "type": "milktea",
-        "lat": 23.563405,
-        "lng": 116.813765,
-        "rating": 4.1,
-        "reviewsCount": 113,
-        "address": "东里镇塔脚房管商住房1号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥35-53",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KR3O2MB0",
-        "name": "三茶四季(盐鸿店)",
-        "type": "milktea",
-        "lat": 23.599592,
-        "lng": 116.861911,
-        "rating": 4.4,
-        "reviewsCount": 196,
-        "address": "盐鸿镇鸿一村鸿一大道(鸿一乡亭右边第三栋三楼)",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥22-32",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-盐鸿镇鸿一村鸿一大道"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFI57CGT",
-        "name": "四方井莹姐果汁冰",
-        "type": "milktea",
-        "lat": 23.464365,
-        "lng": 116.769876,
-        "rating": 4.2,
-        "reviewsCount": 253,
-        "address": "广益街道益中园8幢22号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥32-48",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广益街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KANHSVT0",
-        "name": "蜜雪冰城(苏北中学店)",
-        "type": "milktea",
-        "lat": 23.561782,
-        "lng": 116.822691,
-        "rating": 4,
-        "reviewsCount": 107,
-        "address": "东里镇美园路美园广场5栋101号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LUD1CBQ4",
-        "name": "茶旺喜(澄海影剧院店)",
-        "type": "milktea",
-        "lat": 23.461352,
-        "lng": 116.773411,
-        "rating": 4.3,
-        "reviewsCount": 360,
-        "address": "会街街52号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-会街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JUPSMHYK",
-        "name": "吉拉朵意式手工冰淇淋(澄海店)",
-        "type": "milktea",
-        "lat": 23.469166,
-        "lng": 116.758583,
-        "rating": 4,
-        "reviewsCount": 369,
-        "address": "西门永泰八路22号一楼",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥26-38",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-西门永泰八路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LAHRJ3I2",
-        "name": "蜜雪冰城(隆都店)",
-        "type": "milktea",
-        "lat": 23.572569,
-        "lng": 116.731173,
-        "rating": 4.2,
-        "reviewsCount": 193,
-        "address": "隆都镇鹊巷村东门路外",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-隆都镇鹊巷"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J2HHO0D6",
-        "name": "山予茶事(莲下店)",
-        "type": "milktea",
-        "lat": 23.494127,
-        "lng": 116.79391,
-        "rating": 4.2,
-        "reviewsCount": 133,
-        "address": "莲下镇下村村利苑商住楼B幢15号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥20-30",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇下村村"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G0UAM0OY",
-        "name": "东里老式乌米冰海石花",
-        "type": "milktea",
-        "lat": 23.465122,
-        "lng": 116.773599,
-        "rating": 4.2,
-        "reviewsCount": 304,
-        "address": "广东省汕头市澄海区金城园39幢一层加1号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥8-12",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-广东省汕头市"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IRFZ7BR0",
-        "name": "冰园(溪南店)",
-        "type": "milktea",
-        "lat": 23.543585,
-        "lng": 116.818298,
-        "rating": 4.5,
-        "reviewsCount": 96,
-        "address": "安平路43号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-安平路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KB3D5LR3",
-        "name": "波比艾斯(汕头中骏世界城甜品站)",
-        "type": "milktea",
-        "lat": 23.482074,
-        "lng": 116.737325,
-        "rating": 3.6,
-        "reviewsCount": 388,
-        "address": "中骏世界城3楼F3-1",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-中骏世界城3"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KAU17XEC",
-        "name": "蜜雪冰城(莲东一路店)",
-        "type": "milktea",
-        "lat": 23.500204,
-        "lng": 116.798834,
-        "rating": 3.8,
-        "reviewsCount": 379,
-        "address": "莲东一路与校东路交叉口东北140米",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲东一路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B02F20OY3T",
-        "name": "茶屋",
-        "type": "milktea",
-        "lat": 23.495072,
-        "lng": 116.79179,
-        "rating": 4,
-        "reviewsCount": 93,
-        "address": "建阳村灰窑头",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-建阳村灰窑头"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0M6JLGIAV",
-        "name": "古茗GOODME(太安里店)",
-        "type": "milktea",
-        "lat": 23.461211,
-        "lng": 116.755394,
-        "rating": 4,
-        "reviewsCount": 478,
-        "address": "泰安路68号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-泰安路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J3AMKXJG",
-        "name": "茶一手作(锦骏·中冠华府店)",
-        "type": "milktea",
-        "lat": 23.465813,
-        "lng": 116.747953,
-        "rating": 4.4,
-        "reviewsCount": 273,
-        "address": "玉潭路138号中冠华府2幢一层12号房",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥29-43",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-玉潭路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L3CCKD2F",
-        "name": "北斗星柠檬茶(珑熙店)",
-        "type": "milktea",
-        "lat": 23.47441,
-        "lng": 116.740512,
-        "rating": 4.3,
-        "reviewsCount": 266,
-        "address": "澄华街道丰迪·珑熙府1期大门右边26号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "reviewsCount": 150,
+        "address": "菊园",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
         "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-菊园"
         ]
       },
       {
-        "id": "real-st-boba-B0LG3D7XVW",
-        "name": "老椰吉清补凉",
-        "type": "milktea",
-        "lat": 23.493074,
-        "lng": 116.790477,
-        "rating": 4.5,
-        "reviewsCount": 458,
-        "address": "莲下镇建阳村莲凤路建阳路段良心果汁隔壁",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0L3UXIATC",
+        "name": "来福酒馆(金厦商业店)",
+        "type": "bar",
+        "lat": 23.369427,
+        "lng": 116.702862,
+        "rating": 4.1,
+        "reviewsCount": 159,
+        "address": "金厦商业北1门南80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇建阳村莲凤路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-金厦商业北1"
         ]
       },
       {
-        "id": "real-st-boba-B0IAUHZFLT",
-        "name": "北斗星柠檬茶(广场店)",
-        "type": "milktea",
-        "lat": 23.46453,
-        "lng": 116.753819,
+        "id": "real-st-bar-B0FFHM7PKN",
+        "name": "叔酿(南海小区店)",
+        "type": "bar",
+        "lat": 23.353114,
+        "lng": 116.676149,
         "rating": 4.4,
-        "reviewsCount": 49,
-        "address": "澄华街道宁川东路原世聪大厦第c区4号铺面",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 469,
+        "address": "南海路17号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-南海路"
         ]
       },
       {
-        "id": "real-st-boba-B0FFK7OFUJ",
-        "name": "聚点(东里店)",
-        "type": "milktea",
-        "lat": 23.569425,
-        "lng": 116.817567,
-        "rating": 4.2,
-        "reviewsCount": 64,
-        "address": "三中学校往塘西报警站路段",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0IG7ZOSGV",
+        "name": "202酒馆",
+        "type": "bar",
+        "lat": 23.36939,
+        "lng": 116.703622,
+        "rating": 3.7,
+        "reviewsCount": 150,
+        "address": "新厦路5号品牌街15-16档",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-三中学校往塘西报警站路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-新厦路"
         ]
       },
       {
-        "id": "real-st-boba-B0FFMGX75D",
-        "name": "赫雪冰淇淋(北路南9巷店)",
-        "type": "milktea",
-        "lat": 23.442994,
-        "lng": 116.828419,
-        "rating": 4.4,
-        "reviewsCount": 410,
-        "address": "凤翔街道百二两村北路南9巷7号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B02F20OACW",
-        "name": "马骝九茶饮(南兴园店)",
-        "type": "milktea",
-        "lat": 23.457415,
-        "lng": 116.769511,
+        "id": "real-st-bar-B0FFM1FETK",
+        "name": "HOPSSWATOW瓶子精酿(海棠园店)",
+        "type": "bar",
+        "lat": 23.37647,
+        "lng": 116.71238,
         "rating": 4.3,
-        "reviewsCount": 258,
-        "address": "中山南路75号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 448,
+        "address": "金厦街道海棠园24栋之8铺",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥82-124",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-中山南路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-金厦街"
         ]
       },
       {
-        "id": "real-st-boba-B0FFFZO8M7",
-        "name": "浩然凉茶(东里文化路店)",
-        "type": "milktea",
-        "lat": 23.562462,
-        "lng": 116.817377,
-        "rating": 3.9,
-        "reviewsCount": 255,
-        "address": "文化路10栋4号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥26-38",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文化路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JAXA6OTH",
-        "name": "马骝九茶饮(莲下店)",
-        "type": "milktea",
-        "lat": 23.496445,
-        "lng": 116.78985,
-        "rating": 4.2,
-        "reviewsCount": 153,
-        "address": "莲下镇环城路日新鞋行隔壁3号马骝九茶饮",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇环城路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JAGC7RAL",
-        "name": "春香茶肆",
-        "type": "milktea",
-        "lat": 23.462238,
-        "lng": 116.767126,
-        "rating": 4.1,
-        "reviewsCount": 63,
-        "address": "文词西路253号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文词西路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFH52QWM",
-        "name": "潜溪特色蕃薯冰绵绵冰",
-        "type": "milktea",
-        "lat": 23.520131,
-        "lng": 116.758916,
-        "rating": 4.1,
-        "reviewsCount": 60,
-        "address": "莲下镇安澄公路2号(潜溪站对面)",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇安澄公路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KGP543BE",
-        "name": "柠川治茶·喳男柠檬茶(澄海店)",
-        "type": "milktea",
-        "lat": 23.462298,
-        "lng": 116.766051,
+        "id": "real-st-bar-B0FFFV3XMK",
+        "name": "主旋律清吧",
+        "type": "bar",
+        "lat": 23.360703,
+        "lng": 116.694004,
         "rating": 4.5,
-        "reviewsCount": 433,
-        "address": "澄华街道西门文祠西路39幢218号铺面",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥17-25",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 483,
+        "address": "中旅附近汕樟路31号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥42-64",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-中旅附近汕樟路"
         ]
       },
       {
-        "id": "real-st-boba-B0FFFTJLJK",
-        "name": "正味凉茶(中信金城花园三期店)",
-        "type": "milktea",
-        "lat": 23.482057,
-        "lng": 116.759429,
-        "rating": 4.4,
-        "reviewsCount": 195,
-        "address": "宁川西路西侧与广益路北中信金城花园2425栋一层32号铺面",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0FFJIUW34",
+        "name": "阿玛妮酒吧(金砂公园店)",
+        "type": "bar",
+        "lat": 23.366064,
+        "lng": 116.697863,
+        "rating": 4.1,
+        "reviewsCount": 208,
+        "address": "金砂路42号金砂公园(西北角)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-宁川西路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-金砂路"
         ]
       },
       {
-        "id": "real-st-boba-B0FFHDWGWA",
-        "name": "一见",
-        "type": "milktea",
-        "lat": 23.459826,
-        "lng": 116.752445,
-        "rating": 3.9,
-        "reviewsCount": 400,
-        "address": "澄华路145号金华豪庭4栋1层031",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0L2URF5OJ",
+        "name": "杜麦士餐酒馆",
+        "type": "bar",
+        "lat": 23.375607,
+        "lng": 116.712925,
+        "rating": 3,
+        "reviewsCount": 311,
+        "address": "金环路81号水仙园",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥39-59",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-金环路"
         ]
       },
       {
-        "id": "real-st-boba-B0K2ULZ6QT",
-        "name": "啊一柠檬茶(奥飞广场店)",
-        "type": "milktea",
-        "lat": 23.474855,
-        "lng": 116.744048,
-        "rating": 4.2,
-        "reviewsCount": 461,
-        "address": "阳光锦府63号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0J6RHSQLR",
+        "name": "红影·鸟咖·民谣·酒馆(小公园店)",
+        "type": "bar",
+        "lat": 23.351004,
+        "lng": 116.670675,
+        "rating": 4.5,
+        "reviewsCount": 380,
+        "address": "商平路55号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥30-46",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-阳光锦府63"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-商平路"
         ]
       },
       {
-        "id": "real-st-boba-B0GUKCG54K",
-        "name": "源粒·果汁(文祠店)",
-        "type": "milktea",
-        "lat": 23.462017,
-        "lng": 116.768833,
-        "rating": 4.2,
-        "reviewsCount": 301,
-        "address": "澄华街道文祠西路16幢04号铺面",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-澄华街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G3UM0Z4K",
-        "name": "书亦烧仙草(汕头澄海莲下店)",
-        "type": "milktea",
-        "lat": 23.49217,
-        "lng": 116.798078,
-        "rating": 3.3,
-        "reviewsCount": 97,
-        "address": "莲下镇莲凤路47号潮乐嘉购物广场1号店铺",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇莲凤路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0K13XU7SM",
-        "name": "蜜雪冰城(新港湾广场店)",
-        "type": "milktea",
-        "lat": 23.491705,
-        "lng": 116.795273,
-        "rating": 3.9,
-        "reviewsCount": 175,
-        "address": "莲下镇莲东路上村路段东侧",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇莲东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JG0HDQNX",
-        "name": "煲金珠(会堂街店)",
-        "type": "milktea",
-        "lat": 23.461923,
-        "lng": 116.773799,
-        "rating": 4,
-        "reviewsCount": 202,
-        "address": "凤翔街道会堂街26号常春园",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-凤翔街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L1YBCTWU",
-        "name": "叮叮冰室",
-        "type": "milktea",
-        "lat": 23.432602,
-        "lng": 116.821925,
+        "id": "real-st-bar-B0LUXCIQ9X",
+        "name": "壹里one mile清吧",
+        "type": "bar",
+        "lat": 23.368678,
+        "lng": 116.702976,
         "rating": 4.3,
-        "reviewsCount": 409,
-        "address": "莱美路与601乡道交叉口东280米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 371,
+        "address": "品牌一条街34号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥40-60",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莱美路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-品牌一条街"
         ]
       },
       {
-        "id": "real-st-boba-B0HRMSIY5X",
-        "name": "江爱凤广益店",
-        "type": "milktea",
-        "lat": 23.480975,
-        "lng": 116.759256,
-        "rating": 4.4,
-        "reviewsCount": 125,
-        "address": "中信金城花园一、二期东北门西北80米",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥9-13",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0JG5RBSNA",
+        "name": "道·精酿酒馆(广厦店)",
+        "type": "bar",
+        "lat": 23.39552,
+        "lng": 116.711887,
+        "rating": 4.5,
+        "reviewsCount": 140,
+        "address": "广厦街道东裕园15栋028铺面道酒馆",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥42-62",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-中信金城花园"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-广厦街"
         ]
       },
       {
-        "id": "real-st-boba-B0FFHJN8PU",
-        "name": "冰岛牛排",
-        "type": "milktea",
-        "lat": 23.495332,
-        "lng": 116.790016,
-        "rating": 3.8,
+        "id": "real-st-bar-B0K2X1B6OI",
+        "name": "绵承百年古酒馆(汕头米酒)",
+        "type": "bar",
+        "lat": 23.356201,
+        "lng": 116.673671,
+        "rating": 4.3,
+        "reviewsCount": 378,
+        "address": "旧公园前路30号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-旧公园前路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0KUNAMIPZ",
+        "name": "帝甲精酿鲜啤(星汇国际花园北区店)",
+        "type": "bar",
+        "lat": 23.388997,
+        "lng": 116.71368,
+        "rating": 4.1,
+        "reviewsCount": 339,
+        "address": "东厦北路175号星汇国际花园北区",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-东厦北路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFHEP2QM",
+        "name": "重庆壹小面(金园店)",
+        "type": "bar",
+        "lat": 23.370185,
+        "lng": 116.702447,
+        "rating": 4,
         "reviewsCount": 195,
-        "address": "莲下镇建阳文明路12号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥26-40",
-        "hours": "09:30 - 22:00",
+        "address": "金园路6号(胡记炒饭对面)",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥13-19",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-莲下镇建阳文明路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-金园路"
         ]
       },
       {
-        "id": "real-st-boba-B0LD5X9NX3",
-        "name": "茶旺喜(汕头东里店)",
-        "type": "milktea",
-        "lat": 23.558954,
-        "lng": 116.821487,
-        "rating": 4.2,
-        "reviewsCount": 299,
-        "address": "文化路6幢",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文化路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFI323KM",
-        "name": "几杯饮品(文化店)",
-        "type": "milktea",
-        "lat": 23.464227,
-        "lng": 116.775648,
-        "rating": 3.9,
-        "reviewsCount": 415,
-        "address": "文化路146号(香多多隔壁)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文化路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J1JUR9EL",
-        "name": "新加坡可斯克鲜奶茶(莲下店)",
-        "type": "milktea",
-        "lat": 23.49894,
-        "lng": 116.80094,
-        "rating": 4.2,
-        "reviewsCount": 452,
-        "address": "槐泽村堤内片三路20号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-槐泽村堤内片三路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFKTDHFY",
-        "name": "甜甜凤(溪南店)",
-        "type": "milktea",
-        "lat": 23.543509,
-        "lng": 116.816194,
+        "id": "real-st-bar-B0LKXKHHL4",
+        "name": "大叔-阔嘴烧烤小酒馆",
+        "type": "bar",
+        "lat": 23.368925,
+        "lng": 116.702675,
         "rating": 4.1,
-        "reviewsCount": 480,
-        "address": "溪南镇金溪路40号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 328,
+        "address": "金园路一横与新厦路交叉口北80米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-溪南镇金溪路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-金园路"
         ]
       },
       {
-        "id": "real-st-boba-B0JAY7I89D",
-        "name": "匠心蘑菇弟(文祠东店)",
-        "type": "milktea",
-        "lat": 23.460907,
-        "lng": 116.774048,
-        "rating": 4,
-        "reviewsCount": 51,
-        "address": "文祠东路604号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥15-23",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-文祠东路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LB2LQ8JH",
-        "name": "古茗(东里文化路店)",
-        "type": "milktea",
-        "lat": 23.559014,
-        "lng": 116.821428,
+        "id": "real-st-bar-B0HKJ526O1",
+        "name": "汕头佐岸1990小酒馆",
+        "type": "bar",
+        "lat": 23.423314,
+        "lng": 116.595118,
         "rating": 4.2,
-        "reviewsCount": 467,
-        "address": "东里镇文化路北侧6幢7号",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 278,
+        "address": "大学路548号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-东里"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-大学路"
         ]
       },
       {
-        "id": "real-st-boba-B0HDSS7388",
-        "name": "大台北茶饮(澄园店)",
-        "type": "milktea",
-        "lat": 23.46214,
-        "lng": 116.771546,
-        "rating": 4,
-        "reviewsCount": 180,
-        "address": "益民路150号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0MUD4HG1F",
+        "name": "回头客音乐清吧(中山路店)门前停车场",
+        "type": "bar",
+        "lat": 23.358725,
+        "lng": 116.689575,
+        "rating": null,
+        "reviewsCount": 206,
+        "address": "大华路与中山路交叉口西南20米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-益民路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-大华路"
         ]
       },
       {
-        "id": "real-st-boba-B0FFF4X3L7",
-        "name": "大台北(车沟路店)",
-        "type": "milktea",
-        "lat": 23.482817,
-        "lng": 116.747097,
-        "rating": 3.9,
-        "reviewsCount": 50,
-        "address": "道龙田田心路北、顶宫路1横1号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0MUSOERY1",
+        "name": "回头客音乐清吧(中山路店)门前停车场",
+        "type": "bar",
+        "lat": 23.358825,
+        "lng": 116.689225,
+        "rating": null,
+        "reviewsCount": 389,
+        "address": "中山路与大华路交叉口西40米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-道龙田田心路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-中山路"
         ]
       },
       {
-        "id": "real-st-boba-B0FFFY7L5B",
-        "name": "马骝九茶饮",
-        "type": "milktea",
-        "lat": 23.561758,
-        "lng": 116.82262,
-        "rating": 3.6,
-        "reviewsCount": 375,
-        "address": "美园路14号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0I06MS4S0",
+        "name": "优布劳精酿酒馆(广厦店)",
+        "type": "bar",
+        "lat": 23.389472,
+        "lng": 116.720082,
+        "rating": 4.4,
+        "reviewsCount": 468,
+        "address": "天山北路9号怀英花园123幢105",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-美园路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0HDAOYMES",
-        "name": "物碗冰",
-        "type": "milktea",
-        "lat": 23.567364,
-        "lng": 116.822156,
-        "rating": 4.1,
-        "reviewsCount": 194,
-        "address": "塘西村下围路东一号(贝舒乐婴幼用品斜对面)",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥22-32",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-塘西村下围路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFJGC1ZA",
-        "name": "金冠茗茶坊(汇璟花园西区店)",
-        "type": "milktea",
-        "lat": 23.470012,
-        "lng": 116.765579,
-        "rating": 4.1,
-        "reviewsCount": 42,
-        "address": "汇璟花园2号门旁",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥31-47",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "澄海区-汇璟花园2号"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "金平区-天山北路"
         ]
       },
       {
@@ -36450,6 +34532,25 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "鸡尾酒",
           "社交小酌",
           "澄海区-广益街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0HGJCIF35",
+        "name": "良映·见山·包厢· 咖啡·茶室·天台茶座(奥飞广场店)",
+        "type": "bar",
+        "lat": 23.471303,
+        "lng": 116.742937,
+        "rating": 4.2,
+        "reviewsCount": 375,
+        "address": "澄华街道下窖怀汉路西2片区125号佰利大厦十三楼",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥29-43",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-澄华街"
         ]
       },
       {
@@ -37476,6 +35577,462 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
           "鸡尾酒",
           "社交小酌",
           "澄海区-澄华街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0J2JZD34Q",
+        "name": "我开的酒馆(幸福大厦店)",
+        "type": "bar",
+        "lat": 23.461906,
+        "lng": 116.756519,
+        "rating": 3.9,
+        "reviewsCount": 150,
+        "address": "澄华街道玉亭北街43号之一",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥18-28",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-澄华街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LAJ1VQHR",
+        "name": "蛋·小酒馆(宁川西店)",
+        "type": "bar",
+        "lat": 23.482005,
+        "lng": 116.761212,
+        "rating": 4.2,
+        "reviewsCount": 483,
+        "address": "广益街道宁川西路华春园80栋04号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥42-62",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-广益街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0I3GUIB0J",
+        "name": "杯莫停中式小酒馆",
+        "type": "bar",
+        "lat": 23.47643,
+        "lng": 116.746264,
+        "rating": 4.6,
+        "reviewsCount": 107,
+        "address": "广益街道怀汉路7号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥54-82",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-广益街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LUBKC7XU",
+        "name": "南北酒馆",
+        "type": "bar",
+        "lat": 23.477485,
+        "lng": 116.769685,
+        "rating": 3.7,
+        "reviewsCount": 289,
+        "address": "埔美展览中心109号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥53-79",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-埔美展览中心"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0J6NAE2EV",
+        "name": "Drinker均可·咖啡·精酿",
+        "type": "bar",
+        "lat": 23.46668,
+        "lng": 116.75705,
+        "rating": 4.4,
+        "reviewsCount": 481,
+        "address": "文冠路与泰兴路交叉口东北150米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥35-53",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-文冠路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L22X1IKO",
+        "name": "百医酒馆",
+        "type": "bar",
+        "lat": 23.459218,
+        "lng": 116.750136,
+        "rating": 4.4,
+        "reviewsCount": 398,
+        "address": "澄华街道下窖窖内工业区东片二巷7号第一层4号铺面",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥33-49",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-澄华街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0K2MOJOG6",
+        "name": "胜一杯酒馆(K3店)",
+        "type": "bar",
+        "lat": 23.472666,
+        "lng": 116.735384,
+        "rating": 4.5,
+        "reviewsCount": 197,
+        "address": "玉亭路段k3广场3栋1楼门店",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥64-96",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-玉亭路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0I11A7CB4",
+        "name": "精酿鲜啤外卖站(玉亭店)",
+        "type": "bar",
+        "lat": 23.46588,
+        "lng": 116.747143,
+        "rating": 4.3,
+        "reviewsCount": 250,
+        "address": "玉亭路磐桂园瑞馨府23号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥26-40",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-玉亭路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LR5A8QV6",
+        "name": "HAZE CLUB(浩兹派对工厂)(暂停营业)",
+        "type": "bar",
+        "lat": 23.472821,
+        "lng": 116.734069,
+        "rating": 4.4,
+        "reviewsCount": 257,
+        "address": "澄华街道澄华工业区玉亭路103号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥22-32",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-澄华街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0K0Y9F9LB",
+        "name": "澄小酒馆",
+        "type": "bar",
+        "lat": 23.461435,
+        "lng": 116.777289,
+        "rating": 4,
+        "reviewsCount": 270,
+        "address": "文祠东路611号和翔花园A区",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥65-97",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-文祠东路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LRKLKET1",
+        "name": "精酿啤酒",
+        "type": "bar",
+        "lat": 23.475931,
+        "lng": 116.818113,
+        "rating": 2.5,
+        "reviewsCount": 286,
+        "address": "金成路与西宁路交叉口北80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-金成路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0H6LYCC0O",
+        "name": "金东福老酒馆",
+        "type": "bar",
+        "lat": 23.478083,
+        "lng": 116.801192,
+        "rating": 3.8,
+        "reviewsCount": 124,
+        "address": "南成路与汕北大道交叉口西北420米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-南成路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0J165VOX7",
+        "name": "精酿鲜啤外卖站(莱美店)",
+        "type": "bar",
+        "lat": 23.440328,
+        "lng": 116.798514,
+        "rating": 4.1,
+        "reviewsCount": 278,
+        "address": "海平路5号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-海平路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0H2XRFIY3",
+        "name": "莫晚MOWAN",
+        "type": "bar",
+        "lat": 23.461214,
+        "lng": 116.759559,
+        "rating": 4.3,
+        "reviewsCount": 239,
+        "address": "澄华派出所后第一个路口右转春秋精酿隔壁",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥25-37",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-澄华派出所后第一个路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0G11ZCFA1",
+        "name": "落夜手工精酿啤酒(溪南店)",
+        "type": "bar",
+        "lat": 23.547311,
+        "lng": 116.80911,
+        "rating": 3.6,
+        "reviewsCount": 84,
+        "address": "溪南镇金溪路4号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-溪南镇金溪路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0KRJS68J6",
+        "name": "酒局·精酿",
+        "type": "bar",
+        "lat": 23.468439,
+        "lng": 116.742287,
+        "rating": 4.2,
+        "reviewsCount": 482,
+        "address": "下窖华新路东六巷一号第一层铺面",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-下窖华新路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0IDR7SRS1",
+        "name": "月巴小酒馆",
+        "type": "bar",
+        "lat": 23.47072,
+        "lng": 116.747465,
+        "rating": 4.4,
+        "reviewsCount": 267,
+        "address": "文冠路中段得记玩具厂房一楼之17号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥66-98",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-文冠路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFLM78AO",
+        "name": "随意吧(广泰大厦店)",
+        "type": "bar",
+        "lat": 23.460093,
+        "lng": 116.75556,
+        "rating": 4.5,
+        "reviewsCount": 196,
+        "address": "泰安路广泰大厦1层",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥78-116",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-泰安路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0JRZATZZ1",
+        "name": "荒地烧烤",
+        "type": "bar",
+        "lat": 23.469894,
+        "lng": 116.742845,
+        "rating": 4.5,
+        "reviewsCount": 286,
+        "address": "易佳商务楼隔壁",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-易佳商务楼隔"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0G2KUS2OP",
+        "name": "赖石问老酒馆",
+        "type": "bar",
+        "lat": 23.434397,
+        "lng": 116.831196,
+        "rating": 4,
+        "reviewsCount": 285,
+        "address": "凤翔街道宜华木业",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-凤翔街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0KRNNGCFB",
+        "name": "润锦酱酒馆",
+        "type": "bar",
+        "lat": 23.469981,
+        "lng": 116.756405,
+        "rating": 3.4,
+        "reviewsCount": 55,
+        "address": "澄江花园西南门旁",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-澄江花园西南"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0KDNCP4GY",
+        "name": "将进酒精酿鲜啤",
+        "type": "bar",
+        "lat": 23.467109,
+        "lng": 116.811782,
+        "rating": 3.7,
+        "reviewsCount": 98,
+        "address": "凤新二路22号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-凤新二路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFM78JSY",
+        "name": "不醉酒馆",
+        "type": "bar",
+        "lat": 23.599255,
+        "lng": 116.867217,
+        "rating": 3.9,
+        "reviewsCount": 450,
+        "address": "盐鸿镇莲鸿路1号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-盐鸿镇莲鸿路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0J3UAYMWR",
+        "name": "今夜聚小酒馆",
+        "type": "bar",
+        "lat": 23.503625,
+        "lng": 116.774803,
+        "rating": 3.8,
+        "reviewsCount": 446,
+        "address": "莲下镇许厝村工业区二坽",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "澄海区-莲下镇许厝村"
         ]
       },
       {
@@ -42267,121 +40824,729 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
-        "id": "real-st-matcha-B0J12M1SHX",
-        "name": "星巴克(帝璟苑店)",
-        "type": "milktea",
-        "lat": 23.242061,
-        "lng": 116.441425,
-        "rating": 4.6,
-        "reviewsCount": 266,
-        "address": "峡山街道峡山居委咬兰洋峡溪路001号帝璟苑第10幢地上一层067号单元",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥34-50",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-峡山街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0KRV1LQBP",
-        "name": "库迪咖啡(峡山广祥路店)",
-        "type": "milktea",
-        "lat": 23.255262,
-        "lng": 116.416999,
-        "rating": 4.4,
-        "reviewsCount": 117,
-        "address": "峡山街道广祥路276-278号底商",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-峡山街"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0IGDB66GQ",
-        "name": "古茗(潮南两英家惠店)",
-        "type": "milktea",
-        "lat": 23.215616,
-        "lng": 116.365099,
-        "rating": 4.5,
-        "reviewsCount": 382,
-        "address": "两英镇司神路41号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-两英镇司神路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0LKDHNIBX",
-        "name": "幸运咖(西沟店)(西沟店)",
-        "type": "milktea",
-        "lat": 23.24721,
-        "lng": 116.411267,
+        "id": "real-st-bar-B0FFMERK7B",
+        "name": "酒点半音乐酒馆(和平店)",
+        "type": "bar",
+        "lat": 23.255097,
+        "lng": 116.469521,
         "rating": 3.9,
-        "reviewsCount": 332,
-        "address": "西华区六街91号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 268,
+        "address": "和平镇新和祥新北路",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥58-86",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-六街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-和平镇新和祥新北路"
         ]
       },
       {
-        "id": "real-st-matcha-B0K27PN4G4",
-        "name": "瑞幸咖啡(潮南陈店电子城店)",
-        "type": "milktea",
-        "lat": 23.26926,
-        "lng": 116.328773,
+        "id": "real-st-bar-B0FFLMWV50",
+        "name": "皇佳酒吧娱乐综合体验馆",
+        "type": "bar",
+        "lat": 23.256885,
+        "lng": 116.586646,
         "rating": 4.5,
-        "reviewsCount": 471,
-        "address": "324国道与工业大道交叉口西北80米",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
+        "reviewsCount": 409,
+        "address": "机动车检测站内北门内东边",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥453-679",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-机动车检测站"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0G2MMXXHN",
+        "name": "骑士酒馆三堡店",
+        "type": "bar",
+        "lat": 23.252805,
+        "lng": 116.548844,
+        "rating": 3.5,
+        "reviewsCount": 335,
+        "address": "农崎西路自编1-2号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-农崎西路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0H6FK067L",
+        "name": "糊涂酒馆(宝珠花园2期店)",
+        "type": "bar",
+        "lat": 23.260649,
+        "lng": 116.600586,
+        "rating": 3.5,
+        "reviewsCount": 306,
+        "address": "宝珠花园南门东北90米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥20-30",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-宝珠花园南门"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0H29S6B86",
+        "name": "小酒馆",
+        "type": "bar",
+        "lat": 23.21771,
+        "lng": 116.487947,
+        "rating": 4.1,
+        "reviewsCount": 172,
+        "address": "和平镇下厝南岭",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥33-49",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-和平镇下厝南"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFH4KELH",
+        "name": "豪乐清吧",
+        "type": "bar",
+        "lat": 23.26052,
+        "lng": 116.60887,
+        "rating": 3.1,
+        "reviewsCount": 442,
+        "address": "中山东路北一巷3号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-中山东路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L65DNWRI",
+        "name": "金尊酒吧",
+        "type": "bar",
+        "lat": 23.264138,
+        "lng": 116.595249,
+        "rating": 4.2,
+        "reviewsCount": 251,
+        "address": "棉新大道与柳园路交叉口南60米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-棉新大道"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFIPDCIF",
+        "name": "露娜酒吧(香港城购物广场店)",
+        "type": "bar",
+        "lat": 23.35556,
+        "lng": 116.419031,
+        "rating": 2.4,
+        "reviewsCount": 111,
+        "address": "谷饶镇上堡有源路261号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-谷饶镇上堡有源路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L14B0E3H",
+        "name": "欢乐酒吧",
+        "type": "bar",
+        "lat": 23.241301,
+        "lng": 116.47418,
+        "rating": 2.5,
+        "reviewsCount": 61,
+        "address": "和西路与新和惠公路交叉口东北40米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-和西路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LKVR5RDL",
+        "name": "后洋小酒馆",
+        "type": "bar",
+        "lat": 23.418798,
+        "lng": 116.489843,
+        "rating": 4.2,
+        "reviewsCount": 450,
+        "address": "玉港加油站东侧140米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-玉港加油站东"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0MBHMHJV1",
+        "name": "Passion激情小酒馆(万欣店)",
+        "type": "bar",
+        "lat": 23.240816,
+        "lng": 116.471165,
+        "rating": 3.7,
+        "reviewsCount": 131,
+        "address": "紫南路3号万欣广场",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥70-106",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-紫南路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0K04SQFHP",
+        "name": "街頭酒館-STREET PUB",
+        "type": "bar",
+        "lat": 23.259153,
+        "lng": 116.608417,
+        "rating": 2.8,
+        "reviewsCount": 437,
+        "address": "南和园二期18幢",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-南和园二期1"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LGT6TA2W",
+        "name": "好景酒馆",
+        "type": "bar",
+        "lat": 23.346103,
+        "lng": 116.407056,
+        "rating": 4.4,
+        "reviewsCount": 95,
+        "address": "上五花园小区72号商铺",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥47-71",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-上五花园小区"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFHMJ6C6",
+        "name": "百味园小酒馆(南桂坊南区店)",
+        "type": "bar",
+        "lat": 23.254956,
+        "lng": 116.602557,
+        "rating": 4,
+        "reviewsCount": 74,
+        "address": "文光南桂园住宅区1栋5-6号(即南门电信旁)",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-90",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-文光南桂园住"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0JAHRHMNR",
+        "name": "斑马精酿(海门店)",
+        "type": "bar",
+        "lat": 23.184135,
+        "lng": 116.616577,
+        "rating": 3.7,
+        "reviewsCount": 288,
+        "address": "海门镇莲花峰公园酒吧街9号店铺",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-海门镇莲花峰公园酒吧街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0MGR6JBHC",
+        "name": "小酒馆音乐酒吧",
+        "type": "bar",
+        "lat": 23.358957,
+        "lng": 116.410219,
+        "rating": 2.3,
+        "reviewsCount": 95,
+        "address": "惠民路与茂新路交叉口东180米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-惠民路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LUZKQ03T",
+        "name": "九点半小酒馆(炭火烧烤)",
+        "type": "bar",
+        "lat": 23.35149,
+        "lng": 116.402775,
+        "rating": 3.7,
+        "reviewsCount": 246,
+        "address": "和信广场112",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥33-49",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-和信广场11"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0J6BAP17J",
+        "name": "猛熊精酿",
+        "type": "bar",
+        "lat": 23.302872,
+        "lng": 116.366547,
+        "rating": 4.2,
+        "reviewsCount": 199,
+        "address": "贵屿镇仙彭草南路路段53号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-贵屿镇仙彭草南路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B02F20OUPR",
+        "name": "好乐迪酒吧(棉西四路店)",
+        "type": "bar",
+        "lat": 23.261448,
+        "lng": 116.597389,
+        "rating": 4.5,
+        "reviewsCount": 252,
+        "address": "文光棉西路44号二楼东侧",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥41-61",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-文光棉西路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0M6DX8EU4",
+        "name": "晚庄小酒馆",
+        "type": "bar",
+        "lat": 23.246975,
+        "lng": 116.607525,
+        "rating": 3.8,
+        "reviewsCount": 385,
+        "address": "东山大道与新宫直街交叉口北80米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮阳区-东山大道"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0HB67MMHU",
+        "name": "益禾堂(汕头潮南仙城镇陈仙公路店)",
+        "type": "milktea",
+        "lat": 23.235091,
+        "lng": 116.314951,
+        "rating": 3.9,
+        "reviewsCount": 106,
+        "address": "仙城镇陈仙公路358号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-仙城镇陈仙公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFKP632Y",
+        "name": "益禾堂(汕头潮南广祥573号店)",
+        "type": "milktea",
+        "lat": 23.257572,
+        "lng": 116.422716,
+        "rating": 4.1,
+        "reviewsCount": 71,
+        "address": "峡山街道南里广祥路573号(周边无竞店)",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0H2UAQ72W",
+        "name": "瑞幸咖啡(潮南广祥路店)",
+        "type": "milktea",
+        "lat": 23.255025,
+        "lng": 116.416575,
+        "rating": 4.6,
+        "reviewsCount": 377,
+        "address": "峡山街道广祥路256号",
+        "signature": "生椰拿铁 (经典爆款冷萃生椰咖啡)",
         "priceRange": "¥10-16",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-国道与工业大道"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0K62D8TZO",
-        "name": "茶理宜世(潮南广祥店)",
-        "type": "milktea",
-        "lat": 23.255193,
-        "lng": 116.416965,
-        "rating": 4.4,
-        "reviewsCount": 132,
-        "address": "峡山街道拱桥广祥路268-270号首层",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-峡山街"
         ]
       },
       {
-        "id": "real-st-matcha-B0H24NNE1H",
+        "id": "real-st-boba-B0FFH4S4B1",
+        "name": "汕头阿龙Fruits甘草水果(广美路店)",
+        "type": "milktea",
+        "lat": 23.254772,
+        "lng": 116.417217,
+        "rating": 4.3,
+        "reviewsCount": 98,
+        "address": "峡山广美路297-299-301号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山广美路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0HAXMME2L",
+        "name": "CoCo都可(合胜广场峡山店)",
+        "type": "milktea",
+        "lat": 23.240071,
+        "lng": 116.443068,
+        "rating": 4.1,
+        "reviewsCount": 316,
+        "address": "峡山街道广汕公路123号香域广场7栋一层02卡",
+        "signature": "奶茶三兄弟 (经典珍珠加料奶茶)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G1O5E3HD",
+        "name": "古茗",
+        "type": "milktea",
+        "lat": 23.176006,
+        "lng": 116.507285,
+        "rating": 4.5,
+        "reviewsCount": 422,
+        "address": "浩华路23号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥13-19",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-浩华路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L19XITSA",
+        "name": "龙巴快车(陈店营业部)",
+        "type": "milktea",
+        "lat": 23.264739,
+        "lng": 116.320741,
+        "rating": 4.6,
+        "reviewsCount": 95,
+        "address": "陈店镇广汕公路刘美村路段218-220",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇广汕公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFKG071J",
+        "name": "益禾堂(汕头潮南中通雅苑店)",
+        "type": "milktea",
+        "lat": 23.273733,
+        "lng": 116.322139,
+        "rating": 4,
+        "reviewsCount": 148,
+        "address": "中通雅苑西南门东南60米",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-中通雅苑西南"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFMG9KV9",
+        "name": "英歌魂(陈店新兴路店)",
+        "type": "milktea",
+        "lat": 23.273991,
+        "lng": 116.32173,
+        "rating": 4.4,
+        "reviewsCount": 315,
+        "address": "陈店镇新兴路288号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFMFL55K",
+        "name": "阳光热麦",
+        "type": "milktea",
+        "lat": 23.269011,
+        "lng": 116.329773,
+        "rating": 4.4,
+        "reviewsCount": 468,
+        "address": "陈店324国道陈围路口",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥56-84",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-国道陈围路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0GUTHH9C3",
+        "name": "英歌魂(广祥店)",
+        "type": "milktea",
+        "lat": 23.255182,
+        "lng": 116.416925,
+        "rating": 4.4,
+        "reviewsCount": 73,
+        "address": "峡山街道拱桥广祥路274号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0HD6CB38X",
+        "name": "LINLEE·手打柠檬茶(潮南广祥路店)",
+        "type": "milktea",
+        "lat": 23.253275,
+        "lng": 116.413925,
+        "rating": 4.4,
+        "reviewsCount": 188,
+        "address": "广祥路120号首层",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-广祥路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L2UDEUBZ",
+        "name": "茉莉奶白(汕头峡山店)",
+        "type": "milktea",
+        "lat": 23.254691,
+        "lng": 116.416526,
+        "rating": 4.6,
+        "reviewsCount": 275,
+        "address": "潮南区核心商圈附近",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥13-19",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-核心商圈"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0HDLCXOHU",
+        "name": "润满园茶楼",
+        "type": "milktea",
+        "lat": 23.271073,
+        "lng": 116.328542,
+        "rating": 4.6,
+        "reviewsCount": 251,
+        "address": "新兴路98-108号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥30-46",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0M63U9827",
+        "name": "霸王茶姬(广东汕头潮南陈店店)",
+        "type": "milktea",
+        "lat": 23.273951,
+        "lng": 116.321461,
+        "rating": 4.6,
+        "reviewsCount": 311,
+        "address": "陈店镇新兴路299-301-303号",
+        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LGCLRCVE",
+        "name": "爷爷不泡茶(汕头潮南广场店)",
+        "type": "milktea",
+        "lat": 23.240125,
+        "lng": 116.442725,
+        "rating": 4.4,
+        "reviewsCount": 362,
+        "address": "峡山街道广汕公路123号香域广场7栋一层03A卡",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JKYHAZZR",
+        "name": "CHAGEE霸王茶姬(潮南合胜广场店)",
+        "type": "milktea",
+        "lat": 23.240148,
+        "lng": 116.442966,
+        "rating": 4.5,
+        "reviewsCount": 209,
+        "address": "广汕公路峡山路段123号潮南合胜广场F1层",
+        "signature": "伯牙绝弦 (招牌茉莉雪顶鲜奶茶)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-广汕公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFIRGDGC",
+        "name": "喜茶(汕头陈店新兴路店)",
+        "type": "milktea",
+        "lat": 23.274352,
+        "lng": 116.320953,
+        "rating": 4.6,
+        "reviewsCount": 460,
+        "address": "陈店镇新兴路332号",
+        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
+        "priceRange": "¥14-20",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0H24NNE1H",
         "name": "1点点(环美路店)",
         "type": "milktea",
         "lat": 23.254337,
@@ -42389,113 +41554,132 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         "rating": 4.4,
         "reviewsCount": 176,
         "address": "峡山街道环美路297号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
         "priceRange": "¥10-16",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-峡山街"
         ]
       },
       {
-        "id": "real-st-matcha-B0LUGAE77W",
-        "name": "库迪咖啡(汕头两英司神路店)",
+        "id": "real-st-boba-B0H197MQRX",
+        "name": "LINLEE·手打柠檬茶(潮南香域广场店)",
         "type": "milktea",
-        "lat": 23.213725,
-        "lng": 116.364475,
-        "rating": 4.4,
-        "reviewsCount": 387,
-        "address": "司神路居民路段与南京路交叉口东北100米",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
-        "priceRange": "¥7-11",
+        "lat": 23.24217,
+        "lng": 116.441864,
+        "rating": 4.1,
+        "reviewsCount": 239,
+        "address": "广汕公路峡山路段123号香域广场4幢1楼410房",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥14-22",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-司神路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0LRDZ69YR",
-        "name": "古茗(潮南粤盛广场店)",
-        "type": "milktea",
-        "lat": 23.252119,
-        "lng": 116.407401,
-        "rating": 4.2,
-        "reviewsCount": 60,
-        "address": "广汕公路1247号",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-广汕公路"
         ]
       },
       {
-        "id": "real-st-matcha-B0M6H5AEP7",
-        "name": "幸运咖(陇田店)",
+        "id": "real-st-boba-B0L1B1022S",
+        "name": "本初茶素空间",
         "type": "milktea",
-        "lat": 23.175887,
-        "lng": 116.507675,
-        "rating": 3.8,
-        "reviewsCount": 315,
-        "address": "陇田镇浩华路83号铺",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-陇田镇浩华路"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0FFFR4O9T",
-        "name": "云上浅夏咖啡馆",
-        "type": "milktea",
-        "lat": 23.28416,
-        "lng": 116.364283,
-        "rating": 4.2,
-        "reviewsCount": 106,
-        "address": "华里西红桥",
-        "signature": "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-华里"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0L3N7D98S",
-        "name": "古茗(陈店镇陈贵路店)",
-        "type": "milktea",
-        "lat": 23.281034,
-        "lng": 116.325538,
+        "lat": 23.252135,
+        "lng": 116.408713,
         "rating": 4.5,
-        "reviewsCount": 120,
-        "address": "陈店镇溪口陈贵公路溪北路段44号",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
+        "reviewsCount": 407,
+        "address": "峡山街道洋林广汕公路商贸地兴苑国道边14-15号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥51-77",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFGC00VV",
+        "name": "快乐番薯(潮南峡山金光店)",
+        "type": "milktea",
+        "lat": 23.248897,
+        "lng": 116.423522,
+        "rating": 4.2,
+        "reviewsCount": 126,
+        "address": "西环路与金光路交叉口东南100米",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-西环路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JKBOQGUZ",
+        "name": "喜茶(汕头峡山广祥路店)",
+        "type": "milktea",
+        "lat": 23.255037,
+        "lng": 116.4166,
+        "rating": 4.5,
+        "reviewsCount": 221,
+        "address": "拱桥村广祥路254号首层",
+        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
+        "priceRange": "¥15-23",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-拱桥村广祥路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0IGDB66GQ",
+        "name": "古茗(潮南两英家惠店)",
+        "type": "milktea",
+        "lat": 23.215616,
+        "lng": 116.365099,
+        "rating": 4.5,
+        "reviewsCount": 382,
+        "address": "两英镇司神路41号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-陈店镇溪口陈贵公路"
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇司神路"
         ]
       },
       {
-        "id": "real-st-matcha-B0G3DZ06W3",
+        "id": "real-st-boba-B0JAPH0R04",
+        "name": "潮汕良心果汁(峡山店)",
+        "type": "milktea",
+        "lat": 23.254906,
+        "lng": 116.417114,
+        "rating": 4.5,
+        "reviewsCount": 63,
+        "address": "峡山街道广祥路297号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥18-26",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G3DZ06W3",
         "name": "古茗(汕头胪岗镇)",
         "type": "milktea",
         "lat": 23.21505,
@@ -42503,75 +41687,208 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         "rating": 4.2,
         "reviewsCount": 280,
         "address": "胪岗镇胪溪乡和惠公路胪溪路段38号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-胪岗镇胪溪乡和惠公路"
         ]
       },
       {
-        "id": "real-st-matcha-B0J0YMPQ7Z",
-        "name": "库迪咖啡(合胜香域广场店)",
+        "id": "real-st-boba-B0L3N7D98S",
+        "name": "古茗(陈店镇陈贵路店)",
         "type": "milktea",
-        "lat": 23.27193,
-        "lng": 116.32538,
-        "rating": 3.8,
-        "reviewsCount": 118,
-        "address": "合胜香域广场5栋508(安踏体育专卖店南侧)",
-        "signature": "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-合胜香域广场"
-        ]
-      },
-      {
-        "id": "real-st-matcha-B0LDC6HQS4",
-        "name": "古茗(潮南恩波路店)",
-        "type": "milktea",
-        "lat": 23.248913,
-        "lng": 116.434213,
-        "rating": 4.2,
-        "reviewsCount": 191,
-        "address": "恩波路165号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
+        "lat": 23.281034,
+        "lng": 116.325538,
+        "rating": 4.5,
+        "reviewsCount": 120,
+        "address": "陈店镇溪口陈贵公路溪北路段44号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-恩波路"
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇溪口陈贵公路"
         ]
       },
       {
-        "id": "real-st-matcha-B0L2YAUKRD",
-        "name": "古茗(潮南两英金三角店)",
+        "id": "real-st-boba-B0I66SJF9V",
+        "name": "润满园茶楼(峡山分店)",
         "type": "milktea",
-        "lat": 23.213674,
-        "lng": 116.364416,
+        "lat": 23.257306,
+        "lng": 116.424691,
+        "rating": 4.4,
+        "reviewsCount": 145,
+        "address": "峡山街道环山路16号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥35-53",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L3F641K7",
+        "name": "茶百道(汕头峡山环美路店)",
+        "type": "milktea",
+        "lat": 23.254272,
+        "lng": 116.41851,
         "rating": 4.2,
-        "reviewsCount": 372,
-        "address": "两英镇司神路墙新路段155号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
+        "reviewsCount": 472,
+        "address": "峡山街道环美路295号",
+        "signature": "招牌杨枝甘露 (鲜果茶系列)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LDB7CEHW",
+        "name": "茶百道(汕头潮南陇田镇店)",
+        "type": "milktea",
+        "lat": 23.176275,
+        "lng": 116.507512,
+        "rating": 4.2,
+        "reviewsCount": 84,
+        "address": "陇田镇浩华路58号",
+        "signature": "招牌杨枝甘露 (鲜果茶系列)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陇田镇浩华路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JUOLKKXB",
+        "name": "英歌魂(两英商贸店)",
+        "type": "milktea",
+        "lat": 23.215014,
+        "lng": 116.364781,
+        "rating": 4.3,
+        "reviewsCount": 144,
+        "address": "两英镇两英商贸中心A3幢6号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
-          "潮南区-两英镇司神路"
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇两英商"
         ]
       },
       {
-        "id": "real-st-matcha-B0JKL53R6P",
+        "id": "real-st-boba-B0H61CR19B",
+        "name": "蜜雪冰城(广祥店)",
+        "type": "milktea",
+        "lat": 23.25502,
+        "lng": 116.41702,
+        "rating": 4.3,
+        "reviewsCount": 302,
+        "address": "峡山街道广祥路299号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFKBX1C1",
+        "name": "卡卡奇诺",
+        "type": "milktea",
+        "lat": 23.245095,
+        "lng": 116.413881,
+        "rating": 4.5,
+        "reviewsCount": 408,
+        "address": "美莱雅制衣实业有限公司西南门旁",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥21-31",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-美莱雅制衣实"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L1S7QAKC",
+        "name": "楼下冰室",
+        "type": "milktea",
+        "lat": 23.24417,
+        "lng": 116.437525,
+        "rating": 4.6,
+        "reviewsCount": 467,
+        "address": "峡山街道东山路175号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥17-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0K62D8TZO",
+        "name": "茶理宜世(潮南广祥店)",
+        "type": "milktea",
+        "lat": 23.255193,
+        "lng": 116.416965,
+        "rating": 4.4,
+        "reviewsCount": 132,
+        "address": "峡山街道拱桥广祥路268-270号首层",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥13-19",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LRDZ69YR",
+        "name": "古茗(潮南粤盛广场店)",
+        "type": "milktea",
+        "lat": 23.252119,
+        "lng": 116.407401,
+        "rating": 4.2,
+        "reviewsCount": 60,
+        "address": "广汕公路1247号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-广汕公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JKL53R6P",
         "name": "古茗(潮南新兴路一店)",
         "type": "milktea",
         "lat": 23.27428,
@@ -42579,18 +41896,227 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         "rating": 4.4,
         "reviewsCount": 413,
         "address": "陈店镇陈贵路陈店路段西侧39号",
-        "signature": "宇治特浓抹茶拿铁 (Matcha Latte)",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-陈店镇陈贵路"
         ]
       },
       {
-        "id": "real-st-matcha-B0LB2RRVKC",
+        "id": "real-st-boba-B0FFK8XKZ4",
+        "name": "柒茶台式茶饮(电子城店)",
+        "type": "milktea",
+        "lat": 23.270108,
+        "lng": 116.32903,
+        "rating": 4.5,
+        "reviewsCount": 396,
+        "address": "陈店镇粤东电子城北一街36号(工商银行旁)",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇粤东电子城北一街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0H0KDNDDT",
+        "name": "1点点(陈店店)",
+        "type": "milktea",
+        "lat": 23.274242,
+        "lng": 116.321251,
+        "rating": 4.5,
+        "reviewsCount": 485,
+        "address": "陈店镇新兴路320号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥9-13",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KAJA0V9O",
+        "name": "蜜雪冰城(合胜广场店)",
+        "type": "milktea",
+        "lat": 23.240564,
+        "lng": 116.442561,
+        "rating": 4.2,
+        "reviewsCount": 57,
+        "address": "峡山街道广汕公路峡山路段123号香域广场4栋409号房",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFJ33H77",
+        "name": "蜜雪冰城(环美路店)",
+        "type": "milktea",
+        "lat": 23.25254,
+        "lng": 116.419892,
+        "rating": 4.4,
+        "reviewsCount": 392,
+        "address": "峡山街道环美路173号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0I3F10TB4",
+        "name": "LINLEE·手打柠檬茶(潮南陇田店)",
+        "type": "milktea",
+        "lat": 23.17641,
+        "lng": 116.507742,
+        "rating": 4.2,
+        "reviewsCount": 209,
+        "address": "浩华路59号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-浩华路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0M6KZBWP3",
+        "name": "1点点(司马浦店)",
+        "type": "milktea",
+        "lat": 23.255271,
+        "lng": 116.37028,
+        "rating": 4.2,
+        "reviewsCount": 180,
+        "address": "司英路8号即大森洋隔壁",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-司英路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JA2HE01B",
+        "name": "1点点(两英店)",
+        "type": "milktea",
+        "lat": 23.215752,
+        "lng": 116.365721,
+        "rating": 4.4,
+        "reviewsCount": 147,
+        "address": "溪北路与司神路居民路段交叉口东80米",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥13-19",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-溪北路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KUHCGV9D",
+        "name": "蜜雪冰城(西沟店)",
+        "type": "milktea",
+        "lat": 23.247267,
+        "lng": 116.411101,
+        "rating": 4.3,
+        "reviewsCount": 151,
+        "address": "潮南区核心商圈附近",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-核心商圈"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L317VESF",
+        "name": "糖叙糖水铺(汕头潮南环美路店)",
+        "type": "milktea",
+        "lat": 23.254841,
+        "lng": 116.417718,
+        "rating": 4.3,
+        "reviewsCount": 301,
+        "address": "峡山街道汕尾居委环美路318、320号1层",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0H1SZGEW7",
+        "name": "蜜雪冰城(田心店)",
+        "type": "milktea",
+        "lat": 23.137433,
+        "lng": 116.524486,
+        "rating": 4.5,
+        "reviewsCount": 328,
+        "address": "陇田镇田二田中路170号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥8-12",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陇田镇田二田中路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LDC6HQS4",
+        "name": "古茗(潮南恩波路店)",
+        "type": "milktea",
+        "lat": 23.248913,
+        "lng": 116.434213,
+        "rating": 4.2,
+        "reviewsCount": 191,
+        "address": "恩波路165号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-恩波路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LB2RRVKC",
         "name": "古茗(潮南新兴路一店)",
         "type": "milktea",
         "lat": 23.274247,
@@ -42598,18 +42124,189 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         "rating": 4.3,
         "reviewsCount": 466,
         "address": "陈店镇新兴路250-252号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-陈店镇新兴路"
         ]
       },
       {
-        "id": "real-st-matcha-B0L1D1VYAL",
+        "id": "real-st-boba-B0L3ASUBDA",
+        "name": "古茗(峡山合胜广场店)",
+        "type": "milktea",
+        "lat": 23.240325,
+        "lng": 116.442575,
+        "rating": 4.4,
+        "reviewsCount": 57,
+        "address": "香域广场",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥13-19",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-香域广场"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L35ME63D",
+        "name": "古茗",
+        "type": "milktea",
+        "lat": 23.288875,
+        "lng": 116.319275,
+        "rating": 4.3,
+        "reviewsCount": 135,
+        "address": "西环路与经一路交叉口东40米",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-西环路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0I2LA1JQP",
+        "name": "街市果汁冰",
+        "type": "milktea",
+        "lat": 23.274194,
+        "lng": 116.319376,
+        "rating": 4.4,
+        "reviewsCount": 284,
+        "address": "陈店镇沟湖湖光路175号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇沟湖湖光路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JDBZ89SL",
+        "name": "茶百道(汕头潮南司马浦店)",
+        "type": "milktea",
+        "lat": 23.255667,
+        "lng": 116.370577,
+        "rating": 3.9,
+        "reviewsCount": 400,
+        "address": "司马浦镇司英路8号",
+        "signature": "招牌杨枝甘露 (鲜果茶系列)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-司马浦镇司英路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L2YAUKRD",
+        "name": "古茗(潮南两英金三角店)",
+        "type": "milktea",
+        "lat": 23.213674,
+        "lng": 116.364416,
+        "rating": 4.2,
+        "reviewsCount": 372,
+        "address": "两英镇司神路墙新路段155号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇司神路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LGHLT8A4",
+        "name": "蜜雪冰城(义英西路店)",
+        "type": "milktea",
+        "lat": 23.263291,
+        "lng": 116.411598,
+        "rating": 4.2,
+        "reviewsCount": 146,
+        "address": "义英西路208号初遇轻享公寓",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-义英西路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFKKJ6XO",
+        "name": "艾觅餐厅(胪溪店)",
+        "type": "milktea",
+        "lat": 23.212794,
+        "lng": 116.471402,
+        "rating": 4.2,
+        "reviewsCount": 391,
+        "address": "胪岗镇商德路",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥15-23",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-胪岗镇商德路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LD4NFH49",
+        "name": "禧园茶饮",
+        "type": "milktea",
+        "lat": 23.242825,
+        "lng": 116.435425,
+        "rating": 4.4,
+        "reviewsCount": 351,
+        "address": "峡山街道二片70号(六都中学后门巷子)",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥15-23",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0IG7AMWDQ",
+        "name": "蜜雪冰城(司英店)",
+        "type": "milktea",
+        "lat": 23.212993,
+        "lng": 116.363972,
+        "rating": 4.3,
+        "reviewsCount": 115,
+        "address": "两英镇司神路金三角老影剧院斜对面第二间",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇司神路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L1D1VYAL",
         "name": "古茗(胪岗镇港头店)",
         "type": "milktea",
         "lat": 23.197644,
@@ -42617,18 +42314,189 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         "rating": 4.4,
         "reviewsCount": 158,
         "address": "胪岗镇新中洋一横路1-2号",
-        "signature": "宇治手打冰点 (Uji Matcha Ice)",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-胪岗镇新中洋一横路"
         ]
       },
       {
-        "id": "real-st-matcha-B0LB2RRPNB",
+        "id": "real-st-boba-B0K24AEWYE",
+        "name": "汇赢棋牌茶室(峡山洋汾林店)",
+        "type": "milktea",
+        "lat": 23.251632,
+        "lng": 116.406977,
+        "rating": 4.5,
+        "reviewsCount": 320,
+        "address": "广汕公路洋汾林综合大楼6楼",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥30-46",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-广汕公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G2O5GR4I",
+        "name": "蜜雪冰城(成田车站店)",
+        "type": "milktea",
+        "lat": 23.192214,
+        "lng": 116.487846,
+        "rating": 4.3,
+        "reviewsCount": 435,
+        "address": "成田镇蓝丰中寮中成路2号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥8-12",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-成田镇蓝丰中寮中成路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L0NHS3TK",
+        "name": "糖叙糖水铺(汕头潮南陈店店)",
+        "type": "milktea",
+        "lat": 23.273535,
+        "lng": 116.322503,
+        "rating": 4.3,
+        "reviewsCount": 415,
+        "address": "陈店镇新兴路272号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥18-28",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JBBA0ERA",
+        "name": "汕头阿龙Fruits甘草水果(新兴路店)",
+        "type": "milktea",
+        "lat": 23.273329,
+        "lng": 116.322496,
+        "rating": 4.2,
+        "reviewsCount": 169,
+        "address": "陈店镇新兴路261号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L2NLIHA5",
+        "name": "蔡开心果汁(峡山店)",
+        "type": "milktea",
+        "lat": 23.254525,
+        "lng": 116.415924,
+        "rating": 4.4,
+        "reviewsCount": 145,
+        "address": "峡山街道拱桥村广祥路212-214号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0IU2ANLGL",
+        "name": "蜜雪冰城(陈贵路店)",
+        "type": "milktea",
+        "lat": 23.2809,
+        "lng": 116.325435,
+        "rating": 4.2,
+        "reviewsCount": 224,
+        "address": "陈店镇溪口陈贵公路溪北路段40号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇溪口陈贵公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LRHS8B3S",
+        "name": "茶汕(峡山广祥路店)",
+        "type": "milktea",
+        "lat": 23.255186,
+        "lng": 116.416862,
+        "rating": 4.3,
+        "reviewsCount": 237,
+        "address": "广祥路270号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-广祥路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G3A7HEQK",
+        "name": "蜜雪冰城(两英店)",
+        "type": "milktea",
+        "lat": 23.215825,
+        "lng": 116.365925,
+        "rating": 4.2,
+        "reviewsCount": 315,
+        "address": "两英镇新兴路墙新段南侧7、9号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L377MIDJ",
+        "name": "Linlee柠檬茶两英店",
+        "type": "milktea",
+        "lat": 23.214034,
+        "lng": 116.372276,
+        "rating": 3.9,
+        "reviewsCount": 387,
+        "address": "两英镇新佳新广场A11",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥14-20",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇新佳新"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LB2RRPNB",
         "name": "古茗(司马浦大森洋店)",
         "type": "milktea",
         "lat": 23.255518,
@@ -42636,14 +42504,603 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         "rating": 4.3,
         "reviewsCount": 58,
         "address": "司马浦镇司英路10号",
-        "signature": "白玉小子抹茶波波茶 (Boba Matcha Milk)",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
         "priceRange": "¥12-18",
         "hours": "09:30 - 22:00",
         "tags": [
-          "抹茶",
-          "Matcha",
-          "真实探店",
+          "奶茶",
+          "饮品店",
+          "下午茶",
           "潮南区-司马浦镇司英路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G147D9FM",
+        "name": "蜜雪冰城(恩波路店)",
+        "type": "milktea",
+        "lat": 23.248979,
+        "lng": 116.434373,
+        "rating": 4.4,
+        "reviewsCount": 471,
+        "address": "峡山街道恩波路中段老祠堂第一间",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥2-4",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KAT9QE1K",
+        "name": "蜜雪冰城(陈仙公路店)",
+        "type": "milktea",
+        "lat": 23.263529,
+        "lng": 116.317678,
+        "rating": 4.1,
+        "reviewsCount": 211,
+        "address": "陈仙公路76号中天美景大厦F1层",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈仙公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G2K6PNR1",
+        "name": "蜜雪冰城(环市东路店)",
+        "type": "milktea",
+        "lat": 23.214382,
+        "lng": 116.372438,
+        "rating": 4.1,
+        "reviewsCount": 375,
+        "address": "两英镇环市东路中段坐北向南(西侧一层105号)",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-8",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇环市东路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0HU1AAUQW",
+        "name": "LINLEE·手打柠檬茶(潮南新兴路店)",
+        "type": "milktea",
+        "lat": 23.27317,
+        "lng": 116.32265,
+        "rating": 4.3,
+        "reviewsCount": 63,
+        "address": "陈店镇新兴路255号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KD79X919",
+        "name": "聚香园茶点",
+        "type": "milktea",
+        "lat": 23.212509,
+        "lng": 116.372595,
+        "rating": 4.4,
+        "reviewsCount": 324,
+        "address": "两英镇环市东路墙新中段东侧10号聚香园茶点",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥23-35",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英镇环市东路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LROKVABT",
+        "name": "古茗(新兴路二店)",
+        "type": "milktea",
+        "lat": 23.274791,
+        "lng": 116.32004,
+        "rating": 4.3,
+        "reviewsCount": 223,
+        "address": "陈贵路39号",
+        "signature": "超大杯水果茶 (鲜果茶系列)",
+        "priceRange": "¥12-18",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈贵路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0M6L77CT8",
+        "name": "1点点(潮南合胜广场店)",
+        "type": "milktea",
+        "lat": 23.240366,
+        "lng": 116.4427,
+        "rating": 4,
+        "reviewsCount": 468,
+        "address": "峡山街道广汕公路峡山路段123号香域广场7幢合胜广场一层A-01卡",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥14-20",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G1KA1913",
+        "name": "果呆呆(水果路店)",
+        "type": "milktea",
+        "lat": 23.250146,
+        "lng": 116.432768,
+        "rating": 4.1,
+        "reviewsCount": 126,
+        "address": "峡山街道办事处东南门旁",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥12-25",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KKVY9N6F",
+        "name": "蜜雪冰城(新和惠公路店)",
+        "type": "milktea",
+        "lat": 23.213215,
+        "lng": 116.473081,
+        "rating": 4.2,
+        "reviewsCount": 430,
+        "address": "新和惠公路与胪滨南路交叉口东南340米",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-新和惠公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0G24AELG4",
+        "name": "东溪老牌面汤店",
+        "type": "milktea",
+        "lat": 23.262451,
+        "lng": 116.430463,
+        "rating": 4.4,
+        "reviewsCount": 466,
+        "address": "峡华路568-570号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡华路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L63BFQSR",
+        "name": "蜜雪冰城(仙城邮政店)",
+        "type": "milktea",
+        "lat": 23.235121,
+        "lng": 116.315202,
+        "rating": 4.3,
+        "reviewsCount": 299,
+        "address": "仙城镇陈仙公路仙门城路段327号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-仙城镇陈仙公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KU7Z752T",
+        "name": "蜜雪冰城(中华街店)",
+        "type": "milktea",
+        "lat": 23.27519,
+        "lng": 116.317624,
+        "rating": 4.1,
+        "reviewsCount": 135,
+        "address": "中华街与陈贵路交叉口西北240米",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-中华街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JGMS4RZ5",
+        "name": "王爱豆绿豆沙牛乳(恩波路店)",
+        "type": "milktea",
+        "lat": 23.250135,
+        "lng": 116.433624,
+        "rating": 4.3,
+        "reviewsCount": 64,
+        "address": "恩波路192号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-恩波路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0J3ZZUVUR",
+        "name": "波比冰淇淋(汕头潮南合胜店)",
+        "type": "milktea",
+        "lat": 23.240074,
+        "lng": 116.443066,
+        "rating": 3.9,
+        "reviewsCount": 97,
+        "address": "广汕公路123号(香域广场内)合胜广场",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-广汕公路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0MB9UUDDI",
+        "name": "蜜雪冰城(深溪店)",
+        "type": "milktea",
+        "lat": 23.216922,
+        "lng": 116.307711,
+        "rating": 3.9,
+        "reviewsCount": 415,
+        "address": "仙城镇深溪深峰街17号01房",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-仙城镇深溪深峰街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KUXU1KIS",
+        "name": "潮汕良心果汁(陈店店)",
+        "type": "milktea",
+        "lat": 23.27408,
+        "lng": 116.321156,
+        "rating": 4.2,
+        "reviewsCount": 227,
+        "address": "新兴路313号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0GRXXBE5X",
+        "name": "蜜雪冰城(新兴路店)",
+        "type": "milktea",
+        "lat": 23.274764,
+        "lng": 116.320374,
+        "rating": 4.2,
+        "reviewsCount": 353,
+        "address": "新兴路与陈贵路交叉口东20米",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-8",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0GRKZ4AO0",
+        "name": "蜜雪冰城(司马浦店)",
+        "type": "milktea",
+        "lat": 23.25593,
+        "lng": 116.370623,
+        "rating": 4.1,
+        "reviewsCount": 290,
+        "address": "大森洋购物广场东门旁",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥9-13",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-大森洋购物广"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFGBYEGO",
+        "name": "柒茶(六都中学店)",
+        "type": "milktea",
+        "lat": 23.242548,
+        "lng": 116.436025,
+        "rating": 4,
+        "reviewsCount": 329,
+        "address": "铭德楼南门旁",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥10-16",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-铭德楼南门旁"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JG1AG34C",
+        "name": "柒茶台式茶饮",
+        "type": "milktea",
+        "lat": 23.254224,
+        "lng": 116.415889,
+        "rating": 4.2,
+        "reviewsCount": 338,
+        "address": "广祥路227号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-广祥路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0KUYAWW8Y",
+        "name": "蜜雪冰城(井田公路店)",
+        "type": "milktea",
+        "lat": 23.192312,
+        "lng": 116.556131,
+        "rating": 4,
+        "reviewsCount": 179,
+        "address": "井都派出所西南侧80米",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-井都派出所西"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L6D468DT",
+        "name": "蜜雪冰城(陈店中通雅苑店)",
+        "type": "milktea",
+        "lat": 23.27408,
+        "lng": 116.321802,
+        "rating": 4,
+        "reviewsCount": 410,
+        "address": "陈店镇陈店新兴路中通雅苑B3号",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥7-11",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-陈店镇陈店新兴路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0IBDZ9RSM",
+        "name": "夏日优品(广祥路店)",
+        "type": "milktea",
+        "lat": 23.253494,
+        "lng": 116.41481,
+        "rating": 4,
+        "reviewsCount": 202,
+        "address": "峡山街道广祥路161号",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥14-22",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFHRDNU4",
+        "name": "石炮台果汁冰(金祥路店)",
+        "type": "milktea",
+        "lat": 23.257743,
+        "lng": 116.428178,
+        "rating": 4.5,
+        "reviewsCount": 369,
+        "address": "峡山街道嘉怡商贸城3栋13号",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥24-36",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFK65TTT",
+        "name": "益禾堂(汕头潮南两英家惠店)",
+        "type": "milktea",
+        "lat": 23.215804,
+        "lng": 116.365001,
+        "rating": 3.9,
+        "reviewsCount": 228,
+        "address": "两英司神路居民路段37号1-5楼",
+        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "priceRange": "¥6-10",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-两英司神路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0JRAXZFFH",
+        "name": "蜜雪冰城",
+        "type": "milktea",
+        "lat": 23.200047,
+        "lng": 116.451921,
+        "rating": 3.9,
+        "reviewsCount": 425,
+        "address": "顺安楼东北侧90米",
+        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
+        "priceRange": "¥6-8",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-顺安楼东北侧"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0LA97WUGQ",
+        "name": "大C柠檬茶室(田中央后楼店)",
+        "type": "milktea",
+        "lat": 23.178248,
+        "lng": 116.485715,
+        "rating": 3.9,
+        "reviewsCount": 149,
+        "address": "成田高级中学西南门东南50米",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-成田高级中学"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0L3J5DMCV",
+        "name": "鼎柠手作柠檬茶•义西路店",
+        "type": "milktea",
+        "lat": 23.260373,
+        "lng": 116.413865,
+        "rating": 3.7,
+        "reviewsCount": 120,
+        "address": "峡山街道义西路29号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥11-17",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFK6ON0E",
+        "name": "益禾堂(汕尾商业街店)",
+        "type": "milktea",
+        "lat": 23.254303,
+        "lng": 116.418239,
+        "rating": 3.9,
+        "reviewsCount": 241,
+        "address": "环美路276号益禾堂",
+        "signature": "杨枝甘露轻盈版 (Mango Sago)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-环美路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0FFHDNRPR",
+        "name": "柒茶",
+        "type": "milktea",
+        "lat": 23.25818,
+        "lng": 116.440413,
+        "rating": 4.3,
+        "reviewsCount": 348,
+        "address": "长虹路399号附近",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥10-14",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-长虹路"
+        ]
+      },
+      {
+        "id": "real-st-boba-B0MGO9W3OP",
+        "name": "时尚泡吧(胪岗店)",
+        "type": "milktea",
+        "lat": 23.217262,
+        "lng": 116.439404,
+        "rating": 4,
+        "reviewsCount": 341,
+        "address": "汕头市潮南区胪岗镇溪尾周中纬路西二巷1号",
+        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        "priceRange": "¥16-24",
+        "hours": "09:30 - 22:00",
+        "tags": [
+          "奶茶",
+          "饮品店",
+          "下午茶",
+          "潮南区-胪岗镇溪尾周中纬路"
         ]
       },
       {
@@ -43578,6 +44035,481 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
+        "id": "real-st-bar-B0LA9OS8N9",
+        "name": "初醉·云酒馆",
+        "type": "bar",
+        "lat": 23.244641,
+        "lng": 116.454437,
+        "rating": 3.6,
+        "reviewsCount": 469,
+        "address": "拉芳路8号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-拉芳路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LKJG1DJA",
+        "name": "Live酒馆",
+        "type": "bar",
+        "lat": 23.256766,
+        "lng": 116.417813,
+        "rating": 2.7,
+        "reviewsCount": 234,
+        "address": "祥发路与广祥路交叉口西北100米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥55-83",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-祥发路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L0BLVFKK",
+        "name": "118酒馆(天合云庭店)",
+        "type": "bar",
+        "lat": 23.25034,
+        "lng": 116.407441,
+        "rating": 3.8,
+        "reviewsCount": 66,
+        "address": "合群·天合云庭",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥108-162",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-合群·天合云"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0J0DMN6NY",
+        "name": "索罗斯精酿啤酒馆(峡溪路店)",
+        "type": "bar",
+        "lat": 23.237031,
+        "lng": 116.444811,
+        "rating": 4.3,
+        "reviewsCount": 328,
+        "address": "胪岗镇泗黄村安达路2号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-胪岗镇泗黄村安达路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L1G5AZZE",
+        "name": "道道牛精酿啤酒烧烤",
+        "type": "bar",
+        "lat": 23.2517,
+        "lng": 116.410936,
+        "rating": 4.1,
+        "reviewsCount": 475,
+        "address": "峡山街道洋林商贸城东一路1号首层",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥46-68",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-峡山街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0JKVHNLAE",
+        "name": "Queen城市会客厅(中南大厦店)",
+        "type": "bar",
+        "lat": 23.277199,
+        "lng": 116.312946,
+        "rating": 4.5,
+        "reviewsCount": 359,
+        "address": "中华街102号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥110-164",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-中华街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0JKHU1NL2",
+        "name": "港头老酒馆",
+        "type": "bar",
+        "lat": 23.187371,
+        "lng": 116.447783,
+        "rating": 4.4,
+        "reviewsCount": 455,
+        "address": "297乡道与港头新中横沟路交叉口北80米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥163-245",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-乡道与港头新中横沟路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0MBBCWTR1",
+        "name": "烧烤小酒馆",
+        "type": "bar",
+        "lat": 23.252075,
+        "lng": 116.409675,
+        "rating": 2.1,
+        "reviewsCount": 170,
+        "address": "荣丰大厦西南门旁",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-荣丰大厦西南"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFMCLO88",
+        "name": "新疆阿卜来提小酒馆烧烤(两英总店)",
+        "type": "bar",
+        "lat": 23.214748,
+        "lng": 116.373739,
+        "rating": 4.4,
+        "reviewsCount": 195,
+        "address": "两英镇东英路",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥26-38",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-两英镇东英路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L6XL605M",
+        "name": "半醉小酒馆",
+        "type": "bar",
+        "lat": 23.135799,
+        "lng": 116.525146,
+        "rating": 4.2,
+        "reviewsCount": 40,
+        "address": "陇田镇城兴楼",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-陇田镇城兴楼"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L6C5JRFH",
+        "name": "井都时光小酒馆",
+        "type": "bar",
+        "lat": 23.198605,
+        "lng": 116.566173,
+        "rating": 3.7,
+        "reviewsCount": 366,
+        "address": "井都镇新明村",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥47-71",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-井都镇新明村"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LA95S5FX",
+        "name": "精酿鲜啤",
+        "type": "bar",
+        "lat": 23.262506,
+        "lng": 116.411898,
+        "rating": 3.6,
+        "reviewsCount": 435,
+        "address": "义英西路164号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-义英西路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0I6MCXY53",
+        "name": "城前小酒馆",
+        "type": "bar",
+        "lat": 23.177123,
+        "lng": 116.467143,
+        "rating": 4.5,
+        "reviewsCount": 424,
+        "address": "成田镇家美家一新路路北四十九巷8号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥170-254",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-成田镇家美家一新路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0MB4UZ87Q",
+        "name": "如愿Cafe&Bar(皇都店)",
+        "type": "bar",
+        "lat": 23.216353,
+        "lng": 116.373705,
+        "rating": 4.5,
+        "reviewsCount": 236,
+        "address": "两英镇环市东路皇都大酒店北楼4号2层",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥16-24",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-两英镇环市东路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFJPQFAY",
+        "name": "浅酌时光音乐餐吧酒馆(金园公寓店)",
+        "type": "bar",
+        "lat": 23.268275,
+        "lng": 116.324125,
+        "rating": 4.2,
+        "reviewsCount": 319,
+        "address": "陈店镇广新路161号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-陈店镇广新路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0MUM9Y07M",
+        "name": "东鸿清吧停车场",
+        "type": "bar",
+        "lat": 23.179275,
+        "lng": 116.507775,
+        "rating": null,
+        "reviewsCount": 95,
+        "address": "新和惠公路与里十四路交叉口东南120米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-新和惠公路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0JBGHO8DD",
+        "name": "茶叁酒肆茶酒馆",
+        "type": "bar",
+        "lat": 23.223016,
+        "lng": 116.461668,
+        "rating": 4.4,
+        "reviewsCount": 312,
+        "address": "广东省胪岗周厝西新路西二巷4号",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥137-205",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-广东省胪岗周厝西新路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFGT1E3M",
+        "name": "本地麻辣烫(司马浦店)",
+        "type": "bar",
+        "lat": 23.256437,
+        "lng": 116.372802,
+        "rating": 4,
+        "reviewsCount": 305,
+        "address": "司马浦镇324国道旁(哈尔顿酒吧)斜对面",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥10-16",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-司马浦镇32"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0K066ZES4",
+        "name": "峡山酒吧(原18K酒吧)",
+        "type": "bar",
+        "lat": 23.250525,
+        "lng": 116.416075,
+        "rating": 4.3,
+        "reviewsCount": 225,
+        "address": "广汕公路峡山路与工业南区三街交叉口西南80米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-广汕公路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFLC5E8Q",
+        "name": "森永·盛悦豪庭",
+        "type": "bar",
+        "lat": 23.217717,
+        "lng": 116.377301,
+        "rating": null,
+        "reviewsCount": 160,
+        "address": "两英镇阳光酒吧对面",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-两英镇阳光酒"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LDSZVON7",
+        "name": "德伦堡精酿啤酒厂",
+        "type": "bar",
+        "lat": 23.271588,
+        "lng": 116.316272,
+        "rating": null,
+        "reviewsCount": 179,
+        "address": "中华街4号",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-中华街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0J2B7SZEP",
+        "name": "好心富养生酒坊新曾店",
+        "type": "bar",
+        "lat": 23.220888,
+        "lng": 116.347861,
+        "rating": 4.1,
+        "reviewsCount": 435,
+        "address": "新曾好心富养生酒馆",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-新曾好心富养"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0FFK95HY3",
+        "name": "666烤鱼馆",
+        "type": "bar",
+        "lat": 23.264949,
+        "lng": 116.323494,
+        "rating": 4.1,
+        "reviewsCount": 259,
+        "address": "六禾路K王酒吧东",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥39-59",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-六禾路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0MB1DVWPL",
+        "name": "鲜啤30公里酒馆(潮南店)",
+        "type": "bar",
+        "lat": 23.254925,
+        "lng": 116.415975,
+        "rating": 3.6,
+        "reviewsCount": 269,
+        "address": "广祥路与环美路交叉口西140米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-广祥路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L3G1I8EV",
+        "name": "峡山咖幕饮品店(118酒馆)",
+        "type": "bar",
+        "lat": 23.250775,
+        "lng": 116.407675,
+        "rating": 1,
+        "reviewsCount": 105,
+        "address": "324国道与广华路西段交叉口南160米",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "潮南区-国道与广华路"
+        ]
+      },
+      {
         "id": "real-st-matcha-B0L29DQW1V",
         "name": "库迪咖啡(濠江钱塘滨海内街店)",
         "type": "milktea",
@@ -43635,934 +44567,193 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         ]
       },
       {
-        "id": "real-st-boba-B0H2ZS8ZUP",
-        "name": "汕头市濠江区邻山饮品店",
-        "type": "milktea",
-        "lat": 23.333771,
-        "lng": 116.68081,
-        "rating": 4.5,
-        "reviewsCount": 228,
-        "address": "礐石街道海关顶34号之一首层铺面",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0KAT6OO0G",
+        "name": "酒隐休闲吧",
+        "type": "bar",
+        "lat": 23.280448,
+        "lng": 116.72334,
+        "rating": 3.6,
+        "reviewsCount": 217,
+        "address": "濠江区核心商圈附近",
+        "signature": "经典莫吉托 (Classic Mojito)",
+        "priceRange": "¥64-96",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-礐石街"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-核心商圈"
         ]
       },
       {
-        "id": "real-st-boba-B0GRLAJOHS",
-        "name": "益禾堂(汕头濠江西园店)",
-        "type": "milktea",
-        "lat": 23.280341,
-        "lng": 116.722219,
-        "rating": 4.3,
-        "reviewsCount": 246,
-        "address": "西园一幢综合楼底层3号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥6-10",
-        "hours": "09:30 - 22:00",
+        "id": "real-st-bar-B0MGMLATG4",
+        "name": "Kuibar",
+        "type": "bar",
+        "lat": 23.315325,
+        "lng": 116.650275,
+        "rating": 3.2,
+        "reviewsCount": 125,
+        "address": "磊口大桥桥下",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-西园一幢综合"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-磊口大桥桥下"
         ]
       },
       {
-        "id": "real-st-boba-B0LAXL4M7Y",
-        "name": "御品南滨茶楼.手工茶点.顺德干蒸.绵绵冰(南滨潮博馆店)",
-        "type": "milktea",
-        "lat": 23.319662,
-        "lng": 116.715094,
-        "rating": 4.6,
-        "reviewsCount": 302,
-        "address": "潮文路潮博里三楼(蔡记达濠饭店同一电梯)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥50-76",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-潮文路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFKZER63",
-        "name": "古茗(濠江区海马池店)",
-        "type": "milktea",
-        "lat": 23.27364,
-        "lng": 116.728852,
-        "rating": 4.4,
-        "reviewsCount": 277,
-        "address": "海旁路海马池第七间商铺",
-        "signature": "超大杯水果茶 (鲜果茶系列)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-海旁路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KA7AWAHG",
-        "name": "喜茶(汕头达濠西园店)",
-        "type": "milktea",
-        "lat": 23.280876,
-        "lng": 116.722727,
-        "rating": 4.5,
-        "reviewsCount": 227,
-        "address": "达濠街道海旁路96号A座103号",
-        "signature": "多肉葡萄 (经典芝士多肉葡萄果茶)",
-        "priceRange": "¥17-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-达濠街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IDVAU9HA",
-        "name": "house.好事",
-        "type": "milktea",
-        "lat": 23.280491,
-        "lng": 116.660522,
-        "rating": 4.5,
-        "reviewsCount": 383,
-        "address": "河浦街道河东塭仔肚向南临街楼39号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-28",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-河浦街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I0URAJXR",
-        "name": "蜜雪冰城(西园店)",
-        "type": "milktea",
-        "lat": 23.279907,
-        "lng": 116.722886,
-        "rating": 4.3,
-        "reviewsCount": 285,
-        "address": "达濠街道海旁路新乐园17幢103号之一铺面",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥4-6",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-达濠街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFFTCM4W",
-        "name": "四顺凉茶(红桥路店)",
-        "type": "milktea",
-        "lat": 23.274865,
-        "lng": 116.728361,
-        "rating": 3.8,
-        "reviewsCount": 391,
-        "address": "海旁路国诚园6栋101号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-海旁路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H3SCNKYD",
-        "name": "听潮茶舍(南滨路店)",
-        "type": "milktea",
-        "lat": 23.322442,
-        "lng": 116.712589,
-        "rating": 4.3,
-        "reviewsCount": 87,
-        "address": "南滨路寰宇天下花园四区2幢301号商铺",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥61-91",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-南滨路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JDXMG9W5",
-        "name": "云屿雾(南滨寰宇店)",
-        "type": "milktea",
-        "lat": 23.320954,
-        "lng": 116.711128,
-        "rating": 4.3,
-        "reviewsCount": 375,
-        "address": "博览路中海寰宇天下花园四期12-112",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-博览路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0L1DKS8Q2",
-        "name": "南滨冰室",
-        "type": "milktea",
-        "lat": 23.321323,
-        "lng": 116.710209,
+        "id": "real-st-bar-B0G3X7DUTV",
+        "name": "195-Bar(钱塘店)",
+        "type": "bar",
+        "lat": 23.253771,
+        "lng": 116.693483,
         "rating": 4.1,
-        "reviewsCount": 86,
-        "address": "博览路4号寰宇天下二区7栋102号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-博览路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0KUR71LY4",
-        "name": "蜜雪冰城钱塘店",
-        "type": "milktea",
-        "lat": 23.25055,
-        "lng": 116.687526,
-        "rating": 4.2,
-        "reviewsCount": 95,
-        "address": "滨海街道钱塘滨海内街62号",
-        "signature": "冰鲜柠檬水 (清凉夏日平价王)",
-        "priceRange": "¥7-11",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-滨海街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFIFBOU4",
-        "name": "阿坚茶座",
-        "type": "milktea",
-        "lat": 23.330844,
-        "lng": 116.693979,
-        "rating": 4.3,
-        "reviewsCount": 301,
-        "address": "礐石焰峰路东入口(票房)北侧3号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥47-71",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-礐石焰峰路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFHNCH21",
-        "name": "阿文茶座",
-        "type": "milktea",
-        "lat": 23.330513,
-        "lng": 116.694733,
-        "rating": 4.2,
-        "reviewsCount": 56,
-        "address": "南滨路(礐石风景名胜区)",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥59-89",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-南滨路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFHH8FYW",
-        "name": "苏雅茶座",
-        "type": "milktea",
-        "lat": 23.330458,
-        "lng": 116.694234,
-        "rating": 4,
-        "reviewsCount": 162,
-        "address": "礐石风景名胜区(东北角)",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥56-84",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-礐石风景名胜"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JRY7CL6C",
-        "name": "南山湾阿彬茶座",
-        "type": "milktea",
-        "lat": 23.241585,
-        "lng": 116.724185,
-        "rating": 4.4,
-        "reviewsCount": 316,
-        "address": "疏港大道11号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-疏港大道"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFH62MU1",
-        "name": "宏真茶座土窑鸡",
-        "type": "milktea",
-        "lat": 23.330772,
-        "lng": 116.69405,
-        "rating": 4,
-        "reviewsCount": 175,
-        "address": "礐石绿道焰峰路东入口北侧4号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥57-85",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-礐石绿道焰峰路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFHONUAS",
-        "name": "裕园茶座",
-        "type": "milktea",
-        "lat": 23.330966,
-        "lng": 116.693918,
-        "rating": 4.2,
-        "reviewsCount": 42,
-        "address": "南滨路(礐石风景名胜区)",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥54-82",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-南滨路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFL03CF8",
-        "name": "茶之都(河浦店)",
-        "type": "milktea",
-        "lat": 23.273966,
-        "lng": 116.658895,
-        "rating": 3.9,
-        "reviewsCount": 128,
-        "address": "河浦街道濠东路商住街35号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        "reviewsCount": 40,
+        "address": "滨海街道华众西11横巷1号01",
+        "signature": "金汤力特调 (Gin and Tonic)",
         "priceRange": "¥9-13",
-        "hours": "09:30 - 22:00",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-河浦街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFKUUXPN",
-        "name": "果太鲜甘草水果(红桥店)",
-        "type": "milktea",
-        "lat": 23.279649,
-        "lng": 116.732203,
-        "rating": 4,
-        "reviewsCount": 383,
-        "address": "红桥路七行89号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-红桥路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I3FLVVLP",
-        "name": "啊濠茶座",
-        "type": "milktea",
-        "lat": 23.243727,
-        "lng": 116.730996,
-        "rating": 4.5,
-        "reviewsCount": 54,
-        "address": "心晴海鲜茶座东侧70米",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-心晴海鲜茶座"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JDRSPRWF",
-        "name": "和逸茶居",
-        "type": "milktea",
-        "lat": 23.279556,
-        "lng": 116.715187,
-        "rating": 3.9,
-        "reviewsCount": 348,
-        "address": "达濠街道西墩村东二巷9号金德丰楼103商铺",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-达濠街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JUMBTJ6Z",
-        "name": "书亦烧仙草(滨海内街店)",
-        "type": "milktea",
-        "lat": 23.253237,
-        "lng": 116.690432,
-        "rating": 4.1,
-        "reviewsCount": 166,
-        "address": "华里社区居委会南侧280米",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-20",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-华里"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFHHVYAQ",
-        "name": "奶茶日记",
-        "type": "milktea",
-        "lat": 23.272739,
-        "lng": 116.654484,
-        "rating": 4.1,
-        "reviewsCount": 315,
-        "address": "南阳路与南园路交叉口东240米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-南阳路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0I2MSD61E",
-        "name": "HOPIN·好品(ICE&CAFE)",
-        "type": "milktea",
-        "lat": 23.277824,
-        "lng": 116.7266,
-        "rating": 4.1,
-        "reviewsCount": 69,
-        "address": "濠滨永兴园7栋117号铺",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥21-31",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-濠滨永兴园7"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFLNAM7A",
-        "name": "鲜果吧(汕头濠江区)",
-        "type": "milktea",
-        "lat": 23.278767,
-        "lng": 116.724101,
-        "rating": 4.3,
-        "reviewsCount": 208,
-        "address": "海旁路机械厂45号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-海旁路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFJMTBU2",
-        "name": "茶元气·新式茶馆(濠江店)",
-        "type": "milktea",
-        "lat": 23.282664,
-        "lng": 116.719621,
-        "rating": 4.2,
-        "reviewsCount": 78,
-        "address": "西墩路1号濠江花园三期96号(凯德药店隔壁)",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-西墩路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JRVLO5IB",
-        "name": "落脚点(河浦店)",
-        "type": "milktea",
-        "lat": 23.277084,
-        "lng": 116.65105,
-        "rating": 4.2,
-        "reviewsCount": 275,
-        "address": "河浦街道河北居委西坑洋1横117号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥18-26",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-河浦街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JR1HRMJ9",
-        "name": "森夏冰室",
-        "type": "milktea",
-        "lat": 23.282794,
-        "lng": 116.65562,
-        "rating": 4.1,
-        "reviewsCount": 359,
-        "address": "华中街3号之一",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥13-19",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-华中街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFGJWQIL",
-        "name": "老五茶座",
-        "type": "milktea",
-        "lat": 23.328809,
-        "lng": 116.681301,
-        "rating": 4.2,
-        "reviewsCount": 450,
-        "address": "礐石海旁路4号礐石风景名胜区焰峰景区",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥45-67",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-礐石海旁路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0ID4CPYPC",
-        "name": "伍仟奶茶店(钱塘店)",
-        "type": "milktea",
-        "lat": 23.251767,
-        "lng": 116.685542,
-        "rating": 4,
-        "reviewsCount": 352,
-        "address": "滨海街道钱塘校前街东17横巷1号",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
           "濠江区-滨海街"
         ]
       },
       {
-        "id": "real-st-boba-B0FFH8CX36",
-        "name": "滋味屋麻辣烫(河浦店)",
-        "type": "milktea",
-        "lat": 23.275324,
-        "lng": 116.658617,
-        "rating": 3.9,
-        "reviewsCount": 192,
-        "address": "河浦街道河东居委文明东区一横十二号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥19-29",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-河浦街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0G07NYGPC",
-        "name": "潮乐汇茶座",
-        "type": "milktea",
-        "lat": 23.272799,
-        "lng": 116.663209,
-        "rating": 4.1,
-        "reviewsCount": 427,
-        "address": "创河路与河浦大道交叉口东140米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥46-68",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-创河路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IBMDQSVR",
-        "name": "农庄茶座",
-        "type": "milktea",
-        "lat": 23.322158,
-        "lng": 116.689354,
-        "rating": 4,
-        "reviewsCount": 220,
-        "address": "礐石街道红星居委下铺四巷七号之一",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-礐石街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFK93RCK",
-        "name": "红茶馆(西泽园店)",
-        "type": "milktea",
-        "lat": 23.282791,
-        "lng": 116.722912,
-        "rating": 3.9,
-        "reviewsCount": 433,
-        "address": "达西路西泽园",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥32-48",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-达西路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H6SC2CZS",
-        "name": "青火乐凉茶店",
-        "type": "milktea",
-        "lat": 23.276009,
-        "lng": 116.652543,
-        "rating": 4.2,
-        "reviewsCount": 234,
-        "address": "河浦河南颖川十横36号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-河浦河南颖川"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IKZCXBPN",
-        "name": "鳳頂春茶坊",
-        "type": "milktea",
-        "lat": 23.331107,
-        "lng": 116.673846,
-        "rating": 3.8,
-        "reviewsCount": 395,
-        "address": "福田东十一巷1号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-福田东十一巷"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFGURBPF",
-        "name": "开乐奶茶店",
-        "type": "milktea",
-        "lat": 23.336521,
-        "lng": 116.675735,
-        "rating": 3.7,
-        "reviewsCount": 488,
-        "address": "礐石洪厝街31号童真幼儿园斜对面",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥14-22",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-礐石洪厝街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0J15DVWSW",
-        "name": "煲金珠老红糖珍珠鲜奶茶(滨海内街店)",
-        "type": "milktea",
-        "lat": 23.24926,
-        "lng": 116.685797,
-        "rating": 4,
-        "reviewsCount": 403,
-        "address": "钱塘小学-钱塘学校南侧150米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥10-14",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-钱塘小学-钱"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFIAWOP2",
-        "name": "218水吧",
-        "type": "milktea",
-        "lat": 23.278174,
-        "lng": 116.65867,
-        "rating": 4.1,
-        "reviewsCount": 148,
-        "address": "河浦街道中锦街4号附近",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-河浦街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0H6PCQNFH",
-        "name": "青云别院",
-        "type": "milktea",
-        "lat": 23.279181,
-        "lng": 116.735757,
+        "id": "real-st-bar-B0LKTCWYQ4",
+        "name": "恒大小黑音乐酒吧",
+        "type": "bar",
+        "lat": 23.267775,
+        "lng": 116.720725,
         "rating": 4.3,
-        "reviewsCount": 92,
-        "address": "337省道东侧",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 135,
+        "address": "马滘街道达南路95号恒大金碧御景湾影城一幢201商铺",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-337省道东"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-马滘街"
         ]
       },
       {
-        "id": "real-st-boba-B0JGRLAXQP",
-        "name": "淳茶(红桥店)",
-        "type": "milktea",
-        "lat": 23.280926,
-        "lng": 116.734145,
+        "id": "real-st-bar-B0JDPAMK0X",
+        "name": "标志清吧",
+        "type": "bar",
+        "lat": 23.238073,
+        "lng": 116.675287,
+        "rating": 2.9,
+        "reviewsCount": 347,
+        "address": "上头社区居委会东北侧200米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-上头社区居委"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0L14O2PTQ",
+        "name": "好酒不见",
+        "type": "bar",
+        "lat": 23.262904,
+        "lng": 116.689217,
+        "rating": 3.4,
+        "reviewsCount": 371,
+        "address": "河中路与安海路交叉口北140米",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-河中路"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LGU1I013",
+        "name": "闲人滩",
+        "type": "bar",
+        "lat": 23.243014,
+        "lng": 116.727638,
+        "rating": 4,
+        "reviewsCount": 314,
+        "address": "老肚当日海鲜西侧140米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-老肚当日海鲜"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0LDV98E5J",
+        "name": "清心酒屋",
+        "type": "bar",
+        "lat": 23.280375,
+        "lng": 116.723325,
+        "rating": 3.9,
+        "reviewsCount": 457,
+        "address": "新兴街与海旁四横交叉口西北220米",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥222-332",
+        "hours": "18:00 - 02:30",
+        "tags": [
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-新兴街"
+        ]
+      },
+      {
+        "id": "real-st-bar-B0JAD77845",
+        "name": "红玖坊茶酒馆(中海·寰宇天下花园四区店)",
+        "type": "bar",
+        "lat": 23.322141,
+        "lng": 116.710751,
         "rating": 3.8,
-        "reviewsCount": 461,
-        "address": "青篮红桥顶红桥路124号",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥12-18",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 174,
+        "address": "中海·寰宇天下花园四区",
+        "signature": "金汤力特调 (Gin and Tonic)",
+        "priceRange": "¥60-150",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-青篮红桥顶红桥路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-中海·寰宇天"
         ]
       },
       {
-        "id": "real-st-boba-B0FFG93T7E",
-        "name": "安乐轩茶馆",
-        "type": "milktea",
-        "lat": 23.27818,
-        "lng": 116.738924,
-        "rating": 3.7,
-        "reviewsCount": 489,
-        "address": "磊广大道",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥12-25",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-磊广大道"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFL9W1AW",
-        "name": "一杯濠茶(葛陈店)",
-        "type": "milktea",
-        "lat": 23.288767,
-        "lng": 116.697798,
+        "id": "real-st-bar-B0LUF93OVU",
+        "name": "星海唱吧小酒馆",
+        "type": "bar",
+        "lat": 23.229358,
+        "lng": 116.694219,
         "rating": 4.1,
-        "reviewsCount": 319,
-        "address": "葛陈社区莘园北路12号之二",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
+        "reviewsCount": 367,
+        "address": "中信大道33号",
+        "signature": "特调长岛冰茶 (Long Island Iced Tea)",
+        "priceRange": "¥24-36",
+        "hours": "18:00 - 02:30",
         "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-莘园北路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0JGHSQRF1",
-        "name": "煲金珠老红糖珍珠鲜奶茶(海旁路店)",
-        "type": "milktea",
-        "lat": 23.273864,
-        "lng": 116.72806,
-        "rating": 3.8,
-        "reviewsCount": 148,
-        "address": "海旁路与海旁路十横交叉口西北40米",
-        "signature": "招牌波霸奶茶 (Classic Boba Milk Tea)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-海旁路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0MG79I69E",
-        "name": "潮汕冰馆",
-        "type": "milktea",
-        "lat": 23.320614,
-        "lng": 116.709745,
-        "rating": 3.9,
-        "reviewsCount": 99,
-        "address": "南滨路寰宇天下花园1区1-119",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥16-24",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-南滨路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0IU5UWXQ5",
-        "name": "大台北烧仙草",
-        "type": "milktea",
-        "lat": 23.268374,
-        "lng": 116.71381,
-        "rating": 3.7,
-        "reviewsCount": 105,
-        "address": "马窖街道大众路气象三直巷1号",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥10-16",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-马窖街"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0LR56ABN6",
-        "name": "茶悦",
-        "type": "milktea",
-        "lat": 23.319968,
-        "lng": 116.720387,
-        "rating": 3.8,
-        "reviewsCount": 412,
-        "address": "南滨路平吉上苑3栋104号商铺",
-        "signature": "杨枝甘露轻盈版 (Mango Sago)",
-        "priceRange": "¥25-37",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-南滨路"
-        ]
-      },
-      {
-        "id": "real-st-boba-B0FFIVIEGG",
-        "name": "大台北手作茶",
-        "type": "milktea",
-        "lat": 23.292126,
-        "lng": 116.693067,
-        "rating": 3.9,
-        "reviewsCount": 387,
-        "address": "文化广场路与联泰路交叉口西南20米",
-        "signature": "生椰爆汁西瓜 (Raw Coconut Watermelon)",
-        "priceRange": "¥11-17",
-        "hours": "09:30 - 22:00",
-        "tags": [
-          "奶茶",
-          "饮品店",
-          "下午茶",
-          "濠江区-文化广场路"
+          "精酿啤酒",
+          "鸡尾酒",
+          "社交小酌",
+          "濠江区-中信大道"
         ]
       }
     ]
