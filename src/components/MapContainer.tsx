@@ -239,9 +239,11 @@ export default function MapContainer({
     <div className="w-full flex flex-col items-center justify-center h-full relative">
       {/* Recenter / Teleport Indicator Banner (Placed at the bottom to avoid covering Zoom tools) */}
       <div className={`absolute bottom-4 left-4 right-4 z-[1000] px-3 py-2 rounded-xl text-[10px] font-bold shadow-md border flex items-center justify-between pointer-events-auto backdrop-blur-md ${
-        isBoba 
-          ? 'bg-white/95 border-rose-100 text-rose-900 shadow-rose-100/20' 
-          : 'bg-slate-950/95 border-indigo-950 text-indigo-300 shadow-[0_4px_20px_rgba(0,0,0,0.5)]'
+        isMatcha
+          ? 'bg-white/95 border-emerald-100 text-emerald-900 shadow-emerald-100/20'
+          : isBoba 
+            ? 'bg-white/95 border-rose-100 text-rose-900 shadow-rose-100/20' 
+            : 'bg-slate-950/95 border-indigo-950 text-indigo-300 shadow-[0_4px_20px_rgba(0,0,0,0.5)]'
       }`}>
         <div className="flex items-center gap-1.5">
           <Sparkles className="w-3.5 h-3.5 shrink-0 animate-pulse text-amber-500" />
@@ -250,9 +252,11 @@ export default function MapContainer({
         <button
           onClick={handleRecenter}
           className={`flex items-center gap-1 px-2.5 py-1 rounded-lg border cursor-pointer transition-all active:scale-95 ${
-            isBoba 
-              ? 'bg-rose-50 border-rose-200 hover:bg-rose-100 text-rose-700' 
-              : 'bg-indigo-950 border-indigo-800 hover:bg-indigo-900 text-indigo-100'
+            isMatcha
+              ? 'bg-emerald-50 border-emerald-200 hover:bg-emerald-100 text-emerald-700'
+              : isBoba 
+                ? 'bg-rose-50 border-rose-200 hover:bg-rose-100 text-rose-700' 
+                : 'bg-indigo-950 border-indigo-800 hover:bg-indigo-900 text-indigo-100'
           }`}
         >
           <Navigation className="w-2.5 h-2.5 rotate-45" />

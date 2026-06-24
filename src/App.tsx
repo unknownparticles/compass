@@ -35,7 +35,17 @@ import ShopList from './components/ShopList';
 
 export default function App() {
   // 1. Core State
-  const [mode, setMode] = useState<CompassMode>('milktea');
+  const [isMatchaUnlocked, setIsMatchaUnlocked] = useState<boolean>(() => {
+    return localStorage.getItem('compass_matcha_unlocked') === 'true';
+  });
+  const [mode, setMode] = useState<CompassMode>(() => {
+    const savedMode = localStorage.getItem('compass_active_mode') as CompassMode;
+    const isUnlocked = localStorage.getItem('compass_matcha_unlocked') === 'true';
+    if (savedMode === 'matcha' && !isUnlocked) {
+      return 'milktea';
+    }
+    return savedMode || 'milktea';
+  });
   const [userLocation, setUserLocation] = useState<Coordinate>({
     lat: 30.6574,  // Initial coordinate: Chengdu Chunxi Road (Spring Autumn Plaza)
     lng: 104.0762
@@ -47,7 +57,6 @@ export default function App() {
   const [sensorStatus, setSensorStatus] = useState<'loading' | 'active' | 'unavailable'>('loading');
   const [showSimulatorTip, setShowSimulatorTip] = useState<boolean>(true);
   const [showSimulator, setShowSimulator] = useState<boolean>(false); // default hidden
-  const [isMatchaUnlocked, setIsMatchaUnlocked] = useState<boolean>(false); // secret mode unlock state
   const [titleClickCount, setTitleClickCount] = useState<number>(0);
   const [exploreRadius, setExploreRadius] = useState<number>(3000); // 默认3000米 (1000 | 3000 | 5000 | 10000)
   const [maxShopsCount, setMaxShopsCount] = useState<number>(15);   // 默认最近15家 (15 | 30 | 50 | 100)
@@ -90,7 +99,9 @@ export default function App() {
     setTitleClickCount(nextCount);
     if (nextCount >= 5) {
       setIsMatchaUnlocked(true);
+      localStorage.setItem('compass_matcha_unlocked', 'true');
       setMode('matcha');
+      localStorage.setItem('compass_active_mode', 'matcha');
       alert('🎉 恭喜你发现了隐藏的彩蛋！已成功解锁隐藏的「🍃 抹茶特调指南针模式」！现在点击右上角切换按钮，即可随罗盘寻找附近的抹茶特调和甜品啦！');
     }
   };
@@ -352,17 +363,20 @@ export default function App() {
   const isBoba = mode === 'milktea';
 
   const handleModeSwitch = () => {
+    let nextMode: CompassMode = 'milktea';
     if (mode === 'milktea') {
-      setMode('bar');
+      nextMode = 'bar';
     } else if (mode === 'bar') {
       if (isMatchaUnlocked) {
-        setMode('matcha');
+        nextMode = 'matcha';
       } else {
-        setMode('milktea');
+        nextMode = 'milktea';
       }
     } else {
-      setMode('milktea');
+      nextMode = 'milktea';
     }
+    setMode(nextMode);
+    localStorage.setItem('compass_active_mode', nextMode);
   };
 
   return (
@@ -909,9 +923,11 @@ export default function App() {
 
         {/* 5. SHOP LIST */}
         <div className={`p-4 md:p-6 rounded-3xl border transition-colors ${
-          isBoba 
-            ? 'bg-white border-rose-100 shadow-xs' 
-            : 'bg-slate-950 border-indigo-950'
+          isMatcha
+            ? 'bg-white border-emerald-100 shadow-xs'
+            : isBoba 
+              ? 'bg-white border-rose-100 shadow-xs' 
+              : 'bg-slate-950 border-indigo-950'
         }`}>
           <ShopList
             mode={mode}

@@ -69,7 +69,8 @@ const OSM_MILKTEA_KEYWORDS = [
   '茶', '奶茶', '咖', '咖啡', '冰室', '甜品', '椰', '冰沙', 'KFC', '麦当劳', '德克士',
   '蜜雪', '喜茶', '霸王', '瑞幸', '星巴克', 'Manner', 'Tsujiri', '辻利', '奈雪',
   '一点点', 'Coco', '古茗', '茶百道', '书亦', '阿水', '丸摩堂', '库迪', 'Luckin',
-  'Starbucks', 'Tea', 'Boba', 'Coffee', 'Cafe', 'Dessert', 'Ice Cream', 'Juice', 'Fruit'
+  'Starbucks', 'Tea', 'Boba', 'Coffee', 'Cafe', 'Dessert', 'Ice Cream', 'Juice', 'Fruit',
+  '抹茶', 'matcha'
 ];
 
 const OSM_BAR_KEYWORDS = [
