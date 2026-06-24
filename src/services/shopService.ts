@@ -402,14 +402,39 @@ export async function fetchShops(
     });
 
     if (matchedRegion) {
-      // 计算距离并缓存
+      // 计算距离并缓存，同时对抹茶连锁店或被抽中的离线店进行抹茶风味渗透
       const sortedShops = matchedRegion.shops.map((shop) => {
         const dist = getDistance(lat, lng, shop.lat, shop.lng);
+        
+        // 抹茶判断与注入逻辑
+        const nameLower = shop.name.toLowerCase();
+        const isMatchaBrand = MATCHA_FAMOUS_BRANDS.some(brand => nameLower.includes(brand.toLowerCase()));
+        const isRealMatcha = shop.name.includes('抹茶') || nameLower.includes('matcha') || isMatchaBrand;
+        const hasMatchaInject = (Math.abs(hashString(shop.id + '_matcha_offline')) % 10) < 3.5;
+        const finalHasMatcha = isRealMatcha || hasMatchaInject;
+
+        let signature = shop.signature;
+        let tags = [...shop.tags];
+
+        if (finalHasMatcha || mode === 'matcha') {
+          if (shop.type === 'milktea' || mode === 'matcha') {
+            const matchaIdx = Math.floor(Math.abs(hashString(shop.id + '_matcha')) % MATCHA_TEA_SIGNATURES.length);
+            signature = MATCHA_TEA_SIGNATURES[matchaIdx];
+            tags.push('抹茶', 'Matcha', '抹茶专门店');
+          } else {
+            const matchaIdx = Math.floor(Math.abs(hashString(shop.id + '_matcha')) % MATCHA_BAR_SIGNATURES.length);
+            signature = MATCHA_BAR_SIGNATURES[matchaIdx];
+            tags.push('抹茶调酒', '抹茶');
+          }
+        }
+
         return {
           ...shop,
           distance: Math.round(dist),
           bearing: 0,
-          relativeAngle: 0
+          relativeAngle: 0,
+          signature,
+          tags: Array.from(new Set(tags))
         };
       }) as Shop[];
 
