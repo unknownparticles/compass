@@ -109,7 +109,7 @@ export default function App() {
       setIsLoading(true);
       setFetchError(null);
       try {
-        const data = await fetchShops(userLocation.lat, userLocation.lng, dataSource, amapKey);
+        const data = await fetchShops(userLocation.lat, userLocation.lng, dataSource, mode, amapKey);
         if (active) {
           setRawShops(data);
         }
@@ -130,7 +130,7 @@ export default function App() {
     return () => {
       active = false;
     };
-  }, [userLocation.lat, userLocation.lng, dataSource, amapKey]);
+  }, [userLocation.lat, userLocation.lng, dataSource, mode, amapKey]);
 
   // 3. Process shops to calculate dynamic distances, bearings, and relative angles based on heading
   const shops = useMemo(() => {

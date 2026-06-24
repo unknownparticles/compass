@@ -49,7 +49,9 @@ const MATCHA_TEA_SIGNATURES = [
   '宇治特浓抹茶拿铁 (Matcha Latte)',
   '静冈大理石抹茶椰乳 (Matcha Coconut)',
   '雪顶抹茶芝士冰沙 (Matcha Cheese Slush)',
-  '白玉小子抹茶波波茶 (Boba Matcha Milk)'
+  '白玉小子抹茶波波茶 (Boba Matcha Milk)',
+  '宇治手打冰点 (Uji Hand-Whisked Matcha)',
+  '特浓抹茶千层蛋糕 (Matcha Mille Crepe)'
 ];
 
 const MATCHA_BAR_SIGNATURES = [
@@ -70,7 +72,8 @@ function processAndDecorateShop(
   address: string,
   rating: number,
   priceNum: number | null,
-  hasMatchaInject: boolean
+  hasMatchaInject: boolean,
+  mode: CompassMode
 ): Shop {
   // 1. 判断是否真的包含抹茶（名字里含有抹茶或 Matcha）
   const isRealMatcha = name.includes('抹茶') || name.toLowerCase().includes('matcha');
@@ -112,12 +115,12 @@ function processAndDecorateShop(
     }
   }
 
-  // 3. 抹茶风味渗透逻辑：如果被选中为抹茶店，则替换特色菜与标签
-  if (finalHasMatcha) {
-    if (type === 'milktea') {
+  // 3. 抹茶风味渗透/强化逻辑：如果被选中为抹茶店，或当前是抹茶模式，则替换特色菜与标签
+  if (finalHasMatcha || mode === 'matcha') {
+    if (type === 'milktea' || mode === 'matcha') {
       const matchaIdx = Math.floor(Math.abs(hashString(id + '_matcha')) % MATCHA_TEA_SIGNATURES.length);
       signature = MATCHA_TEA_SIGNATURES[matchaIdx];
-      tags.push('抹茶', 'Matcha');
+      tags.push('抹茶', 'Matcha', '抹茶专门店');
     } else {
       const matchaIdx = Math.floor(Math.abs(hashString(id + '_matcha')) % MATCHA_BAR_SIGNATURES.length);
       signature = MATCHA_BAR_SIGNATURES[matchaIdx];
@@ -169,13 +172,18 @@ function hashString(str: string): number {
 /**
  * 从 OpenStreetMap (OSM) Overpass API 异步拉取商铺数据
  */
-async function fetchFromOSM(lat: number, lng: number, radius = 2000): Promise<Shop[]> {
-  // 构建 Overpass API 查询语句，查询 lat, lng 周围 radius 米之内的 cafe (咖啡店/茶饮), bar/pub (酒吧) 以及 fast_food (部分奶茶店)
+async function fetchFromOSM(lat: number, lng: number, mode: CompassMode, radius = 3000): Promise<Shop[]> {
+  const isMatchaMode = mode === 'matcha';
+  
+  // 抹茶模式下通过 Overpass 的正则语法只查询店名含有 抹茶/Matcha/matcha 的节点，防止召回非抹茶店
+  const nameSelector = isMatchaMode ? '[name~"抹茶|Matcha|matcha",i]' : '';
+
+  // 构建 Overpass API 查询语句
   const overpassQuery = `
     [out:json][timeout:15];
     (
-      node(around:${radius},${lat},${lng})[amenity~"cafe|bar|pub|fast_food|restaurant"];
-      way(around:${radius},${lat},${lng})[amenity~"cafe|bar|pub|fast_food|restaurant"];
+      node(around:${radius},${lat},${lng})[amenity~"cafe|bar|pub|fast_food|restaurant"]${nameSelector};
+      way(around:${radius},${lat},${lng})[amenity~"cafe|bar|pub|fast_food|restaurant"]${nameSelector};
     );
     out center;
   `;
@@ -196,17 +204,12 @@ async function fetchFromOSM(lat: number, lng: number, radius = 2000): Promise<Sh
     const tags = el.tags || {};
     const name = tags.name || tags.name_zh || tags.name_en || tags.brand;
     
-    // 如果没有店名，则是无意义的 POI，跳过
     if (!name) return;
 
-    // 解析坐标
     const shopLat = el.lat || (el.center && el.center.lat);
     const shopLng = el.lon || (el.center && el.center.lon);
     if (!shopLat || !shopLng) return;
 
-    // 确定分类：
-    // bar, pub 归类为酒吧；cafe 归类为奶茶/茶饮咖啡店；
-    // fast_food / restaurant 如果店名包含茶、咖、奶、冰、酒、bar 等进行分类，默认如果非酒吧，我们算作奶茶店以充实地图。
     const amenity = tags.amenity || '';
     let type: 'milktea' | 'bar' = 'milktea';
     
@@ -214,11 +217,10 @@ async function fetchFromOSM(lat: number, lng: number, radius = 2000): Promise<Sh
       type = 'bar';
     }
 
-    // 评分：随机产生一个相对靠谱的评分 4.1 到 4.9 之间
     const seed = `${el.id}`;
     const rating = 4.1 + (Math.abs(hashString(seed)) % 9) * 0.1;
 
-    // 抹茶风味渗透：30% 的概率被注入抹茶产品（对于抹茶模式）
+    // 抹茶风味渗透：30% 的概率被注入抹茶产品（仅对非抹茶模式下的普通店作标记）
     const hasMatchaInject = (Math.abs(hashString(seed + '_matcha_seed')) % 10) < 3;
 
     const address = tags['addr:street'] || tags['addr:full'] || `导航至：周围街区附近的 ${name}`;
@@ -231,8 +233,9 @@ async function fetchFromOSM(lat: number, lng: number, radius = 2000): Promise<Sh
       shopLng,
       address,
       rating,
-      null, // OSM 数据无均价信息，使用自动补全
-      hasMatchaInject
+      null,
+      hasMatchaInject,
+      mode
     );
     
     shops.push(shop);
@@ -244,16 +247,29 @@ async function fetchFromOSM(lat: number, lng: number, radius = 2000): Promise<Sh
 /**
  * 从高德地图 (Amap) 周边搜索 API 异步拉取商铺数据
  */
-async function fetchFromAmap(lat: number, lng: number, amapKey: string, radius = 2000): Promise<Shop[]> {
+async function fetchFromAmap(lat: number, lng: number, mode: CompassMode, amapKey: string, radius = 3000): Promise<Shop[]> {
   if (!amapKey || amapKey.trim() === '') {
     throw new Error('高德 API Key 不能为空，请在右上角设置中配置您的 Web服务 Key。');
   }
 
-  // 高德周边搜索接口。分类说明：
-  // 050202 为冷饮/奶茶/甜品店，050500 为咖啡厅，这两者合并作为 milktea；
-  // 050400 为茶馆/酒吧/酒馆（我们过滤带有“酒吧/酒馆”或 category 是 050402 的作为 bar）。
-  const types = '050202|050500|050402|050400';
-  const url = `https://restapi.amap.com/v3/place/around?key=${amapKey}&location=${lng},${lat}&types=${encodeURIComponent(types)}&radius=${radius}&offset=50&page=1&output=json`;
+  const isMatchaMode = mode === 'matcha';
+  let types = '';
+  let keywords = '';
+
+  if (isMatchaMode) {
+    // 抹茶模式：在周边搜索里加入 keywords='抹茶'，并扩大品类到甜品、茶馆、冷饮与咖啡餐厅，寻找真实商家
+    types = '050202|050500|050800|050400|050100';
+    keywords = '抹茶';
+  } else if (mode === 'milktea') {
+    types = '050202|050500';
+  } else {
+    types = '050402|050400';
+  }
+
+  let url = `https://restapi.amap.com/v3/place/around?key=${amapKey}&location=${lng},${lat}&types=${encodeURIComponent(types)}&radius=${radius}&offset=50&page=1&output=json`;
+  if (keywords) {
+    url += `&keywords=${encodeURIComponent(keywords)}`;
+  }
 
   const response = await fetch(url);
   if (!response.ok) {
@@ -272,27 +288,22 @@ async function fetchFromAmap(lat: number, lng: number, amapKey: string, radius =
     const name = poi.name;
     if (!name) return;
 
-    // 解析高德坐标 "lng,lat"
     const locParts = (poi.location || '').split(',');
     if (locParts.length !== 2) return;
     const shopLng = parseFloat(locParts[0]);
     const shopLat = parseFloat(locParts[1]);
     if (isNaN(shopLng) || isNaN(shopLat)) return;
 
-    // 区分品类
-    // 优先通过分类代码判断
     const typecode = poi.typecode || '';
     let type: 'milktea' | 'bar' = 'milktea';
     if (typecode === '050402' || poi.type?.includes('酒吧') || poi.type?.includes('酒馆') || name.includes('酒吧') || name.includes('酒馆')) {
       type = 'bar';
     }
 
-    // 评分信息与均价（高德 biz_ext 提供）
     const ext = poi.biz_ext || {};
     const rating = ext.rating ? parseFloat(ext.rating) : (4.0 + (Math.abs(hashString(poi.id)) % 10) * 0.1);
     const priceNum = ext.cost ? parseFloat(ext.cost) : null;
 
-    // 抹茶风味渗透：35% 概率注入抹茶标签
     const hasMatchaInject = (Math.abs(hashString(poi.id + '_matcha')) % 10) < 3.5;
 
     const address = poi.address && poi.address.length > 0 ? poi.address : `导航至：距离较近的 ${name}`;
@@ -306,7 +317,8 @@ async function fetchFromAmap(lat: number, lng: number, amapKey: string, radius =
       address,
       rating,
       priceNum,
-      hasMatchaInject
+      hasMatchaInject,
+      mode
     );
 
     shops.push(shop);
@@ -320,6 +332,7 @@ async function fetchFromAmap(lat: number, lng: number, amapKey: string, radius =
  * @param lat 用户纬度
  * @param lng 用户经度
  * @param source 数据源类型 ('mock' | 'osm' | 'amap')
+ * @param mode 当前指南针模式
  * @param amapKey 高德 API Key（高德模式下必传）
  * @returns 统一的商铺列表 Promise
  */
@@ -327,19 +340,19 @@ export async function fetchShops(
   lat: number,
   lng: number,
   source: 'mock' | 'osm' | 'amap',
+  mode: CompassMode,
   amapKey?: string
 ): Promise<Shop[]> {
   switch (source) {
     case 'osm':
-      return await fetchFromOSM(lat, lng);
+      return await fetchFromOSM(lat, lng, mode);
     case 'amap':
       if (!amapKey) {
         throw new Error('未检测到高德 API Key，请点击右上角设置面板进行配置！');
       }
-      return await fetchFromAmap(lat, lng, amapKey);
+      return await fetchFromAmap(lat, lng, mode, amapKey);
     case 'mock':
     default:
-      // 模拟数据是同步产生的，这里通过 Promise.resolve 包装以提供一致 of 异步接口
       return Promise.resolve(generateLocalShops(lat, lng));
   }
 }
