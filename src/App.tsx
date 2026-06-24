@@ -14,16 +14,19 @@ import {
   Compass as CompassIcon,
   ChevronsUp,
   Sliders,
-  HelpCircle
+  HelpCircle,
+  Settings,
+  X,
+  Loader2
 } from 'lucide-react';
 import { Coordinate, Shop, CompassMode, PresetLocation } from './types';
 import { 
   PRESET_LOCATIONS, 
-  generateLocalShops, 
   getDistance, 
   getBearing, 
   destinationPoint 
 } from './data/mockShops';
+import { fetchShops } from './services/shopService';
 
 import CompassView from './components/Compass';
 import Radar from './components/Radar';
@@ -47,6 +50,38 @@ export default function App() {
   const [isMatchaUnlocked, setIsMatchaUnlocked] = useState<boolean>(false); // secret mode unlock state
   const [titleClickCount, setTitleClickCount] = useState<number>(0);
 
+  // 1.5. Data Source and Config Settings States
+  const [dataSource, setDataSource] = useState<'mock' | 'osm' | 'amap'>(() => {
+    const saved = localStorage.getItem('compass_data_source');
+    return (saved === 'osm' || saved === 'amap') ? saved : 'mock';
+  });
+  const [amapKey, setAmapKey] = useState<string>(() => {
+    return localStorage.getItem('compass_amap_key') || '';
+  });
+  const [rawShops, setRawShops] = useState<Shop[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [fetchError, setFetchError] = useState<string | null>(null);
+  const [showSettings, setShowSettings] = useState<boolean>(false);
+  
+  // Temporary states inside the settings modal
+  const [tempDataSource, setTempDataSource] = useState<'mock' | 'osm' | 'amap'>(dataSource);
+  const [tempAmapKey, setTempAmapKey] = useState<string>(amapKey);
+
+  useEffect(() => {
+    if (showSettings) {
+      setTempDataSource(dataSource);
+      setTempAmapKey(amapKey);
+    }
+  }, [showSettings, dataSource, amapKey]);
+
+  const handleSaveSettings = () => {
+    setDataSource(tempDataSource);
+    setAmapKey(tempAmapKey);
+    localStorage.setItem('compass_data_source', tempDataSource);
+    localStorage.setItem('compass_amap_key', tempAmapKey);
+    setShowSettings(false);
+  };
+
   const handleTitleClick = () => {
     if (isMatchaUnlocked) return;
     const nextCount = titleClickCount + 1;
@@ -67,10 +102,35 @@ export default function App() {
     }
   }, []);
 
-  // 2. Generate local shops dynamically based on current user coordinates
-  const rawShops = useMemo(() => {
-    return generateLocalShops(userLocation.lat, userLocation.lng);
-  }, [userLocation.lat, userLocation.lng]);
+  // 2. Fetch shops dynamically (Async)
+  useEffect(() => {
+    let active = true;
+    const loadShops = async () => {
+      setIsLoading(true);
+      setFetchError(null);
+      try {
+        const data = await fetchShops(userLocation.lat, userLocation.lng, dataSource, amapKey);
+        if (active) {
+          setRawShops(data);
+        }
+      } catch (err: any) {
+        if (active) {
+          setFetchError(err.message || '获取周边真实商铺数据失败');
+          setRawShops([]);
+        }
+      } finally {
+        if (active) {
+          setIsLoading(false);
+        }
+      }
+    };
+
+    loadShops();
+
+    return () => {
+      active = false;
+    };
+  }, [userLocation.lat, userLocation.lng, dataSource, amapKey]);
 
   // 3. Process shops to calculate dynamic distances, bearings, and relative angles based on heading
   const shops = useMemo(() => {
@@ -326,41 +386,58 @@ export default function App() {
           </div>
         </div>
 
-        {/* 1. Mode Switch Button */}
-        <button
-          onClick={handleModeSwitch}
-          className={`px-4 py-2 rounded-2xl border text-xs font-black tracking-wide flex items-center gap-2 cursor-pointer transition-all hover:scale-105 active:scale-95 ${
-            isMatcha
-              ? 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
-              : isBoba 
-                ? 'bg-gradient-to-r from-violet-950 to-indigo-900 border-indigo-950 text-fuchsia-300 shadow shadow-violet-200/20' 
-                : isMatchaUnlocked
-                  ? 'bg-gradient-to-r from-emerald-100 to-teal-100 border-emerald-200 text-emerald-800 shadow shadow-emerald-100/10'
-                  : 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
-          }`}
-        >
-          {isMatcha ? (
-            <>
-              <Coffee className="w-4 h-4 text-rose-500 animate-bounce" />
-              <span>切换奶茶模式</span>
-            </>
-          ) : isBoba ? (
-            <>
-              <Beer className="w-4 h-4 text-fuchsia-400 animate-bounce" />
-              <span>切换酒鬼模式</span>
-            </>
-          ) : isMatchaUnlocked ? (
-            <>
-              <Sparkles className="w-4 h-4 text-emerald-500 animate-bounce" />
-              <span>切换抹茶模式 🍃</span>
-            </>
-          ) : (
-            <>
-              <Coffee className="w-4 h-4 text-rose-500 animate-bounce" />
-              <span>切换奶茶模式</span>
-            </>
-          )}
-        </button>
+        <div className="flex items-center gap-2">
+          {/* Settings Button */}
+          <button
+            onClick={() => setShowSettings(true)}
+            className={`p-2 rounded-2xl border flex items-center justify-center cursor-pointer transition-all hover:scale-105 active:scale-95 ${
+              isMatcha
+                ? 'bg-emerald-50 border-emerald-100 text-emerald-800'
+                : isBoba
+                  ? 'bg-rose-50 border-rose-100 text-rose-700'
+                  : 'bg-slate-900 border-indigo-950 text-fuchsia-300 shadow-[0_0_8px_rgba(217,70,239,0.15)]'
+            }`}
+            title="数据源设置"
+          >
+            <Settings className="w-4.5 h-4.5" />
+          </button>
+
+          {/* 1. Mode Switch Button */}
+          <button
+            onClick={handleModeSwitch}
+            className={`px-4 py-2 rounded-2xl border text-xs font-black tracking-wide flex items-center gap-2 cursor-pointer transition-all hover:scale-105 active:scale-95 ${
+              isMatcha
+                ? 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
+                : isBoba 
+                  ? 'bg-gradient-to-r from-violet-950 to-indigo-900 border-indigo-950 text-fuchsia-300 shadow shadow-violet-200/20' 
+                  : isMatchaUnlocked
+                    ? 'bg-gradient-to-r from-emerald-100 to-teal-100 border-emerald-200 text-emerald-800 shadow shadow-emerald-100/10'
+                    : 'bg-gradient-to-r from-rose-100 to-orange-100 border-rose-200 text-rose-700 shadow shadow-rose-100/10'
+            }`}
+          >
+            {isMatcha ? (
+              <>
+                <Coffee className="w-4 h-4 text-rose-500 animate-bounce" />
+                <span>切换奶茶模式</span>
+              </>
+            ) : isBoba ? (
+              <>
+                <Beer className="w-4 h-4 text-fuchsia-400 animate-bounce" />
+                <span>切换酒鬼模式</span>
+              </>
+            ) : isMatchaUnlocked ? (
+              <>
+                <Sparkles className="w-4 h-4 text-emerald-500 animate-bounce" />
+                <span>切换抹茶模式 🍃</span>
+              </>
+            ) : (
+              <>
+                <Coffee className="w-4 h-4 text-rose-500 animate-bounce" />
+                <span>切换奶茶模式</span>
+              </>
+            )}
+          </button>
+        </div>
       </header>
 
       {/* Main Core Container */}
@@ -457,13 +534,70 @@ export default function App() {
         </div>
 
         {/* 3. ACTIVE TAB RENDER VIEWS */}
-        <div className={`p-2 rounded-3xl border min-h-96 flex items-center justify-center overflow-hidden transition-all duration-300 ${
+        <div className={`relative p-2 rounded-3xl border min-h-96 flex items-center justify-center overflow-hidden transition-all duration-300 ${
           isMatcha
             ? 'bg-linear-to-b from-white/90 to-emerald-50/10 border-emerald-100'
             : isBoba 
               ? 'bg-linear-to-b from-white/90 to-rose-50/10 border-rose-100' 
               : 'bg-linear-to-b from-slate-900/90 to-slate-950/40 border-indigo-950/80'
         }`}>
+          {/* Loading Overlay */}
+          {isLoading && (
+            <div className="absolute inset-0 z-50 backdrop-blur-md bg-white/70 dark:bg-slate-950/80 flex flex-col items-center justify-center gap-4 transition-all duration-300">
+              <Loader2 className={`w-10 h-10 animate-spin ${
+                isMatcha ? 'text-emerald-600' : isBoba ? 'text-rose-500' : 'text-fuchsia-500'
+              }`} />
+              <div className="text-center px-4">
+                <p className={`font-black text-xs ${isBoba || isMatcha ? 'text-neutral-800' : 'text-indigo-200'}`}>
+                  {dataSource === 'osm' 
+                    ? '正在连接卫星搜寻周边真实商铺 (OSM)...' 
+                    : dataSource === 'amap' 
+                      ? '正在通过高德地图获取真实商家 POI...' 
+                      : '正在初始化雷达空间...'}
+                </p>
+                <p className="text-[10px] text-neutral-500 dark:text-indigo-400/60 mt-1 font-bold">罗盘及雷达天线展开中</p>
+              </div>
+            </div>
+          )}
+
+          {/* Fetch Error Overlay */}
+          {fetchError && !isLoading && (
+            <div className="absolute inset-0 z-50 backdrop-blur-md bg-white/80 dark:bg-slate-950/90 flex flex-col items-center justify-center p-6 text-center gap-4">
+              <span className="text-3xl">⚠️</span>
+              <div>
+                <p className="font-black text-xs text-red-600 dark:text-red-400">
+                  商铺数据加载失败
+                </p>
+                <p className="text-[10px] text-neutral-600 dark:text-indigo-300/80 mt-2 max-w-xs mx-auto leading-relaxed">
+                  {fetchError}
+                </p>
+              </div>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => {
+                    setRawShops([]);
+                    setUserLocation({ ...userLocation });
+                  }}
+                  className={`px-3 py-1.5 rounded-xl text-[10px] font-black text-white cursor-pointer ${
+                    isMatcha ? 'bg-emerald-500' : isBoba ? 'bg-rose-500' : 'bg-fuchsia-500'
+                  }`}
+                >
+                  重试一次
+                </button>
+                <button
+                  onClick={() => {
+                    setDataSource('mock');
+                    localStorage.setItem('compass_data_source', 'mock');
+                    setFetchError(null);
+                  }}
+                  className="px-3 py-1.5 rounded-xl text-[10px] font-black bg-neutral-200 text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200 cursor-pointer"
+                >
+                  切换回模拟数据
+                </button>
+              </div>
+            </div>
+          )}
+
           <AnimatePresence mode="wait">
             {activeTab === 'compass' && (
               <motion.div
@@ -666,6 +800,136 @@ export default function App() {
         <p className="mt-1 opacity-75">利用手机陀螺仪及 GPS 地理围栏实现寻店指向</p>
         <p className="mt-2 text-[10px] opacity-50">支持静态部署 Github Pages PWA 应用</p>
       </footer>
+
+      {/* Settings Modal */}
+      <AnimatePresence>
+        {showSettings && (
+          <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+            {/* Backdrop */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setShowSettings(false)}
+              className="absolute inset-0 bg-black/60 backdrop-blur-xs"
+            />
+            
+            {/* Modal Content */}
+            <motion.div
+              initial={{ scale: 0.95, y: 15, opacity: 0 }}
+              animate={{ scale: 1, y: 0, opacity: 1 }}
+              exit={{ scale: 0.95, y: 15, opacity: 0 }}
+              className={`relative z-10 w-full max-w-sm p-6 rounded-3xl border shadow-2xl overflow-hidden transition-all duration-300 ${
+                isMatcha
+                  ? 'bg-white/95 border-emerald-100 text-emerald-950 shadow-emerald-950/10'
+                  : isBoba
+                    ? 'bg-white/95 border-rose-100 text-rose-950 shadow-rose-950/10'
+                    : 'bg-slate-900/95 border-indigo-950 text-slate-100 shadow-black/50'
+              }`}
+            >
+              {/* Close Button */}
+              <button
+                onClick={() => setShowSettings(false)}
+                className={`absolute top-4 right-4 p-1.5 rounded-full hover:bg-neutral-100 dark:hover:bg-slate-800 transition-colors cursor-pointer ${
+                  isBoba || isMatcha ? 'text-neutral-500' : 'text-slate-400'
+                }`}
+              >
+                <X className="w-4 h-4" />
+              </button>
+
+              <h2 className="text-sm font-black flex items-center gap-1.5 mb-4">
+                <Settings className="w-4.5 h-4.5" />
+                <span>罗盘数据源配置</span>
+              </h2>
+
+              <div className="space-y-4">
+                {/* Data Source Selector */}
+                <div>
+                  <label className="text-[10px] font-bold block mb-2 opacity-80 uppercase tracking-wider">🗺️ 选择数据来源</label>
+                  <div className="space-y-2">
+                    {[
+                      { id: 'mock', name: '🤖 模拟数据 (本地生成)', desc: '免 Key、免网，最稳定快速的默认演示模式。' },
+                      { id: 'osm', name: '🌍 OpenStreetMap (OSM)', desc: '免 Key 真实数据。支持全球，但国内网络较慢。' },
+                      { id: 'amap', name: '🗺️ 高德地图 API (高精度)', desc: '中国大陆地区高精度首选。需配置个人的 Web服务 Key。' }
+                    ].map((src) => {
+                      const isSelected = tempDataSource === src.id;
+                      return (
+                        <div
+                          key={src.id}
+                          onClick={() => setTempDataSource(src.id as any)}
+                          className={`p-3 rounded-2xl border text-left cursor-pointer transition-all ${
+                            isSelected
+                              ? isMatcha
+                                ? 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold'
+                                : isBoba
+                                  ? 'bg-rose-50 border-rose-500 text-rose-950 font-bold'
+                                  : 'bg-indigo-950 border-fuchsia-500 text-white font-bold shadow-[0_0_8px_rgba(217,70,239,0.3)]'
+                              : isBoba || isMatcha
+                                ? 'bg-neutral-50/50 border-neutral-200/60 hover:bg-neutral-50 text-neutral-800'
+                                : 'bg-slate-950/40 border-indigo-950/60 hover:bg-indigo-900/20 text-slate-300'
+                          }`}
+                        >
+                          <div className="text-[11px] font-black">{src.name}</div>
+                          <div className="text-[9px] opacity-70 mt-1 leading-normal">{src.desc}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Amap Key Input */}
+                {tempDataSource === 'amap' && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    className="overflow-hidden space-y-2"
+                  >
+                    <label className="text-[10px] font-bold block opacity-80 uppercase tracking-wider">🔑 高德 Web 服务 API Key</label>
+                    <input
+                      type="password"
+                      placeholder="请贴入您的 32 位高德 Key"
+                      value={tempAmapKey}
+                      onChange={(e) => setTempAmapKey(e.target.value)}
+                      className={`w-full px-3 py-2 rounded-xl text-xs border focus:outline-none focus:ring-1 ${
+                        isBoba || isMatcha
+                          ? 'bg-white border-neutral-300 text-neutral-900 focus:border-rose-500 focus:ring-rose-500'
+                          : 'bg-slate-950 border-indigo-950 text-white focus:border-fuchsia-500 focus:ring-fuchsia-500'
+                      }`}
+                    />
+                    <p className="text-[8px] opacity-60 leading-normal">
+                      * 注意：必须为高德控制台申请的<strong>“Web 服务”</strong>类型 Key（非 JS Web端 Key），否则高德周边搜索服务会鉴权报错。可前往{' '}
+                      <a
+                        href="https://lbs.amap.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="underline text-sky-500 hover:text-sky-400 cursor-pointer"
+                      >
+                        高德开放平台
+                      </a>{' '}
+                      免费申请获取。
+                    </p>
+                  </motion.div>
+                )}
+
+                {/* Save Button */}
+                <button
+                  onClick={handleSaveSettings}
+                  className={`w-full py-2.5 rounded-2xl text-xs font-black cursor-pointer transition-all hover:scale-[1.01] active:scale-[0.99] ${
+                    isMatcha
+                      ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow shadow-emerald-200'
+                      : isBoba
+                        ? 'bg-rose-500 hover:bg-rose-600 text-white shadow shadow-rose-200'
+                        : 'bg-gradient-to-r from-fuchsia-500 to-violet-600 hover:from-fuchsia-600 hover:to-violet-750 text-white shadow-[0_0_12px_rgba(217,70,239,0.3)]'
+                  }`}
+                >
+                  保存并重新加载
+                </button>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
