@@ -415,7 +415,7 @@ export default function App() {
               >
                 <Radar
                   mode={mode}
-                  shops={shops}
+                  shops={shops.filter((s) => s.type === mode)}
                   selectedShop={activeSelectedShop}
                   setSelectedShop={(shop) => {
                     setSelectedShop(shop);
@@ -438,7 +438,7 @@ export default function App() {
                   mode={mode}
                   userLocation={userLocation}
                   setUserLocation={setUserLocation}
-                  shops={shops}
+                  shops={shops.filter((s) => s.type === mode)}
                   selectedShop={activeSelectedShop}
                   setSelectedShop={(shop) => {
                     setSelectedShop(shop);
@@ -544,7 +544,7 @@ export default function App() {
         }`}>
           <ShopList
             mode={mode}
-            shops={shops}
+            shops={shops.filter((s) => s.type === mode)}
             selectedShop={activeSelectedShop}
             setSelectedShop={(shop) => {
               if (activeSelectedShop && shop && activeSelectedShop.id === shop.id && isLocked) {
