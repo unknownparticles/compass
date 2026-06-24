@@ -17,7 +17,7 @@ export default defineConfig(() => {
         injectRegister: 'auto',
         workbox: {
           globPatterns: ['**/*.{js,css,html,ico,png,svg,webmanifest}'],
-          maximumFileSizeToCacheInBytes: 3000000,
+          maximumFileSizeToCacheInBytes: 6000000,
         },
         manifest: {
           name: '奶茶与酒鬼指南针',

@@ -569,7 +569,7 @@ export default function App() {
                   离线模式未支持当前区域
                 </p>
                 <p className="text-[10px] text-neutral-600 dark:text-indigo-300/80 mt-2 max-w-sm mx-auto leading-relaxed">
-                  你当前的定位已超出本地离线数据库的预设范围（目前仅支持<strong>成都春熙路</strong>及<strong>北京三里屯</strong>核心区域）。请切换在线模式或向本地工程中补充数据。
+                  你当前的定位已超出本地离线数据库的预设范围。目前离线模式仅支持：<strong>北京、成都、广州、深圳、厦门、汕头、哈尔滨</strong>等城市。请切换在线模式或补充数据。
                 </p>
               </div>
               <div className="flex gap-2">
@@ -883,7 +883,7 @@ export default function App() {
                   <label className="text-[10px] font-bold block mb-2 opacity-80 uppercase tracking-wider">🗺️ 选择数据来源</label>
                   <div className="space-y-2">
                     {[
-                      { id: 'mock', name: '🤖 离线模式（仅支持部分地区）', desc: '免 Key 免网。仅支持已录入的真实试点商圈（如成都春熙路/北京三里屯）。' },
+                      { id: 'mock', name: '🤖 离线模式（仅支持部分地区）', desc: '免 Key 免网。支持已录入的真实城市（如北京/成都/广深/厦汕/哈尔滨）。' },
                       { id: 'osm', name: '🌍 OSM 模式', desc: '免 Key 真实数据。支持全球，已启用精细化 POI 类别清洗过滤。' },
                       { id: 'amap', name: '🗺️ 高德 API 模式', desc: '中国大陆高精度真实数据首选。需配置个人的 Web 服务 Key。' }
                     ].map((src) => {

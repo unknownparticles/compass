@@ -429,7 +429,7 @@ export async function fetchShops(
     } else {
       return Promise.reject(
         new Error(
-          "OutOfBounds: 离线数据库未支持您当前所在的物理区域。您已超出离线试点（目前仅支持成都春熙路及北京三里屯核心范围）！"
+          "OutOfBounds: 离线数据库未支持您当前所在的物理区域。目前离线模式仅支持：北京、成都、广州、深圳、厦门、汕头、哈尔滨！"
         )
       );
     }
