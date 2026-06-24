@@ -7,6 +7,7 @@ export interface PredefinedRegion {
   lng: number;       // 区域中心经度
   radius: number;    // 该区域的有效匹配半径（米），超出此距离则判定为越界
   shops: Omit<Shop, 'distance' | 'bearing' | 'relativeAngle'>[]; // 该区域内的 100% 真实商铺列表
+  lastUpdated?: string; // 数据最后更新时间
 }
 
 /**
@@ -28,6 +29,7 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
     lat: 30.6574,
     lng: 104.0762,
     radius: 2500, // 2.5公里覆盖范围
+    lastUpdated: "2026-06-24",
     shops: [
       {
         id: "real-cd-boba-1",
@@ -88,7 +90,7 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
       {
         id: "real-cd-matcha-1",
         name: "无邪日式甜品 (成都春熙路店)",
-        type: "milktea", // 属于甜品茶饮类，同时也包含在抹茶模式中
+        type: "milktea",
         lat: 30.6565,
         lng: 104.0760,
         rating: 4.6,
@@ -163,6 +165,7 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
     lat: 39.9330,
     lng: 116.4520,
     radius: 2500,
+    lastUpdated: "2026-06-24",
     shops: [
       {
         id: "real-bj-boba-1",
@@ -261,6 +264,306 @@ export const PREDEFINED_REAL_SHOPS: PredefinedRegion[] = [
         priceRange: "¥90-180",
         hours: "11:00 - 03:00",
         tags: ["自选精酿", "美式披萨", "精酿臻选"]
+      }
+    ]
+  },
+  {
+    name: "厦门中山路步行街/白鹭洲",
+    city: "厦门",
+    lat: 24.4533,
+    lng: 118.0825,
+    radius: 2500,
+    lastUpdated: "2026-06-24",
+    shops: [
+      {
+        id: "real-xm-matcha-B0FFFY9ARJ",
+        name: "炉鱼(厦门中华城店)",
+        type: "milktea",
+        lat: 24.452812,
+        lng: 118.082179,
+        rating: 4.5,
+        reviewsCount: 153,
+        address: "思明南路189号中华城3层",
+        signature: "白玉小子抹茶波波茶 (Boba Matcha Milk)",
+        priceRange: "¥58-86",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-xm-matcha-B0ID64TKS0",
+        name: "好利来(中华城店)",
+        type: "milktea",
+        lat: 24.452807,
+        lng: 118.081921,
+        rating: 4.6,
+        reviewsCount: 127,
+        address: "思明南路137号中华城A2地块C区1楼1001号商铺",
+        signature: "宇治手打冰点 (Uji Matcha Ice)",
+        priceRange: "¥36-54",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-xm-matcha-B0FFF00UNJ",
+        name: "星巴克臻选(厦门中华城分店)",
+        type: "milktea",
+        lat: 24.452616,
+        lng: 118.083089,
+        rating: 4.6,
+        reviewsCount: 321,
+        address: "思明南路195号中华城南区31B1055b铺位区",
+        signature: "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
+        priceRange: "¥24-36",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-xm-matcha-B0FFIZCYKD",
+        name: "星巴克(老虎城分店)",
+        type: "milktea",
+        lat: 24.452808,
+        lng: 118.081122,
+        rating: 4.6,
+        reviewsCount: 48,
+        address: "思明南路118号地上一层A幢",
+        signature: "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
+        priceRange: "¥24-36",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-xm-matcha-B0J6KA6X8Y",
+        name: "海隐记|福建菜|海鲜大排档(中山路店)",
+        type: "milktea",
+        lat: 24.454063,
+        lng: 118.080591,
+        rating: 4.4,
+        reviewsCount: 117,
+        address: "局口街4号(镇海路地铁站3A口步行440米)",
+        signature: "特浓抹茶千层蛋糕 (Matcha Mille Crepe)",
+        priceRange: "¥70-106",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-xm-boba-B0HK0SGIXB",
+        name: "LAVAZZA拉瓦萨咖啡(厦门中华城店)",
+        type: "milktea",
+        lat: 24.453145,
+        lng: 118.082544,
+        rating: 4.6,
+        reviewsCount: 226,
+        address: "思明南路137号一层C1002",
+        signature: "杨枝甘露轻盈版 (Mango Sago)",
+        priceRange: "¥24-36",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶", "精品咖啡"]
+      },
+      {
+        id: "real-xm-boba-B0JUFUP7RM",
+        name: "宁咖啡(厦门中华城店)",
+        type: "milktea",
+        lat: 24.453154,
+        lng: 118.082109,
+        rating: 3.2,
+        reviewsCount: 236,
+        address: "思明南路195号中华城北区",
+        signature: "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        priceRange: "¥16-24",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶", "精品咖啡"]
+      },
+      {
+        id: "real-xm-boba-B0LKKSMULA",
+        name: "肯悦咖啡中华城店",
+        type: "milktea",
+        lat: 24.453125,
+        lng: 118.082075,
+        rating: 4.0,
+        reviewsCount: 264,
+        address: "中山路240号地下一层01单元中华城新街公园A1-B149",
+        signature: "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        priceRange: "¥10-16",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶", "精品咖啡"]
+      },
+      {
+        id: "real-xm-boba-B0J1VG9NHQ",
+        name: "Manner Coffee(中华城南区店)",
+        type: "milktea",
+        lat: 24.45296,
+        lng: 118.082823,
+        rating: 4.5,
+        reviewsCount: 70,
+        address: "思明南路195号中华城南区1F层",
+        signature: "桂花燕麦拿铁 (精品拿铁咖啡)",
+        priceRange: "¥16-24",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶"]
+      },
+      {
+        id: "real-xm-boba-B0HUV519Q4",
+        name: "杰象泰泰小厨(中华城北区店)",
+        type: "milktea",
+        lat: 24.453185,
+        lng: 118.081981,
+        rating: 3.5,
+        reviewsCount: 135,
+        address: "思明南路195号中华城北区3F层",
+        signature: "杨枝甘露轻盈版 (Mango Sago)",
+        priceRange: "¥77-115",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶"]
+      }
+    ]
+  },
+  {
+    name: "汕头万象城/苏宁广场",
+    city: "汕头",
+    lat: 23.3643,
+    lng: 116.7163,
+    radius: 2500,
+    lastUpdated: "2026-06-24",
+    shops: [
+      {
+        id: "real-st-matcha-B0JBFZ1YTG",
+        name: "瑞幸咖啡(汕头万象城店)",
+        type: "milktea",
+        lat: 23.363303,
+        lng: 116.716572,
+        rating: 4.5,
+        reviewsCount: 183,
+        address: "金霞街道汕头万象城L608",
+        signature: "雪顶抹茶芝士冰沙 (Matcha Cheese Slush)",
+        priceRange: "¥10-14",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-st-matcha-B0KUPZ1820",
+        name: "小鱼GELATO(万象城店)",
+        type: "milktea",
+        lat: 23.363338,
+        lng: 116.717592,
+        rating: 3.9,
+        reviewsCount: 201,
+        address: "金霞街道长平路95号华润大厦商业裙楼润街238号",
+        signature: "宇治手打冰点 (Uji Matcha Ice)",
+        priceRange: "¥19-29",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-st-matcha-B0H2YYXNJY",
+        name: "星巴克臻选(汕头万象城店)",
+        type: "milktea",
+        lat: 23.362312,
+        lng: 116.717437,
+        rating: 4.6,
+        reviewsCount: 63,
+        address: "金环路与长平路交界处东北角万象城地上一层L156号",
+        signature: "宇治手打冰点 (Uji Matcha Ice)",
+        priceRange: "¥24-36",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-st-matcha-B0JUU7J0TT",
+        name: "鲍师傅糕点(欣荣大厦店)",
+        type: "milktea",
+        lat: 23.361926,
+        lng: 116.715538,
+        rating: 4.7,
+        reviewsCount: 281,
+        address: "长平路88号欣荣大厦一楼102号",
+        signature: "宇治特浓抹茶拿铁 (Matcha Latte)",
+        priceRange: "¥15-23",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-st-matcha-B0FFG8R7A4",
+        name: "星巴克(苏宁广场店)",
+        type: "milktea",
+        lat: 23.361717,
+        lng: 116.716662,
+        rating: 4.5,
+        reviewsCount: 121,
+        address: "长平路90号汕头苏宁广场地上1层102单元",
+        signature: "白玉小子抹茶波波茶 (Boba Matcha Milk)",
+        priceRange: "¥24-36",
+        hours: "09:30 - 22:00",
+        tags: ["抹茶", "Matcha", "甜品下午茶"]
+      },
+      {
+        id: "real-st-boba-B0M6DX8NA0",
+        name: "虫鸣探秘鲜果咖啡",
+        type: "milktea",
+        lat: 23.364025,
+        lng: 116.716625,
+        rating: 3.3,
+        reviewsCount: 202,
+        address: "金霞街道长平路95号汕头万象城L5层",
+        signature: "生椰爆汁西瓜 (Raw Coconut Watermelon)",
+        priceRange: "¥61-91",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶", "精品咖啡"]
+      },
+      {
+        id: "real-st-boba-B0HDCSKA7H",
+        name: "瑞幸咖啡(汕头华润大厦店)",
+        type: "milktea",
+        lat: 23.364663,
+        lng: 116.716558,
+        rating: 4.5,
+        reviewsCount: 89,
+        address: "长平路95号华润大厦北塔112号铺面",
+        signature: "生椰拿铁 (经典爆款冷萃生椰咖啡)",
+        priceRange: "¥10-16",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶", "精品咖啡"]
+      },
+      {
+        id: "real-st-boba-B0GKHAXFF3",
+        name: "赤鱬居酒屋",
+        type: "milktea",
+        lat: 23.364426,
+        lng: 116.716948,
+        rating: 4.5,
+        reviewsCount: 104,
+        address: "幸福里雅居5栋133,134",
+        signature: "杨枝甘露轻盈版 (Mango Sago)",
+        priceRange: "¥108-162",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶"]
+      },
+      {
+        id: "real-st-boba-B0IU3CHEFE",
+        name: "道兴咖啡(万象润街店)",
+        type: "milktea",
+        lat: 23.363961,
+        lng: 116.716938,
+        rating: 4.6,
+        reviewsCount: 244,
+        address: "金霞街道长平路95号华润大厦商业裙楼167号铺",
+        signature: "杨枝甘露轻盈版 (Mango Sago)",
+        priceRange: "¥19-29",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶", "精品咖啡"]
+      },
+      {
+        id: "real-st-boba-B0LR77JQWL",
+        name: "nowwa挪瓦咖啡(易站汕头万象店)",
+        type: "milktea",
+        lat: 23.364798,
+        lng: 116.716958,
+        rating: 3.9,
+        reviewsCount: 114,
+        address: "长平路95号华润大厦北塔118号易站便利店1层",
+        signature: "招牌波霸奶茶 (Classic Boba Milk Tea)",
+        priceRange: "¥10-14",
+        hours: "09:30 - 22:00",
+        tags: ["奶茶", "饮品店", "下午茶", "精品咖啡"]
       }
     ]
   }
