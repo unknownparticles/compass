@@ -560,8 +560,43 @@ export default function App() {
             </div>
           )}
 
-          {/* Fetch Error Overlay */}
-          {fetchError && !isLoading && (
+          {/* Out of Bounds (Offline unsupported region) Overlay */}
+          {fetchError && !isLoading && fetchError.includes("OutOfBounds") && (
+            <div className="absolute inset-0 z-50 backdrop-blur-md bg-white/85 dark:bg-slate-950/90 flex flex-col items-center justify-center p-6 text-center gap-4">
+              <span className="text-4xl animate-bounce">📍</span>
+              <div>
+                <p className="font-black text-sm text-amber-600 dark:text-amber-400">
+                  离线模式未支持当前区域
+                </p>
+                <p className="text-[10px] text-neutral-600 dark:text-indigo-300/80 mt-2 max-w-sm mx-auto leading-relaxed">
+                  你当前的定位已超出本地离线数据库的预设范围（目前仅支持<strong>成都春熙路</strong>及<strong>北京三里屯</strong>核心区域）。请切换在线模式或向本地工程中补充数据。
+                </p>
+              </div>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setShowSettings(true)}
+                  className={`px-3.5 py-2 rounded-xl text-[10px] font-black text-white cursor-pointer ${
+                    isMatcha ? 'bg-emerald-600' : isBoba ? 'bg-rose-500' : 'bg-fuchsia-500'
+                  }`}
+                >
+                  ⚙️ 打开数据源设置
+                </button>
+                <button
+                  onClick={() => {
+                    setDataSource('osm');
+                    localStorage.setItem('compass_data_source', 'osm');
+                    setFetchError(null);
+                  }}
+                  className="px-3.5 py-2 rounded-xl text-[10px] font-black bg-indigo-950 border border-indigo-800 text-indigo-300 dark:bg-indigo-900/40 dark:text-white cursor-pointer hover:bg-indigo-900 transition-colors"
+                >
+                  🌍 切换为 OSM 模式
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* General Fetch Error Overlay (Key error, Network error) */}
+          {fetchError && !isLoading && !fetchError.includes("OutOfBounds") && (
             <div className="absolute inset-0 z-50 backdrop-blur-md bg-white/80 dark:bg-slate-950/90 flex flex-col items-center justify-center p-6 text-center gap-4">
               <span className="text-3xl">⚠️</span>
               <div>
@@ -592,7 +627,7 @@ export default function App() {
                   }}
                   className="px-3 py-1.5 rounded-xl text-[10px] font-black bg-neutral-200 text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200 cursor-pointer"
                 >
-                  切换回模拟数据
+                  切换回离线模式
                 </button>
               </div>
             </div>
@@ -848,9 +883,9 @@ export default function App() {
                   <label className="text-[10px] font-bold block mb-2 opacity-80 uppercase tracking-wider">🗺️ 选择数据来源</label>
                   <div className="space-y-2">
                     {[
-                      { id: 'mock', name: '🤖 模拟数据 (本地生成)', desc: '免 Key、免网，最稳定快速的默认演示模式。' },
-                      { id: 'osm', name: '🌍 OpenStreetMap (OSM)', desc: '免 Key 真实数据。支持全球，但国内网络较慢。' },
-                      { id: 'amap', name: '🗺️ 高德地图 API (高精度)', desc: '中国大陆地区高精度首选。需配置个人的 Web服务 Key。' }
+                      { id: 'mock', name: '🤖 离线模式（仅支持部分地区）', desc: '免 Key 免网。仅支持已录入的真实试点商圈（如成都春熙路/北京三里屯）。' },
+                      { id: 'osm', name: '🌍 OSM 模式', desc: '免 Key 真实数据。支持全球，已启用精细化 POI 类别清洗过滤。' },
+                      { id: 'amap', name: '🗺️ 高德 API 模式', desc: '中国大陆高精度真实数据首选。需配置个人的 Web 服务 Key。' }
                     ].map((src) => {
                       const isSelected = tempDataSource === src.id;
                       return (

@@ -1,7 +1,8 @@
 import { Shop, CompassMode, Coordinate } from '../types';
-import { generateLocalShops } from '../data/mockShops';
+import { generateLocalShops, getDistance } from '../data/mockShops';
+import { PREDEFINED_REAL_SHOPS } from '../data/realShopsData';
 
-// 常用茶饮/咖啡品牌招牌菜品映射数据库
+// 常用茶饮/咖啡品牌真实招牌菜品与标签映射库
 const TEA_BRANDS_DATABASE: { [key: string]: { signature: string; tags: string[] } } = {
   '霸王茶姬': { signature: '伯牙绝弦 (Jasmine Green Milk Tea)', tags: ['鲜奶茶', '国风茶饮', '招牌茉莉'] },
   '茶颜悦色': { signature: '幽兰拿铁 (Black Tea Latte)', tags: ['红茶拿铁', '中式茶饮', '忌廉奶油'] },
@@ -13,10 +14,14 @@ const TEA_BRANDS_DATABASE: { [key: string]: { signature: string; tags: string[] 
   '星巴克': { signature: '燕麦焦糖玛奇朵 (Caramel Macchiato)', tags: ['精品咖啡', '星冰乐', '燕麦奶'] },
   '瑞幸': { signature: '生椰拿铁 (Raw Coconut Latte)', tags: ['生椰咖啡', '平价精品', '拿铁'] },
   '库迪': { signature: '潘帕斯生椰拿铁 (Pampas Coconut Latte)', tags: ['平价咖啡', '生椰', '拿铁'] },
-  'Manner': { signature: '桂花燕麦拿铁 (Osmanthus Oat Latte)', tags: ['精品咖啡', '手冲', '拿铁'] }
+  'Manner': { signature: '桂花燕麦拿铁 (Osmanthus Oat Latte)', tags: ['精品咖啡', '手冲', '拿铁'] },
+  '茶百道': { signature: '招牌杨枝甘露 (Mango Sago)', tags: ['鲜果茶', '杨枝甘露', '手作饮品'] },
+  '古茗': { signature: '超大杯水果茶 (Jumbo Fruit Tea)', tags: ['鲜果茶', '平价精品', '多肉系列'] },
+  '书亦烧仙草': { signature: '书亦烧仙草 (Shuyi Grass Jelly)', tags: ['烧仙草', '传统甜品', '多料'] },
+  '阿水大杯茶': { signature: '黑糖波霸奶茶 (Brown Sugar Boba)', tags: ['经典奶茶', '手作茶饮', '高性价比'] }
 };
 
-// 常见酒吧招牌特调映射数据库
+// 常见酒吧招牌特调与标签映射库
 const BAR_BRANDS_DATABASE: { [key: string]: { signature: string; tags: string[] } } = {
   'COMMUNE': { signature: '幻影极光精酿 (Aurora IPA)', tags: ['幻音精酿', '美式西餐', '自选啤酒'] },
   '海伦司': { signature: '海伦司可乐桶 (Helens Cola Bucket)', tags: ['平价小酒馆', '可乐桶', '聚会小酌'] },
@@ -44,7 +49,7 @@ const DEFAULT_BAR_SIGNATURES = [
   '海盐柠檬精酿小麦 (Sea Salt Craft Wheat Beer)'
 ];
 
-// 抹茶模式专用的菜品数据库（抹茶风味渗透）
+// 抹茶模式专用的菜品数据库
 const MATCHA_TEA_SIGNATURES = [
   '宇治特浓抹茶拿铁 (Matcha Latte)',
   '静冈大理石抹茶椰乳 (Matcha Coconut)',
@@ -58,6 +63,18 @@ const MATCHA_BAR_SIGNATURES = [
   '“京都之雾”抹茶金酒特调 (Matcha Gin Fizz)',
   '大理石抹茶百利甜特饮 (Matcha Baileys)',
   '静冈抹茶艾尔精酿 (Matcha Stout Beer)'
+];
+
+// OSM 模式下的 POI 饮品及酒吧白名单过滤词
+const OSM_MILKTEA_KEYWORDS = [
+  '茶', '奶茶', '咖', '咖啡', '冰室', '甜品', '椰', '冰沙', 'KFC', '麦当劳', '德克士',
+  '蜜雪', '喜茶', '霸王', '瑞幸', '星巴克', 'Manner', 'Tsujiri', '辻利', '奈雪',
+  '一点点', 'Coco', '古茗', '茶百道', '书亦', '阿水', '丸摩堂', '库迪', 'Luckin',
+  'Starbucks', 'Tea', 'Boba', 'Coffee', 'Cafe', 'Dessert', 'Ice Cream', 'Juice', 'Fruit'
+];
+
+const OSM_BAR_KEYWORDS = [
+  '酒吧', '酒馆', '精酿', '啤', 'Pub', 'Bar', 'Taproom', 'Beer', 'Bistro', 'Whisky', 'Cocktail', '酿'
 ];
 
 /**
@@ -75,14 +92,13 @@ function processAndDecorateShop(
   hasMatchaInject: boolean,
   mode: CompassMode
 ): Shop {
-  // 1. 判断是否真的包含抹茶（名字里含有抹茶或 Matcha）
   const isRealMatcha = name.includes('抹茶') || name.toLowerCase().includes('matcha');
   const finalHasMatcha = isRealMatcha || hasMatchaInject;
 
   let signature = '';
   let tags: string[] = [];
 
-  // 2. 根据品牌或默认池子匹配招牌菜与标签
+  // 根据品牌或默认池子匹配招牌菜与标签
   if (type === 'milktea') {
     let brandMatched = false;
     for (const key in TEA_BRANDS_DATABASE) {
@@ -115,7 +131,7 @@ function processAndDecorateShop(
     }
   }
 
-  // 3. 抹茶风味渗透/强化逻辑：如果被选中为抹茶店，或当前是抹茶模式，则替换特色菜与标签
+  // 抹茶风味渗透/强化逻辑：如果被选中为抹茶店，或当前是抹茶模式，则替换特色菜与标签
   if (finalHasMatcha || mode === 'matcha') {
     if (type === 'milktea' || mode === 'matcha') {
       const matchaIdx = Math.floor(Math.abs(hashString(id + '_matcha')) % MATCHA_TEA_SIGNATURES.length);
@@ -128,10 +144,8 @@ function processAndDecorateShop(
     }
   }
 
-  // 4. 处理营业时间
   const hours = type === 'milktea' ? '09:30 - 22:00' : '18:00 - 02:00';
 
-  // 5. 格式化消费区间
   let priceRange = '';
   if (priceNum && priceNum > 0) {
     priceRange = `¥${Math.round(priceNum * 0.8)}-${Math.round(priceNum * 1.2)}`;
@@ -147,20 +161,19 @@ function processAndDecorateShop(
     type,
     lat,
     lng,
-    distance: 0,       // 稍后在 App.tsx 层面会依据实际定位实时覆盖计算
-    bearing: 0,        // 稍后覆盖
-    relativeAngle: 0,  // 稍后覆盖
+    distance: 0,
+    bearing: 0,
+    relativeAngle: 0,
     rating: parseFloat(rating.toFixed(1)),
     reviewsCount,
     address,
     signature,
     priceRange,
     hours,
-    tags: Array.from(new Set(tags)) // 去重
+    tags: Array.from(new Set(tags))
   };
 }
 
-// 辅助哈希函数，用于将字符串转换为伪随机数以保持数据一致性
 function hashString(str: string): number {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
@@ -170,15 +183,14 @@ function hashString(str: string): number {
 }
 
 /**
- * 从 OpenStreetMap (OSM) Overpass API 异步拉取商铺数据
+ * 从 OpenStreetMap (OSM) Overpass API 异步拉取商铺数据并进行精细清洗
  */
 async function fetchFromOSM(lat: number, lng: number, mode: CompassMode, radius = 3000): Promise<Shop[]> {
   const isMatchaMode = mode === 'matcha';
   
-  // 抹茶模式下通过 Overpass 的正则语法只查询店名含有 抹茶/Matcha/matcha 的节点，防止召回非抹茶店
+  // 抹茶模式下通过 Overpass 的正则匹配，只检索含有抹茶名字的节点，大幅净化数据
   const nameSelector = isMatchaMode ? '[name~"抹茶|Matcha|matcha",i]' : '';
 
-  // 构建 Overpass API 查询语句
   const overpassQuery = `
     [out:json][timeout:15];
     (
@@ -211,16 +223,35 @@ async function fetchFromOSM(lat: number, lng: number, mode: CompassMode, radius 
     if (!shopLat || !shopLng) return;
 
     const amenity = tags.amenity || '';
-    let type: 'milktea' | 'bar' = 'milktea';
     
-    if (amenity === 'bar' || amenity === 'pub' || name.toLowerCase().includes('bar') || name.includes('酒吧') || name.includes('酒馆')) {
+    // =========================================================================
+    // 🔍 OSM 细粒度过滤器 (杜绝快餐、面馆、中餐污染奶茶/酒吧列表)
+    // -------------------------------------------------------------------------
+    let type: 'milktea' | 'bar' | null = null;
+    const nameLower = name.toLowerCase();
+
+    // 1. 如果本来就被标记为酒吧/小酒馆，或者店名含有酒类词，划入 bar
+    const isExplicitBar = amenity === 'bar' || amenity === 'pub';
+    const isNameBar = OSM_BAR_KEYWORDS.some(kw => nameLower.includes(kw));
+    
+    // 2. 如果本来就被标记为咖啡厅，直接划入 milktea
+    const isExplicitCafe = amenity === 'cafe';
+    const isNameMilktea = OSM_MILKTEA_KEYWORDS.some(kw => nameLower.includes(kw));
+
+    if (isExplicitBar || isNameBar) {
       type = 'bar';
+    } else if (isExplicitCafe || isNameMilktea) {
+      type = 'milktea';
+    } else {
+      // 既没有被显式分类，名字中也不含有白名单词，判定为无关餐馆，直接过滤掉
+      return;
     }
+    // =========================================================================
 
     const seed = `${el.id}`;
     const rating = 4.1 + (Math.abs(hashString(seed)) % 9) * 0.1;
 
-    // 抹茶风味渗透：30% 的概率被注入抹茶产品（仅对非抹茶模式下的普通店作标记）
+    // 抹茶风味渗透概率（对非抹茶模式）
     const hasMatchaInject = (Math.abs(hashString(seed + '_matcha_seed')) % 10) < 3;
 
     const address = tags['addr:street'] || tags['addr:full'] || `导航至：周围街区附近的 ${name}`;
@@ -257,7 +288,7 @@ async function fetchFromAmap(lat: number, lng: number, mode: CompassMode, amapKe
   let keywords = '';
 
   if (isMatchaMode) {
-    // 抹茶模式：在周边搜索里加入 keywords='抹茶'，并扩大品类到甜品、茶馆、冷饮与咖啡餐厅，寻找真实商家
+    // 抹茶模式：在周边搜索里加入 keywords='抹茶'，并扩大品类至冷饮、咖啡、甜品与餐饮
     types = '050202|050500|050800|050400|050100';
     keywords = '抹茶';
   } else if (mode === 'milktea') {
@@ -343,6 +374,36 @@ export async function fetchShops(
   mode: CompassMode,
   amapKey?: string
 ): Promise<Shop[]> {
+  // 1. 离线模式拦截检测
+  if (source === 'mock') {
+    // 检测是否在本地数据库的预置试点区域内
+    const matchedRegion = PREDEFINED_REAL_SHOPS.find((region) => {
+      const dist = getDistance(lat, lng, region.lat, region.lng);
+      return dist <= region.radius;
+    });
+
+    if (matchedRegion) {
+      // 成功就近切入：将 Omit<Shop, ...> 重组回完整的 Shop 并返回
+      const localShops = matchedRegion.shops.map((shop) => ({
+        ...shop,
+        distance: 0,
+        bearing: 0,
+        relativeAngle: 0
+      })) as Shop[];
+      
+      // 返回包裹在 Promise 里的本地真实数据
+      return Promise.resolve(localShops);
+    } else {
+      // 超出覆盖区域，抛出特定的越界异常以交由前端 App.tsx 捕获并渲染精美的阻断警告层
+      return Promise.reject(
+        new Error(
+          "OutOfBounds: 离线数据库未支持您当前所在的物理区域。您已超出离线试点（目前仅支持成都春熙路及北京三里屯核心范围）！"
+        )
+      );
+    }
+  }
+
+  // 2. 在线模式拉取
   switch (source) {
     case 'osm':
       return await fetchFromOSM(lat, lng, mode);
@@ -351,8 +412,7 @@ export async function fetchShops(
         throw new Error('未检测到高德 API Key，请点击右上角设置面板进行配置！');
       }
       return await fetchFromAmap(lat, lng, mode, amapKey);
-    case 'mock':
     default:
-      return Promise.resolve(generateLocalShops(lat, lng));
+      return Promise.resolve([]);
   }
 }
