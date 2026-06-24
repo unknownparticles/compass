@@ -1,0 +1,1 @@
+{"name":"奶茶与酒鬼指南针","description":"一个趣味而实用的生活工具。获取您的手机定位与方向，在「奶茶指南针」和「酒鬼指南针」之间无缝切换，在雷达图或地图中即时查找身边最近的茶饮店与酒吧。","requestFramePermissions":["geolocation"],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}
