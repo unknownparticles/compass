@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Compass, Navigation, ArrowUp, RefreshCw, Beer, Coffee, MapPin, AlertCircle, ExternalLink, HelpCircle } from 'lucide-react';
 import { Shop, CompassMode } from '../types';
+import { isVipShop } from '../data/vipConfig';
+
 
 interface CompassProps {
   mode: CompassMode;
@@ -27,6 +29,8 @@ export default function CompassView({
   isInIframe
 }: CompassProps) {
   const [showDiagnostic, setShowDiagnostic] = useState<boolean>(true);
+  const isVip = isVipShop(selectedShop);
+
 
   // Shortest path angle transition logic
   const prevHeadingRef = useRef<number>(0);
@@ -167,7 +171,18 @@ export default function CompassView({
         
         {/* Backdrop Grid */}
         <AnimatePresence mode="wait">
-          {isMatcha ? (
+          {isVip ? (
+            <motion.div 
+              key="vip-bg"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute inset-0 rounded-full vip-bg-rainbow -z-10 border-4 border-white shadow-2xl vip-glow-effect overflow-hidden"
+            >
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.25)_0%,transparent_70%)] animate-pulse" />
+              <div className="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(255,255,255,0.15)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.15)_1px,transparent_1px)] bg-[size:20px_20px]" />
+            </motion.div>
+          ) : isMatcha ? (
             <motion.div 
               key="matcha-bg"
               initial={{ opacity: 0 }}
@@ -204,6 +219,7 @@ export default function CompassView({
             </motion.div>
           )}
         </AnimatePresence>
+
 
         {/* 1. Compass Plate */}
         <motion.div 
@@ -276,16 +292,20 @@ export default function CompassView({
                 animate={{ y: [0, -4, 0] }}
                 transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
                 className={`flex flex-col items-center justify-center p-2 rounded-xl shadow-md border pointer-events-auto cursor-help ${
-                  isMatcha
-                    ? 'bg-emerald-500 text-white border-emerald-400 shadow-xs'
-                    : isBoba 
-                      ? 'bg-rose-400 text-white border-rose-300' 
-                      : isCoffee
-                        ? 'bg-amber-600 text-white border-amber-500 shadow-xs'
-                        : 'bg-fuchsia-500 text-white border-fuchsia-400 shadow-[0_0_10px_rgba(244,63,94,0.4)]'
+                  isVip
+                    ? 'vip-bg-rainbow text-white border-white vip-glow-effect'
+                    : isMatcha
+                      ? 'bg-emerald-500 text-white border-emerald-400 shadow-xs'
+                      : isBoba 
+                        ? 'bg-rose-400 text-white border-rose-300' 
+                        : isCoffee
+                          ? 'bg-amber-600 text-white border-amber-500 shadow-xs'
+                          : 'bg-fuchsia-500 text-white border-fuchsia-400 shadow-[0_0_10px_rgba(244,63,94,0.4)]'
                 }`}
               >
-                {isMatcha ? (
+                {isVip ? (
+                  <span className="text-xs animate-bounce">👑</span>
+                ) : isMatcha ? (
                   <span className="text-xs">🍵</span>
                 ) : isBoba ? (
                   <span className="text-xs">🧋</span>
@@ -299,16 +319,18 @@ export default function CompassView({
                 </span>
               </motion.div>
               <div className={`w-1.5 h-16 rounded-full -mt-0.5 ${
-                isMatcha
-                  ? 'bg-gradient-to-b from-emerald-500 to-emerald-300'
-                  : isBoba 
-                    ? 'bg-gradient-to-b from-rose-500 to-rose-300' 
-                    : isCoffee
-                      ? 'bg-gradient-to-b from-amber-600 to-amber-300 shadow-xs'
-                      : 'bg-gradient-to-b from-fuchsia-500 to-violet-700 shadow-[0_0_8px_rgba(217,70,239,0.5)]'
+                isVip
+                  ? 'vip-bg-rainbow vip-glow-effect'
+                  : isMatcha
+                    ? 'bg-gradient-to-b from-emerald-500 to-emerald-300'
+                    : isBoba 
+                      ? 'bg-gradient-to-b from-rose-500 to-rose-300' 
+                      : isCoffee
+                        ? 'bg-gradient-to-b from-amber-600 to-amber-300 shadow-xs'
+                        : 'bg-gradient-to-b from-fuchsia-500 to-violet-700 shadow-[0_0_8px_rgba(217,70,239,0.5)]'
               }`} />
               <div className={`w-0 h-0 border-l-[6px] border-r-[6px] border-t-[10px] border-l-transparent border-r-transparent ${
-                isMatcha ? 'border-t-emerald-300' : isBoba ? 'border-t-rose-300' : isCoffee ? 'border-t-amber-300' : 'border-t-violet-700'
+                isVip ? 'border-t-pink-500' : isMatcha ? 'border-t-emerald-300' : isBoba ? 'border-t-rose-300' : isCoffee ? 'border-t-amber-300' : 'border-t-violet-700'
               }`} />
             </div>
           </motion.div>
@@ -339,34 +361,40 @@ export default function CompassView({
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className={`p-4 rounded-3xl border w-full text-center relative overflow-hidden ${
-                isMatcha
-                  ? 'bg-linear-to-br from-emerald-50/90 to-teal-50/70 border-emerald-100 shadow-xs'
-                  : isBoba 
-                    ? 'bg-linear-to-br from-rose-50/90 to-orange-50/70 border-rose-100 shadow-xs' 
-                    : isCoffee
-                      ? 'bg-linear-to-br from-amber-50/90 to-amber-50/40 border-amber-100 shadow-xs'
-                      : 'bg-slate-900/80 border-indigo-900/60 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
+              className={`p-4 rounded-3xl border w-full text-center relative overflow-hidden transition-all duration-500 ${
+                isVip
+                  ? 'bg-gradient-to-br from-pink-50/95 via-purple-55/95 via-purple-50/90 to-cyan-50/95 border-white vip-glow-effect shadow-xl'
+                  : isMatcha
+                    ? 'bg-linear-to-br from-emerald-50/90 to-teal-50/70 border-emerald-100 shadow-xs'
+                    : isBoba 
+                      ? 'bg-linear-to-br from-rose-50/90 to-orange-50/70 border-rose-100 shadow-xs' 
+                      : isCoffee
+                        ? 'bg-linear-to-br from-amber-50/90 to-amber-50/40 border-amber-100 shadow-xs'
+                        : 'bg-slate-900/80 border-indigo-900/60 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
               }`}
             >
               <button
                 onClick={() => setIsLocked(!isLocked)}
                 className={`absolute top-0 right-0 px-3 py-1.5 text-[10px] font-black rounded-bl-2xl tracking-wider uppercase cursor-pointer transition-all hover:scale-105 active:scale-95 flex items-center gap-1.5 ${
                   isLocked
-                    ? isMatcha
-                      ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
-                      : isBoba
-                        ? 'bg-rose-500 hover:bg-rose-600 text-white shadow-xs'
-                        : isCoffee
-                          ? 'bg-amber-600 hover:bg-amber-700 text-white shadow-xs'
-                          : 'bg-fuchsia-600 hover:bg-fuchsia-700 text-white'
-                    : isMatcha
-                      ? 'bg-emerald-500/90 hover:bg-emerald-600 text-white'
-                      : isBoba
-                        ? 'bg-orange-500/90 hover:bg-orange-600 text-white shadow-xs'
-                        : isCoffee
-                          ? 'bg-amber-500/90 hover:bg-amber-600 text-white shadow-xs'
-                          : 'bg-indigo-600/90 hover:bg-indigo-700 text-white'
+                    ? isVip
+                      ? 'vip-bg-rainbow text-white border-l border-b border-white shadow-sm'
+                      : isMatcha
+                        ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
+                        : isBoba
+                          ? 'bg-rose-500 hover:bg-rose-600 text-white shadow-xs'
+                          : isCoffee
+                            ? 'bg-amber-600 hover:bg-amber-700 text-white shadow-xs'
+                            : 'bg-fuchsia-600 hover:bg-fuchsia-700 text-white'
+                    : isVip
+                      ? 'vip-bg-rainbow text-white border-l border-b border-white shadow-sm opacity-90'
+                      : isMatcha
+                        ? 'bg-emerald-500/90 hover:bg-emerald-600 text-white'
+                        : isBoba
+                          ? 'bg-orange-500/90 hover:bg-orange-600 text-white shadow-xs'
+                          : isCoffee
+                            ? 'bg-amber-500/90 hover:bg-amber-600 text-white shadow-xs'
+                            : 'bg-indigo-600/90 hover:bg-indigo-700 text-white'
                 }`}
                 title={isLocked ? '点击切换为自动寻向' : '点击锁定当前店铺'}
               >
@@ -385,19 +413,22 @@ export default function CompassView({
 
               <div className="flex flex-col items-center gap-1">
                 <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
-                  isMatcha
-                    ? 'bg-emerald-100 text-emerald-700'
-                    : isBoba 
-                      ? 'bg-rose-100 text-rose-700' 
-                      : isCoffee
-                        ? 'bg-amber-100 text-amber-800'
-                        : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
+                  isVip
+                    ? 'vip-bg-rainbow text-white'
+                    : isMatcha
+                      ? 'bg-emerald-100 text-emerald-700'
+                      : isBoba 
+                        ? 'bg-rose-100 text-rose-700' 
+                        : isCoffee
+                          ? 'bg-amber-100 text-amber-800'
+                          : 'bg-indigo-950 border border-indigo-800 text-indigo-300'
                 }`}>
-                  最近的{isMatcha ? '抹茶好物' : isBoba ? '奶茶店' : isCoffee ? '咖啡馆' : '酒吧/酒馆'}
+                  {isVip ? '👑 付费尊享VIP商家' : `最近的${isMatcha ? '抹茶好物' : isBoba ? '奶茶店' : isCoffee ? '咖啡馆' : '酒吧/酒馆'}`}
                 </span>
-                <h3 className={`text-lg font-black mt-1 ${isLight ? 'text-neutral-900' : 'text-white'}`}>
+                <h3 className={`text-lg font-black mt-1 ${isVip ? 'vip-text-rainbow text-xl animate-pulse' : isLight ? 'text-neutral-900' : 'text-white'}`}>
                   {selectedShop.name}
                 </h3>
+
                 
                 {/* Distance */}
                 <div className="flex items-center gap-4 mt-2 mb-1">

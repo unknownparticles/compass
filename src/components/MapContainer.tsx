@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import { MapPin, Navigation, Sparkles } from 'lucide-react';
 import { Shop, Coordinate, CompassMode } from '../types';
+import { isVipShop } from '../data/vipConfig';
+
 
 interface MapContainerProps {
   mode: CompassMode;
@@ -138,12 +140,34 @@ export default function MapContainer({
       .addTo(markersGroup);
 
     // B. Render Shop Markers of Active Mode
+    // B. Render Shop Markers of Active Mode
     shops.forEach((shop) => {
       const isSelected = selectedShop?.id === shop.id;
+      const isVip = isVipShop(shop);
 
       // Icon Design: Selected has larger glow and bouncy layout
-      const iconHtml = isMatcha
-        ? `
+      let iconHtml = '';
+      if (isVip) {
+        iconHtml = `
+          <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
+            <!-- VIP glowing radar cone pulse -->
+            <span class="absolute inline-flex ${isSelected ? 'h-14 w-14' : 'h-11 w-11'} rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 opacity-75 animate-ping"></span>
+            
+            <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
+              isSelected 
+                ? 'w-10 h-10 bg-gradient-to-br from-pink-500 via-purple-600 to-cyan-500 border-white scale-110 shadow-[0_0_15px_rgba(236,72,153,0.8)]' 
+                : 'w-8 h-8 bg-gradient-to-br from-pink-400 to-purple-500 border-white hover:scale-105 shadow-[0_0_8px_rgba(139,92,246,0.6)]'
+            } text-white animate-pulse">
+              👑
+            </div>
+            
+            <div class="absolute -bottom-5 bg-gradient-to-r from-pink-600 to-purple-600 text-white text-[8px] font-black px-1.5 py-0.5 rounded-md whitespace-nowrap border border-white shadow shadow-black">
+              VIP | ${shop.distance}m
+            </div>
+          </div>
+        `;
+      } else if (isMatcha) {
+        iconHtml = `
           <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
             ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-emerald-400/30 animate-pulse"></span>' : ''}
             <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
@@ -157,9 +181,9 @@ export default function MapContainer({
               ${shop.distance}m
             </div>
           </div>
-          `
-        : isBoba
-          ? `
+          `;
+      } else if (isBoba) {
+        iconHtml = `
             <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
               ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-orange-400/30 animate-pulse"></span>' : ''}
               <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
@@ -173,9 +197,9 @@ export default function MapContainer({
                 ${shop.distance}m
               </div>
             </div>
-            `
-          : isCoffee
-            ? `
+            `;
+      } else if (isCoffee) {
+        iconHtml = `
               <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
                 ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-amber-400/30 animate-pulse"></span>' : ''}
                 <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
@@ -189,8 +213,9 @@ export default function MapContainer({
                   ${shop.distance}m
                 </div>
               </div>
-              `
-            : `
+              `;
+      } else {
+        iconHtml = `
               <div class="flex flex-col items-center justify-center relative cursor-pointer group transition-all duration-300">
                 ${isSelected ? '<span class="absolute inline-flex h-10 w-10 rounded-full bg-fuchsia-500/40 animate-pulse"></span>' : ''}
                 <div class="flex items-center justify-center rounded-full shadow-lg border-2 text-md transition-transform duration-300 ${
@@ -205,6 +230,7 @@ export default function MapContainer({
                 </div>
               </div>
               `;
+      }
 
       const markerIcon = L.divIcon({
         html: iconHtml,
@@ -213,16 +239,17 @@ export default function MapContainer({
         iconAnchor: [20, 20]
       });
 
-      const isLightBg = isBoba || isMatcha || isCoffee;
+      const isLightBg = (isBoba || isMatcha || isCoffee) && !isVip;
       const shopMarker = L.marker([shop.lat, shop.lng], { icon: markerIcon })
         .bindPopup(`
           <div style="font-family: sans-serif; padding: 2px;">
-            <strong style="font-size: 13px; color: ${isBoba ? '#4c0519' : isMatcha ? '#064e3b' : isCoffee ? '#451a03' : '#ffffff'};">${shop.name}</strong><br/>
-            <span style="font-size: 11px; color: ${isLightBg ? '#475569' : '#64748b'};">⭐ ${shop.rating} (${shop.reviewsCount}人评)</span><br/>
-            <span style="font-size: 11px; font-weight: bold; color: ${isBoba ? '#b45309' : isMatcha ? '#047857' : isCoffee ? '#d97706' : '#f472b6'};">招牌: ${shop.signature}</span><br/>
-            <span style="font-size: 11px; color: ${isLightBg ? '#1e293b' : '#a5b4fc'}; font-weight: 500;">价格: ${shop.priceRange} | ${shop.hours}</span>
+            <strong style="font-size: 13px; color: ${isVip ? '#db2777' : isBoba ? '#4c0519' : isMatcha ? '#064e3b' : isCoffee ? '#451a03' : '#ffffff'};">${isVip ? '👑 VIP尊享 | ' : ''}${shop.name}</strong><br/>
+            <span style="font-size: 11px; color: ${isLightBg ? '#475569' : '#a5b4fc'};">⭐ ${shop.rating} (${shop.reviewsCount}人评)</span><br/>
+            <span style="font-size: 11px; font-weight: bold; color: ${isVip ? '#ec4899' : isBoba ? '#b45309' : isMatcha ? '#047857' : isCoffee ? '#d97706' : '#f472b6'};">招牌: ${shop.signature}</span><br/>
+            <span style="font-size: 11px; color: ${isLightBg ? '#1e293b' : '#c7d2fe'}; font-weight: 500;">价格: ${shop.priceRange} | ${shop.hours}</span>
           </div>
         `);
+
 
       // Handle click to set selected shop
       shopMarker.on('click', () => {

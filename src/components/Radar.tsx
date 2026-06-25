@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Compass, Sparkles, Navigation, Shield, Award, MapPin } from 'lucide-react';
 import { Shop, CompassMode } from '../types';
+import { isVipShop } from '../data/vipConfig';
+
 
 interface RadarProps {
   mode: CompassMode;
@@ -24,6 +26,8 @@ export default function Radar({
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [hoveredShop, setHoveredShop] = useState<Shop | null>(null);
   const [dimensions, setDimensions] = useState({ width: 320, height: 320 });
+  const isVipLocked = isVipShop(selectedShop);
+
   
   // Track blip illumination levels for fade effects
   const blipIlluminationsRef = useRef<{ [key: string]: number }>({});
@@ -194,17 +198,39 @@ export default function Radar({
         // Draw glow halos around the blips
         const isSelected = selectedShop?.id === shop.id;
         const radius = isSelected ? 7 : 5;
+        const isVip = isVipShop(shop);
+
+        if (isVip) {
+          // VIP商家闪烁波纹效果
+          const vipPulse = (Math.sin(Date.now() / 150) + 1) / 2; // 0 to 1
+          const vipRadius = radius + 3 + vipPulse * 7;
+          
+          // 霓虹多彩色相旋转闪烁
+          const vipHue = (Date.now() / 5) % 360;
+          ctx.beginPath();
+          ctx.arc(bx, by, vipRadius, 0, Math.PI * 2);
+          ctx.strokeStyle = `hsla(${vipHue}, 100%, 65%, ${0.25 + (1 - vipPulse) * 0.55})`;
+          ctx.lineWidth = 1.5;
+          ctx.stroke();
+
+          // 核心点也加个大颜色光晕
+          ctx.beginPath();
+          ctx.arc(bx, by, radius + 2, 0, Math.PI * 2);
+          ctx.fillStyle = `hsla(${vipHue}, 100%, 60%, 0.8)`;
+          ctx.fill();
+        }
 
         if (isSelected) {
           ctx.beginPath();
           ctx.arc(bx, by, radius + 5, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(${colorGlow}, 0.15)`;
+          ctx.fillStyle = isVip ? 'rgba(255, 255, 255, 0.25)' : `rgba(${colorGlow}, 0.15)`;
           ctx.fill();
         }
 
         // Draw blip core
         ctx.beginPath();
         ctx.arc(bx, by, radius, 0, Math.PI * 2);
+
 
         if (isBoba || isMatcha || isCoffee) {
           // Boba/Matcha/Coffee blip style (green or orange or amber star)
@@ -416,68 +442,80 @@ export default function Radar({
 
       {/* Quick Stats Banner below radar */}
       <div className="w-full grid grid-cols-2 gap-3 mt-6">
-        <div className={`p-3.5 rounded-2xl border text-center ${
-          isMatcha
-            ? 'bg-emerald-50/50 border-emerald-100/50'
-            : isBoba 
-              ? 'bg-rose-50/50 border-rose-100/50' 
-              : isCoffee
-                ? 'bg-amber-50/50 border-amber-100/50'
-                : 'bg-indigo-950/20 border-indigo-950/60'
+        <div className={`p-3.5 rounded-2xl border text-center transition-all duration-500 ${
+          isVipLocked
+            ? 'vip-bg-rainbow text-white border-white vip-glow-effect'
+            : isMatcha
+              ? 'bg-emerald-50/50 border-emerald-100/50'
+              : isBoba 
+                ? 'bg-rose-50/50 border-rose-100/50' 
+                : isCoffee
+                  ? 'bg-amber-50/50 border-amber-100/50'
+                  : 'bg-indigo-950/20 border-indigo-950/60'
         }`}>
           <span className={`text-[10px] block ${
-            isMatcha
-              ? 'text-emerald-700/80'
-              : isBoba 
-                ? 'text-rose-700/80' 
-                : isCoffee
-                  ? 'text-amber-700/80'
-                  : 'text-indigo-400'
+            isVipLocked
+              ? 'text-white/80 font-bold'
+              : isMatcha
+                ? 'text-emerald-700/80'
+                : isBoba 
+                  ? 'text-rose-700/80' 
+                  : isCoffee
+                    ? 'text-amber-700/80'
+                    : 'text-indigo-400'
           }`}>
             雷达探测信号
           </span>
           <span className={`text-sm font-black mt-0.5 block ${
-            isMatcha
-              ? 'text-emerald-950'
-              : isBoba 
-                ? 'text-rose-950' 
-                : isCoffee
-                  ? 'text-amber-950'
-                  : 'text-white'
+            isVipLocked
+              ? 'text-white'
+              : isMatcha
+                ? 'text-emerald-950'
+                : isBoba 
+                  ? 'text-rose-950' 
+                  : isCoffee
+                    ? 'text-amber-950'
+                    : 'text-white'
           }`}>
             {shops.length} 个目标已捕获
           </span>
         </div>
-        <div className={`p-3.5 rounded-2xl border text-center ${
-          isMatcha
-            ? 'bg-emerald-50/50 border-emerald-100/50'
-            : isBoba 
-              ? 'bg-rose-50/50 border-rose-100/50' 
-              : isCoffee
-                ? 'bg-amber-50/50 border-amber-100/50'
-                : 'bg-indigo-950/20 border-indigo-950/60'
+        <div className={`p-3.5 rounded-2xl border text-center transition-all duration-500 ${
+          isVipLocked
+            ? 'vip-bg-rainbow text-white border-white vip-glow-effect'
+            : isMatcha
+              ? 'bg-emerald-50/50 border-emerald-100/50'
+              : isBoba 
+                ? 'bg-rose-50/50 border-rose-100/50' 
+                : isCoffee
+                  ? 'bg-amber-50/50 border-amber-100/50'
+                  : 'bg-indigo-950/20 border-indigo-950/60'
         }`}>
           <span className={`text-[10px] block ${
-            isMatcha
-              ? 'text-emerald-700/80'
-              : isBoba 
-                ? 'text-rose-700/80' 
-                : isCoffee
-                  ? 'text-amber-700/80'
-                  : 'text-indigo-400'
+            isVipLocked
+              ? 'text-white/80 font-bold'
+              : isMatcha
+                ? 'text-emerald-700/80'
+                : isBoba 
+                  ? 'text-rose-700/80' 
+                  : isCoffee
+                    ? 'text-amber-700/80'
+                    : 'text-indigo-400'
           }`}>
             锁定状态
           </span>
           <span className={`text-sm font-black mt-0.5 block truncate ${
-            isMatcha
-              ? 'text-emerald-950'
-              : isBoba 
-                ? 'text-rose-950' 
-                : isCoffee
-                  ? 'text-amber-950'
-                  : 'text-white'
+            isVipLocked
+              ? 'text-white animate-pulse'
+              : isMatcha
+                ? 'text-emerald-950'
+                : isBoba 
+                  ? 'text-rose-950' 
+                  : isCoffee
+                    ? 'text-amber-950'
+                    : 'text-white'
           }`}>
-            {selectedShop ? selectedShop.name : '未选择目标'}
+            {selectedShop ? `${isVipLocked ? '👑 ' : ''}${selectedShop.name}` : '未选择目标'}
           </span>
         </div>
       </div>

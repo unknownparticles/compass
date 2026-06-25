@@ -32,6 +32,8 @@ import CompassView from './components/Compass';
 import Radar from './components/Radar';
 import MapContainer from './components/MapContainer';
 import ShopList from './components/ShopList';
+import { isVipShop } from './data/vipConfig';
+
 
 export default function App() {
   // 1. Core State
@@ -219,6 +221,21 @@ export default function App() {
     }
     return facingShop;
   }, [isLocked, selectedShop, facingShop, activeShops]);
+
+  // 3.8. VIP Shop Vibrate effect: triggers once when activeSelectedShop changes and it's a VIP
+  useEffect(() => {
+    if (activeSelectedShop && isVipShop(activeSelectedShop)) {
+      if ('vibrate' in navigator) {
+        try {
+          navigator.vibrate(200);
+          console.log(`[VIP VIBRATE] Shop "${activeSelectedShop.name}" scanned!`);
+        } catch (e) {
+          console.warn('Vibration failed:', e);
+        }
+      }
+    }
+  }, [activeSelectedShop?.id]);
+
 
   // 4. Reset manual lock if the locked shop is no longer available in the current mode
   useEffect(() => {

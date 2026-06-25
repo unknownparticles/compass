@@ -28,3 +28,54 @@
   background-color: #ffffff !important;
   color: #000000 !important;
 }
+
+/* VIP尊享炫彩闪烁动效 */
+@keyframes vip-rainbow-glow {
+  0% {
+    border-color: #ff007f;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.6), inset 0 0 10px rgba(255, 0, 127, 0.3);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    border-color: #00f0ff;
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.8), inset 0 0 15px rgba(0, 240, 255, 0.4);
+    filter: hue-rotate(180deg);
+  }
+  100% {
+    border-color: #ff007f;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.6), inset 0 0 10px rgba(255, 0, 127, 0.3);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes vip-bg-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.vip-glow-effect {
+  animation: vip-rainbow-glow 3s linear infinite !important;
+}
+
+.vip-bg-rainbow {
+  background: linear-gradient(270deg, #ff007f, #7f00ff, #00f0ff, #ffcc00, #ff007f) !important;
+  background-size: 400% 400% !important;
+  animation: vip-bg-flow 8s ease infinite, pulse 2s infinite alternate !important;
+}
+
+.vip-text-rainbow {
+  background: linear-gradient(270deg, #ff007f, #7f00ff, #00f0ff, #ffcc00, #ff007f);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: vip-bg-flow 4s linear infinite;
+  font-weight: 900;
+}
+
