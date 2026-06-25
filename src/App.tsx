@@ -645,7 +645,7 @@ export default function App() {
                   离线模式未支持当前区域
                 </p>
                 <p className="text-[10px] text-neutral-600 dark:text-indigo-300/80 mt-2 max-w-sm mx-auto leading-relaxed">
-                  你当前的定位已超出本地离线数据库的预设范围。目前离线模式仅支持：<strong>北京、成都、广州、深圳、厦门、汕头、哈尔滨</strong>等城市。请切换在线模式或补充数据。
+                  你当前的定位已超出本地离线数据库的预设范围。目前离线模式仅支持：<strong>北京、成都、广州、深圳、厦门、汕头、哈尔滨、珠海、东莞</strong>等城市。请切换在线模式或补充数据。
                 </p>
               </div>
               <div className="flex gap-2">

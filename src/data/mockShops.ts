@@ -36,6 +36,20 @@ export const PRESET_LOCATIONS: PresetLocation[] = [
     lat: 22.5372,
     lng: 114.1189,
     description: '赛博鹏城精英地标，高端下午茶和顶级威士忌吧的聚集地。'
+  },
+  {
+    name: '珠海 日月贝',
+    city: '珠海',
+    lat: 22.2829,
+    lng: 113.5794,
+    description: '海上歌剧院“大贝壳”，情侣路地标，海风里弥漫着特调咖啡与海滨酒馆的微醺。'
+  },
+  {
+    name: '东莞 国贸中心',
+    city: '东莞',
+    lat: 23.0136,
+    lng: 113.7594,
+    description: '东莞潮流新地标，巨型商圈内汇聚超百家新式茶饮、精品咖啡和落日餐吧。'
   }
 ];
 
