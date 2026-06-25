@@ -27,6 +27,12 @@ export default function MapContainer({
   const tileLayerRef = useRef<L.TileLayer | null>(null);
   const markersGroupRef = useRef<L.FeatureGroup | null>(null);
   const polylineRef = useRef<L.Polyline | null>(null);
+  
+  // Cache tracking refs to avoid Leaflet marker re-rendering on orientation change
+  const lastShopsKeyRef = useRef<string>('');
+  const lastSelectedShopIdRef = useRef<string | null>(null);
+  const lastUserLocKeyRef = useRef<string>('');
+
 
   const isBoba = mode === 'milktea';
   const isMatcha = mode === 'matcha';
@@ -91,6 +97,24 @@ export default function MapContainer({
     const map = mapInstanceRef.current;
     const markersGroup = markersGroupRef.current;
     if (!map || !markersGroup) return;
+
+    const shopsKey = shops.map(s => `${s.id}-${s.distance}`).join(',');
+    const userLocKey = `${userLocation.lat}-${userLocation.lng}`;
+    const selectedShopId = selectedShop?.id || null;
+
+    // Skip heavy Leaflet DOM redraws if core data has not changed (e.g. on orientation update)
+    if (
+      shopsKey === lastShopsKeyRef.current &&
+      userLocKey === lastUserLocKeyRef.current &&
+      selectedShopId === lastSelectedShopIdRef.current
+    ) {
+      return;
+    }
+
+    lastShopsKeyRef.current = shopsKey;
+    lastUserLocKeyRef.current = userLocKey;
+    lastSelectedShopIdRef.current = selectedShopId;
+
 
     // Clear previous elements
     markersGroup.clearLayers();
@@ -276,6 +300,18 @@ export default function MapContainer({
       polylineRef.current = polyline;
     }
   }, [userLocation, shops, selectedShop, mode]);
+
+  // 3.5. Force Leaflet to recalculate container size after tab transition animation completes
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.invalidateSize({ animate: true });
+        console.log("Leaflet map container size recalculated.");
+      }
+    }, 300);
+    return () => clearTimeout(timer);
+  }, []);
+
 
   // 4. Centering utility button
   const handleRecenter = () => {
